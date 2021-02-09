@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>  
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Leaflet  CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+
+
+    <!-- java script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://d3js.org/d3-dsv.v2.min.js"></script>
+    <script src="https://d3js.org/d3-fetch.v2.min.js"></script>
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+
+</head>
+<body>
+
+    <div id="mapid" style=" position: fixed;
+                            top: 54px;
+                            left: 0;
+                            bottom: 40px;
+                            right: 0;
+                            overflow: auto;"></div>
+    <div id="map"></div>
+    <script type=text/javascript>
+
+        
+        var map = L.map('mapid').setView([10.762622, 106.660172], 13);
+        L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18
+        }).addTo(map);
+        var marker = new L.Marker(
+        [10.762622, 106.660172], 
+        {
+            title: 'marker',
+        name: 'some name'
+        }
+        ).on('click', markerOnClick).addTo(map);
+        
+        d3.csv("/data_pick20.csv").then(function(data) {
+        data.forEach(function(d) {
+            
+                var marker = new L.Marker(
+                [d.lat,d.long], 
+                {
+                id: d.id,
+                position_street: d.position_street,
+                }
+                )
+                .on('click', markerOnClick).addTo(map)
+                // .bindPopup('Nhà ở '+pos_street(d.position_street)+' đường '+d.address_street+', ID: <a href="{{ url_for('form') }}?id='+d.id+'"> '+d.id+'</a> <br> ').openPopup();;
+                .bindPopup(popup_string(d)).openPopup();;
+                // console.log(popup_string(d))
+                // console.log(d)
+            
+            
+        });
+        })
+        // console.log(data); // [{"Hello": "world"}, …]
+        // });
+
+        function pos_street(position_street) {
+            if (position_street==1){return "mặt tiền"};
+            if (position_street==2){return "góc 2 mặt tiền"};
+            if (position_street==3){return "hẻm 1 sẹc"};
+            if (position_street==4){return "hẻm 2 sẹc trở lên"};
+            if (position_street==5){return "hai mặt tiền hẻm"};
+            if (position_street==6){return "hẻm"};
+            return "Khác"
+        }
+
+        function transaction_type_r(transaction_type) {
+            if (transaction_type==1){return "bán"};
+            if (transaction_type==2){return "thuê"};
+            if (transaction_type==3){return "sang nhượng"};
+            if (transaction_type==4){return "vừa bán vừa thuê"};
+            if (transaction_type==5){return "bán, đang cho thuê, có giá thuê"};
+            if (transaction_type==6){return "bán, đang cho thuê, không có giá thuê"};
+            return "Khác"
+        }
+        function popup_string(d){
+            ret = 'Vị trí nhà ở: '+pos_street(d.position_street)+'<br> Đường: '+d.address_street+'<br> ID: <a href="{{ url_for('form') }}?id='+d.id+'"> '+d.id+'</a>';
+            
+            if (d.price_sell != '0'){ret = ret + '<br> Giá bán: ' +d.price_sell}
+            if (d.price_rent != '0'){ret = ret + '<br> Giá cho thuê : ' +d.price_rent}
+            ret = ret + '<br> Toạ độ: ' +d.coordinate;
+            ret = ret + '<br> Tiêu đề post: ' +d.title;
+            ret = ret + '<br> Ngày đăng: ' + new Date(d.post_date * 1000).toISOString().slice(0, 19).replace('T', ' ');
+            ret = ret + '<br> <a href="'+d.link+'">Link bài viết</a>';  
+            ret = ret + '<br> <a href="{{ url_for('label') }}?id='+d.id+'"> Gán nhãn cho BĐS này</a>';
+            
+
+            return ret;
+        }
+        
+        function markerOnClick(e)
+        {
+        // alert("hi. you clicked the marker at " + e.latlng);
+        // alert("id of marker: " + this.options.id);
+        // alert("realestate_type: " + this.options.realestate_type);
+        
+        // $.get( "/getmethod/<"+ this.options.id +">");
+
+        // return lredirect(url_for("form", longitude=e.latlng.lng, latitude=e.latlng.lat))
+        
+        
+        // var marker = e.target,
+        //     // properties = e.target.feature.properties;
+        //     properties = this.options
+        //     if (marker.hasOwnProperty('_popup')) {
+        //         marker.unbindPopup();
+        //     }
+        //     marker.bindPopup('Toạ độ: ('+e.latlng.lat+','+e.latlng.lng+')<br>'+template);
+        //     marker.openPopup();
+
+        //     // L.DomUtil.get('value-arc').textContent = properties.arc;
+        //     // L.DomUtil.get('value-speed').textContent = properties.speed;
+
+        //     var inputPrice = L.DomUtil.get('input-price');
+        //     // inputSpeed.value = 1000000000;
+        //     var inputPosStreet = L.DomUtil.get('position_street');
+
+        //     L.DomEvent.addListener(inputPrice, 'change', function (e) {
+        //         properties.price = e.target.value;
+        //     });
+        //     L.DomEvent.addListener(inputPosStreet, 'change', function (e) {
+        //         properties.pos_street = e.target.value;
+        //     });
+        //     var buttonSubmit = L.DomUtil.get('button-submit');
+        //     L.DomEvent.addListener(buttonSubmit, 'click', function (e) {
+                
+        //         console.log(properties.lng);
+        //         console.log(properties.lat);
+        //         console.log(properties.pos_street)
+        //         console.log(properties.price)
+        //         marker.closePopup();
+        //         console.log('{{ url_for('form') }}?price='+properties.price+'&pos_street='+properties.pos_street+'&lat='+properties.lat+'&lng='+properties.lng+'')
+        //         window.location.href = ('{{ url_for('form') }}?price='+properties.price+'&pos_street='+properties.pos_street+'&lat='+properties.lat+'&lng='+properties.lng+'')
+        //     });
+        }
+
+
+    </script>
+
+
+</body>
+</html>
