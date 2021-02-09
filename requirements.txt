@@ -1,0 +1,8 @@
+flask
+folium
+datetime
+pymongo
+pandas
+json
+colour
+unidecode
