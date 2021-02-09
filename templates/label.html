@@ -54,7 +54,7 @@
         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18
         }).addTo(map);
-        d3.csv("/data_pick30.csv").then(function(data) {
+        d3.csv("/data_pick20.csv").then(function(data) {
         data.forEach(function(d) {
             if (d.id == id){
                 var marker = new L.Marker(

@@ -81,4 +81,4 @@ if __name__ == "__main__":
   client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
   db = client.atomic
   col = db.labelpost
-  app.run(debug=True) 
+  app.run(debug=False) 
