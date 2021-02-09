@@ -1,9 +1,13 @@
 from flask import Flask, render_template, url_for, request, redirect, Response
 import os
-import folium
+os.system('pip install -r requirements.txt')
+os.system('pip install pymongo[srv]')
+# pymongo[srv]==3.11.3
+
+# import folium
 import datetime
 import pymongo
-from folium_mapp import folium_mapp
+# from folium_mapp import folium_mapp
 app = Flask(__name__)
 def root_dir():  # pragma: no cover
     return os.path.abspath(os.path.dirname(__file__))
@@ -50,7 +54,8 @@ def get_javascript_data(jsdata):
 def form():
     id = request.args.get('id', type=float)
     print(int(id))
-    return folium_mapp(int(id))._repr_html_()
+    # return folium_mapp(int(id))._repr_html_()
+    return false
     # return render_template("form.html", longitude=id, latitude=id)
 some_list = []
 @app.route('/label', methods=["GET", "POST"])
@@ -69,7 +74,11 @@ def label():
     # print(int(id))
     # return folium_mapp(int(id))._repr_html_()
     return render_template("label.html", id=id)
-# {'12345':{'1':[],'2':[]}}
+# os.system('python -m pip install pymongo[srv]')
+# import pymongo
+client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
+db = client.atomic
+col = db.labelpost
 @app.route('/receivedata', methods=['POST'])
 def receive_data():
     print({'id1':request.form['id1'],'id2':request.form['id2'],'class':request.form['class'],"date": datetime.datetime.utcnow()})
@@ -78,7 +87,4 @@ def receive_data():
 
 
 if __name__ == "__main__":
-  client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
-  db = client.atomic
-  col = db.labelpost
   app.run(debug=False) 
