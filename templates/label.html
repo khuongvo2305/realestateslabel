@@ -55,7 +55,7 @@
         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18
         }).addTo(map);
-        d3.csv("/data_pick20.csv").then(function(data) {
+        d3.csv("/data_pick50.csv").then(function(data) {
         data.forEach(function(d) {
             if (d.id == id){
                 var marker = new L.Marker(
@@ -135,6 +135,7 @@
             if (d.price_rent != '0'){ret = ret + '<br> Giá cho thuê : ' +d.price_rent}
             ret = ret + '<br> Toạ độ: ' +d.coordinate;
             ret = ret + '<br> Tiêu đề post: ' +d.title;
+            ret = ret + '<br> Vị trí: ' +d.district_name;
             ret = ret + '<br> Ngày đăng: ' + new Date(d.post_date * 1000).toISOString().slice(0, 19).replace('T', ' ');
             ret = ret + '<br> <a href="{{ url_for('label') }}?id='+d.id+'"> Gán nhãn cho BĐS này</a>';
             ret = ret + '<br> <a href="'+d.link+'">Link bài viết</a>';

@@ -44,7 +44,7 @@
         }
         ).on('click', markerOnClick).addTo(map);
         
-        d3.csv("/data_pick20.csv").then(function(data) {
+        d3.csv("/data_pick50.csv").then(function(data) {
         data.forEach(function(d) {
             
                 var marker = new L.Marker(
