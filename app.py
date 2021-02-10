@@ -55,7 +55,7 @@ def form():
     id = request.args.get('id', type=float)
     print(int(id))
     # return folium_mapp(int(id))._repr_html_()
-    return false
+    return False
     # return render_template("form.html", longitude=id, latitude=id)
 some_list = []
 @app.route('/label', methods=["GET", "POST"])
