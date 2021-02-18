@@ -36,17 +36,10 @@
         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18
         }).addTo(map);
-        var marker = new L.Marker(
-        [10.762622, 106.660172], 
-        {
-            title: 'marker',
-        name: 'some name'
-        }
-        ).on('click', markerOnClick).addTo(map);
         
-        d3.csv("/data_pick50.csv").then(function(data) {
+        d3.csv("/data_pick50_2.csv").then(function(data) {
         data.forEach(function(d) {
-            
+            try{
                 var marker = new L.Marker(
                 [d.lat,d.long], 
                 {
@@ -59,7 +52,10 @@
                 .bindPopup(popup_string(d)).openPopup();;
                 // console.log(popup_string(d))
                 // console.log(d)
-            
+            }
+            catch(err){
+                console.log(d.id);
+            }
             
         });
         })
