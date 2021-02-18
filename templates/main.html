@@ -37,7 +37,7 @@
             maxZoom: 18
         }).addTo(map);
         
-        d3.csv("/data_pick50_2.csv").then(function(data) {
+        d3.csv("/data_pick100.csv").then(function(data) {
         data.forEach(function(d) {
             try{
                 var marker = new L.Marker(
