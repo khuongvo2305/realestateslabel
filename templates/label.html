@@ -55,7 +55,7 @@
         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18
         }).addTo(map);
-        d3.csv("/data_pick100.csv").then(function(data) {
+        d3.csv("/data_pick50_2.csv").then(function(data) {
         var counterr = 0
         data.forEach(function(d) {
             if (d.id == id){
@@ -100,8 +100,8 @@
                     console.log(form);
                     $('#'+d.id).submit(function(e) {
                     $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
-                    $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
-                    
+                    // $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
+                    $.post("/pickdata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
                     e.preventDefault();
                     });
                    

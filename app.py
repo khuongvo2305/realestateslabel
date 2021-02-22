@@ -79,10 +79,18 @@ def label():
 client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
 db = client.atomic
 col = db.labelpost
+col2 = db.pickedpost
 @app.route('/receivedata', methods=['POST'])
 def receive_data():
     print({'id1':request.form['id1'],'id2':request.form['id2'],'class':request.form['class'],"date": datetime.datetime.utcnow()})
     col.insert_one({'id1':request.form['id1'],'id2':request.form['id2'],'class':request.form['class'],"date": datetime.datetime.utcnow()})
+    return 'OK'
+
+@app.route('/pickdata', methods=['POST'])
+def pick_data():
+    print({'id2':request.form['id2']})
+    
+    col2.insert_one({'id':request.form['id2']})
     return 'OK'
 
 
