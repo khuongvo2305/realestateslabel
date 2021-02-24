@@ -1,6 +1,6 @@
 # realestateslabel
 ```
-git clone https://github.com/khuongvo2305/realestateslabel
+git -b picklabel clone https://github.com/khuongvo2305/realestateslabel
 cd realestateslabel
 source .venv/bin/activate
 pip install pymongo[srv]
