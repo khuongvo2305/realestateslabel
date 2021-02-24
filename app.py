@@ -88,9 +88,9 @@ def receive_data():
 
 @app.route('/pickdata', methods=['POST'])
 def pick_data():
-    print({'id2':request.form['id2']})
+    print({'id2':request.form['id2'],'district':request.form['district']})
     
-    col2.insert_one({'id':request.form['id2']})
+    col2.insert_one({'id':request.form['id2'],'district':request.form['district']})
     return 'OK'
 
 

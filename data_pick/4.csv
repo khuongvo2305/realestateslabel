@@ -1,0 +1,99 @@
+,id,page_source,link,title,content,address_street,address_ward,surrounding,surrounding_name,surrounding_characteristics,interior_room,project,address_city,address_district,transaction_type,realestate_type,price_sell,price_rent,legal,floor,position_street,potential,area_origin,address_number,lat,long,coordinate,price_m2,orientation,area_cal,post_id,post_date,crawled_date,created_at,price_score,price_score_filter,geom,status_price_score,price_score_timestamp,comment_id,comment_filter_id,is_suspicious,created_by,contact_phone,hash_post_key,number_duplicated_post,orientation_id,done,district_name
+40024,349601,6,https://landber.com/tin-dang/Ads_01_24094628,Nhà lầu + sân vườn bán gấp trước tế giá rẻ,"Nhà 03 tầng 6 x 22m xây thô, hoàn thiện bên ngoài, móng ép cọc bê tông (có hồ sơ thiết kế), đã làm hoàn công có sổ hồng, nhà có kiến trúc bên ngoài đẹp. Đất ngang 12m x dài 54m, có 200m2 thổ cư. Toàn bộ sân bê tông cao hơn mặt đường, có trồng nhiều cây kiểng lớn, hàng rào bao hết xung quanh. Phía sau có 1 nhà cấp 4 rộng 36m2, gạch men toàn bộ, có WC, kệ bếp, hồ nước. Cần tiền bán gấp, giá 2.999 tỷ. Liên hệ chính chủ 0903107361. Giá bán này bao rẻ, qua tết tính giá khác. Miễn trung gian.",Lý Nhơn,an thới đông,,,,WC,,1,4,1,2,2999000000,0,3,3.0,6,{2},"{6,22}",,10.554572147977,106.80569397507799,"(106.805693975078,10.554572147977)",0.0,,694.0,Ads_01_24094628,1577984400,1578694200,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000B262767D90B35A40D2AA6DE1F01B2540,1,2020-04-13 02:30:02.110491,1,8,False,3.0,903107361.0,c494ae605cb4dc53ad61273cb3c95599,1,,0,Huyện Cần Giờ
+61907,531928,6,https://landber.com/tin-dang/Ads_01_24458007,"Bán nhà đất thổ cư, khu dân cư hiện hữu, đường rộng 5m, gần chợ, trường học, UBND xã","Cần tiền ra đi gấp nhà đất diện tích 125m2, 100% thổ cư. Đã có nhà cấp 4. Khu dân cư gần trường học, chợ và UBND xã. Đường rộng, xe tải vào thoải. Liên hệ: 0972260133. Gặp Hiệp.",Tam Thôn Hiệp,tam thôn hiệp,"chợ, trường học, UBND xã, trường học, chợ, UBND xã",,,,,1,4,1,2,1550000000,0,2,1.0,6,{2},"{0,0}",,10.582704253575999,106.88913207809,"(106.88913207809,10.582704253576)",12400000.0,,125.0,Ads_01_24458007,1583686800,1583716958,2020-03-09 08:23:01.880746,2.0,3.6,0101000020E61000003B4E3B8AE7B85A409FB24036582A2540,1,2020-04-13 04:48:02.043425,2,7,False,3.0,972260133.0,6004d3ded9b983418adf81e690187a5d,1,,0,Huyện Cần Giờ
+113105,760813,1,https://batdongsan.com.vn/ban-nha-mat-pho-duong-giong-ao-73/chinh-chu-can-ban-2-can-tien-lien-he-chinh-chu-0907224566-anh-phat-pr24309565,"Chính chủ cần bán 2 căn nhà mặt tiền, đường Giồng Ao. Liên hệ chính chủ: 0907224566 anh Phát","Chính chủ cần bán 2 căn nhà mặt tiền.<br/>Đường Giồng Ao.<br/>Diện tích: 267.5 m2, thổ cư 100%,<br/>Giá 24 triệu/m2.<br/>Nhà ngay khu dân cư đông đúc, có nhiều tiện ích, gần dự án biển Vinroup, gần trung tâm tâm hành chính huyện, 100m ra đến biển, và tàu cánh ngầm, liên hệ chính chủ: 0907224566 anh Phát.",Giống Ao,,"biển, trung tâm tâm hành chính, biển, Ao",biển Vinroup,đông đúc,,,1,4,1,2,24000000,0,2,1.0,1,{2},"{0,0}",,10.412788421836,106.953590668734,"(106.953590668734,10.412788421836)",24000000.0,,267.5,bdscomvn_24309565,1583113792,1589026531,2020-06-30 10:03:37.755432,0.0,0.0,0101000020E6100000DCFE27A107BD5A4015E8070159D32440,0,,0,0,False,3.0,907224566.0,4f6d1c2856bf4634f86c3caded095ddd,1,,1,Huyện Cần Giờ
+114133,761862,1,https://batdongsan.com.vn/ban-nha-mat-pho-duong-duyen-hai-thi-tran-can-thanh/ban-biet-thu-co-dien-tich-dat-2315m2-tien-tt-h-gio-pr25379225,"Bán biệt thự có diện tích đất 2315m2 , mặt tiền đường Duyên Hải, TT Cần Thạnh, H Cần Giờ.","Bán căn biệt thự có diện tích đất 2315m2 , mặt tiền đường Duyên Hải, TT Cần Thạnh, H Cần Giờ.<br/>Giá đầu tư cực tốt so với xung quanh: 16tr/m2.<br/>LH để xem nhà và thương lượng: a Duyệt 0978 758 788",Duyên Hải,,,,,,,1,4,1,2,36800000000,0,2,1.0,1,{2},"{0,0}",,10.405470901264199,106.962611800362,"(106.962611800362,10.4054709012642)",16000000.0,,2315.0,bdscomvn_25379225,1589088688,1589065639,2020-06-30 10:12:57.64156,0.0,0.0,0101000020E6100000FB52866E9BBD5A40A8D1C8E199CF2440,0,,0,0,False,3.0,978758788.0,c990ca7548bf842f188d90610805e64f,1,,1,Huyện Cần Giờ
+114717,762508,6,https://batdongsan.com.vn/ban-nha-rieng-duong-dao-cu-73/ban-cap-4-thi-tran-can-thanh-h-can-gio-pr25379132,"Bán nhà cấp 4, đường Đào Cử, thị trấn Cần Thạnh, H Cần Giờ.","Bán nhà cấp 4, đường Đào Cử, thị trấn Cần Thạnh, H Cần Giờ.<br/>Sau lưng văn phòng đăng ký đất đai, phòng công chứng, đối diện Trung tâm văn hóa H.Cần Giờ<br/>Diện tích: 84m2 ngang 7m x dài 12m, Xe oto đậu trong nhà bình thường.<br/>Khu dân cư lâu năm, yên tĩnh, dân trí cao. Phù hợp làm căn nhà thứ 2, 3 nho nhỏ để tại khu vực du lịch - nghĩ dưỡng biển Cần Giờ.<br/>Liên hệ xem nhà, pháp lý và thương lượng: 0978 758 788 a Duyệt",Đào Cử,,"văn phòng, Trung tâm văn hóa, biển","văn phòng đăng ký đất đai, Trung tâm văn hóa H  Cần Giờ, biển Cần Giờ","yên tĩnh, dân trí cao",,,1,4,1,2,2300000000,0,2,1.0,0,{2},"{7,12,84}",,10.406668039690501,106.959198902806,"(106.959198902806,10.4066680396905)",27380952.3809524,,84.0,bdscomvn_25379132,1589087342,1589066108,2020-06-30 10:28:13.555585,0.0,0.0,0101000020E6100000497ACB8363BD5A40269915CB36D02440,0,,0,0,False,2.0,978758788.0,271ddf02833f9000ab2039007b8ebbd1,1,,1,Huyện Cần Giờ
+119600,767994,6,https://landber.com/tin-dang/Ads_01_25379132,"Bán nhà cấp 4, đường Đào Cử, thị trấn Cần Thạnh, H Cần Giờ.","Bán nhà cấp 4, đường Đào Cử, thị trấn Cần Thạnh, H Cần Giờ.
+
+Sau lưng văn phòng đăng ký đất đai, phòng công chứng, đối diện Trung tâm văn hóa H.Cần Giờ
+
+Diện tích: 84m2 ngang 7m x dài 12m, Xe oto đậu trong nhà bình thường.
+Khu dân cư lâu năm, yên tĩnh, dân trí cao. Phù hợp làm căn nhà thứ 2, 3 nho nhỏ để tại khu vực du lịch - nghĩ dưỡng biển Cần Giờ.
+Liên hệ xem nhà, pháp lý và thương lượng: 0978 758 788 a Duyệt
+
+Thông tin pháp lý: sổ hồng",Đào Cử,,"văn phòng, Trung tâm văn hóa, biển","văn phòng đăng ký đất đai, Trung tâm văn hóa H  Cần Giờ, biển Cần Giờ","yên tĩnh, dân trí cao",,,1,4,1,2,2300000000,0,3,1.0,0,{2},"{7,12,84}",,10.4066589287499,106.959201918987,"(106.959201918987,10.4066589287499)",27380952.3809524,,84.0,Ads_01_25379132,1589043600,1589076212,2020-06-30 11:17:52.112298,0.0,0.0,0101000020E6100000E213729063BD5A40EE365F9935D02440,0,,0,0,False,2.0,978758788.0,271ddf02833f9000ab2039007b8ebbd1,1,,1,Huyện Cần Giờ
+119782,72839,6,https://landber.com/tin-dang/Ads_01_23500066,"Cần bán nhà trong ngõ ngay xã Bình Khánh, Cần Giờ",Cần bán nhà 6.5x21m thổ cư. LH 0909425939,,bình khánh,,,,,,1,4,1,2,1800000000,0,2,1.0,0,{2},"{6.5,21}",,10.624058012389598,106.800621419778,"(106.800621419778,10.6240580123896)",0.0,,136.5,Ads_01_23500066,1574010000,1574064512,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000002E9B9F613DB35A40350A2488843F2540,1,2020-04-13 04:29:01.476128,1,8,False,2.0,909425939.0,7ea4dd4adbfc387793ee0a9a3575ec52,1,,1,Huyện Cần Giờ
+159556,111177,6,https://landber.com/tin-dang/Ads_01_22991534,"Bán nhà Cần Giờ, MT đường Rừng sác, cách phà Bình Khánh 500m, DT 706,6m2 (576m2 đất ở) giá 15.5 tỷ","- Bán nhà Cần Giờ, mặt tiền đường Rừng Sác, thuộc xã Bình Khánh - huyện Cần Giờ, cách phà Bình Khánh 500m.
++ DT đất: 706,6m2 có 576m2 đất ở. Ngang 8m nở hậu 20m.
+
++ Giá: 15 tỷ 5.
++ Pháp lý: Sổ đỏ.
+
+- Khu dân cư đông đúc cách phà Bình Khánh 500m, có căn nhà cấp 4 (8mx30m) hiện đang cho thuê. Gần trường tiểu học đang xây.
+Liên hệ: 093869.1001 Cảnh.",Rừng Sác,bình khánh,"phà, phà, phà, trường tiểu học","phà Bình Khánh, Cần Giờ, phà Bình Khánh, phà Bình Khánh",dân cư đông đúc,,,1,4,6,2,15500000000,0,3,1.0,1,{1},"{0,0}",,10.6325140083489,106.79493214029499,"(106.794932140295,10.6325140083489)",0.0,,706.6,Ads_01_22991534,1573664400,1574009999,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000C9460E2BE0B25A40C03D48E0D8432540,1,2020-04-13 04:44:02.350103,1,8,False,2.0,938691001.0,31f0537b95a83ad745d04895f05aa09a,1,,2,Huyện Cần Giờ
+159767,111671,6,https://landber.com/tin-dang/Ads_01_23067993,Bán nhà đất 220m2 có nhà cấp 4 đường ra biển,"Bán nhà đất 220 m2 có nhà cấp 4 đi ra biển, xã Long Hoà, Cần Giờ, HCM.
+
+
+Vị trí khu dân cư đông đúc, gần chợ trường học. Tiện ích đầy đủ.
+
+
+Pháp lý sổ hồng riêng chính chủ người địa phương.
+
+Thông tin quy hoạch: Toàn bộ khu đất 100% quy hoạch đất ở.
+
+Tiện ích xung quanh đầy đủ, cách biển 300 m, vì đây là khu dân cư hiện hữu lâu đời.
+
+Giá bán chính chủ là 2,8 tỷ trọn sổ.
+Liên hệ: 0378284304 gặp Tiếp.",Duyên Hải,long hòa,"biển, biển, chợ, trường học, biển",,đông đúc,,,1,4,1,2,2800000000,0,3,1.0,6,{2},"{0,0}",,10.392227471163501,106.911510686996,"(106.911510686996,10.3922274711635)",0.0,,220.0,Ads_01_23067993,1582131600,1574009671,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000006EA6EB3056BA5A40CC7A020AD2C82440,1,2020-04-13 02:36:01.446504,1,8,False,2.0,378284304.0,f7fb18283ad92bcfe519b573e8ebedc1,2,,2,Huyện Cần Giờ
+179341,160319,6,https://landber.com/tin-dang/Ads_01_23023046,450m2 hẻm ô tô đường Nguyễn Văn Mạnh,"Bán nhà đất hẻm ô tô đường Nguyễn Văn Mạnh.
+
+
+Vị trí cách đường Nguyễn Văn Mạnh khoảng 40m. Cách biển khoảng 500m gần chợ Long Thạnh, trường học các cấp, tiện ích đầy đủ không thiếu gì.
+
+
+Thông tin pháp lý minh bạch rõ ràng sổ hồng riêng.
+
+Diện tích 450m2: Đặc biệt đã có 300m2 thổ cư, và một căn nhà cấp 4 có thể vào ở ngay.
+Giá trọn sổ 4 tỷ 500 triệu.
+Liên hệ: 0378284304 gặp Tiếp.",Nguyễn Văn Mạnh,long hòa,"biển, chợ, trường học","Nguyễn Văn Mạnh, chợ Long Thạnh",,,,1,4,1,2,4500000000,0,3,1.0,3,{2},"{0,0}",,10.387254143631699,106.91214142268,"(106.91214142268,10.3872541436317)",0.0,,450.0,Ads_01_23023046,1573318800,1573982190,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000051EF6A8660BA5A40E146D42C46C62440,1,2020-04-13 02:24:01.778199,1,8,False,2.0,378284304.0,838beb3587a61f0710d49a588cf9dd60,1,,2,Huyện Cần Giờ
+188400,183862,6,https://landber.com/tin-dang/Ads_02_12901071,"Bán nhà đất mặt tiền đường Duyên Hải, Cần Thạnh, Cần Giờ, vị trí gần biển, tiện KD khách sạn","* Bán gấp nhà mặt tiền Duyên Hải, thị trấn Cần Thạnh, Cần Giờ: 15 x 38m = CN 570m2 (thổ cư 300m2). Khu dân cư hiện hữu, hiện đang cho thuê làm cafe. Vị trí đẹp, ngay ngã tư Tắc Xuất. Thích hợp xây biệt thự nghỉ dưỡng, khách sạn hoặc đầu tư kinh doanh. Sổ hồng chính chủ.Giá bán: 19 tỷ.LH 0911443499, 0937781828 Thanh Land.","Duyên Hải,Huyện Cần Giờ,Hồ Chí Minh",cần thạnh ,"biển, ngã tư",,,4 phòng ngủ,,1,4,6,2,19000000000,0,3,1.0,1,"{4,1,2}","{15,38}",,10.401369657141599,106.938378945394,"(106.938378945394,10.4013696571416)",0.0,,570.0,Ads_02_12901071,1572800400,1573976839,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000005B6E90660EBC5A40500FDE5280CD2440,1,2020-04-13 08:44:02.26303,1,8,False,2.0,911443499.0,42b6d08ac7a265291e6c2d356dba08e0,1,,2,Huyện Cần Giờ
+192643,198849,6,https://landber.com/tin-dang/Ads_01_20164435,"Chính chủ bán gấp nhà đất tại mặt tiền đường Trần Quang Đạo, xã Bình Khánh, huyện Cần Giờ (sổ hồng)","Cần tiền bán gấp 140m2 đất thổ cư - có sổ hồng chính chủ - có nhà cấp 4 tại đường Trần Quang Đạo, xã Bình Khánh, huyện Cần Giờ, Hồ Chí Minh.
+
+
+Mảnh đất rộng 5.7m, chiều dài 24,56m, nở hậu, đất mặt đường Trần Quang Đạo - Bình Khánh - Cần Giờ. Cách phà Bình Khánh 1km, đường trước nhà là đường Trần Quang Đạo luôn và rộng 5m ô tô vào tận cửa, gần chợ, trường học, gần phà tiện đi lại, khu dân cư đông đúc.
+
+
+Có nhà cấp 4 rộng khoảng 70m2, có sân, phòng khách, nhà bếp, phòng ngủ, nhà vệ sinh đầy đủ. Có thể ở luôn nếu mua mà chưa có có điều kiện xây nhà liền. Nhà hướng Nam thoáng mát.
+
+Sổ đỏ chính chủ, không qua trung gian môi giới.
+
+Giá bán 2,790 tỷ (có thỏa thuận).
+LH Mr Đến 0979.80.85.89.",Trần Quang Đạo,bình khánh,"phà, chợ, trường học, phà","phà Bình Khánh, Trần Quang Đạo","tiện đi lại, đông đúc",1 phòng ngủ,,1,4,1,2,2790000000,0,3,1.0,1,{2},"{0,0}",,10.6632932217654,106.775019859053,"(106.775019859053,10.6632932217654)",22377622.3776224,nam,140.0,Ads_01_20164435,1568912400,1573973591,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000006A18E5EC99B15A4006484E2B9B532540,1,2020-04-13 02:27:01.800864,2,7,False,3.0,979808589.0,c50e85ab18afe8a034ef197aa3bb952a,1,,2,Huyện Cần Giờ
+266821,548475,6,https://landber.com/tin-dang/Ads_01_20645134,"Bán nhà ngay chợ Bình Khánh, huyện Cần Giờ","Tôi cần bán nhà tại chợ Bình Khánh, huyện Cần Giờ. Khu dân cư hiện hữu, gần chợ dân cư đông đúc.
+
+
+Hiện trạng như sau: Phòng khách, 3 phòng ngủ, gian nhà bếp &amp; sân trước nhà rất rộng, thích hợp cho gia đình ở, cho thuê hoặc đầu tư sinh lời cao.
+
+
+Diện tích 116.6m2 (4.3x27m).
+Giá: 1.4 tỷ.
+
+Tel: 0977655141 Thư.",Trần Quang Đạo,bình khánh,"chợ, chợ, chợ","chợ Bình Khánh, chợ Bình Khánh",đông đúc,3 phòng ngủ,,1,4,1,2,1400000000,0,2,1.0,6,"{2,1}","{4.3,27}",,10.663004289165901,106.77505349769699,"(106.775053497697,10.6630042891659)",12307692.3076923,,116.6,Ads_01_20645134,1584118800,1584130944,2020-03-14 03:38:24.594049,2.0,3.6,,1,2020-04-13 01:21:02.445178,2,7,False,3.0,977655141.0,e9386f0e51648dcce11401299ba0d75a,1,,0,Huyện Cần Giờ
+281510,78446,6,https://landber.com/tin-dang/Ads_01_18147182,"Bán nhà mặt tiền 19.5tr/ m2 Bình Khánh, Cần Giờ","Bán căn nhà mặt tiền Bình Khánh, Cần Giờ.
+
+Kế bên chợ Bình Khánh.
+
+5x35m, giá 3.4 tỷ chắc giá
+Nhà mới 3 PN, PK, bếp, WC dọn vào ở ngay.
+- Liên hệ: 0909126544.",Bình Khánh,bình khánh,chợ,chợ Bình Khánh,,3 phòng ngủ,,1,4,1,2,3400000000,0,2,1.0,1,{2},"{5,35}",,10.6375015210198,106.787927099111,"(106.787927099111,10.6375015210198)",0.0,,175.0,Ads_01_18147182,1573923600,1574030286,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000FD93C8656DB25A404ADC6F9966462540,1,2020-04-13 09:34:01.577732,1,8,False,3.0,909126544.0,958fe9ee6a1ca812556b16bbde3f6237,1,,1,Huyện Cần Giờ
+342563,561884,6,https://landber.com/tin-dang/Ads_01_24444873,"Nhà cấp 4 gần vòng xoay Long Hòa, Cần Giờ","Cần bán nhà cấp 4 đường đan đường Duyên Hải.
+
+
+Vị trí: Cách vòng xoay Long Hòa khoảng 150m.
+Từ đường Duyên Hải vào khoảng 25m.
+
+Tiện ích: Khu dân cư đông đúc, trường học các cấp, tiện ích đầy đủ không thiếu gì.
+Pháp lý: Ranh giới rõ ràng sổ riêng, công chứng chuyển nhượng nhanh.
+Quy hoạch: Đất ở xây dựng tự do.
+Diện tích: 80m2. Nở hậu.
+Giá 1 tỷ 700 triệu trọn sổ.
+Hiện tại căn nhà đang cho thuê.
+LH: Tiếp nhà đất. 0378284304.
+Mình sẽ cung cấp đầy đủ thông tin về lô đất hỗ trợ anh chị về pháp lý, kiểm tra thông tin quy hoạch tận tình.",Duyên Hải,long hòa,"vòng xoay, vòng xoay, trường học","vòng xoay Long Hòa, Cần Giờ, vòng xoay Long Hòa, Duyên Hải",dân cư đông đúc,,,1,4,6,2,1700000000,0,1,1.0,6,{2},"{0,0}",,10.3913657688698,106.910862535892,"(106.910862535892,10.3913657688698)",0.0,,80.0,Ads_01_24444873,1584205200,1584205495,2020-03-15 00:05:01.465607,2.0,3.6,,1,2020-04-13 03:58:02.716729,1,8,False,2.0,378284304.0,797681c30dcee7c70673deb3f0d403af,1,,0,Huyện Cần Giờ
+353658,504244,6,https://landber.com/tin-dang/Ads_01_24438784,Bán nhà nát Bình Khánh Cần Giờ gần phà Bình Khánh,"Bán nhà nát ngay chợ Bình Khánh Trần Quang Đạo khu dân cư đông đúc, kế bên phà Bình Khánh sát chợ trường học bệnh viện y tế.
+Dt: 6,5x20m 130m2 giá 1,6 tỷ TL chính chủ.
+
+Lh 0901,444,373.",Trần Quang Đạo,bình khánh,"phà, chợ, phà, chợ, trường học, bệnh viện y tế","phà Bình Khánh, chợ Bình Khánh, Trần Quang Đạo, phà Bình Khánh",đông đúc,,,1,4,1,2,1600000000,0,2,1.0,6,{2},"{6.5,20130}",,10.6630055706875,106.775370562064,"(106.775370562064,10.6630055706875)",12307692.3076923,,130.0,Ads_01_24438784,1583254800,1583266599,2020-03-04 03:17:01.609867,2.0,3.6,0101000020E61000000996D9AB9FB15A406E56567775532540,1,2020-04-13 03:54:02.072819,2,7,False,1.0,,ce79583ba7dcfc9bf68ee06aa367a984,1,,0,Huyện Cần Giờ
+363521,294596,6,https://landber.com/tin-dang/Ads_01_24002681,Bán nhà mặt tiền đường rừng sác xã bình khánh huyện cần giờ tphcm,"Cần bán căn nhà mặt tiền đường rừng sác thuộc xã bình khánh, Dt 5x17m thổ cư 100% nhà đã hoàn công tiện nghi đầy đủ nhà lên 2 tầng . Do chủ không có nhu cầu ở nên cần chuyển nhượng lại cho anh chị nào có nhu cầu . Giá bán 4 tỷ thương lượng chút ích cho người có thiện chí. Vị trí cách bến phà 4km nằm bên trái hướng từ bến phà bình khánh xuống . Anh chị nào quan tâm vui lòng lh quốc nhiệm 0906850955 và có nhận mua ký gửi  bán nhà đất tại xã bình khánh",Rừng Sác,bình khánh,"bến phà, bến phà",bến phà bình khánh,,4 phòng ngủ,Thanh Hà Mường Thanh,1,4,1,2,4000000000,0,2,2.0,1,{2},"{5,17}",,10.631781173118199,106.79634631494899,"(106.796346314949,10.6317811731182)",0.0,,80.0,Ads_01_24002681,1577120400,1578689247,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000D2BF8856F7B25A40C58A69D278432540,1,2020-04-13 02:59:01.939597,1,8,False,2.0,906850955.0,e3939ef794c90d9059f9880730be1d88,1,,2,Huyện Cần Giờ
+395646,329915,6,https://landber.com/tin-dang/Ads_02_12914063,"Bán nhà Cần Giờ, MT đường Rừng Sác, cách phà Bình Khánh 500m, DT 706,6m2 (576m2 đất ở), giá 15 tỷ 5","Bán nhà Cần Giờ, mặt tiền đường Rừng Sác, thuộc xã Bình Khánh - huyện Cần Giờ, cách phà Bình Khánh 500m.+ DT đất: 706,6m2, có 576m2 đất ở. Ngang 8m nở hậu 20m.+ Giá: 15 tỷ 5.+ Pháp lý: Sổ đỏ.- Khu dân cư đông đúc cách phà Bình Khánh 500m, có căn nhà cấp 4 (8mx30m) hiện đang cho thuê. Gần trường tiểu học đang xây.Liên hệ: 093869.1001 Cảnh.","Rừng Sác,Huyện Cần Giờ,Hồ Chí Minh",bình khánh,"phà, phà, phà, trường tiểu học","phà Bình Khánh, Cần Giờ, phà Bình Khánh, phà Bình Khánh",dân cư đông đúc,,,1,4,6,2,15500000000,0,3,1.0,1,{1},"{8,30}",,10.6373443724017,106.791186142688,"(106.791186142688,10.6373443724017)",0.0,,706.6,Ads_02_12914063,1578416400,1578725519,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000041F933CBA2B25A408C82670052462540,1,2020-04-13 08:50:01.970146,1,8,False,2.0,938691001.0,a4b690ac28e3c4ec9a978ff63757efcd,1,,0,Huyện Cần Giờ
