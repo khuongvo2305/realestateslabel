@@ -55,12 +55,12 @@
         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18
         }).addTo(map);
-        d3.csv("data_pick/"+district+".csv").then(function(data) {
+        d3.csv("data_pick_gg/"+district+".csv").then(function(data) {
         var counterr = 0
         data.forEach(function(d) {
             if (d.id == id){
                 var marker = new L.Marker(
-                [d.lat,d.long], 
+                [d.gglat,d.gglong], 
                 {
                 id: d.id,
                 position_street: d.position_street,

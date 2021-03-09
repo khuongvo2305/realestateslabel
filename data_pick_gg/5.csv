@@ -1,0 +1,326 @@
+,_id,_id_x,id,page_source,link,title,content,address_street,address_ward,surrounding,surrounding_name,surrounding_characteristics,interior_room,project,address_city,address_district,transaction_type,realestate_type,price_sell,price_rent,legal,floor,position_street,potential,area_origin,address_number,lat,long,coordinate,price_m2,orientation,area_cal,post_id,post_date,crawled_date,created_at,price_score,price_score_filter,geom,status_price_score,price_score_timestamp,comment_id,comment_filter_id,is_suspicious,created_by,contact_phone,hash_post_key,number_duplicated_post,orientation_id,done,label_cluster,_id_y,gglat,gglong,district_name
+2226,60464d225cf0a538f8c89238,604330f2886de236382562ea,132551,6.0,https://landber.com/tin-dang/Ads_01_22038090,"Chính chủ bán nhà đất 1330m2, 13tr/m2 (TL) gần ngã 4 Nguyễn Thị Bi - Nguyễn Thị Lắng, 0988003154","Chính chủ (miễn trung gian) bán nhà mặt tiền đường nhựa, số 1 Nguyễn Thị Bi (đường 64 cũ), gần ngay ngã 4 Nguyễn Thị Bi - Nguyễn Thị Lắng.
+Giá 13 triệu/m2, có thương lượng.
+
+Tổng DT: 1330.2 m2 (34.55x38.5m), DTXD: 250 m2 (nhà có phòng khách lớn, 4 phòng ngủ, 8 WC + phòng tắm riêng, khu vực bếp rộng rãi.. ).
+Mặt tiền đường nhựa 6m, xe tải lưu thông thoải mái.
+
+Tiện để ở + sản xuất, làm may, trung tâm xã hội...
+Để biết thêm chi tiết nhà + đất hãy LH: 0988003154 Mr. Long.
+Miễn trung gian.",Nguyễn Thị Bi,tân phú trung,"ngã 4, ngã 4","ngã tư Nguyễn Thị Bi, Nguyễn Thị Lắng, ngã tư Nguyễn Thị Bi, Nguyễn Thị Lắng",,4 phòng ngủ,Số 1,1.0,5.0,1.0,2.0,13000000,0,2.0,1.0,1.0,{2},"{34.55,38.5}",1.0,10.946293802320199,106.551661526934,"(106.551661526934,10.9462938023202)",27155018.1844299,,1330.2,Ads_01_22038090,1573578000,1573995647.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000000A29266C4EA35A40EDBE0A9F80E42540,1.0,2020-04-13 13:06:01.944128,2,7.0,False,3.0,988003154.0,34271be77fac68cb95acb7fa2990851c,1.0,,2.0,0.0,60464a135cf0a538f8c8679c,10.7745965,106.6679542,Huyện Củ Chi
+2227,60464d225cf0a538f8c89239,604330f2886de236382562ed,266365,6.0,https://landber.com/tin-dang/Ads_01_23410583,"Cần tiền bán gấp bán gấp nhà riêng giá cực rẻ, SĐCC tại Tân An Hội, Củ Chi LH 0796.802.208","Chính chủ cần bán nhà gác đúc 3D lửng.
+- Diện tích: 3,5x4m.
+
+- Gác đúc 3D lửng gần khu công nghiệp Tây Bắc Củ Chi, TP Hồ Chí Minh.
+- Giá: 245 triệu (ưu đãi trong tháng 11).
+
+- Khu vực thuận tiện giao thông, cách chợ Củ Chi 5p đi xe máy, gần chợ, khu dân cư.
+- Nội thất để lại: Tủ lạnh, kệ, quạt hút nóng, tranh sơn dầu cao cấp, đồng hồ nước, đồng hồ điện riêng, có nước giếng.
+- Có sổ đỏ chính chủ.
+- Liên hệ chính chủ: Cô Hoàng 0796.802.208. (hoa hồng cho môi giới 10tr)
+Miễn liên hệ mời đăng tin quảng cáo!",,tân an hội,"khu công nghiệp, chợ, chợ","khu công nghiệp Tây Bắc, Củ Chi, chợ Củ Chi",thuận tiện giao thông,,,1.0,5.0,1.0,2.0,245000000,0,3.0,1.0,6.0,{2},"{3.5,4}",,10.9733518481106,106.484572740091,"(106.484572740091,10.9733518481106)",1400000.0,,14.0,Ads_01_23410583,1573491600,1578449925.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000036CE613D039F5A40AE45662C5BF22540,1.0,2020-04-13 12:07:02.26423,1,8.0,False,3.0,796802208.0,d161ed83d0ee33392eb9da0870303e8b,1.0,,2.0,0.0,60464a135cf0a538f8c8679d,10.7745965,106.6679542,Huyện Củ Chi
+2228,60464d225cf0a538f8c8923a,604330f2886de236382562fe,717577,6.0,https://landber.com/tin-dang/Ads_01_25811583,"Chính chủ cần bán nhà xã Tân Thạnh Đông, huyện Củ Chi, TP Hồ Chí Minh","Chính chủ cần bán nhà xã Tân Thạnh Đông, huyện Củ Chi, TP Hồ Chí Minh
+
+Diện tích: 211,3m2
+
+Đã có nhà cấp 4 gồm: 1 phòng khách, 1 bếp, 1 toilet, 2 phòng ngủ, 1 sân trước và 1 sân sau.
+Cây xanh mát mẻ, không khí trong lành, an ninh đảm bảo, giao thông đi lại thuận tiện
+Giá bán: 13 triệu/ m2
+Nhà cách 500m: Phòng mạch, Nhà trẻ, Trường Mẫu giáo, Trường Tiểu học, Chợ và Nhà Thờ Tân Thạnh Đông, Bách hóa xanh, Con Cưng, Thế giới di động. Sát khu căn hộ ven sông Tân Thạnh Đông.
+Nhà hẻm xe tải, cách đường TL15 300m
+Cách chợ Hóc Môn 5km 
+Cách trung tâm thành phố 20km
+Liên hệ: 
+MÃ TIN: 121558",,tân thạnh đông,"Phòng mạch, Nhà trẻ, Trường Mẫu giáo, Trường Tiểu học, Chợ, Nhà Thờ, Thế giới di động, sông, chợ","Nhà Thờ Tân Thạnh Đông, Bách hóa xanh, Con Cưng, sông Tân Thạnh Đông, TL 15, chợ Hóc Môn","mát mẻ, trong lành, an ninh",2 phòng ngủ,,1.0,5.0,1.0,2.0,13000000,0,2.0,1.0,3.0,{2},"{0,0}",,11.0067591738467,106.513203698915,"(106.513203698915,106.513203698915)",13000000.0,,211.0,Ads_01_25811583,1591894800,1591910003.0,2020-06-25 19:52:02.296053,0.0,0.0,0101000020E6100000A7C15354D8A05A40443D3DF075032640,0.0,,0,0.0,False,1.0,,37bd36ba690d40eb7658310f6605af95,1.0,,0.0,0.0,60464a135cf0a538f8c8679e,10.7745965,106.6679542,Huyện Củ Chi
+2229,60464d225cf0a538f8c8923b,604330f2886de2363825630b,75595,6.0,https://landber.com/tin-dang/Ads_01_20347475,"Cần bán nhà mặt tiền và dãy phòng trọ, gần chợ Việt Kiều - Tân Thông Hội - Củ Chi","Cần bán nhà mặt tiền và dãy phòng trọ, gần chợ Việt Kiều, xã Tân Thông Hội - Củ Chi.
+Diện tích: 5m x 63m, gồm 1 nhà mặt tiền cấp 4, 7 phòng trọ thu nhập 11tr / tháng, đường nhựa trước nhà 5m.
+
+Vị trí: Cách Quốc Lộ 22 700m, cách chợ Việt Kiều 3 phút đi xe máy, gần trường học, nhà thờ, chùa, khu dân cư đông, rất nhiều tiện ích xung quanh như chợ, siêu thị, khu vui chơi, trung tâm văn hóa...
+Giá: 4 tỷ 300 triệu (thương lượng).
+
+Liên hệ điện thoại hoặc Zalo: 0963840116 (Thành).",,tân thông hội,"chợ, chợ, chợ, trường học, nhà thờ, chùa, chợ, siêu thị, khu vui chơi, trung tâm văn hóa","chợ Việt Kiều, Tân Thông Hội, Củ Chi, chợ Việt Kiều, Tân Thông Hội, Quốc Lộ 22, chợ Việt Kiều","dân cư đông, nhiều tiện ích xung quanh",7 phòng trọ,,1.0,5.0,5.0,2.0,4300000000,11000000,2.0,1.0,1.0,{2},"{5,63}",,10.950531106014399,106.510600443065,"(106.510600443065,10.9505311060144)",24323874.2855784,,315.0,Ads_01_20347475,1573923600,1574032181.0,2020-02-12 08:49:25.145194,7.7,3.6,0101000020E610000077127BADADA05A4042535C03ACE62540,1.0,2020-04-13 00:19:02.176011,10,7.0,False,2.0,963840116.0,5258c32a1c813941d8435b1479b795a3,1.0,,1.0,0.0,60464a135cf0a538f8c8679f,10.7745965,106.6679542,Huyện Củ Chi
+2230,60464d225cf0a538f8c8923c,604330f2886de2363825630d,490225,6.0,https://landber.com/tin-dang/Ads_01_24465954,Kẹt tiền bán căn biệt thự vườn 300m2 Củ Chi đẹp giá rẻ,"Đất có sẵn căn nhà biệt thự vườn 300m2 xã Phước Hiệp, Củ Chi (ngay Quốc Lộ 22 ngã ba Cây Trôm) đường nhựa 6m vuông vức vị trí cực đẹp ngay chợ, siêu thị, ngân hàng, bệnh viện... Nhà thoáng mát sang trọng có:
+
+- 1 phòng khách.
+
+- 5 phòng ngủ.
+- 1 phòng bếp.
+- 1 nhà để xe.
+- 1 hồ bơi.
+- 1 nhà Thuỷ Tạ (có xây hồ cá đẹp phía dưới).
+- 2WC.
+- Sân sau, sân trước..
+- Nhà làm vật liệu xây dựng nên xây để ở rất kiên cố chắc chắn.
+
+Nay kẹt tiền làm ăn cần bán gấp, thương lượng nhẹ chút lộc.
+Mua ở liền 1 nốt nhạc.
+
+Ai quan tâm gọi em nhé ĐT Zalo e.
+093 130 9967 chính chủ.",1,phước hiệp,"ngã ba, chợ, siêu thị, ngân hàng, bệnh viện, hồ bơi","Quốc Lộ 22, ngã ba Cây Trôm",,6 phòng ngủ,,1.0,5.0,1.0,2.0,0,0,2.0,1.0,0.0,{2},"{0,0}",,10.9824462057515,106.446998658129,"(106.446998658129,10.9824462057515)",0.0,,300.0,Ads_01_24465954,1583082000,1583074969.0,2020-03-01 22:03:02.241851,0.0,0.0,0101000020E6100000338142A09B9C5A404F90673003F72540,2.0,2020-04-13 11:43:00.591668,0,0.0,False,3.0,931309967.0,157428944b4e8e518e6d4974e2106090,1.0,,1.0,0.0,60464a135cf0a538f8c867a0,10.7745965,106.6679542,Huyện Củ Chi
+2231,60464d225cf0a538f8c8923d,604330f2886de23638256311,100710,6.0,https://landber.com/tin-dang/Ads_01_23465916,"Bán nhà 1 trệt 1 lửng, 1PK, 3PN, 2 toilet, ấp Bàu Sim, Xã Tân Thông Hội, Huyện Củ Chi","Bán nhà 1 trệt 1 lửng, 1PK, 3 PN, 2 toilet, ấp Bàu Sim, Xã Tân Thông Hội, Huyện Củ Chi. Đường bê tông thông xe hơi. Xe tải nhỏ vô tới nhà cách Quốc lộ 22 là 70m. DT 4x16m, khu dân cư, an ninh giá 1 tỷ 35. Miễn trung gian, tiếp người có nhu cầu.",,tân thông hội,,"Bàu Sim, Bàu Sim, Quốc lộ 22",an ninh,3 phòng ngủ,,1.0,5.0,1.0,2.0,1350000000,0,2.0,1.5,0.0,{2},"{4,16}",,10.9500886147255,106.510386934402,"(106.510386934402,10.9500886147255)",13378130.8570681,,64.0,Ads_01_23465916,1587229200,1574016961.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000FEE3F52DAAA05A409218D10372E62540,1.0,2020-04-13 04:45:01.932923,1,8.0,False,3.0,,158de1ceb0cbe0fd6ab9f7c9f0fe10d8,2.0,,1.0,0.0,60464a135cf0a538f8c867a1,10.7652375,106.677029,Huyện Củ Chi
+2232,60464d225cf0a538f8c8923e,604330f2886de23638256327,763172,6.0,https://batdongsan.com.vn/ban-nha-rieng-duong-le-minh-nhut-xa-an-nhon-tay/ban-gap-day-tro-12-phong-180m2-gan-ql22-gia-ban-1-ty-350-trieu-pr25464030,"Bán gấp dãy trọ 12 phòng 180m2 đường Lê Minh Nhựt, gần QL22, giá bán 1 tỷ 350 triệu","Dãy trọ 12 phòng đường Lê Minh Nhựt, cách Quốc Lộ 22 chỉ 500m. Giá chỉ 1 tỷ 350 triệu.<br/>Diện tích 10x18m, DTCN 180m2, xây dựng kiến đất, 12 phòng đều có gác, toilet và bếp riêng, sạch sẽ thoải mái.<br/>Từ dãy trọ đến khu công nghiệp Tân Phú Trung chưa đến 5 phút, dân cư đông đúc, tiện ích xung quanh đầy đủ: Chợ Tân Phú Trung, bệnh viện Xuyên Á, qua đến Hóc Môn chỉ 10 phút.<br/>Giá bán chốt 1 tỷ 350 triệu.<br/>Liên hệ xem trọ gặp Cường: 0706.003.206.",Lê Minh Nhựt,,"khu công nghiệp, Chợ, bệnh viện","QL 22, Quốc Lộ 22, khu công nghiệp Tân Phú Trung, Chợ Tân Phú Trung, bệnh viện Xuyên Á, Hóc Môn",đông đúc,1,,1.0,5.0,1.0,2.0,1350000000,0,2.0,1.0,0.0,{2},"{10,18}",,10.9516322284938,106.492665426924,"(106.492665426924,10.9516322284938)",7500000.0,,180.0,bdscomvn_25464030,1590229085,1590207370.0,2020-06-30 10:34:00.669834,0.0,0.0,0101000020E6100000962092D4879F5A40BE66E6563CE72540,0.0,,0,0.0,False,2.0,706003206.0,dbdb1b695c35e82749f93f666ad34a9b,1.0,,1.0,0.0,60464a135cf0a538f8c867a2,10.9472798,106.5231233,Huyện Củ Chi
+2233,60464d225cf0a538f8c8923f,604330f2886de23638256329,768269,6.0,https://batdongsan.com.vn/ban-nha-rieng-xa-binh-my/ban-biet-thu-tuyet-anh-250m2-chi-5-2-ty-pr24847403,"Bán biệt thự Tuyết Anh, Bình Mỹ, 250m2, chỉ 5,05 tỷ","+ Diện tích: 10*25m, 4 PN rộng rãi, sân trước, sau thoáng mát.<br/>+ Nằm ngay vị trí đắc địa khu vực ngã 3 Q12, Củ Chi và TP Thủ Dầu Một.<br/>+ Nhà hướng ra sông Sài Gòn lộng gió, view cực đẹp, không khí trong lành.<br/>+ Gần nhiều khu công nghiệp, khu vực nhiều chuyên gia nước ngoài và các đại gia trong nước sinh sống.<br/>+ Khu vực có bảo vệ canh gác 24/24.<br/>+ Sổ hồng chính chủ.<br/>+ Nội thất hoàn thiện đầy đủ, chỉ việc xách vali vào ở.<br/>+ Hiệu suất cho thuê cực cao. Nhà cho chuyên gia nước ngoài thuê 22,261 triệu/tháng đã 6 năm nay.<br/>+ Tiện ích: Có hồ bơi, sân tennis, bóng bàn, bi - da, canteen, BBQ ven sông.<br/>+ 2km tới Thủ Dầu Một, Bình Dương, 500m tới khu du lịch Tràm Chim.<br/>+ Cách trung tâm Thành phố chỉ 30 km, tương lai sẽ xây đại lộ ven sông nối Củ Chi với Quận 1.<br/>+ Liên hệ: Sinh Công 0989 113 008 để được xem nhà và tư vấn miễn phí.",,,"ngã 3, sông, khu công nghiệp, hồ bơi, sân tennis, bóng bàn, canteen, BBQ, sông, khu du lịch, sông","ngã ba Q 12, Củ Chi, sông Sài Gòn, Thủ Dầu Một, Bình Dương, khu du lịch Tràm Chim, Củ Chi, Quận 1",lộng gió,4,Tuyết Anh,1.0,5.0,5.0,2.0,5050000000,22261000,3.0,2.0,0.0,"{2,1}","{10,25}",,10.945708146990096,106.63697125638001,"(106.63697125638,10.9457081469901)",20200000.0,,250.0,bdscomvn_24847403,1589979136,1589954636.0,2020-06-30 11:20:25.856913,0.0,0.0,0101000020E610000059A91623C4A85A4027C4B5DB33E42540,0.0,,0,0.0,False,3.0,989113008.0,c0c5f0efaa574db14150391c6a7d4ff2,1.0,,1.0,0.0,60464a135cf0a538f8c867a3,10.7745965,106.6679542,Huyện Củ Chi
+2234,60464d225cf0a538f8c89240,604330f2886de23638256335,53798,6.0,https://landber.com/tin-dang/Ads_01_23586464,"Bán gấp nhà vườn cấp 4, 150m2 MT Suối Lội, Củ Chi, SHR, giá 1 tỷ 200 triệu","Tôi cần tiền nên bán gấp căn nhà cấp 4 đường Suối Lội, SHR.
+
+Diện tích: 5x30m=150m2.
+
+Nhà xây kiểu hiện đại không gian ở thoải mái có 1 phòng khách,2 phòng ngủ, WC trong phòng, nước máy, cáp mạng internet đầy đủ,có sân vườn, gần trường THPT Tân Thông Hội, cách chợ Việt Kiều 2km, dân cư đông đúc hiện hữu, đường nhựa 12m, xung quanh đầy đủ tiện ích.
+Sổ hồng riêng, tôi bao sang tên công chứng.
+Giá: 1 tỷ 200 triệu.
+Liên hệ: 0903058970 (gặp An) miễn cò, bớt xíu lộc cho khách thiện chí thật sự.",Suối Lội,tân thông hội,"trường THPT, chợ","trường THPT Tân Thông Hội, chợ Việt Kiều",dân cư đông,"1 phòng khách, 2 phòng ngủ, WC",,1.0,5.0,1.0,2.0,1200000000,0,3.0,1.0,1.0,{2},"{5,30}",4.0,10.9575760354016,106.527484898401,"(106.527484898401,10.9575760354016)",29090909.0909091,,150.0,Ads_01_23586464,1574442000,1574567836.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000EDF00450C2A15A4076F7F66747EA2540,1.0,2020-04-13 05:22:01.361251,2,7.0,False,2.0,903058970.0,e11f0490a6b0918bbaa84de9badfd794,1.0,,1.0,0.0,60464a135cf0a538f8c867a4,10.9597804,106.5284279,Huyện Củ Chi
+2235,60464d225cf0a538f8c89241,604330f2886de2363825633a,67054,6.0,https://landber.com/tin-dang/Ads_01_23500570,"Bán gấp nhà vườn cấp 4, 150m2, MT Hương Lộ 2, Củ Chi, SHR, giá 1 tỷ 200 triệu","Tôi cần tiền nên bán gấp căn nhà cấp 4 đường Hương Lộ 2, SHR.
+
+Diện tích: 5x30m = 150m2.
+
+Nhà gần trường học các cấp, dân cư đông đúc, cách chợ Việt Kiều 3km, dân cư đông đúc hiện hữu, đường nhựa 12m, xung quanh đầy đủ tiện ích.
+Sổ hồng riêng, tôi bao sang tên công chứng.
+Giá: 1 tỷ 200 triệu.
+Liên hệ: 0903058970 (gặp An) miễn cò, bớt xíu lộc cho khách thiện chí thật sự.",Hương lộ 2,tân phú trung,"trường học, chợ",chợ Việt Kiều,"đông đúc, dân cư đông",,,1.0,5.0,1.0,2.0,1200000000,0,3.0,1.0,1.0,{2},"{5,30}",4.0,10.951747707618301,106.534337630637,"(106.534337630637,10.9517477076183)",0.0,,150.0,Ads_01_23500570,1583514000,1574066232.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000C926769632A25A40EC86BC794BE72540,1.0,2020-04-13 04:18:01.655676,1,8.0,False,2.0,903058970.0,279c8778d980f1d4ac7929ab045cc837,3.0,,1.0,0.0,60464a135cf0a538f8c867a5,10.7698714,106.6129324,Huyện Củ Chi
+2236,60464d225cf0a538f8c89242,604330f2886de2363825633c,68762,6.0,https://landber.com/tin-dang/Ads_02_12971397,Bán gấp nhà 1/ đường Xuyên Á xã Tân Thông Hội - Củ Chi,"Hẻm xe hơi cách đường Xuyên á 100m
+Nở hậu
+Diện tích: 6x10Sổ Hồng chính chủGiá bán: 1 tỷ 7Liên hệ Giang 0964.454.456...........................................","Xuyên Á,Huyện Củ Chi,Hồ Chí Minh",tân thông hội,,Xuyên á,,,,1.0,5.0,1.0,2.0,1700000000,0,3.0,1.0,3.0,{2},"{6,10}",1.0,10.947580640925803,106.50866939138399,"(106.508669391384,10.9475806409258)",13378130.8570681,,60.0,Ads_02_12971397,1574010000,1574065553.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000002C1E100A8EA05A40C0322E4A29E52540,1.0,2020-04-13 02:19:01.652947,1,8.0,False,3.0,964454456.0,4c95df1fa2138a67ce46228953e42f4b,1.0,,1.0,0.0,60464a135cf0a538f8c867a6,10.7789499,106.6601481,Huyện Củ Chi
+2237,60464d225cf0a538f8c89243,604330f2886de23638256340,85344,6.0,https://landber.com/tin-dang/Ads_01_23481522,Bán nhà 5 x 48 Mặt Tiền đường Bình Mỹ,"Do nhà xa cơ quan bà xã quá nên em bán nhà mặt tiền Bình Mỹ-Củ Chi để về gần cơ quan bà xã hơn, tiện cho bà xã đi làm.
+
+Nhà ngay ngã 3 Bình Mỹ và Võ Văn Bích
+
+Hướng Đông Bắc
+Cách cầu Xáng hóc môn 500 m
+Cách tl15 200m cách tl9(hà duy phiên) 3km chạy lên chợ hóc môn 4km vị trí đẹp gần nhiều dự án lớn, gần chợ.
+Diện tích: 5m x 48m thổ cư 100% 
+Diện tích xây dựng 5m x 23.5m
+Nhà cấp 4 mới xây năm 2018 bao gồm 1 phòng khách, 1 phòng bếp, 2 phòng ngủ 2 tolet, nền móng ép cọc kiên cố lên được 2 lầu
+Giá : 5,9 tỷ
+Nhà đã hoàn công mua bán sang tên ngay
+Lh: 0975123387 Thi (chính chủ)
+Mọi người nhớ đăng ký kênh, like và chia sẽ giúp mình nhé .
+https://youtu.be/OimWB7Uld8w",Bình Mỹ,bình mỹ,"cơ quan, ngã 3, cầu, chợ, chợ","cơ quan bà xã, ngã ba Bình Mỹ, Võ Văn Bích, cầu Xáng hóc môn, hà duy phiên, chợ hóc môn",,2 phòng ngủ,,1.0,5.0,1.0,2.0,5900000000,0,2.0,3.0,1.0,{2},"{5,48}",,10.9245880730781,106.62550479040199,"(106.625504790402,10.9245880730781)",34965034.965035,đông - bắc,235.0,Ads_01_23481522,1573837200,1574025619.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000045913E4508A85A40C248A09B63D92540,1.0,2020-04-13 04:51:02.36121,2,7.0,False,3.0,975123387.0,f55a6afc67a9cf02bf8600fc058a258c,1.0,,2.0,0.0,60464a135cf0a538f8c867a7,10.9465243,106.6445916,Huyện Củ Chi
+2238,60464d225cf0a538f8c89244,604330f2886de2363825634d,117672,6.0,https://landber.com/tin-dang/Ads_01_21110603,"Bán nhà bên sông gần cầu Rạch Tra, Bình Mỹ Củ Chi, 28m*28m, 5,1 tỷ chủ nhà 0931603140","Tôi cần bán nhanh căn nhà sát bên sông.
++ Giới thiệu:
+
+- Diện tích trên sổ: 781m2, với chiều ngang là 28m và dài gần 28m, gồm 2 sổ riêng biệt với diện tích 333m2 có sẵn căn nhà với 2 phòng ngủ và 448m2 trồng cây ăn trái.
+- Diện tích sử dụng thực: Gần 1200m2 (hơn 420m không nằm trong sổ), đang trồng cây ở mé sông.
+
+- Đường trước nhà 12m, đường lớn 2 xe tải.
+- Có gara bên hông có thể đậu được 2 chiếc xe hơi.
+- Phía sau là vườn, có gần 330m phía sau để trồng cây.
+- Sau nhà giáp với sông Sài Gòn, thoáng mát và yên tĩnh.
+- Trong phạm vi 2km gần chợ, trường học, bệnh viện, dân cư đông đúc.
+Vị trí: Thuận tiện, gần các tuyến đường lớn kết nối giữa Củ Chi, Hoc Môn và Bình Dương, ngay cuối đường Lê Văn Khương nối dài.
++ Mong muốn: Tìm người phù hợp, thiện chí. Hoa hồng 2% cho người giới thiệu.
+Chúng tôi đang cần bán nhanh với giá 5,1 tỷ (giá đất 6,5tr/m2).
+Địa chỉ: Cách cầu Rạch Tra 300m, thuộc Bình Mỹ, Củ Chi, HCM.
+Liên hệ 093160 3140.",,bình mỹ,"sông, cầu, sông, sông, sông, chợ, trường học, bệnh viện, cầu","cầu Rạch Tra, sông Sài Gòn, Củ Chi, Hoc Môn, Bình Dương, Lê Văn Khương, cầu Rạch Tra, Bình Mỹ, Củ Chi, HCM","thoáng mát, yên tĩnh, đông đúc",2 phòng ngủ,,1.0,5.0,1.0,2.0,5100000000,0,1.0,1.0,6.0,{2},"{28,28}",,10.945344354454699,106.63686578923901,"(106.636865789239,10.9453443544547)",0.0,,781.0,Ads_01_21110603,1573664400,1574005651.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000003F2EBA68C2A85A40BDAEDB2C04E42540,1.0,2020-04-13 11:17:01.705009,1,8.0,False,3.0,931603140.0,e98002d89c11bd3972cdbfd56585d574,1.0,,2.0,0.0,60464a135cf0a538f8c867a8,10.7694301,106.6636865,Huyện Củ Chi
+2239,60464d225cf0a538f8c89245,604330f2886de2363825634e,117758,6.0,https://landber.com/tin-dang/Ads_01_23447390,Chính chủ bán gấp nhà ở Củ Chi. LH 0346749999,"Bán nhà đất 7 x 48m, ở hậu 10m đường trước nhà 12m, xung quanh đã xây tường rào bê tông cao 3m 1/ Nguyễn Thị Rành, ấp Bàu Tròn, xã Nhuận Đức, huyện Củ Chi.
+Ngay khu dân cư cư hiện hữu đông đúc, gần UBND xã Nhuận Đức, Trường sát hạch lái xe, chợ, trường học cấp 1 - 2 - 3, cách đường chính Nguyễn Thị Rành 30m.
+
+Giá 2.6tỷ.
+LH. 0346749999 Minh sổ hồng chính chủ. (HH cho người giới thiệu).",Nguyễn Thị Rành,nhuận đức,"UBND xã, hạch lái xe, chợ, trường học","Nguyễn Thị Rành, Bàu Tròn, UBND xã Nhuận Đức, Nguyễn Thị Rành",đông đúc,,,1.0,5.0,1.0,2.0,2600000000,0,3.0,1.0,6.0,{2},"{7,48}",,11.0414787325472,106.48531748145399,"(106.485317481454,11.0414787325472)",0.0,,336.0,Ads_01_23447390,1573664400,1574005594.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000064C10D710F9F5A40178A4FB33C152640,1.0,2020-04-13 13:21:01.668726,1,8.0,False,3.0,346749999.0,18cda8d95b37bf23bed846a930a569b8,1.0,,2.0,0.0,60464a135cf0a538f8c867a9,10.978812,106.4708897,Huyện Củ Chi
+2240,60464d225cf0a538f8c89246,604330f2886de2363825634f,117862,6.0,https://landber.com/tin-dang/Ads_01_21981996,Bán nhà 2 mặt tiền đường nhựa cách UBND xã An phú và Tỉnh Lộ 15 100m,Bán nhà 2 mặt tiền đường nhựa cách UBND xã An Phú và đường Tỉnh Lộ 15 100m. DT: 8m dài 24m nở hậu 9m hết thổ cư.,1,an phú,"UBND xã, UBND xã","UBND xã An phú, Tỉnh Lộ 15, UBND xã An Phú, Tỉnh Lộ 15",,,,1.0,5.0,1.0,2.0,1700000000,0,2.0,1.0,2.0,{2},"{0,0}",,11.1166014929752,106.499717721806,"(106.499717721806,11.1166014929752)",4968944.09937888,,192.0,Ads_01_21981996,1573664400,1574005518.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000F2180A60FB9F5A4078FCDD30B33B2640,1.0,2020-04-13 02:01:02.38982,2,7.0,False,1.0,,20576f9dbab29cf40378fce78ffa3caa,1.0,,2.0,0.0,60464a135cf0a538f8c867aa,10.7815015,106.6659746,Huyện Củ Chi
+2241,60464d225cf0a538f8c89247,604330f2886de23638256351,121394,6.0,https://landber.com/tin-dang/Ads_01_20627499,"Cần bán nhà MT số 12, đường Số 18, Quốc Lộ 22, xã Tân Thông Hội, Củ Chi, DT ngang 13*58m","Cần bán nhà mặt tiền Số 12 đường Số 18, Quốc Lộ 22 xã Tân Thông Hội, Củ Chi.
+DT ngang 13*58m, hiện trạng có nhà cấp 4, đất trống thì có hàng rào, đường nhựa xe tải thông ra vào thoải mái, cách nước mía Vườn Cao 1km.
+
+Giá 4.98 tỷ có thương lượng, sổ hồng 2017 công nhận 687m2, xem nhà liên hệ C. Nguyên 0902.495.039.",Số 18,tân thông hội,nước mía,"Quốc Lộ 22, nước mía Vườn Cao",,,Số 12,1.0,5.0,1.0,2.0,4980000000,0,3.0,1.0,1.0,{2},"{13,58}",12.0,10.9592340139461,106.51047563906201,"(106.510475639062,10.9592340139461)",0.0,,687.0,Ads_01_20627499,1573664400,1574003217.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000003BCB03A2ABA05A4012387EB820EB2540,1.0,2020-04-13 07:16:01.567158,1,8.0,False,2.0,902495039.0,3afeec254448d75d62e3daf71ee29b57,1.0,,2.0,0.0,60464a135cf0a538f8c867ab,10.76845,106.6669509,Huyện Củ Chi
+2242,60464d225cf0a538f8c89248,604330f2886de2363825636d,168887,6.0,https://landber.com/tin-dang/Ads_01_23061568,"Bán nhà 6x50m hẻm 56 đường Phạm Văn Chèo, Thị trấn Củ Chi, Huyện Củ Chi giá 6 tỷ","Cần bán gấp nhà hẻm 56 Phạm Văn Chèo, Thị trấn Củ Chi, huyện Củ Chi, HCM.
+Diện tích: 6x50m, DTCN: 298,7m2. Nhà hiện trạng cấp 4 đang buôn bán cafe, ăn uống, tạp hóa.
+
+Vị trí: Ngay trung tâm thị trấn Củ Chi, cách KCN Củ Chi Tây Bắc, BX Củ Chi 5 phút đi xe máy, nhà nằm ngay công ty lớn khoảng 2000 công nhân, bán kính 1km đầy đủ như: Trường học, ngân hàng, chợ,... Phù hợp kinh doanh xây nhà trọ cho công nhân thuê.
+Hướng: Tây Bắc.
+
+Giá: 6 tỷ (Thương lượng).
+Liên hệ xem nhà - 0915495779.
+Xin cảm ơn!",Phạm Văn Chèo,củ chi,"KCN, công ty, Trường học, ngân hàng, chợ","KCN Củ Chi Tây Bắc, Củ Chi",,3 phòng ngủ,Hẻm 56,1.0,5.0,1.0,2.0,6000000000,0,2.0,1.0,3.0,"{2,1}","{6,50}",56.0,10.9776562677703,106.50041674245199,"(106.500416742452,10.9776562677703)",8590056.12861672,tây - bắc,298.7,Ads_01_23061568,1573318800,1573979870.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000005CDF1D306A05A401C9BC15C8FF42540,1.0,2020-04-13 04:03:02.243029,1,8.0,False,2.0,915495779.0,b137c2760fb654de1db64cf5c63567a0,1.0,,2.0,0.0,60464a135cf0a538f8c867ac,10.9778913,106.4934799,Huyện Củ Chi
+2243,60464d225cf0a538f8c89249,604330f2886de23638256377,291915,6.0,https://landber.com/tin-dang/Ads_01_23867598,Nhà đất vườn 1000m2 tại Củ Chi cần bán,"Nhà vườn đẹp tại Củ Chi cần bán. KDC hiện hữu sát địa bàn Hóc Môn, thích hợp làm biệt thự, khu nghỉ dưỡng, trang trại mô hình vườn ao chuồng, trồng cây thả cá, đường ô tô vào tận cửa.
+
+
+Diện tích 1000m2 có sổ. Giá đẹp 4tỷ5 đã bao thuế phí. Liên hệ: 0932759123.",123,an phú trung,,,,4 phòng ngủ,,1.0,5.0,1.0,2.0,4500000000,0,2.0,1.0,6.0,{2},"{0,0}",,11.1118201829069,106.50604218890498,"(106.506042188905,11.1118201829069)",0.0,,1000.0,Ads_01_23867598,1576170000,1578686570.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000AAEFC6FE62A05A40693CB97E40392640,1.0,2020-04-13 09:14:02.723413,1,8.0,False,2.0,932759123.0,97ab0bb6000312e2c7ff7d1644dec2ad,1.0,,2.0,0.0,60464a135cf0a538f8c867ad,10.7745965,106.6679542,Huyện Củ Chi
+2244,60464d225cf0a538f8c8924a,604330f2886de23638256379,296987,6.0,https://landber.com/tin-dang/Ads_01_23878753,"Bán nhà 1 trệt 1 lầu 85m2 Suối Lội, Củ Chi, xây dựng tự do, SHR. Giá: 1 tỷ LH: 0388503423","Tôi cần bán gấp căn nhà 1 trệt 1 lầu 85m2 ở đường Suối Lội, Tân Thông Hội, Củ Chi.
+- Diện tích: 5x17 = 85m2 (xây dựng hết đất).
+
+- Gía: 1 tỷ.
+- Sổ hồng riêng, xây dựng tự do, pháp lý rõ ràng, sang tên công chứng ngay.
+
+- Nhà xây 1 trệt 1 lầu: 3 phòng ngủ, 2 WC, 1 bếp.
+- Đường trải nhựa 8m, rộng rãi, oto quay đầu thoải mái.
+- Xung quanh dân cư đông đúc gần chợ,.. Thích hợp cho việc đầu tư kinh doanh hoặc ở đều thuận tiện.
+- Trong vòng bán kính 1km có đầy đủ tiện ích: Điện máy xanh, chợ, Thế Giới Di Động,...
+* Cách QL22 800m.
+* Cách HL2 300m.
+* Lên 200m là trường Trung Cấp Sài Gòn.
+* Đối diện với nhà là Trường THPT Tân Thông Hội.
+Thiện chí bán gấp! Bán nhanh!
+- LH: 0388503423 gặp Thúy đi xem nhà ngay.",Suối Lội,tân thông hội,"chợ, chợ, trường Trung Cấp, Trường THPT","Điện máy xanh, Thế Giới Di Động, QL 22, HL 2, trường Trung Cấp Sài Gòn, Trường THPT Tân Thông Hội",dân cư đông đúc,"3 phòng ngủ, 2 WC, 1 bếp",,1.0,5.0,1.0,2.0,1000000000,0,3.0,2.0,6.0,{2},"{5,17}",,10.957593023141401,106.52765772760799,"(106.527657727608,10.9575930231414)",16000000.0,,85.0,Ads_01_23878753,1582650000,1578691729.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000B8E3EA24C5A15A40308AFAA149EA2540,1.0,2020-04-13 02:33:02.67187,2,7.0,False,2.0,388503423.0,8446bc260da4aed0e68e1ef9bdcee205,3.0,,2.0,0.0,60464a135cf0a538f8c867ae,10.9593481,106.5284969,Huyện Củ Chi
+2245,60464d225cf0a538f8c8924b,604330f2886de2363825637f,307067,6.0,https://landber.com/tin-dang/Ads_01_24039739,"Nhà mặt tiền nhựa Võ Thị Hồng, xã Trung An, Củ Chi","Bán nhà mặt tiền đường nhựa số 84 Võ Thị Hồng, xã Trung An, Củ Chi TP. HCM, diện tích 6.15 x 18.6m, TDT 120.5m2. Nhà mới xây rất đẹp, gần trường học Trung An, gần chợ, cách ủy ban xã 500m, khu dân cư đông thuận tiện kinh doanh buôn bán, cho thuê.
+Giá: 3.3 tỷ (không tiếp cò lái).
+
+Liên hệ: Anh Phước (chính chủ).
+ĐT: 0989002885.",Võ Thị Hồng,trung an,"trường học, chợ, ủy ban xã",trường Trung An,đông thuận,2 phòng ngủ,Số 84,1.0,5.0,1.0,2.0,3300000000,0,2.0,1.0,1.0,"{2,1}","{6.15,18.6}",84.0,10.989426288347197,106.59040635830401,"(106.590406358304,10.9894262883472)",0.0,,120.5,Ads_01_24039739,1578157200,1578702342.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000FB10C037C9A55A4015821C1596FA2540,1.0,2020-04-13 04:21:01.448466,1,8.0,False,3.0,989002885.0,166cdca567fffdcca69a4ed4b1a817dd,1.0,,2.0,0.0,60464a135cf0a538f8c867af,10.9980409,106.5959847,Huyện Củ Chi
+2246,60464d225cf0a538f8c8924c,604330f2886de23638256386,762711,6.0,https://batdongsan.com.vn/ban-nha-rieng-xa-tan-an-hoi/ban-gap-lo-dat-co-san-cap-4-ngay-kcn-tay-bac-cu-chi-200m2-duong-12m-gia-1-ti-250-pr25309070,"Bán gấp lô đất có sẵn nhà cấp 4 ngay KCN Tây Bắc Củ Chi 200m2, đường 12m, giá 1 tỷ 250",Cần bán gấp!<br/>Lô đất có sẵn nhà cấp 4.<br/>Mặt tiện đừơng nhựa 12m ngay khu công nghiệp Tây Bắc.<br/>Dt: 10x20 nhà đẹp sân vườn đang cho thuê.<br/>Giá ngộp 1ty250.<br/>Phone/zalo: 0903676024 Mr Việt.,,,"KCN, khu công nghiệp","KCN Tây Bắc, khu công nghiệp Tây Bắc, br / >",,,,1.0,5.0,5.0,2.0,1250000000,1250000000,2.0,1.0,0.0,{1},"{10,20}",,10.9737916911711,106.484278214863,"(106.484278214863,10.9737916911711)",6250000.0,,200.0,bdscomvn_25309070,1589370807,1589346202.0,2020-06-30 10:30:13.562386,0.0,0.0,0101000020E6100000FCBF0D6AFE9E5A40A06415D394F22540,0.0,,0,0.0,False,2.0,903676024.0,c91ca2e5495fe51b2a39fb74e6f2d5a8,1.0,,1.0,0.0,60464a135cf0a538f8c867b0,10.76292,106.6696593,Huyện Củ Chi
+2247,60464d225cf0a538f8c8924d,604330f2886de23638256389,599845,3.0,https://batdongsan.com.vn/ban-nha-rieng-xa-trung-an/b-g-cong-ty-samho-pr25139880,Bán nhà xã Trung An gần công ty Samho,"Nhà 416 có sổ hồng riêng, thổ cư, quy hoạch khu dân cư hiện hữu, gần công ty Samho cách ngã tư Tân Quy 1km, nhiều tiện ích như trường học, chợ, trung tâm thương mại Satra Tân Quy. Chính chủ bán thiện chí mua liên hệ 0352868228. Cảm ơn!",,trung an,"công ty, công ty, ngã tư, trường học, chợ, trung tâm thương mại","công ty Samho, công ty Samho, ngã tư Tân Quy, trung tâm thương mại Satra Tân Quy",,,,1.0,5.0,1.0,2.0,1350000000,0,3.0,1.0,6.0,{2},"{0,0}",,11.0153785200211,106.591193907571,"(106.591193907571,106.591193907571)",0.0,,64.0,bdscomvn_25139880,1586539604,1586491948.0,2020-04-10 11:13:02.268424,2.0,3.6,0101000020E610000016A7F81ED6A55A40461A81B1DF072640,1.0,2020-04-10 11:14:00.725653,1,8.0,False,3.0,352868228.0,0655384d61595c5e7b176e7cf565d8da,1.0,,0.0,0.0,60464a135cf0a538f8c867b1,10.7750386,106.6726686,Huyện Củ Chi
+2248,60464d225cf0a538f8c8924e,604330f2886de2363825638b,459541,6.0,https://landber.com/tin-dang/Ads_03_5798561,"bán dãy trọ 180m2,ngay Mt đường nguyễn Thị Se ,Tân Thông Hội,Củ Chi,giá 1 tỷ 550 triệu","bán dãy trọ 10 phòng và 1 kiot đang kinh doanh ổn định,nằm ngay trung tâm xã Tân Thông hội,nằm ngay ngã 3 đường Nguyễn Thị Se và Nguyễn Thị Nhúng,cách quốc lộ 22 500m,khu dân cư hiện hữu đã hình thành từ lâu.
+
+ngang 6m dài 30m,phòng xây kiên cố có gác rộng rãi,diện tích phòng 15m2,giá đang cho thuê 1.2 triệu/tháng.thu nhập hơn 12 triệu/tháng.
+
+xung quanh tiện ích đầy đủ,cách bệnh viện Xuyên Á 1,5km.coopmar,công viên và dịch vụ vui chơi giải trí.
+khách liên hệ ngay để gặp chủ nhà trao đổi và làm thủ tục mua bán.",Nguyễn Thị Se,tân thông hội,"ngã 3, bệnh viện, công viên, dịch vụ vui chơi","Nguyễn Thị Se, Nguyễn Thị Nhúng, quốc lộ 22, bệnh viện Xuyên Á",,"10 phòng, 1 kiot",,1.0,5.0,5.0,2.0,1550000000,1200000,2.0,1.0,6.0,"{2,1}","{0,0}",,10.9468271043713,106.51102538805901,"(106.511025388059,10.9468271043713)",13378130.8570681,,180.0,Ads_03_5798561,1582390800,1582410200.0,2020-02-23 05:24:01.814751,3.0,3.6,0101000020E6100000FA48D4A3B4A05A40807BB085C6E42540,1.0,2020-04-13 09:10:01.681437,6,7.0,False,1.0,,533dd9e9ee54124229bb68447b54cda0,1.0,,0.0,0.0,60464a135cf0a538f8c867b2,10.7768549,106.6809399,Huyện Củ Chi
+2249,60464d225cf0a538f8c8924f,604330f2886de23638256393,619651,3.0,https://batdongsan.com.vn/cho-thue-nha-rieng-duong-nguyen-thi-ranh-xa-tan-an-hoi/chinh-chu-cho-so-94-cu-chi-tp-hcm-pr24954526,"Chính chủ cho thuê nhà số 94 đường Nguyễn Thị Rành, Xã Tân An Hội, Củ Chi, TP. HCM","Chính chủ cho thuê nhà số 94 đường Nguyễn Thị Rành, Xã Tân An Hội, Củ Chi, TP. HCM.<br/>Giá Thuê 15tr/tháng.<br/>- Diện tích 250m2 (10x25m).<br/>- Diện tích sân 100m2 (10x10m).<br/>+ Vị trí: Đường rộng, giao thông đi lại khá thuận tiện, an ninh cực tốt.<br/>+ Tiện ích: Gần trường học, thích hợp làm nhà kho. Xưởng...<br/>- Điện nước riêng + Khuôn viên riêng.<br/>Nguyễn Thị Rành, Tân An Hội, H. Củ Chi, TP HCM.",Nguyễn Thị Rành,tân an hội,trường học,,"giao thông đi lại khá thuận tiện, an ninh",,,1.0,5.0,5.0,2.0,15000000,15000000,2.0,1.0,6.0,{2},"{10,25}",94.0,10.9930830236712,106.468654082062,"(106.468654082062,106.468654082062)",1599081.8668707,,250.0,bdscomvn_24954526,1586970553,1586923606.0,2020-04-15 11:07:03.343988,2.0,3.6,0101000020E610000016E6B06DFE9D5A40E6C2C96075FC2540,1.0,2020-04-15 11:08:01.209918,2,7.0,True,1.0,,c38e124b406dae7c807e18f3eba3bff5,1.0,,0.0,0.0,60464a135cf0a538f8c867b3,11.0555319,106.4824805,Huyện Củ Chi
+2250,60464d225cf0a538f8c89250,604330f2886de23638256397,642247,6.0,https://landber.com/tin-dang/Ads_01_25191745,"Bán nhà mặt tiền đường Bến Than, Củ Chi góc ngã tư Hoà Phú, 3x16=48m2, giá 1tỷ5","Bán nhà mặt tiền đường Bến Than, Củ Chi ngang 3x16 = 48m2.
+Sổ hồng riêng thổ cư 100%, khu dân cư đông đúc, buôn bán sầm uất.
+
+Nhà nằm ngay mặt tiền đường 12m tiện kinh doanh buôn bán.
+Đang cho thuê 3tr5, nhà mới sửa chữa nên rất mới.
+
+Nhà nằm ngay vị trí đắc địa (ngã tư Hoà Phú).
+Cách chợ 20m, trường học 30m, ủy ban 10m (phía sau là ủy ban xã nên rất thoáng.
+Số nhà: 323 đường Bến Than, Hoà Phú, Củ Chi.
+Liên hệ: 0907755822 ToTo.
+Giá 1tỷ5.
+
+Thông tin pháp lý: Đã sổ hồng thổ cư 100%.",Bến Than,hòa phú,"ngã tư, ngã tư, chợ, trường học, ủy ban, ủy ban xã","ngã tư Hoà Phú, ngã tư Hoà Phú","đông đúc, sầm uất",1 phòng ngủ,323,1.0,5.0,5.0,2.0,1500000000,3500000,3.0,1.0,1.0,"{2,1}","{3,16}",323.0,10.970534179578099,106.613725751517,"(106.613725751517,106.613725751517)",31250000.0,,48.0,Ads_01_25191745,1587315600,1587327207.0,2020-04-20 03:25:04.192807,0.0,0.0,0101000020E6100000B7DE5F4847A75A4060E021DBE9F02540,0.0,,0,0.0,False,2.0,,5a3e94ba574678dc7d6ba60b1c1b060e,1.0,,0.0,0.0,60464a135cf0a538f8c867b4,10.7736154,106.7000035,Huyện Củ Chi
+2251,60464d225cf0a538f8c89251,604330f2886de236382563aa,390511,6.0,https://landber.com/tin-dang/Ads_01_22887380,"350m2 trọ 20 phòng 2 ki ốt Bùi Thị He, Củ Chi, 490tr","Chính chủ cần bán dãy trọ 20 phòng (2 ki ốt), hành lang 2m, 1/ đường Bùi Thị He, đường nhựa 5m.
+Diện tích tổng: 10 x 35m = 350m2, thổ cư 255m2, sổ hồng riêng bao sang tên công chứng.
+
+2 dãy phòng trọ. 9 phòng mỗi phòng 4x3.5m, có gác lửng, 2 ki ốt DT 4x5m.
+2kiot đang cho thuê giá 2 triệu 500/ tháng, phòng thường 1tr500/tháng. Tổng thu nhập 30 tr/tháng.
+
+- Sổ hồng riêng (hỗ trợ hoàn toàn thủ tục).
+- Giá TT 490 triệu (thương lượng bớt chút lộc cho ngời có thiện chí mua).
+Thông tin chi tiết liên hệ gấp gặp A Phúc đi xem trọ trong tuần này.",Bùi Thị He,củ chi,,,,2 phòng ngủ,,1.0,5.0,5.0,2.0,490000000,2500000,3.0,1.0,6.0,{1},"{10,35}",1.0,10.972954926125,106.48794940228001,"(106.48794940228,10.972954926125)",732738.095238095,,350.0,Ads_01_22887380,1581440400,1581482997.0,2020-02-12 11:50:01.845151,9.1,3.6,0101000020E61000006B3921903A9F5A40D860E82527F22540,1.0,2020-04-13 00:58:02.086036,11,7.0,False,1.0,,038def8cf94ec0042e0d9ec208ce58db,1.0,,0.0,0.0,60464a135cf0a538f8c867b5,10.7745965,106.6679542,Huyện Củ Chi
+2252,60464d225cf0a538f8c89252,604330f2886de236382563ab,345461,6.0,https://landber.com/tin-dang/Ads_01_24061273,"Chính chủ bán gấp nhà tại xã Tân Thông Hội, huyện Củ Chi, LH: 0977533881","Bán gấp nhà vườn rộng 9,40m dài 54m, 495m2 thổ cư 200m2 mới xây dựng năm 2018, sổ hồng giấy tờ chính chủ.
+Vị trí: Cách QL22 600m ngay bệnh viện Xuyên Á.
+
+Giá 4 tỷ còn thương lượng (HH 2% cho người giới thiệu).
+Liên hệ: 0977533881.",,tân thông hội,bệnh viện,"QL 22, bệnh viện Xuyên Á",,,,1.0,5.0,1.0,2.0,4000000000,0,3.0,1.0,6.0,{2},"{0,0}",,10.9500155913444,106.50976453074301,"(106.509764530743,10.9500155913444)",13378130.8570681,,495.0,Ads_01_24061273,1578502800,1578734341.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000D40C69FB9FA05A405E078F7168E62540,1.0,2020-04-13 00:58:02.070593,2,7.0,False,3.0,977533881.0,5014457b687219478adbe1bc41a4c1e2,1.0,,0.0,0.0,60464a135cf0a538f8c867b6,10.7745965,106.6679542,Huyện Củ Chi
+2253,60464d225cf0a538f8c89253,604330f2886de236382563b0,491110,6.0,https://landber.com/tin-dang/Ads_03_4899105,Cần ra gấp căn nhà đep đường 509 Nhuận Đức Củ Chi,"Cần ra gấp căn nhà đep đường 509 Nhuận Đức Củ Chi. giá chỉ 2,2 tỷ 
+
+- Thích hợp đầu tư 
+
+- nhà 100 m2 nằm trên nền đất 514 m2 
+- măt tiền ngang 10m. 
+- Khu dân cư gần UBND, xã trường học, cty xí nghiệp. 
+LH ngay Lam",Nhuận Đức,nhuận đức,"UBND, trường học, cty, xí nghiệp",,,3 phòng ngủ,,1.0,5.0,1.0,2.0,2200000000,0,2.0,1.0,6.0,{2},"{0,0}",,11.040561251098303,106.51028475214198,"(106.510284752142,11.0405612510983)",1850000.0,,1000.0,Ads_03_4899105,1583082000,1583090557.0,2020-03-02 02:23:01.376799,2.0,3.6,0101000020E61000005E866081A8A05A4073E7BD71C4142640,1.0,2020-04-13 12:42:02.374184,2,7.0,False,2.0,,89e6043defff9fbc7f9223fda1324a5c,2.0,,0.0,0.0,60464a135cf0a538f8c867b7,10.7745965,106.6679542,Huyện Củ Chi
+2254,60464d225cf0a538f8c89254,604330f2886de236382563b3,417384,6.0,https://landber.com/tin-dang/Ads_01_23964147,"Cần bán gấp nhà cấp 4 đường Hồ Văn Tắng, Củ Chi, 120m2, giá 1 tỷ. SHR chính chủ bán 0901066621","Cần bán gấp căn nhà cấp 4 mặt tiền Hồ Văn Tắng, Củ Chi - cách ngã tư giao với Hương lộ 2 1km.
+- Diện tích: 6x20m, tổng diện tích 120m2.
+
+- Kết cấu nhà kiên cố, còn mới. Gồm 1 phòng khách, 2 phòng ngủ, 1 bếp lớn và 1 WC, có lối thoát hiểm sau nhà.
+- Pháp lý: Đầy đủ giấy tờ theo quy định của pháp luật.
+
+- Tiện ích: Dân cư đông đúc, gần trường học các cấp, gần chợ, thuận tiện để xây ở, kinh doanh hoặc cho thuê,...
+- Giá: 1 tỷ còn thương lượng.
+Liên hệ: 0901066621 (A Lộc) để đi xem.",Hồ Văn Tắng,tân thông hội,"ngã tư, trường học, chợ",Hương lộ 2,Dân cư đông đúc,2 phòng ngủ,,1.0,5.0,1.0,2.0,1000000000,0,3.0,1.0,1.0,"{2,1}","{6,20}",4.0,10.946925109432303,106.511246527675,"(106.511246527675,10.9469251094323)",23479311.8366085,,120.0,Ads_01_23964147,1581699600,1581750757.0,2020-02-15 14:13:01.902095,2.0,3.6,0101000020E6100000C0235B43B8A05A40B48B315ED3E42540,1.0,2020-04-13 07:21:02.784434,2,7.0,False,2.0,901066621.0,4f1e910d8025a0296db012c93e7806a7,1.0,,0.0,0.0,60464a135cf0a538f8c867b8,10.9699906,106.5581451,Huyện Củ Chi
+2255,60464d225cf0a538f8c89255,604330f2886de236382563bb,699316,6.0,https://landber.com/tin-dang/Ads_01_25353634,"Chung cư mini kdc Xuyên Á dt: 35m2, giá 295tr/căn tặng nội thất 100% giá thật, sở hữu vĩnh viễn","- Tặng ngay nội thất trọn gói chỉ 295 triệu 100% giá thật.
+
+
+
+- Tháng 12/2020 nhận nhà.
+- Mua ngay bây giờ được giá: 295 triệu, diện tích: 30 - 35m2: 1 trệt 1 lửng sở hữu vĩnh viễn.
+- Bàn giao full nội thất liền tường: Sofa + tivi + nệm êm + bếp từ + tủ bếp + sàn lửng lót gỗ.
+- 1 block gồm 5 tầng, 1 tầng hầm gửi xe + thang máy.
+- Thanh toán: 50%.
+(Chỉ cần 145 triệu đã sở hữu được căn hộ đẹp mơ ước) còn lại góp 12 tháng 0% lãi suất.
+Xem hình nhà mẫu bên dưới!
+
+- Đầu tư sang tay giai đoạn 1, hoặc cho công nhân thuê lại Khu vực tập trung công nhân đông nhất khu vực.
+
+* Vị trí: Cách Cầu Xáng 2 km, cách trung tâm thành phố 30 phút.
+
+* nằm trong khu dân cư - Khu Côncg Nghiệp Tân Đức, Cách Đại Học Tân Tạo 5p đi bộ
+
+* Tiện ích.
+- Trong khu công nghiệp Tân đỨC., KCN Lê Minh Xuân, KCN đức Hòa, Dân cư đông Đúc, nhu cầu thuê nhà cao .
+- Gần bệnh viện chợ rẫy II.
+- Giáp ranh với TP. HCM 2 km. về Boong chen tân tạo 12p.
+- TGDĐ, Bách Hóa xanh, coop mart, công viên, trung tâm thể dục thể thao, hẹ ethoongs ngân Hàng đầy đủ.
+- 2 thang máy.
+- Hầm gửi xe.
+- Hệ thống camera quan sát, Hệ thống báo cháy, Hệ thống cửa vân tay, thông minh.
+
+Liên hệ tư vấn trực tiếp: 0935137***- Nghị Chuyên viên tư vấn.
+P/s: Có xe đưa đón tận nhà.
+
+Chiết khấu ngay 5% cho khách hàng đầu tư sỉ trong mở bán đợt 1 nhé.
+Nhanh tay liên hệ em để tư vấn thêm chi tiết ạ.
+Thông tin pháp lý: Đã có sổ hồng.",,,"Khu Côncg Nghiệp, Đại Học, khu công nghiệp, KCN, KCN, bệnh viện, Boong chen, công viên, trung tâm thể dục thể thao, ethoongs ngân Hàng","Cầu Xáng, Khu Côncg Nghiệp Tân Đức, Đại Học Tân Tạo, khu công nghiệp Tân đỨC, KCN Lê Minh Xuân, KCN đức Hòa, bệnh viện chợ rẫy II, TP  HCM, Boong chen tân tạo, Bách Hóa xanh, coop mart",đông Đúc,,kdc Xuyên Á,1.0,5.0,1.0,2.0,295000000,0,3.0,1.5,6.0,{2},"{0,0}",,11.006750641856,106.513281641762,"(106.513281641762,106.513281641762)",8428571.42857143,,35.0,Ads_01_25353634,1588870800,1588900332.0,2020-05-08 08:24:01.666267,0.0,0.0,0101000020E610000067403E9BD9A05A4024FFF3D174032640,0.0,,0,0.0,False,1.0,935137.0,b360c3ed4d8c9af92426f99081629a22,1.0,,0.0,0.0,60464a135cf0a538f8c867b9,10.7715948,106.6653836,Huyện Củ Chi
+2256,60464d225cf0a538f8c89256,604330f2886de236382563bf,698940,6.0,https://landber.com/tin-dang/Ads_03_6119377,"kẹt bán nhà cấp 4 đang cho thuê 5tr/th 120m2 đường Hương Lộ 2 Củ Chi , 1 tỷ 6","bán hoàn vốn căn nhà cấp 4 gia đình đang cho thuê 5tr/th đường Hương Lộ 2 xã Tân Thông Hội Củ Chi
+
+diện tích 120m2 5x22m , thiết kế 2p ngủ , 1 nhà vệ sinh , đường trước nhà 6m thông thuận tiện đi lại  
+
+cách chợ việt kiều 500m , đi 5p là tới bệnh viện Xuyên Á , Trường học các cấp 1,2,3 nằm trong bán kính 700m , đi 7p là tới trung tâm Thị trấn Củ Chi 
+giá bán 1 tỷ 600 triệu , có thể thương lượng nếu thiện chí muốn mua , miễn cò lái trung gian",Hương lộ 2,tân thông hội,"chợ, bệnh viện, Trường học","chợ việt kiều, bệnh viện Xuyên Á, Củ Chi",thuận tiện đi lại,2 phòng ngủ,,1.0,5.0,5.0,2.0,1600000000,5000000,2.0,1.0,6.0,{2},"{22,1205}",2.0,10.9472910611413,106.51080759595501,"(106.510807595955,106.510807595955)",13333333.3333333,,120.0,Ads_03_6119377,1588870800,1588899809.0,2020-05-08 08:04:02.229284,0.0,0.0,0101000020E610000012CB5712B1A05A403ECA7E5503E52540,0.0,,0,0.0,False,1.0,,03ce05f7871f8b967ac7c7e508798d7e,1.0,,0.0,0.0,60464a135cf0a538f8c867ba,11.01362,106.4673265,Huyện Củ Chi
+2257,60464d225cf0a538f8c89257,604330f2886de236382563c5,116361,6.0,https://landber.com/tin-dang/Ads_01_23450297,"Bán gấp khu nhà đất 228m2 Phú Hoà Đông, Củ Chi, SHR, giá 1.850 tỷ 0962716855 Lượng","- Nằm gần khu dân cư. Đường vào đường đá bi 5m ô tô ra vào được.
+- Gần chợ trường học và uỷ ban. Mất 5 phút di chuyển.
+
+- Đã có nhà cấp 4 sẵn.
+- Sổ hồng riêng, công chứng trong ngày.
+
+- Diện tích 227,8m2 đã có 42m2 thổ cư.
+- Giá 1.85 tỷ bớt lộc (chủ nhà kẹt tiền cần bán gấp).
+- Liên hệ 0962716855 gặp Lượng để xem thực tế.",,phú hòa đông,"chợ, trường học",,,,,1.0,5.0,1.0,2.0,1850000000,0,3.0,1.0,6.0,{2},"{0,0}",,11.01937252018,106.558266610872,"(106.558266610872,11.01937252018)",0.0,,227.8,Ads_01_23450297,1573664400,1574006558.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000005409E1A3BAA35A407B3AE931EB092640,1.0,2020-04-13 06:36:02.234855,1,8.0,False,3.0,962716855.0,b12fafa6095573636eb1945917cd1340,1.0,,2.0,0.0,60464a135cf0a538f8c867bb,10.7788077,106.681801,Huyện Củ Chi
+2258,60464d225cf0a538f8c89258,604330f2886de236382563c7,119981,6.0,https://landber.com/tin-dang/Ads_01_23450473,"Nhà cấp 4 Hương Lộ 2, ngay trường THPT Tân Thông Hội, Củ Chi. Sổ hồng riêng, 1 tỷ 100 triệu","Bán gấp nhà cấp 4 Hương Lộ 2, huyện Củ Chi, ngay trường THPT Tân Thông Hội.
+
+Nhà diện tích 5x18m, nhà đẹp thoáng mát, thích hợp ở hoặc cho thuê.
+
+Khu vực an ninh, không khí trong lành, gần chợ, ủy ban, trường học,...
+Sổ hồng riêng, bao sang tên công chứng.
+Giá: 1 tỷ 100 triệu
+Thông tin liên hệ:Thảo 0347.896.496 (không tiếp môi giới)",Hương lộ 2,tân thông hội,"trường THPT, trường THPT, chợ, ủy ban, trường học","trường THPT Tân Thông Hội, Củ Chi, trường THPT Tân Thông Hội","an ninh, trong lành",,,1.0,5.0,1.0,2.0,1100000000,0,3.0,1.0,6.0,"{2,1}","{5,18}",4.0,10.9632232952583,106.52332692371799,"(106.523326923718,10.9632232952583)",16000000.0,,90.0,Ads_01_23450473,1588611600,1574004145.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000079F35307EA15A407FC28F9A2BED2540,1.0,2020-04-13 12:00:01.41243,2,7.0,False,2.0,347896496.0,f03722182250bb5453d5adaf8783ae9b,3.0,,2.0,0.0,60464a135cf0a538f8c867bc,10.7698714,106.6129324,Huyện Củ Chi
+2259,60464d225cf0a538f8c89259,604330f2886de236382563d3,339141,6.0,https://landber.com/tin-dang/Ads_01_23866914,"Chính chủ cần bán nhà DT 48m2 Bình Mỹ, Củ Chi 1 trệt 1 lầu giá 870 triệu. Liên hệ 0904589137","Chính chủ cần bán nhà Bình Mỹ, Củ Chi, DT 48m2, ngang 4m, dài 12m. Nhà mới xây kiểu phong cách mới hiện đại, 1 trệt 1 lầu, 2PN, 2 WC, phòng khách, bếp. Nhà đẹp, không gian thoáng mát, yên tĩnh, khu dân cư an ninh.
+Đường trước nhà rộng 5m, xe ô tô vào tận cửa, thuận tiện giao thông.
+
+Cách đường lớn 70m, Đường tỉnh lộ 9 đi vào 70m, cách Ủy ban xã Bình Mỹ 2km, gần trường học.
+Giấy phép xây dựng, sổ hồng chung.
+
+Giá bán 870 triệu, cần ngươi thiện chí mua, miễn MG, quảng cáo.
+Liên hệ chính chủ: 0904589137.",,bình mỹ,"Ủy ban xã, trường học","tỉnh lộ 9, Ủy ban xã Bình Mỹ","an ninh, thuận tiện giao thông",2 phòng ngủ,,1.0,5.0,1.0,2.0,870000000,0,1.0,2.0,6.0,{2},"{0,0}",,10.9456422320111,106.63710070021601,"(106.637100700216,10.9456422320111)",0.0,,48.0,Ads_01_23866914,1578502800,1578734791.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000D7EB0342C6A85A409868F8372BE42540,1.0,2020-04-13 02:06:01.370324,1,8.0,False,3.0,904589137.0,bff375f6933df4f5856439de1f744cf4,1.0,,0.0,0.0,60464a135cf0a538f8c867bd,10.7745965,106.6679542,Huyện Củ Chi
+2260,60464d225cf0a538f8c8925a,604330f2886de236382563d4,484835,6.0,https://landber.com/tin-dang/Ads_03_5743475,"Bán gấp dãy trọ 12p 300m2 tỉnh lộ 8, SHR giá 655tr Tại Củ Chi","Cần vốn kinh doanh nên gia đình tôi cần bán gấp 2kiot 12 phòng trọ nằm trên đường tỉnh lộ 8 gần UBND xã Tân An Hội. Củ Chi. Diện tích 300m2 chia thành 2 dãy 10x30m. Nằm liền kề nhiều khu cn, Khu dân cư đông đúc. Hiện đang cho thuê kín phòng thu nhập trung bình 15tr/thang.
+
+Nhà vừa mới xây năm 2018 nên còn rất mới. Giá bán 655 triệu, có bớt cho anh chị có thiện chí ! Miễn cò. Xin cảm ơn !",Tỉnh Lộ 8,tân an hội,UBND xã,UBND xã Tân An Hội,đông đúc,16 phòng ngủ,,1.0,5.0,5.0,2.0,655000000,15000000,3.0,1.0,6.0,{1},"{10,30}",,10.9670794282408,106.479810887662,"(106.479810887662,10.9670794282408)",3644444.44444444,,300.0,Ads_03_5743475,1582909200,1582947079.0,2020-02-29 10:32:04.23009,9.5,3.6,0101000020E610000059B1B938B59E5A406DDBE90825EF2540,1.0,2020-04-13 03:52:01.761541,11,7.0,True,1.0,,73f4797b48e34aed3781216e1432d9e6,1.0,,0.0,0.0,60464a135cf0a538f8c867be,10.9685117,106.4868369,Huyện Củ Chi
+2261,60464d225cf0a538f8c8925b,604330f2886de236382563d9,707225,3.0,https://batdongsan.com.vn/ban-nha-rieng-xa-trung-an/-moi-dep-cu-chi-vua-o-vua-cho-thue-thu-nhap-thg-16trieu-thg-gia-5-2-ty-pr25366579,"Nhà mới đẹp xã Trung An, Củ Chi.VỪA Ở VỪA CHO THUÊ .Thu nhập tháng 16triệu /tháng.giá 5.2 tỷ ","CẦN TIỀN GẤP nhà mới đẹp xã Trung An Củ Chi.đang giá 5.4tỷ giảm còn 5.2tỷ .VỪA Ở VỪA CHO THUÊ .<br/>Thu nhập tháng 16tr<br/>Diện tích 8x42(317m2) thổ cư 262m2<br/>Đường nhựa đông dân cư ngay gần ngã tư Tân Quy, thuận tiện giao thông đi về các tỉnh Bình Dương, Tây Ninh, Long An .lh:0987.95.3738",,trung an,ngã tư,"ngã tư Tân Quy, Bình Dương, Tây Ninh, Long An",đông dân cư,,,1.0,5.0,5.0,2.0,5200000000,5400000000,2.0,1.0,6.0,"{2,1}","{8,42}",,11.01530838184,106.591145335025,"(106.591145335025,106.591145335025)",16403785.488959,,317.0,bdscomvn_25366579,1588981740,1588957419.0,2020-05-09 00:04:02.966556,0.0,0.0,0101000020E610000041473E53D5A55A4005B70E80D6072640,0.0,,0,0.0,False,2.0,987953738.0,713d62da75a7b70d19039dcb8f207a57,2.0,,0.0,0.0,60464a135cf0a538f8c867bf,10.7728451,106.6698667,Huyện Củ Chi
+2262,60464d225cf0a538f8c8925c,604330f2886de236382563e9,96642,6.0,https://landber.com/tin-dang/Ads_01_23464455,"Bán căn nhà Cấp 4 ngã 4 Tỉnh Lộ 15 và Tỉnh Lộ 7, mặt tiền kinh doanh tốt","Căn nhà nằm trên mặt tiền đường nhựa 7m hiện hữu, đi 700m là đụng ngã 4 của đường Tỉnh Lộ 15 giao Tỉnh Lộ 7
+
+Hai bên nhà cửa đông, tập trung buôn bán rất tốt
+
+Diện tích 160m2, giá bán từ chủ 1 tỷ 210, bao phí làm giấy
+Sổ trực tiếp, lh số 0969.531.736",Tỉnh lộ 15,phú hòa đông,ngã 4,"Tỉnh Lộ 7, Tỉnh Lộ 15, Tỉnh Lộ 7",đông,1 phòng ngủ,,1.0,5.0,1.0,2.0,1210000000,0,2.0,1.0,1.0,{2},"{0,0}",4.0,11.022305325394402,106.564432547674,"(106.564432547674,11.0223053253944)",0.0,,160.0,Ads_01_23464455,1573750800,1574019725.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000009343B1A91FA45A400931869A6B0B2640,1.0,2020-04-13 13:33:01.342025,1,8.0,False,3.0,969531736.0,e91b8db1364de026d1ce21963ec8bdb3,1.0,,2.0,0.0,60464a135cf0a538f8c867c0,10.9221191,106.6009633,Huyện Củ Chi
+2263,60464d225cf0a538f8c8925d,604330f2886de236382563ef,414435,6.0,https://landber.com/tin-dang/Ads_01_24385149,"Gia đình cần bán căn nhà 1 trệt 1 gác mặt tiền Hương Lộ 2, Củ Chi, 100m2 sổ hồng riêng giá 1 tỷ 3","Gia đình tôi cần bán gấp 1 căn nhà cấp 4 đường Hương Lộ 2, Củ Chi, cách chợ Việt Kiều 600m.
+
+Diện tích nhà 5x20m (100m2) 1 trệt 1 gác lửng, phía trước đang cho thuê có gác lửng và 1 toilet hiện đang cho thuê 6tr/tháng, phía sau có 3 phòng đang làm trọ cho thuê 1tr3 / tháng, tháng thu nhập trên 10tr, có sân phơi và chỗ để xe, gần chợ và dân cư đông đúc thích hợp kinh doanh tại gia hoặc xây trọ kinh doanh.
+
+Nhà đã có sổ hồng riêng, đã hoàn công.
+Giá tôi bán 1 tỷ 3 (tôi hỗ trợ sang tên, không thương lượng).
+Liên hệ 0906282179 gặp Hiệp trao đổi và xem giấy tờ.",Hương lộ 2,phước vĩnh an,"chợ, chợ",chợ Việt Kiều,đông đúc,4 phòng ngủ,,1.0,5.0,5.0,2.0,1300000000,6000000,3.0,1.5,1.0,"{1,2}","{5,20}",4.0,10.973223712321,106.51524356957898,"(106.515243569579,10.973223712321)",13000000.0,,100.0,Ads_01_24385149,1581699600,1581731332.0,2020-02-15 08:49:01.619439,8.8,8.0,0101000020E610000046342AC0F9A05A409138E0604AF22540,1.0,2020-04-13 04:49:01.909438,10,10.0,False,2.0,906282179.0,e71d141f53db2fe5e7d1b78606e0437a,1.0,,0.0,0.0,60464a135cf0a538f8c867c1,10.7698714,106.6129324,Huyện Củ Chi
+2264,60464d225cf0a538f8c8925e,604330f2886de23638256403,185045,6.0,https://landber.com/tin-dang/Ads_01_23265691,BÁN KHUÔN ĐẤT LỚN ĐÃ PHÂN LÔ CHI TIẾT. 7000M TẠI CỦ CHI . NGANG 135 X60M. GIÁ 40 TY TL,"BÁN KHUÔN ĐẤT LỚN ĐÃ PHÂN LÔ CHI TIẾT. 7000M TẠI CỦ CHI .
+
+- NGANG 135 X60M. 
+
+- GIÁ 40 TY TL
+LH: 0902501979",,,,,,,,1.0,5.0,1.0,2.0,40000000000,0,2.0,1.0,6.0,{2},"{0,0}",,11.0069271173749,106.513630619314,"(106.513630619314,11.0069271173749)",28680555.555555604,,7000.0,Ads_01_23265691,1572627600,1573976594.0,2020-02-12 08:49:25.145194,8.0,3.6,0101000020E6100000720BF652DFA05A4056297DF38B032640,1.0,2020-04-13 08:01:02.307299,10,7.0,True,2.0,902501979.0,165205fd4745b1d3b5b0f96816ae89d3,1.0,,2.0,0.0,60464a135cf0a538f8c867c2,10.7745965,106.6679542,Huyện Củ Chi
+2265,60464d225cf0a538f8c8925f,604330f2886de2363825641d,656498,3.0,https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-tan-thanh-dong/ban-cu-chi-mi-ni-moi-xay-noi-that-cao-cap-sang-chanh-dai-ha-gia-con-2ty800-tr-pr25149410,Bán Nhà củ chi.Nhà biệt thự mi Ni mới xây nội Thất Cao cấp sang chảnh Đại hạ giá còn 2tỷ800 tr,"Biệt thự Tân thạnh đông <br/>2,8ty là có ngay căn BT sang chảnh ,mát mẻ<br/>Biệt thự tân thạnh đông shr hoàn công đầy đủ <br/>Dt : 6x 15 <br/>Tl 15 vào 1/ ngắn đg xe tải thông giáp ranh hóc môn <br/>Giá : 2,8 tỷ ( gặp trực tiếp chủ thương lượng và có giá cho kd luôn nhé )<br/>Nhà chính chủ đứng bán bao quy hoạch và tranh chấp <br/>Đang cần tiền gấp nên hạ giá bán rẻ <br/>Liên hệ : 0762958538 Ms Hiếu",,tân thạnh đông,,"hóc môn, br /",,,,1.0,5.0,1.0,2.0,2800000000,0,2.0,1.0,6.0,{2},"{6,15}",,10.961407669444,106.59171607719,"(106.59171607719,106.59171607719)",32941176.470588204,,85.0,bdscomvn_25149410,1586676393,1586653924.0,2020-05-05 14:32:02.885796,0.0,0.0,0101000020E610000026031CADDEA55A406FC544A03DEC2540,0.0,,0,0.0,False,3.0,762958538.0,67ba0616f5afe58335b661451b0e45c0,1.0,,0.0,0.0,60464a135cf0a538f8c867c3,10.7640383,106.6740811,Huyện Củ Chi
+2266,60464d225cf0a538f8c89260,604330f2886de2363825642c,629108,3.0,https://batdongsan.com.vn/ban-nha-mat-pho-duong-ha-duy-phien-xa-binh-my/can-ban-biet-thu-vuon-mt-154-h-cu-chi-pr25125570,"Cần bán biệt thự nhà vườn MT đường 154 Hà Duy Phiên, xã Bình Mỹ, H Củ Chi","Do nhu cầu công việc tôi chuyển công tác về Q3 nên cần bán gấp căn nhà dạng biệt thự nhà vườn ở 154 Hà Duy Phiên, xã Bình Mỹ, Củ Chi.<br/>Vị trí đắc địa MT đường xe container thông thoáng thuận tiện di chuyển các quận lân cận.<br/>Sát bên UBND xã Bình Mỹ, chợ, trường học cấp 1,2...<br/>Cách cầu Rạch Tra 300, công viên thoáng đẹp mát mẻ.<br/>DT 886,3m2.<br/>Nội thất gỗ cao cấp full.<br/>Khu dân cư hiện hữu đông đúc, dân trí thức cao.<br/>Giá 11 tỷ.<br/>LH 0969788029 để biết thêm chi tiết về nhà.<br/>Cảm ơn quý khách xem tin.",Hà Duy Phiên,hà duy phiên,"UBND xã, chợ, trường học, cầu, công viên","UBND xã Bình Mỹ, cầu Rạch Tra 300","container, thông thoáng thuận tiện di chuyển, đông đúc, dân trí thức cao",4,,1.0,5.0,1.0,2.0,11000000000,0,2.0,1.0,1.0,{2},"{0,0}",154.0,10.9296228109237,106.646895287131,"(106.646895287131,106.646895287131)",38383838.3838384,tây,886.3,bdscomvn_25125570,1587188010,1587139278.0,2020-04-17 23:02:02.347857,0.0,3.4,0101000020E61000009D8A7DBB66A95A40CB106585F7DB2540,1.0,2020-04-17 23:03:00.818105,0,7.0,False,2.0,969788029.0,44316e962773f10bc940a382c6cc0d63,1.0,,0.0,0.0,60464a135cf0a538f8c867c4,10.9401742,106.6462384,Huyện Củ Chi
+2267,60464d225cf0a538f8c89261,604330f2886de2363825642d,612399,3.0,https://batdongsan.com.vn/ban-nha-rieng-duong-41-1-xa-tan-thong-hoi-1/ban-dat-co-tai-huyen-cu-chi-tphcm-5-6x18-no-hau-6-5-co-63m-tho-cu-pr23388228,"Bán đất có nhà tại Tân Thông Hội, huyện Củ Chi, TP. HCM, 5,6x18m nở hậu 6,5m, có 63m2 thổ cư","Bán gấp mảnh đất có nhà cấp 4 tại Tân Thông Hội, Huyện Củ Chi, TP Hồ Chí Minh.<br/>Diện tích 5,6x16=108m2, nở hậu 6,5m, đã có 63m2 thổ cư.<br/>Vị trí ấp Tân Thành đường Số 41 chạy vào 100m. Đường Lưu Bình Hương chạy vào 200m xe hơi chạy thoải mái. Nơi đông dân cư thích hợp để ở hoặc đầu tư. Hoặc để ở. Cách Quốc Lộ 22 vào 500m cách cầu vượt 1km. Xung quanh trường học BV ủy ban xã chợ tiện ích đầy đủ.<br/>Đất có nhà cấp 4: 2 phòng ngủ + 1 toilets + 1 gác trong nhà đồ đạt đầy đủ 2 máy lạnh, 1 tủ lạnh chỉ việc vào ở.<br/>Xung quanh dân cư đông đúc. Quy hoạch đất ở.<br/>Đường bê tông 6m xe hơi chạy thoải mái.<br/>Giá bán gấp 1tỷ850 trong tuần LH 0363538419 Mr. Nhớ xem đất.",41,,"cầu vượt, trường học BV, ủy ban xã, chợ","Số 41, Quốc Lộ 22","đông dân cư, đông đúc",2,,1.0,5.0,1.0,2.0,1850000000,0,2.0,1.0,6.0,{2},"{5.6,18}",4.0,10.967061475975699,106.506237071235,"(106.506237071235,106.506237071235)",9768328.445747802,,108.0,bdscomvn_23388228,1586811181,1586761299.0,2020-04-13 14:02:02.462847,2.0,3.6,0101000020E61000009B3E2C3066A05A401A1389AE22EF2540,1.0,2020-04-13 14:03:01.146582,1,8.0,False,2.0,363538419.0,8cb2f31d3285c8dcf3ef4c615d903b6a,1.0,,0.0,0.0,60464a135cf0a538f8c867c5,10.7745965,106.6679542,Huyện Củ Chi
+2268,60464d225cf0a538f8c89262,604330f2886de23638256430,667673,6.0,https://landber.com/tin-dang/Ads_01_25061658,"Cần bán biệt thự nhà vườn MT đường 154 Hà Duy Phiên, Bình Mỹ, Củ Chi","Nắm chủ bán biệt thự nhà vườn MT đường 154 xã Bình Mỹ, Củ Chi!
+Cách cầu Rạch Tra 300m, đường thông.
+
+Khu dân cư đông đúc thoáng mát yên tĩnh.
+Tiện ích xung quanh đầy đủ gần UBND Bình Mỹ, chợ, trạm y tế Bình Mỹ, trường học cấp 1,2...
+
+Tổng diện tích 886,3m2.
+Giá chốt 11 tỷ.
+LH 0986357039 biết thêm thông tin.
+
+Thông tin pháp lý: Sổ hồng",Hà Duy Phiên,bình mỹ,"cầu, UBND, chợ, trạm y tế, trường học cấp 1 , 2","cầu Rạch Tra, UBND Bình Mỹ, trạm y tế Bình Mỹ","đông đúc, thoáng mát, yên tĩnh",4 phòng ngủ,,1.0,5.0,1.0,2.0,11000000000,0,3.0,1.0,6.0,{2},"{0,0}",,10.9295380480492,106.64692062210199,"(106.646920622102,106.646920622102)",12411147.4669976,,886.3,Ads_01_25061658,1586365200,1586394381.0,2020-05-06 03:57:01.829921,0.0,0.0,0101000020E610000043C2C02567A95A4093843969ECDB2540,0.0,,0,0.0,False,3.0,986357039.0,508301b3258f02cc1e9e29b40f4cb25a,1.0,,0.0,0.0,60464a135cf0a538f8c867c6,10.9401742,106.6462384,Huyện Củ Chi
+2269,60464d225cf0a538f8c89263,604330f2886de2363825643e,320662,6.0,https://landber.com/tin-dang/Ads_01_24127380,"Nhà Bình Mỹ, 4x12m, 1 lầu 1 trệt đường ô tô vào tận nhà! Khu dân cư an ninh","Chính chủ gửi bán nhà 4x12m.
+Diện tích sử dụng 96m2.
+
+
+Nhà ở ấp 7 Bình Mỹ 4x12m, 1 trệt 1 lầu! Giá: 1tỷ200.
+
+Mới hoàn thiện xong, giao nhà ngay, quý khách xem nhà sớm để được chọn căn ưng ý nhất!
+Khu dân cư đông đúc.
+Cách UBND Bình Mỹ 1km.
+Gần chợ ấp 7.
+Gần trường tiểu học, mầm non... Cách vài chục mét.
+Cách Bách Hoá Xanh 300m.
+Đường ô tô vào tận nhà!
+Thuận tiện di chuyển về Bình Dương và HCM.
+Liên hệ Danh để được xem nhà! Miễn tiếp môi giới.
+0867711729.",Bình Mỹ,bình mỹ,"UBND, chợ, trường tiểu học, mầm non","UBND Bình Mỹ, chợ ấp 7, Bách Hoá Xanh, Bình Dương","an ninh, đông đúc",2 phòng ngủ,,1.0,5.0,1.0,2.0,1200000000,0,2.0,2.0,6.0,{2},"{4,12}",,10.9248205891571,106.624709566665,"(106.624709566665,10.9248205891571)",19230769.2307692,,48.0,Ads_01_24127380,1578330000,1578716064.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000B694D53DFBA75A40B931921582D92540,1.0,2020-04-13 04:04:01.779618,2,7.0,False,3.0,867711729.0,9c731c887a23cc10169e105391a67250,1.0,,2.0,0.0,60464a135cf0a538f8c867c7,10.7745965,106.6679542,Huyện Củ Chi
