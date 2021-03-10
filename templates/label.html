@@ -60,7 +60,7 @@
         data.forEach(function(d) {
             if (d.id == id){
                 var marker = new L.Marker(
-                [d.gglat,d.gglong], 
+                [d.lat_y,d.long_y], 
                 {
                 id: d.id,
                 position_street: d.position_street,
@@ -86,7 +86,7 @@
                 try{
                 counterr = counterr + 1;
                 var marker = new L.Marker(
-                [d.lat,d.long], 
+                [d.lat_y,d.long_y], 
                 {
                 id: d.id,
                 position_street: d.position_street,
@@ -109,6 +109,7 @@
                 }
                 catch(err){
                     console.log(d.id);
+                    console.log(err)
                 }
             }
             
