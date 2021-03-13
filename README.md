@@ -6,9 +6,9 @@ source .venv/bin/activate
 pip install pymongo[srv]
 python app.py
 ```
-Gán nhãn ở: http://127.0.0.1:5000/label?district={district} <br>
+Gán nhãn ở: http://127.0.0.1:5000/label?dataset={dataset}&id={id} <br>
 example: http://127.0.0.1:5000/label?id=294317&dataset=all0<br>
-Trong trường hợp tập all0 chưa phân bố đều, em đã generate ra các tập khác là all1,all2,all3,all4,all5 để anh Hùng chọn.<br>
+Trong trường hợp tập all0 chưa phân bố đều, em đã generate ra các dataset là all1,all2,all3,all4,all5 để anh Hùng chọn. Các dataset này gồm 100 pos mỗi quận<br>
 Các bước label:<br>
 Bước 1: Truy cập vào đường dẫn example, post có id=294317 sẽ được set icon khác các marker còn lại<br>
 Bước 2: Chọn marker khác và chọn lớp tương quan ứng với post có id=294317 và chọn gán nhãn, data có dạng dưới sẽ được lưu vào MongoDB<br>
