@@ -1,12 +1,23 @@
 # realestateslabel
 ```
-git clone -b picklabel https://github.com/khuongvo2305/realestateslabel
+git clone https://github.com/khuongvo2305/realestateslabel
 cd realestateslabel
 source .venv/bin/activate
 pip install pymongo[srv]
 python app.py
 ```
 Gán nhãn ở: http://127.0.0.1:5000/label?district={district}
-trong đó, district là id của quận, giá trị từ 1 đến 24
-Mỗi quận lấy 50-100 điểm đúng, chú ý điểm lấy phân phối đều trên cả quận, có hẻm và mặt tiền.
-Quang bắt đầu label quận nào thì nhăn cho anh
+example: http://127.0.0.1:5000/label?id=294317&dataset=all0
+Trong trường hợp tập all0 chưa phân bố đều, em đã generate ra các tập khác là all1,all2,all3,all4,all5 để anh Hùng chọn.
+Các bước label:
+Bước 1: Truy cập vào đường dẫn example, post có id=294317 sẽ được set icon khác các marker còn lại
+Bước 2: Chọn marker khác và chọn lớp tương quan ứng với post có id=294317 và chọn gán nhãn, data có dạng dưới sẽ được lưu vào MongoDB
+```
+_id:604c53e997e9b8d0f11c87ce
+id1:"294317"
+id2:"281974"
+class:"1"
+date:2021-03-13T05:55:53.345+00:00
+```
+Bước 3: Sau khi chọn xong các post liên quan vơi id=294317, chọn một post khác làm gốc bằng cách chọn "Gán nhãn cho BĐS này" trong pop-up của post mới hoặc thay đổi tham số id trên đường dẫn.
+
