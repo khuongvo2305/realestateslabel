@@ -1,0 +1,212 @@
+,_id_x,id,page_source,link,title,content,address_street,address_ward,surrounding,surrounding_name,surrounding_characteristics,interior_room,project,address_city,address_district,transaction_type,realestate_type,price_sell,price_rent,legal,floor,position_street,potential,area_origin,address_number,lat_x,long_x,coordinate,price_m2,orientation,area_cal,post_id,post_date,crawled_date,created_at,price_score,price_score_filter,geom,status_price_score,price_score_timestamp,comment_id,comment_filter_id,is_suspicious,created_by,contact_phone,hash_post_key,number_duplicated_post,orientation_id,done,label_cluster,_id_y,index,lat_y,long_y,district_name
+2212,604330f6886de236382579ed,141706,6,https://landber.com/tin-dang/Ads_01_23416053,"Sang lại dãy 20 phòng 160m2 đường Nguyễn Thị Sóc, Hóc Môn. Có sổ. Gía 1,45 tỷ","Dãy trọ 20 phòng đường Nguyễn Thị Sóc, Bà Điểm, Hóc Môn. Cách QL22 tầm 700m
+
+- Diện tích: 10x16m = 160m2.
+
+- Giá: 1,45 tỷ (thương lượng nhẹ).
+- Sổ hồng riêng, sang tên nhanh trong ngày.
+Được xây dựng hơn 2 năm, đang kinh doanh ổn định.Khu vực an ninh. Thu nhập tầm 28tr/tháng.
+
+Liên hệ trực tiếp Trâm: 0931.972.577.",Nguyễn Thị Sóc,bà điểm,,QL 22,an ninh,,,1.0,7.0,5.0,2.0,1450000000,28000000,3.0,1.0,6.0,{2},"{10,16}",,10.8526107253413,106.60064488055599,"(106.600644880556,10.8526107253413)",34470751.0032357,,160.0,Ads_01_23416053,1573491600,1573989509.0,2020-02-12 08:49:25.145194,9.5,3.6,0101000020E6100000C49F39F770A65A40951E9B6489B42540,1.0,2020-04-13 11:01:02.527238,11,7.0,True,2.0,931972577.0,824c5cd452efd7dad4cf6ddbcf53c554,1.0,,2.0,0.0,60484e265b19110d9fc66a00,0,10.8742154,106.6218313,Huyện Hóc Môn
+2213,604330f7886de23638257a29,413814,6,https://landber.com/tin-dang/Ads_01_21195663,"Bán gấp dãy trọ 220m2 đường Phan Văn Hớn, Hóc Môn","Cần bán gấp dãy phòng trọ 14 phòng, gần ngã ba Giồng, do không có người quản lý nên sang lại. Xây dựng năm 2018, đầy đủ giấy phép kinh doanh, hệ thống chữa cháy.
+Diện tích: 10*22m, đất thổ cư.
+
+Pháp lý: Sổ hồng riêng, bao sang tên.
+Dãy trọ gần cụm khu công nghiệp nên luôn hết phòng, gần chợ, khu dân cư đông đúc. Giá thuê phòng cao 1.2tr/phòng 12m2.
+
+Đường đã trải nhựa 10m.",Phan Văn Hớn,xuân thới thượng,"ngã ba, khu công nghiệp, chợ",ngã ba Giồng,đông đúc,14 phòng,,1.0,7.0,1.0,2.0,1200000,0,3.0,1.0,6.0,{2},"{10,22}",,10.847707720448,106.586414334612,"(106.586414334612,10.847707720448)",31118012.4089516,,220.0,Ads_01_21195663,1581699600,1581729394.0,2020-02-15 08:17:01.535774,2.0,3.6,0101000020E61000000C44FDCF87A55A4022C80FBF06B22540,1.0,2020-04-13 09:14:02.802123,2,7.0,False,2.0,,2657bfdb4aa32e8dc5909c5a6d176f1f,1.0,,0.0,0.0,60484e265b19110d9fc66a01,0,10.8306462,106.613709,Huyện Hóc Môn
+2214,604330f7886de23638257a53,462889,6,https://landber.com/tin-dang/Ads_01_24514662,"Bán căn nhà 1 trệt 1 lầu 85m2 Đường Quang Trung,Thị  Trấn Hóc Môn,Sổ hồng riêng,L/H:0375651099","Cần tiên bán gấp căn nhà Đường Quang Trung,Thị Trấn Hóc Môn.
+
+Diện tích :85m2(5x17)
+
+Pháp lý đầy đủ.
+Giá : 1 tỷ 3
+Hiện trạng nhà 1 trệt 1 lầu :Gồm 1 phòng khách ,2 Phòng ngủ, nhà vế sinh,sân để ô tô rông rải.
+Đường trước nhà 6m ,Đường thông,ô tô đi lại thuận tiện vào khu vực trung tâm thành phố.
+Xung quanh dân cư đông đúc,cách chợ Hóc Môn chỉ 3 phút đi xe.
+Các tiện ich công công hiện hữu,như ngân hàng,UBND,vvv.
+Liên hệ xem nhà :0375651099 Gặp Đồng",Quang Trung, hóc môn,"chợ, ngân hàng, UBND",chợ Hóc Môn,dân cư đông đúc,"1 phòng khách, 2 Phòng ngủ, nhà vế sinh",,1.0,7.0,1.0,2.0,1300000000,0,3.0,2.0,6.0,{2},"{5,17}",,10.888241909967403,106.59918225863501,"(106.599182258635,10.8882419099674)",31227808.691044,,85.0,Ads_01_24514662,1582477200,1582510661.0,2020-02-24 09:18:01.526438,2.0,3.6,0101000020E6100000B24B8B0059A65A40247EC4A4C7C62540,1.0,2020-04-13 09:33:02.548875,2,7.0,False,2.0,375651099.0,0c48b66f6ae3784d5f163ba5e373420a,1.0,,0.0,0.0,60484e265b19110d9fc66a02,0,10.8275627,106.6763321,Huyện Hóc Môn
+2215,604330f7886de23638257a58,468204,6,https://landber.com/tin-dang/Ads_03_5609009,NHÀ BÁN CÓ SỔ HỒNG RIÊNG KẾT CẤU 1T 1L 80M2 ĐƯỜNG LÊ THỊ HÀ ĐẶC BIỆT MUA NHÀ TẶNG FULL NỘI,"Căn nhà này tôi đang cho thuê với giá 6tr/th. Nhưng nay tôi đã lớn tuổi không quản lí được nên muốn bán nhanh lại cho anh chị có thiện chí.
+
+Nhà này tôi xây được 2 năm, còn rất mới và đẹp, kết cấu 1 trệt 1 lầu, có 2 phòng ngủ, 3WC, 1 phòng khách và 1 bếp, thiết kế rộng rãi thoáng mát.
+
+Diện tích 5x16m = 80m2 có sổ hồng riêng, mua là sang tên công chứng ngay, và đặc biệt tặng full nội thất cho anh chị nào có thiện chí.
+Khu vực này dân trí cao và rất an ninh, xung quanh dân cư hiện hữu và có nhiều cửa hàng tiện ích.
+Di chuyển đến các khu vực lân cận rất thuận tiện,
+Giá chỉ 1,5 tỷ (còn thương lượng).",Lê Thị Hà,tân xuân,cửa hàng,,"dân trí cao, an ninh",2 phòng ngủ,,1.0,7.0,5.0,2.0,1500000000,6000000,3.0,2.0,6.0,{1},"{5,16}",,10.869590677168,106.59906150423001,"(106.59906150423,10.869590677168)",20233945.7314457,,80.0,Ads_03_5609009,1582563600,1582600663.0,2020-02-25 10:18:01.627954,8.8,7.9,0101000020E61000005C3D100657A65A4095AF3EFD3ABD2540,1.0,2020-04-13 04:40:01.570798,10,10.0,False,2.0,,8ce28d425593c0a8826da4233f999068,1.0,,0.0,0.0,60484e265b19110d9fc66a03,0,10.8794954,106.5993346,Huyện Hóc Môn
+2216,604330f7886de23638257a82,613473,3,https://batdongsan.com.vn/ban-nha-rieng-duong-phan-van-hon-xa-xuan-thoi-thuong/ban-so-hong-chinh-chu-xe-hoi-quay-dau-gia-2-2-ty-lh-0906-347-827-pr25157654,"Bán nhà sồ hồng riêng chính chủ,đường xe hơi quay đầu,giá 2.2 tỷ.LH:0906.347.827","Tôi chính chủ cần bán căn nhà sổ hồng riêng.<br/>Diện tích ngang 6m dài 15m, giá 2 tỷ 2 hẻm Phan Văn Hớn- Xuân Thới Thượng - Hóc Môn.<br/>Xây 1 trệt 2 lầu.<br/>1 phòng khách, 1 bếp, 4 PN,3 toilet.<br/>Nhà hẻm xe hơi khu yên tĩnh <br/>Nhà xây để ở nên chắc chắn nội thất bao đẹp. Sáng sủa.<br/>Vợ chồng trẻ nên xây kiến trúc hiện đại rất đẹp.<br/>Dự định kinh doanh nên bán lấy tiền kinh doanh.<br/>Lh chính chủ: 0906.347.827",Phan Văn Hớn,,,,yên tĩnh,"1 phòng khách, 1 bếp, 4 PN, 3 toilet",,1.0,7.0,1.0,2.0,2200000000,0,3.0,3.0,3.0,{2},"{0,0}",,10.8631773853841,106.568650427315,"(106.568650427315,106.568650427315)",12882352.9411765,,90.0,bdscomvn_25157654,1586850216,1586801214.0,2020-04-14 01:07:01.485781,2.0,3.6,0101000020E61000003C0BC3C464A45A4024BEE162F2B92540,1.0,2020-04-14 01:08:01.122915,2,7.0,False,2.0,906347827.0,61797ae550c284aa365ec8f593c9f292,1.0,,0.0,0.0,60484e265b19110d9fc66a04,0,10.8402467,106.6000387,Huyện Hóc Môn
+2217,604330f7886de23638257aa7,487946,6,https://landber.com/tin-dang/Ads_01_23479922,"Bán nhà đất 422m2 Nhị Bình, Hóc Môn","Khung giá đất TP. HCM tăng 20% từ 2020, mua ngay kẻo lỡ!
+
+GIÁ TỐT DUY NHẤT TRONG THÁNG 3/2020:
+
+Cần sang nhượng gấp QSD đất (bán) với tổng DT 500m2, trong đó thửa đất thổ cư được công nhận 422m2 + nhà cấp 4 nằm trên thửa đất ở 96m2.
+Hẻm 5m xe hơi &amp; xe tải nhỏ, cách mặt tiền đường lớn (Bùi Công Trừng) 80 mét.
+Gần UBND xã, trạm y tế, trường cấp 1 &amp; 2, nhà thờ, chùa,...
+Cách chợ Nhị Bình 800 mét, có xe buýt đầu hẻm đi thẳng hướng về ngã 4 Ga &amp; QL1A.
+Khu dân cư yên tĩnh, thoáng mát, phù hợp ở lâu dài và nghỉ ngơi.
+Giá: 6.8 tỷ đồng (còn thương lượng với người có thiện chí), chính chủ đăng bán và không thông qua trung gian. Hình ảnh do chính chủ chụp lại, vui lòng không sao chép!
+Hỗ trợ tách sổ do diện tích lớn (nếu bên mua có nhu cầu).
+Địa chỉ: 147/18 Bùi Công Trừng, Nhị Bình, Hóc Môn, TP. HCM.
+Mọi thông tin xin liên hệ: 093.805.3398 (C. Lẹ chính chủ).
+Xin cảm ơn bạn đã xem tin đăng!",Bùi Công Trừng,nhị bình,"UBND xã, trạm y tế, trường cấp 1 & amp ; 2, nhà thờ, chùa, chợ, ngã 4 Ga","Bùi Công Trừng, chợ Nhị Bình, QL 1 A","yên tĩnh, thoáng mát",,147/18,1.0,7.0,1.0,2.0,6800000000,0,2.0,1.0,3.0,{2},"{0,0}",8.0,10.9093257021649,106.66584395359399,"(106.665843953594,10.9093257021649)",16113744.0758294,,422.0,Ads_01_23479922,1582995600,1583053835.0,2020-03-01 16:11:01.901219,2.0,3.6,0101000020E61000003B3BF52F9DAA5A40CB6B702393D12540,1.0,2020-04-13 10:45:02.697975,2,7.0,False,3.0,938053398.0,f7fb774a971556e85e6479d1356e0789,1.0,,0.0,0.0,60484e265b19110d9fc66a05,0,10.8977304,106.6891414,Huyện Hóc Môn
+2218,604330f7886de23638257ab3,297683,6,https://landber.com/tin-dang/Ads_01_20314121,"Bán nhà TK12, ấp Tiền Lân, xã Bà Điểm, huyện Hóc Môn","+ Bán nhà sổ hồng riêng, hẻm nhựa 12m số 72 đường TK12, Ấp Tiền Lân, xã Bà Điểm, H. Hóc Môn, HCM, liên hệ: 0983 12 00 77 (Tuấn chính chủ).",TK12,bà điểm,,Ấp Tiền Lân,,2 phòng ngủ,Số 72,1.0,7.0,1.0,2.0,4100000000,0,3.0,1.0,3.0,{2},"{0,0}",72.0,10.8408911067751,106.596896044993,"(106.596896044993,10.8408911067751)",26007143.015487693,,74.0,Ads_01_20314121,1577962889,1578692370.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000F616788B33A65A403931764789AE2540,1.0,2020-04-13 02:45:02.282451,1,8.0,False,1.0,983120077.0,0e800ba89261a6aaf1c4b160e59b94ad,2.0,,2.0,0.0,60484e265b19110d9fc66a06,0,10.8325833,106.5952774,Huyện Hóc Môn
+2219,604330f7886de23638257aeb,337228,6,https://landber.com/tin-dang/Ads_01_22346497,"Biệt thự 2 lầu Bà Điểm, 7.5x12m, 2 lầu, mái đúc gần chợ Cây Me, bến xe An Sương, Quận 12","Biệt thự mini gần ngã 4 An Sương, xã Bà Điểm, Hóc Môn!
+Còn cặp song sinh tuyệt đẹp mới hoàn thiện xây full DT 7.5x12m, 2 lầu, mái đúc, nội thất cao cấp, có gara xe 7 chỗ, hướng Đông Nam, khu dân cư hiện hữu, ổn định, sổ hồng riêng đã hoàn công đầy đủ!
+
+* Giá bán: 5,7 tỷ.
+* Vị trí nhà:
+
+- Đường trước vô nhà 5m.
+- Cách ngã 4 An Sương 350m.
+- Cách đường Thái Thị Giữ 500m.
+- Cách chợ Cây Me 800m.
+- Cách ngã 4 Bà Điểm 1.2km.
+- Cách cầu Tham Lương 3km.
+* Liên hệ: 0907679878 &amp; 0984781811 (BĐS Nam Phát).
+* QK xem thêm thông tin nhà đất khác tại Q12 và Hóc Môn tại VP Nhà đất Nam Phát - Bà Điểm 4 (120/4E Tây Lân - Bà Điểm - Hóc Môn).
+Nhận ký gửi nhà đất qua zalo. Xin cảm ơn!",Bà Điểm,bà điểm,"chợ, bến xe, ngã 4, ngã 4, chợ, ngã 4, cầu","chợ Cây Me, bến xe An Sương, ngã tư An Sương, ngã tư An Sương, Thái Thị Giữ, chợ Cây Me, ngã tư Bà Điểm, cầu Tham Lương",,4 phòng ngủ,,1.0,7.0,1.0,2.0,5700000000,0,3.0,3.0,0.0,{2},"{7.5,12}",,10.841291712464097,106.596883333401,"(106.596883333401,10.8412917124641)",30833533.402097303,đông - nam,90.0,Ads_01_22346497,1578502800,1578732886.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000000F1F275633A65A40D5DB8EC9BDAE2540,1.0,2020-04-13 05:20:03.107096,1,8.0,False,2.0,907679878.0,a0ed0952c42d8b76436dc5652a02e0b5,1.0,,1.0,0.0,60484e265b19110d9fc66a07,0,10.8044261,106.6602924,Huyện Hóc Môn
+2220,604330f7886de23638257b13,726598,6,https://landber.com/tin-dang/Ads_01_26012237,Cần bán gấp nhà 1 trệt 1 lầu 50m2. tại Phan Văn Hớn.SHR.Giá: 900 triệu.LH: Hợp 0967733472,"Bán gấp nhà 1 trệt 1 lầu tại ấp 5 đường Phan Văn Hớn-Hóc Môn gần chùa Quang Thọ.
+
+-Nhà xây ở nên cấu trúc kiên cố, kiến trúc thoáng mát , rộng rãi với 2 phòng ngủ 1wc, q phòng khách, 1 bếp. 
+
+-Nằm trong khu dân cư đông đúc, có đầy đủ tiện ích sinh hoạt đời sống trong phạm vi bán kính 1 km như chợ Bà Điểm, trường học các cấp, ngân hàng,...
+-Sổ hồng riêng sang tên công chứng nhanh
+-Giá: 900 triệu
+LH: Hợp 0967733472.",Phan Văn Hớn,xuân thới thượng,"chùa, chợ, trường học, ngân hàng","chùa Quang Thọ, chợ Bà Điểm",đông đúc,"2 phòng ngủ, 1 wc, phòng khách, 1 bếp",,1.0,7.0,1.0,2.0,900000000,0,3.0,2.0,0.0,{2},"{0,0}",5.0,10.848227210487199,106.58677267936199,"(106.586772679362,106.586772679362)",18000000.0,,50.0,Ads_01_26012237,1593104400,1593137172.0,2020-06-26 09:25:08.37585,0.0,0.0,0101000020E6100000D102FFAE8DA55A40453D41D64AB22540,0.0,,0,0.0,False,3.0,967733472.0,8892ace51fe42d2e1801a927e65920db,1.0,,1.0,0.0,60484e265b19110d9fc66a08,0,10.8525898,106.5842748,Huyện Hóc Môn
+2221,604330f7886de23638257b1e,752788,3,https://batdongsan.com.vn/ban-nha-rieng-duong-thai-thi-giu-xa-ba-diem/-cap-4-ap-nam-lan-huyen-hoc-mon-pr20895766,"Nhà cấp 4 đường Thái Thị Giữ, Ấp Nam Lân, Xã Bà Điểm, Huyện Hóc Môn","Nhà cấp 4 đường Thái Thị Giữ, Ấp Nam Lân, Xã Bà Điểm, Huyện Hóc Môn.<br/>Diện tích: 4.2 x 13,2m = 55,8m2. Hẻm 4m.<br/>Ngay góc Thái Thị Giữ với Bà điểm 10A, cách Phan Văn Hớn 500m. KDC đông đúc. Đầy đủ các tiện ích xung quanh: Trường học, chợ, bệnh viện...<br/>Sổ hồng riêng. Bao sang tên.<br/>Giá: 2,1 tỷ thương lượng chính chủ.<br/>Liên hệ: 0932 678 777 Mr Huy.",Thái Thị Giữ,bà điểm,"Trường học, chợ, bệnh viện","Bà điểm 10 A, Phan Văn Hớn","đông đúc, Đầy đủ các tiện ích xung quanh",2,,1.0,7.0,1.0,2.0,2100000000,0,3.0,1.0,3.0,{2},"{4.2,13.2}",4.0,10.8420944102958,106.60647640403299,"(106.606476404033,10.8420944102958)",37634408.6021505,,55.0,bdscomvn_20895766,1589940136,1589915173.0,2020-06-30 05:04:35.760055,0.0,0.0,0101000020E610000092476882D0A65A40BABAA0FF26AF2540,0.0,,0,0.0,False,3.0,932678777.0,af16b036d01647a1d8e286cce474c91f,1.0,,1.0,0.0,60484e265b19110d9fc66a09,0,10.8380992,106.6064739,Huyện Hóc Môn
+2222,604330f7886de23638257b30,739635,3,https://batdongsan.com.vn/ban-nha-rieng-duong-phan-van-hon-xa-ba-diem/villa-pho-cao-cap-1-tret-2-lau-87-7-hon-pr25773564,"Villa phố cao cấp, 1 trệt 2 lầu 87/7 Phan Văn Hớn","Villa phố cao cấp. Xây dựng kiên cố đúc 1 trệt, 2 lầu. DT 5.2x26m.<br/>Do kiến trúc sư nhiều năm kinh nghiệm thiết kế.<br/>Mới hoàn thiện, đầy đủ tiện nghi vào ở liền.<br/>Nhà 5 PN, 5WC, sân để xe hơi, giếng trời cực mát.<br/>Bên hông nhà có sân vườn, mát mẻ, để ngồi chơi ngoài trời.<br/>Nhà xây cực kỳ chắc chắn, nội ngoại thất cao cấp sang trọng.<br/>Nhà nằm trong khu dân cư cao cấp, an ninh dân trí cao, chỉ có nhà lầu...<br/>Gần trường học cấp 1, 2, 3... UB, chợ siêu thị...<br/>Nhà hàng, quán cafe, khu giải trí kế bên.<br/>Nhà mặt tiền thông tiện kinh doanh, mở công ty.<br/>Đường nhựa trước nhà 10m thông thoáng giao Thông thuận tiện đi lại.<br/>Chỉ 20p ra sân bay về trung tâm thành phố.<br/>Giá 5,2 tỷ còn thương lượng mạnh.<br/>Sổ hồng trao tay. Công chứng trong ngày.<br/>Hỗ trợ vay vốn ngân hàng.<br/>LH chính chủ 0901409626.",Phan Văn Hớn,,"trường học, 2 , 3, UB, chợ, siêu thị, Nhà hàng, quán cafe, khu giải trí, sân bay",,"cao cấp, an ninh, dân trí cao, giao Thông thuận tiện đi lại",5,,1.0,7.0,1.0,2.0,5200000000,0,3.0,3.0,3.0,{2},"{5.2,26}",12.0,10.848207069099699,106.586771020185,"(106.586771020185,106.586771020185)",38461538.4615385,,135.2,bdscomvn_25773564,1591708905,1591773245.0,2020-06-27 06:33:04.158362,0.0,0.0,0101000020E6100000D77B09A88DA55A40E1096C3248B22540,0.0,,0,0.0,False,3.0,901409626.0,02ca750fc2be073f502a108baa5f6686,1.0,,1.0,0.0,60484e265b19110d9fc66a0a,0,10.8271736,106.6246889,Huyện Hóc Môn
+2223,604330f7886de23638257b8b,64605,6,https://landber.com/tin-dang/Ads_01_22788939,"Nhà 1 trệt 1 lầu 160m2 Xuân Thới Thượng 9, sau lưng chợ Đại Hải Bà Điểm Hóc Môn","Nhà 1 trệt 1 lầu sát ngay chợ Đại Hải nhà xây dựng đẹp hiện đại sang trọng.
+Nhà thoáng mát bao gồm sân trước giếng trời thoáng mát phòng khách sang trọng phòng bếp hiện đại giếng trời nhà vệ sinh ngoài tạo không khí thoáng. Phòng ngủ bao gồm 4 phòng 1 dưới 3 phòng trên lầu 3wc.
+
+Hẻm thông ôtô vào tới nhà.
+Giá bán chỉ 3 tỷ 850 triệu.
+
+Liên hệ mình để xem nhà và cung cấp thêm nhiều căn khác nữa.",Xuân Thới Thượng 9,bà điểm,"chợ Đại Hải, chợ","chợ Đại Hải Bà Điểm, chợ Đại Hải",,4 phòng ngủ,,1.0,7.0,1.0,2.0,3850000000,0,2.0,2.0,3.0,{2},"{0,0}",,10.8527795902684,106.587952859348,"(106.587952859348,10.8527795902684)",28915538.619404804,,160.0,Ads_01_22788939,1574010000,1574067918.0,2020-02-12 08:49:25.145194,7.9,3.6,0101000020E6100000499F0705A1A55A4054CCC5869FB42540,1.0,2020-04-13 11:35:02.020278,10,7.0,True,1.0,,95050b1f47e746eff10c1c01bc6bcd67,1.0,,1.0,0.0,60484e265b19110d9fc66a0b,0,10.8531796,106.5858899,Huyện Hóc Môn
+2224,604330f7886de23638257bbf,94808,6,https://landber.com/tin-dang/Ads_01_23482648,"Nhà ở hóc môn diện tích 80m2 đường Lê Lợi, hiện đg cho thuê sẵn 5tr/ tháng,nhà dân sổ riêng","Nhà dân chính chủ muốn bán lại , nhà này diện tích :5x16=80m2 , nằm ngay trục đường chính Lê Lợi, thuận tiện di chuyển , ô tô vào tới nhà , hiện nhà này cũng đang cho thuê sẵn với giá 5 triệu / tháng. Hiện sổ hồng riêng nhà dân chính chủ đứng tên , mua sang tên ngay .
+
+Nhà này muốn bán với giá 1tỷ 3( thương lượng ) 
+
+liên hệ 0938578338 gặp chủ nhà chính chủ ( không cò lái)",Lê Lợi, hóc môn,,Lê Lợi,,3 phòng ngủ,,1.0,7.0,5.0,2.0,1300000000,5000000,3.0,1.0,6.0,{1},"{5,16}",,10.891335569672599,106.590776718654,"(106.590776718654,10.8913355696726)",15366030.7285307,,80.0,Ads_01_23482648,1573837200,1574020952.0,2020-02-12 08:49:25.145194,8.7,7.8,0101000020E6100000D8762749CFA55A40AB02C3225DC82540,1.0,2020-04-13 04:01:01.924784,10,10.0,False,3.0,938578338.0,9f0f69deec450816a551487f8983219c,1.0,,2.0,0.0,60484e265b19110d9fc66a0c,0,10.897532,106.5803093,Huyện Hóc Môn
+2225,604330f7886de23638257c14,138645,6,https://landber.com/tin-dang/Ads_02_12824899,"Bán nhà 2 mặt hẻm thông xe hơi cấp 4 đường Đồng Tâm, Trung Chánh, Hóc Môn, 4 tỷ","Tôi cần bán nhà 2 mặt hẻm thông xe hơi cấp 4 đường Đồng Tâm, Trung Chánh, Hóc Môn. DT: 4m x 21m, 86m2, nước 2 nguồn. Khu dân cư đông vui nhưng lại yên tĩnh.Vị trí nhà tiện lợi:+ Đi chợ Trung Chánh: 310m2.+ Đi lễ nhà thờ Trung Chánh: 320m2.+ Cự ly đi mua hàng hóa tại Coopmart Nguyễn Ảnh Thủ 1,1Km.+ Đi xem phim tại rạp Galaxy Trung Chánh chỉ với khoảng cách 1,4Km.+ Ngã tư An Sương tới nhà: 2,5 km. Nhà có con độ tuổi đi học sẽ tiện.+ Trường cấp 1: 150m.+ Trường cấp 2: 1km.+ Trường cấp 3: 1,2km.+ Trường cao đẳng Giao Thông Vận Tải: 1,1km. Các tuyến xe thuận tiện đi các nơi vì gần bến xe An Sương.Giá: 4 tỷ. Thương lượng nhẹ. Liên hệ: 0909.955.962. MTG. Quảng cáo đừng làm phiền dùm.","Đồng Tâm,Huyện Hóc Môn,Hồ Chí Minh",trung chánh,"chợ, lễ nhà thờ, rạp, Ngã tư, Trường, Trường cấp 2, Trường cấp 3, Trường cao đẳng, bến xe","chợ Trung Chánh, lễ nhà thờ Trung Chánh, rạp Galaxy Trung Chánh, Ngã tư An Sương, Trường cao đẳng Giao Thông Vận Tải, bến xe An Sương","đông vui, yên tĩnh",,,1.0,7.0,1.0,2.0,4000000000,0,2.0,1.0,3.0,{2},"{4,21}",4.0,10.8772734140662,106.59377424348601,"(106.593774243486,10.8772734140662)",18861002.6596904,,86.0,Ads_02_12824899,1573491600,1573991474.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000009A3EAF6500A65A4009211EFB29C12540,1.0,2020-04-13 12:53:01.447607,1,8.0,False,2.0,909955962.0,638db5ba390ea69f9a3552f991948bfc,1.0,,2.0,0.0,60484e265b19110d9fc66a0d,0,10.8634491,106.609963,Huyện Hóc Môn
+2226,604330f7886de23638257c5d,292990,6,https://landber.com/tin-dang/Ads_01_23906810,"Cần bán gấp nhà đường Xuân Thới Thượng 59, Hóc Môn, 82m2","Do chuyển chỗ ở tôi cần bán lại căn nhà cấp 4 tại ấp 7 đường Xuân Thới Thượng 59, nhà số 29/29. Đường nhựa trước nhà 10m, vỉa hè mỗi bên 2m, hàng cây xanh mát rất đẹp. Khu nhà toàn biệt thự, cách MT Phan Văn Hớn mới làm chỉ 50m. Tiện ở hoạch kinh doanh nhỏ lẻ.
+
+
+Nhà có sổ hồng hoàn công riêng.
+
+
+Ai có nhu cầu thiện chí mua liên hệ để xem nhà xem sổ hồng. Các bạn quảng cáo vui lòng đừng gọi vì mình rất bận.",Xuân Thới Thượng 59,xuân thới thượng,,Phan Văn Hớn,,2 phòng ngủ,,1.0,7.0,1.0,2.0,3500000000,0,3.0,1.0,6.0,{2},"{0,0}",7.0,10.858697109393196,106.571654989594,"(106.571654989594,10.8586971093932)",37939588.2352941,,82.0,Ads_01_23906810,1576515600,1578687638.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000D039CFFE95A45A40F906C425A7B72540,1.0,2020-04-13 13:21:01.709771,1,8.0,False,2.0,,3be68bf973f33db3da3552ab900d36ab,1.0,,2.0,0.0,60484e265b19110d9fc66a0e,0,10.8598874,106.5717972,Huyện Hóc Môn
+2227,604330f7886de23638257c8d,200117,6,https://landber.com/tin-dang/Ads_01_21345219,"Bán nhà 59/19 Đặng Thúc Vịnh, Xã Đông Thạnh, Hóc Môn, Hồ Chí Minh","Ngang 4m, dài 12m, sổ hồng riêng, TDT 48m2, hẻm thông 3m, xe tải vô được.
+Gần chợ, trường học, ủy ban phường.
+
+Giá 2 tỷ 150 triệu.",Đặng Thúc Vịnh, đông thạnh,"chợ, trường học, ủy ban phường",,,,Jamila Khang Điền,1.0,7.0,1.0,2.0,2150000000,0,3.0,1.0,3.0,{2},"{0,0}",3.0,10.9033418800627,106.634195635231,"(106.634195635231,10.9033418800627)",21705404.5961524,,48.0,Ads_01_21345219,1561395600,1573973280.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000005D254AA996A85A40FCF3AFD382CE2540,1.0,2020-04-13 06:59:02.298967,1,8.0,False,1.0,,3d4b17ad2cf2d57dad49c5b75aa83e0b,1.0,,1.0,0.0,60484e265b19110d9fc66a0f,0,10.9049586,106.6376364,Huyện Hóc Môn
+2228,604330f7886de23638257c9b,763156,6,https://batdongsan.com.vn/ban-nha-rieng-duong-pham-thi-giay-xa-thoi-tam-thon/tro-hoc-mon-12-phong-180m2-cach-cho-hoc-mon-2km-gia-ban-1-1-ty-pr24791375,"Trọ Hóc Môn 12 phòng 180m2 đường Phạm Thị Giây cách chợ Hóc Môn 2km giá bán 1,1 tỷ","Kẹt tiền cần bán gấp dãy trọ 12 phòng, sạch sẽ, thoáng mát, khu dân cư an ninh.<br/>Diện tích 180m2 trọ gồm 2 dãy với các phòng có bếp, toilet và gác lửng riêng.<br/>Trọ ở khu đông dân cư với đầy đủ chợ, siêu thị, trường học,...<br/>Giá bán nhanh 1 tỷ 100 triệu.<br/>Liên hệ xem trọ: 0706.003.206 gặp Cường.",Phạm Thị Giây,,"chợ, chợ, siêu thị, trường học",chợ Hóc Môn,"an ninh, đông dân cư","12 phòng, bếp, toilet",,1.0,7.0,1.0,2.0,1100000000,0,2.0,1.0,0.0,{2},"{0,0}",,10.8924522810477,106.60879269929701,"(106.608792699297,10.8924522810477)",6111111.11111111,,180.0,bdscomvn_24791375,1590229139,1590207365.0,2020-06-30 10:33:54.881982,0.0,0.0,0101000020E61000007961A775F6A65A4055AE6081EFC82540,0.0,,0,0.0,False,2.0,706003206.0,c50669b3f28f72fdce0476c9edf4b68b,1.0,,1.0,0.0,60484e265b19110d9fc66a10,0,10.8863118,106.606,Huyện Hóc Môn
+2229,604330f7886de23638257cb6,662324,3,https://batdongsan.com.vn/cho-thue-nha-rieng-hoc-mon/chinh-chu-can-cho-mat-tien-cho-dong-dan-cu-duong-hien-huu-10m-pr25140526,"Chính chủ cần cho thuê mặt tiền chợ đông dân cư, đuờng hiện Hữu 10m","Chính chủ cần cho thuê mặt tiền chợ đông dân cư. Đuờng hiện Hữu 10m ""Chính chủ cần cho thuê mặt tiền chợ đông dân cư. Đuờng hiện Hữu 10m nhựa.<br/>Địa chỉ: 101/18 Đường Trịnh thị Dối. Đông Thạnh. Hóc Môn. TPHCM.<br/><br/>Hiện trạng mặt bằng trống. Điện nước đầy đủ. Diện tính ngang 9 sâu 33 thổ cư 100%. Giá cho thuê 40triệu 1 tháng.<br/><br/>Liên Hệ: 0986849196 (C. Ngân).",Trịnh thị Dối,đông thạnh,"chợ, chợ, chợ",,"đông dân cư, đông dân cư, đông dân cư",,,1.0,7.0,5.0,2.0,0,40100000,2.0,1.0,1.0,{2},"{0,0}",5.0,10.882295640245301,106.604478974681,"(106.604478974681,106.604478974681)",0.0,,1.0,bdscomvn_25140526,1586516443,1586494938.0,2020-05-05 21:20:01.709138,0.0,0.0,0101000020E6100000EDD794C8AFA65A4081831041BCC32540,0.0,,0,0.0,False,3.0,986849196.0,8ba4f3c46a6c55b4af2808026a490f3b,1.0,,0.0,0.0,60484e265b19110d9fc66a11,0,10.8948142,106.6380369,Huyện Hóc Môn
+2230,604330f7886de23638257cf1,546874,6,https://landber.com/tin-dang/Ads_01_24774432,"CHÍNH CHỦ BÁN NHÀ CẤP 4 FULL NỘI THẤT ĐƯỜNG NGUYỄN THỊ SÓC-HÓC MÔN. GIÁ 900 TRIỆU,SHR. 0862104968","- Nhà cấp 4 ở hẻm 55 đường Nguyễn Thị Sóc - Bà Điểm - Hóc Môn cần bán .
+
+- Diện tích : 96m2 ngang 6m dài 16m. Thổ cư.
+
+- Sổ Hồng riêng, sang tên ngay.
+- Giá bán : 900 triệu. ( không thương lượng, cần tiền bán gấp ).
+- Nhà đối diện trường THPT Bà Điểm, cách chợ Bà Điểm 2km, cách QL 22 khoảng 5 phút chạy xe, thuận tiện di chuyển làm việc trong khu trung tâm thành phố.
+- Gần các khu tiện ích như chợ, trường Học, Shop thời trang, tạm hóa, nhà hàng,... và một vài tiện ích khác quanh khu vực.
+- Liên hệ : 0862.104.968 - gặp HUY để xem nhà. cảm ơn",Nguyễn Thị Sóc,bà điểm,"trường THPT, chợ, chợ, trường Học, Shop thời trang, nhà hàng","trường THPT Bà Điểm, chợ Bà Điểm, QL 22",,2 phòng ngủ,,1.0,7.0,1.0,2.0,900000000,0,3.0,1.0,3.0,{2},"{0,0}",55.0,10.8528172090622,106.600297446523,"(106.600297446523,10.8528172090622)",35773758.5214864,,96.0,Ads_01_24774432,1584032400,1584063403.0,2020-03-14 02:34:04.162398,8.0,3.6,,1.0,2020-04-13 03:45:02.03668,10,7.0,True,3.0,862104968.0,5ea12990d9aebf54e1f51c38b0b58e5c,1.0,,0.0,0.0,60484e265b19110d9fc66a12,0,10.8801315,106.6352266,Huyện Hóc Môn
+2231,604330f7886de23638257d0b,492057,6,https://landber.com/tin-dang/Ads_01_24601349,"Bán nhà 5x20m, SHR đường Nguyễn Văn Bứa","Bán nhà ấp 3 Xuân Thới Sơn 19, Hóc Môn.
+DT: 5x20m, 1 trệt 2 lầu, PK, bếp, 4 phòng ngủ.
+
+- Cách đường Nguyễn Văn Bứa 500m.
+- SHR chính chủ, khu dân cư sầm uất, xe hơi vô tận cửa.
+
+Bán 1 tỷ 800 triệu (TL).
+Chính chủ.",Xuân Thới Sơn 19,xuân thới sơn,,Nguyễn Văn Bứa,sầm uất,4 phòng ngủ,C37 Bộ Công An - Bắc Hà Tower,1.0,7.0,1.0,2.0,1800000000,0,3.0,3.0,6.0,{2},"{5,20}",3.0,10.86801600592,106.583354691137,"(106.583354691137,10.86801600592)",19518934.0813464,,100.0,Ads_01_24601349,1583082000,1583094326.0,2020-03-02 03:26:03.054104,2.0,3.6,0101000020E6100000A419EAAE55A55A4086A90B986CBC2540,1.0,2020-04-13 01:02:02.006889,2,7.0,False,3.0,,a1f85b2813c80a138f4117e98df8e795,1.0,,0.0,0.0,60484e265b19110d9fc66a13,0,10.8660505,106.582848,Huyện Hóc Môn
+2232,604330f7886de23638257d0c,515276,6,https://landber.com/tin-dang/Ads_01_24683039,"BÁN CĂN NHÀ 100M2 ĐƯỜNG PHẠM THỊ GIÂY-HÓC MÔN, CÓ SÂN ĐỂ XE HƠI, NHÀ XÂY NĂM 2016,SHR,GIÁ 1.55 TỶ.","- Nhà tôi rộng 100m2, xây dựng 86.75m2 còn lại làm sân để xe hơi. Hoàn công năm 2016, mới hết hợp đồng cho thuê nguyên căn nên tôi cần bán lại.
+
+- Nằm gần ngã ba đường Phạm Thị Giây giao với Thới Tam Thôn 13, cách Chuyển Phát Nhanh Viettel 50m. Gần chợ tự phát Thới Tam thôn, SIêu Thị Mua sắm, coop foods , trường Tiểu Học,.....
+
+- Nhà có 1 lầu. Thổ cư 100%, chia làm 3 phòng ngủ, 2wc. Đường rộng 8m, thoải mái xe hơi ra vào.
+- Kết Nối giao thông rất thuận tiện qua đường Tô Ký, dễ dàng di chuyển về Trung tâm Thành Phố hay các tỉnh thành vùng ven lân cận.
+- Sổ Hồng Riêng, hoàn công xây dựng đầy đủ, sang tên trong tháng.
+- Diện tích : 100m2 ngang 6.25m dài 16m. 
+- Giá bán : 1 tỷ 550 triệu ( chốt giá ).
+- Liên Hệ : 035.826.0669 - gặp HUY để mua nhà . cảm ơn.",Phạm Thị Giây,thới tam thôn,"ngã ba, chợ, SIêu Thị Mua sắm, trường Tiểu Học","Phạm Thị Giây, Thới Tam Thôn 13, Viettel, coop foods, Tô Ký",,3 phòng ngủ,,1.0,7.0,6.0,2.0,1550000000,0,3.0,2.0,6.0,{1},"{0,0}",,10.884660518754899,106.60975870296,"(106.60975870296,10.8846605187549)",10805555.5555556,,100.0,Ads_01_24683039,1583427600,1583439946.0,2020-03-06 03:26:01.684428,2.0,3.6,0101000020E610000077EA5D4906A75A40C83A3839F2C42540,1.0,2020-04-13 01:02:02.073089,1,8.0,False,2.0,358260669.0,63ef91befa88846d036387c9544df10a,1.0,,0.0,0.0,60484e265b19110d9fc66a14,0,10.8830218,106.613285,Huyện Hóc Môn
+2233,604330f7886de23638257d5d,692343,3,https://batdongsan.com.vn/cho-thue-nha-mat-pho-hoc-mon/cho-nguyen-can-tien-so-219-to-ky-tan-xuan-mon-pr24982360,"Cho thuê nhà nguyên căn mặt tiền số 219 Tô Ký, Tân Xuân, Hóc Môn","Cho thuê nhà nguyên căn mặt tiền số 219 Tô Ký, Tân Xuân, Hóc Môn"" ""Cho thuê nhà nguyên căn mặt tiền đường.<br/><br/>- Địa chỉ: Số 219 Mặt tiền đường Tô Ký, Tân Xuân, Hóc Môn, TP. Hồ Chí Minh.<br/><br/>- DTKV: 24,2m x 50m.<br/><br/>- Tổng DTSD: 1.200m2.<br/><br/>- Cấu trúc: Nhà trệt, nhà trống suốt.<br/><br/>- Nhà mới đẹp. Điện 3 pha, nước đầy đủ.<br/><br/>- Khách hàng được đầu tư sửa, cải tạo, xây dựng theo nhu cầu sử dụng.<br/><br/>- Vị trí đắc địa, mặt tiền Tô Ký. Một trong những tuyến đường sầm uất nhất của Hóc Môn.<br/>-<br/><br/>Khu vực: Khu kinh doanh sầm uất, cách chợ Ba Bầu khoảng 400m, cách.<br/>Trường học Nguyễn Hữu Cầu và ngã 4 Tô Ký - Nguyễn Ảnh Thủ khoảng 600,<br/>Gần UBND xã Trung Chánh, khu tập trung nhiều ngân hàng, hệ thống trường.<br/>Học, Giao thông rất thuận tiện đi lại.<br/><br/>- Thích hợp mở văn phòng công ty kết hợp Showroom, ngân hàng, trường Anh Ngữ, siêu thị, hoặc kinh doanh mọi ngành nghề,...<br/><br/>- Cho thuê dài hạn. Nhà trống giao ngay.<br/><br/>- Giá cho thuê: 55Triệu/tháng, (Thương lượng).<br/><br/>Liên hệ chính chủ: 0908848863",Tô Ký,tân xuân,"chợ, Trường học, ngã 4, UBND xã, ngân hàng, hệ thống trường, br / > Học","chợ Ba Bầu, Trường học Nguyễn Hữu Cầu, ngã tư Tô Ký, Nguyễn Ảnh Thủ, UBND xã Trung Chánh","Điện 3 pha, sầm uất, sầm uất, Giao thông rất thuận tiện đi lại",,,1.0,7.0,5.0,2.0,0,55000000,2.0,1.0,1.0,{2},"{24.2,50}",219.0,10.882284025019901,106.60450473124399,"(106.604504731244,106.604504731244)",0.0,,1.0,bdscomvn_24982360,1586147613,1586124291.0,2020-05-07 18:36:01.72804,0.0,0.0,0101000020E610000028BE9C34B0A65A40B97C52BBBAC32540,0.0,,0,0.0,False,3.0,908848863.0,ed1cd9f7aa44761bda14c24dbbf12bc0,1.0,,0.0,0.0,60484e265b19110d9fc66a15,0,10.852087,106.6266269,Huyện Hóc Môn
+2234,604330f7886de23638257d81,447911,6,https://landber.com/tin-dang/Ads_02_13072569,"Nhà cấp 4 Trịnh Thị Miếng, Sổ riêng, đường 4m ô tô, 5.2 x 22 nở 5.4, 3.25 tỷ","Bán gấp căn nhà cấp 4 ngay đường Trịnh Thị Miếng, sổ riêng ( nhà đang để trống), đường trước nhà 4-5m, ô tô đi thỏa mái.
+Diện tích: 5.18m x 22m, nở hậu 5.4m
+Giá: 3.25 tỷCách đường Trịnh Thị Miếng 20m, cách sân bóng Thới Tứ khoảng 70m, cách Đặng Thúc Vịnh 150, gần ngã 5 Tam ĐôngNhà hiện để trống, mua về sơn sửa là ở được, khu dân cư an ninh, không mồ mả, không ngập nướcBao công chứng sang tênXem nhà liên hệ 0903.609.927 A Diệp","Trịnh Thị Miếng,Huyện Hóc Môn,Hồ Chí Minh",thới tam thôn,"sân bóng, ngã 5","sân bóng Thới Tứ, Đặng Thúc Vịnh 150, ngã 5 Tam Đông","an ninh, không mồ mả, không ngập nước",,,1.0,7.0,1.0,2.0,3250000000,0,1.0,1.0,6.0,{2},"{5.2,22}",4.0,10.888550747490099,106.614072130054,"(106.614072130054,10.8885507474901)",24576158.3090078,,113.0,Ads_02_13072569,1582131600,1582175550.0,2020-02-20 12:13:01.825113,2.0,3.6,0101000020E6100000C2FD30F54CA75A40F39CA21FF0C62540,1.0,2020-04-13 10:00:03.069544,2,7.0,False,2.0,903609927.0,19c663e932f187ca47bf49eae59def49,1.0,,0.0,0.0,60484e265b19110d9fc66a16,0,10.8924797,106.612598,Huyện Hóc Môn
+2235,604330f7886de23638257da9,352964,6,https://landber.com/tin-dang/Ads_01_24003020,"Cần bán gấp nhà mặt tiền 1.000m2 Phan Văn Đối,Bà Điểm,Hóc","Cần bán gấp nhà mặt tiền 1.000m2 Phan Văn Đối,Bà Điểm,Hóc Môn,sổ hồng đât ở 100%,tiện cho thuê hoặc kinh doanh,sổ hồng
+
+giá 40,5 tỷ,liên hệ chủ xem nhà 0949888334",Phan Văn Đối,bà điểm,,Bà Điểm,,,Thanh Hà Mường Thanh,1.0,7.0,1.0,2.0,40500000000,0,3.0,1.0,1.0,"{1,2}","{0,0}",2.0,10.844306700941699,106.59517598707,"(106.59517598707,10.8443067009417)",48931397.6022942,,1000.0,Ads_01_24003020,1577120400,1578689364.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000035F5055D17A65A403AADC8F748B02540,1.0,2020-04-13 02:08:03.090575,2,7.0,False,3.0,949888334.0,992e483ac5cabe7a9fc3221eb573b811,1.0,,0.0,0.0,60484e265b19110d9fc66a17,0,10.8315949,106.5961572,Huyện Hóc Môn
+2236,604330f7886de23638257dc1,525436,6,https://landber.com/tin-dang/Ads_01_24705468,"Trọ Hóc Môn 12 phòng 180m2 đường Phạm Thị Giây cách chợ Hóc Môn 2km giá bán 1,1 tỷ","Kẹt tiền cần bán gấp dãy trọ 12 phòng, sạch sẽ, thoáng mát, khu dân cư an ninh.
+
+Diện tích 180m2 trọ gồm 2 dãy với các phòng có bếp, toilet và gác lửng riêng.
+
+Trọ ở khu đông dân cư với đầy đủ chợ, siêu thị, trường học,...
+Giá bán nhanh 1 tỷ 100 triệu.
+Liên hệ xem trọ: 0706.003.206 gặp Cường.",Phạm Thị Giây,thới tam thôn,"chợ, chợ, siêu thị, trường học",chợ Hóc Môn,"an ninh, đông dân cư",1 phòng ngủ,,1.0,7.0,1.0,2.0,1100000000,0,2.0,1.0,6.0,{2},"{0,0}",,10.8846250874712,106.610057338636,"(106.610057338636,10.8846250874712)",10805555.5555556,,180.0,Ads_01_24705468,1583600400,1583593381.0,2020-03-07 22:04:04.075394,2.0,3.6,0101000020E61000003288EF2D0BA75A40DCD15794EDC42540,1.0,2020-04-13 12:29:03.025177,2,7.0,False,2.0,706003206.0,904ab0255ac78ba87c448eb07f823b39,1.0,,0.0,0.0,60484e265b19110d9fc66a18,0,10.8863118,106.606,Huyện Hóc Môn
+2237,604330f7886de23638257dce,468465,6,https://landber.com/tin-dang/Ads_02_13079833,"Chính chủ cần bán nhà MT 30/15 Xuân Thới Sơn, Hóc Môn, giá 35 tỷ","Chính chủ cần bán nhà MT 30/15 Xuân Thới Sơn, Hóc Môn, giá 35 tỷ.DT: 15x68m CN: 1020m2.Kết cấu: Nhà đất 2 tầng.Giá 35 tỷ.LH: 0916002839 Gặp A. Quốc.","Xuân Thới Sơn,Huyện Hóc Môn,Hồ Chí Minh",xuân thới sơn,,,,,,1.0,7.0,1.0,2.0,35000000000,0,2.0,2.0,6.0,{2},"{15,68}",,10.862903011388301,106.583603158638,"(106.583603158638,10.8629030113883)",23086550.245098,,1020.0,Ads_02_13079833,1582563600,1582607736.0,2020-02-25 12:16:01.641057,2.0,3.6,0101000020E6100000480C10C159A55A40BD106B6CCEB92540,1.0,2020-04-13 02:50:02.357554,1,8.0,False,3.0,916002839.0,4391e78665197afcc9ce1282e25f9f89,1.0,,0.0,0.0,60484e265b19110d9fc66a19,0,10.8004932,106.5876623,Huyện Hóc Môn
+2238,604330f7886de23638257e33,459599,6,https://landber.com/tin-dang/Ads_03_5812130,"Nhà cấp 4 Võ THị Hồi, Xuân Thới Đông, Hóc Môn, 106m2, giá 1,1 tỷ","Nhà cấp 4 còn rất mới, có 2p ngủ, sân nhỏ phía trước, phòng bếp phòng khách riêng biệt.Nhà rộng rãi, thoáng mát
+
+Diện tích: 5x21.2 =106m2
+
+ĐC: Võ thị Hồi,Xuân Thới Đông, đoạn giao trần văn mười
+Đường trước nhà rộng xe ôt vô tới cửa nhà
+Giá 1,1 tỷ
+Gọi điện trước khi tới coi nhà",Võ Thị Hồi,xuân thới đông,,"Võ thị Hồi, trần văn mười",,2 phòng ngủ,,1.0,7.0,1.0,2.0,1100000000,0,2.0,1.0,6.0,{2},"{5,21.2}",4.0,10.860216239812301,106.601965740087,"(106.601965740087,10.8602162398123)",26637079.2975195,,106.0,Ads_03_5812130,1582390800,1582410127.0,2020-02-23 05:28:01.363827,2.0,3.6,0101000020E610000037BF4F9B86A65A40B6F652436EB82540,1.0,2020-04-13 07:37:02.242933,2,7.0,False,1.0,,24b61280e874c3e367009efd19b1afff,1.0,,0.0,0.0,60484e265b19110d9fc66a1a,0,10.8640609,106.5944529,Huyện Hóc Môn
+2239,604330f7886de23638257e4a,303181,6,https://landber.com/tin-dang/Ads_01_24043703,"Nhà phố 4.5 x 16m 1T, 1L chợ Hóc Môn vào ở ngay, giá 1.3 tỷ","Cần vốn nhập hàng dịp tết tôi cần sang lại gấp căn nhà phố 1T, 1L DT 72m2 đường Đỗ Văn Dậy sau chợ Hóc Môn, mới mua hồi tháng 2 /2019.
+DT đất: 4.5x16m, DT sàn 116m2 1T/1L 2PN, 2WC, 1 phòng khách.
+
+Hiện trạng nhà mới xây còn mới 99%, trong khu dân cư an ninh.
+Gía bán: 1.3 tỷ, thương lượng nội thất.
+
+LH: 0939116970 Hoàng.",Đỗ Văn Dậy,tân hiệp,"chợ, chợ","chợ Hóc Môn, chợ Hóc Môn",an ninh,"2 PN, 2 WC, 1 phòng khách",,1.0,7.0,1.0,2.0,1300000000,0,2.0,1.0,6.0,{2},"{4.5,16}",,10.9046451243075,106.599654029355,"(106.599654029355,10.9046451243075)",14259259.259259302,,72.0,Ads_01_24043703,1582131600,1578698358.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000B73F4BBB60A65A40E0C54EA52DCF2540,1.0,2020-04-13 07:47:01.493076,2,7.0,False,1.0,939116970.0,0895d907fcf958f768deaf3347a0b171,2.0,,2.0,0.0,60484e265b19110d9fc66a1b,0,10.897525,106.5803213,Huyện Hóc Môn
+2240,604330f7886de23638257e4d,199308,6,https://landber.com/tin-dang/Ads_01_23228990,"Chính chủ cần cho thuê hoặc bán nhà xã Xuân Thới Thượng, Hóc Môn, LH: 0914636867","Nhà cho thuê hoặc bán mặt tiền đường 12m, thông đường lớn (cách chợ đầu mối Hóc Môn 700m). Tiện kinh doanh hoặc mở xưởng.
+
+
+ĐC: 38/79 đường Xuân Thới Thượng 8 Ấp 3, xã Xuân Thới Thượng, Hóc Môn, Tp. HCM.
+Diện tích: 4.5m x dài 30m - 135m2 (gác lửng 50m2 tổng diện tích 185m2), sân để xe hơi phòng khách lớn, 3 phòng ngủ, bếp, phía sau sân phơi đồ, trồng rau sạch,...
+
+Giá thuê 11.200.000đ/tháng, giá bán 5.35 tỷ còn thương lượng.
+Liên hệ: 0914636867 Vân.",Xuân Thới Thượng 8,xuân thới thượng,"chợ đầu mối, sân phơi đồ",chợ đầu mối Hóc Môn,,3 phòng ngủ,,1.0,7.0,5.0,2.0,5350000000,11200000,2.0,1.0,6.0,{2},"{4.5,30,135}",0.0,10.862542317607,106.56848646240101,"(106.568486462401,10.862542317607)",37172058.8235294,,185.0,Ads_01_23228990,1572454800,1573973491.0,2020-02-12 08:49:25.145194,6.6,6.3,0101000020E6100000C40E0B1562A45A4086138B259FB92540,1.0,2020-04-13 06:46:01.813751,9,9.0,False,2.0,914636867.0,1b676da604fff1b17453403ce1d3a248,1.0,,2.0,0.0,60484e265b19110d9fc66a1c,0,10.8350644,106.6164735,Huyện Hóc Môn
+2241,604330f7886de23638257ea2,630300,3,https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-tran-van-muoi-xa-xuan-thoi-thuong/ban-dat-xay-18x30m-mat-tien-cho-dai-hai-hoc-mon-pr25186316,"Bán Đất Xây Biệt Thự 18x30m , mặt tiền Đường Trần Văn Mười, Chợ Đại Hải.Hóc Môn","Chủ nhà kẹt tiền cần bán <br/>Đất có nhà Cấp 4 trên Đất , mặt tiền đường 6m nhựa , (thông ra Phan văn Hớn) Trần Văn Mười , huyện hóc môn ( Gần Ngã 3 Phan văn hớn , Trần Văn Mười)<br/>Sổ hồng riêng<br/>Mua bán chính chủ, bao sang tên<br/>Diện tích ~ 500m2 <br/>Trong đấy cơ 250 thổ cư , còn lại là đất trồng Cây<br/>Khu dân cư hiện hữu, sầm Uất.....<br/>Vị trí đắc địa : gần Chợ Đại Hải, chợ Bà điểm , các trường Mẫu giáo, cấp 1-2-3 Trần văn mười, bùi văn ngữ , Bà Điểm<br/>- cách ngã tư an sương 3km, cách ngã tư bà điểm ql1a 2,5km<br/>- cách cầu tham lương 4,5km<br/>- cách Sân Bay 13km <br/>Mọi thông tin chi tiết, dẫn đi xem lh sdt hoặc zalo 0767.487.685",Trần Văn Mười,,"Chợ, Ngã 3, Chợ, chợ, trường Mẫu giáo, ngã tư, ngã tư, cầu, Sân Bay","Chợ Đại Hải, Phan văn Hớn, Trần Văn Mười, hóc môn, Ngã 3 Phan văn hớn, Trần Văn Mười, Chợ Đại Hải, chợ Bà điểm, Trần văn mười, bùi văn ngữ, Bà Điểm, ngã tư an sương, ngã tư bà điểm, quốc lộ 1 a, cầu tham lương",sầm Uất,3,,1.0,7.0,1.0,2.0,8200000000,0,3.0,1.0,1.0,{2},"{18,30}",,10.861019161985302,106.58938581523898,"(106.589385815239,106.589385815239)",49562289.5622896,đông,500.0,bdscomvn_25186316,1587213800,1587164724.0,2020-04-18 06:06:03.066411,0.0,3.4,0101000020E6100000404B487FB8A55A407EE9EB80D7B82540,1.0,2020-04-18 06:07:00.769738,0,7.0,False,3.0,767487685.0,a836acd82405f8a2ba1ba95690d7e4aa,1.0,,0.0,0.0,60484e265b19110d9fc66a1d,0,10.8595867,106.5895261,Huyện Hóc Môn
+2242,604330f7886de23638257ec8,145759,6,https://landber.com/tin-dang/Ads_02_12962363,"Nhà 5x25, mặt tiền Xuân Thới Sơn 27, ấp 6 Xuân Thới Sơn Hóc Môn.","Chính chủ cần bán nhà giá tốt tại:-Địa chỉ: ấp 6 xã Xuân Thới Sơn, H. Hóc Môn, TP. HCM.-Diện tích: 124.5 m2- Nhà cấp 4 cũ.- Đường trước nhà tầm 12m, ô tô ra vào thoải mái.-Sổ hồng chính chủ, sang tên liền.Tiện ích:-Khu dân cư đông đúc, an ninh tốt, dân trí cao, gần trường học các cấp, trung tâm hành chính, gần chợ, bệnh viện,...-Giao thông đi lại thuận tiệnGiá bán: 3.6 tỷ (thương lượng cho khách có thiện chí mua)Liên hệ chính chủ: 093 876 5845 - 0947 619 845. Mong gặp người thiện chí. Xin cảm ơn.","Xã Xuân Thới Sơn,Huyện Hóc Môn,Hồ Chí Minh",xuân thới sơn,"trường học, trung tâm hành chính, chợ, bệnh viện",,"đông đúc, an ninh, dân trí cao",,,1.0,7.0,1.0,2.0,3600000000,0,3.0,1.0,1.0,{2},"{5,25}",,10.877712270490198,106.55902635435801,"(106.559026354358,10.8777122704902)",21003303.5369452,,125.0,Ads_02_12962363,1573491600,1573986736.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000064647916C7A35A40651BB28063C12540,1.0,2020-04-13 10:29:02.563719,1,8.0,False,2.0,938765845.0,c2ecf531ed8f96045c24563099d41f73,1.0,,2.0,0.0,60484e265b19110d9fc66a1e,0,10.8790427,106.5525145,Huyện Hóc Môn
+2243,604330f7886de23638257ed0,514910,6,https://landber.com/tin-dang/Ads_01_24678854,"Bán nhà 1 trệt 1 lầu 1 Trịnh Thị Miếng, Thới Tam Thôn, Hóc Môn, (72m2) giá 2,2 tỷ.0901148165","Trịnh Thị Miếng, Thới Tam Thôn, Hóc Môn. 0901.148.165
+
+Nhà có cấu trúc 1 trệt 1 lầu, ngang 4m dài 18m, nhà có bề ngang rộng rãi, anh chị có thể đậu xe ô tô trong nhà thoải mái. Bao gồm 3 phòng ngủ, 1 bếp, 1 phòng khách, 1 phòng ăn và 3 toilet.
+
+Lộ trình giao thông rất tiện lợi, dễ dàng kết nối đến các quận huyện Tp HCM, thuận tiện cho các hoạt động giao dịch và thương mại.
+Quanh khu vực đều có siêu thị , điện máy xanh , bệnh viện , chợ , định cư hay kinh danh rất tuyệt vời, dân cư đông đúc mức sống cao, chế an ninh đảm bảo.
+.
+Sổ hồng công chứng trong ngày.
+* Đặc biệt nằm ngay lô góc 2 mặt tiền thuận tiện kinh doanh mua bán.
+Giá bán nhanh cho khách thiện chí 2,2 tỷ.
+Liên hệ Hòa Trần để đi xem nhà trực tiếp. Cảm ơn đã xem tin!",Trịnh Thị Miếng,thới tam thôn,"siêu thị, bệnh viện, chợ","Tp HCM, điện máy xanh","dân cư đông đúc, an ninh",3 phòng ngủ,,1.0,7.0,1.0,2.0,2200000000,0,3.0,2.0,2.0,{2},"{0,0}",1.0,10.889004537246802,106.61394293469499,"(106.613942934695,10.8890045372468)",53620709.0378353,,72.0,Ads_01_24678854,1583427600,1583436031.0,2020-03-06 02:21:02.885563,2.0,3.6,0101000020E610000014884ED74AA75A40EEF04A9A2BC72540,1.0,2020-04-13 11:39:02.062386,2,7.0,False,3.0,901148165.0,ba394823f19cb3f8f6953161806f9225,1.0,,0.0,0.0,60484e265b19110d9fc66a1f,0,10.8906259,106.6134159,Huyện Hóc Môn
+2244,604330f7886de23638257ed5,619310,6,https://landber.com/tin-dang/Ads_01_25164019,Cho thuê nhà nguyên căn giá 3 triệu,"Cho thuê nhà nguyên căn ở bà diem 3 hóc môn gần trường c3 bà điểm 1km. Nhà mới đẹp, 1 trệt, 1 lầu yên tĩnh thoáng mát an ninh. Gần chợ bà điểm. Chợ đầu moi hoc môn khoản 2km gia cho thuê 3tr hop dong dai han Thông tin bất động sản.
+Địa chỉ: 54/3 Bà Điểm Xã Bà Điểm.
+
+Tầng/Lầu: 1.
+Phòng ngủ: 1.
+
+Phòng tắm: 1.
+Diện tích sử dụng: 30 m².
+0909318980.",Bà Điểm,bà điểm,"trường c 3, chợ, Chợ đầu moi hoc","trường c 3 bà điểm, chợ bà điểm, Chợ đầu moi hoc môn khoản",an ninh,"Phòng ngủ, Phòng tắm",,1.0,7.0,5.0,2.0,3000000,3000000,2.0,2.0,6.0,{2},"{0,0}",18.0,10.8822225965939,106.604495732864,"(106.604495732864,106.604495732864)",165422222.222222,,30.0,Ads_01_25164019,1586883600,1586916852.0,2020-04-15 09:17:03.188919,2.0,3.6,0101000020E61000001ACEDE0EB0A65A405C5320AEB2C32540,1.0,2020-04-15 09:18:01.195461,2,7.0,True,2.0,909318980.0,5b4e51a0a191ddb52bfc8beb71fa7172,1.0,,0.0,0.0,60484e265b19110d9fc66a20,0,10.8037008,106.6601618,Huyện Hóc Môn
+2245,604330f7886de23638257ef0,102918,6,https://landber.com/tin-dang/Ads_01_23341801,"Cần bán hẻm 68 Trần Văn Mười, Xuân Thới Đông, 4x12m, 2 lầu, nhà mới","Cần vốn kinh doanh nên sang lại căn nhà tâm đắc 68/5 Xuân Thới Đông 2, Huyện Hóc Môn.
+
+
+Diện tích: 4x12m (48m2), 4PN, 3WC, thoáng mát sạch sẽ.
+
+
+Kết cấu: Trệt 2 lầu mới koong, khách mua ở liền, không cần sửa.
+
+Hẻm 6m. Thông tá lả. Chỉ cách vài căn ra mặt tiền đường. Khu vực sầm uất. Đầy tiện ích.
+
+Đường Trần Văn Mười đang sửa lại. Xong sẽ làm lại hẻm. Tương lai sẽ được cấp sổ riêng.
+
+Giá: 1.75 tỷ bớt lộc.",Xuân Thới Đông 2,xuân thới đông,,,sầm uất,4 phòng ngủ,68/5,1.0,7.0,1.0,2.0,1750000000,0,1.0,3.0,3.0,{2},"{4,12}",68.0,10.860482520071699,106.602263793905,"(106.602263793905,10.8604825200717)",26637079.2975195,,48.0,Ads_01_23341801,1573750800,1574015449.0,2020-02-12 08:49:25.145194,7.6,3.6,0101000020E6100000AD98707D8BA65A4092F9342A91B82540,1.0,2020-04-13 12:06:02.402433,10,7.0,False,1.0,,5d67c3c9040c6a3f4b5dc57f9f5d23d6,1.0,,2.0,0.0,60484e265b19110d9fc66a21,0,10.8677541,106.5900932,Huyện Hóc Môn
+2246,604330f7886de23638257f12,408772,2,https://mogi.vn/huyen-hoc-mon/mua-nha-hem-ngo/nha-hoc-mon-dt-106m2-gia-2-5-ty-id20614553,"Nhà Hóc Môn DT 106m2. Giá 2,5 tỷ","
+Bán nhà cấp 4, 106m2 Bùi Công Trừng Hóc Môn
+
+Nhà cấp 4 chính chủ 6,5 x 16 SHR 106m2 hướng ra đường Bùi Công Trừng xe tải quay đầu vô tư
+Gần trường học, chợ, siêu...
+- Nhà và đường đi như hình
+- Giá còn thương lươngj
+- Liên hệ Hạnh để xem nhà
+",Bùi Công Trừng,nhị bình,"trường học, chợ, siêu",,,2,,1.0,7.0,1.0,2.0,2500000000,0,3.0,1.0,6.0,{2},"{6.5,16}",,10.9098649529364,106.67089944279499,"(106.670899442795,10.9098649529364)",23584905.6603774,,106.0,mogi_20614553,1581526800,1581638983.0,2020-02-14 07:10:01.287726,2.0,3.6,0101000020E6100000816D3704F0AA5A40D346B1D1D9D12540,1.0,2020-04-13 10:42:01.832593,2,7.0,False,3.0,,23bfb3471bad21e70d386a32c5e10f3e,1.0,,0.0,0.0,60484e265b19110d9fc66a22,0,10.9087601,106.6489554,Huyện Hóc Môn

@@ -37,28 +37,28 @@
             maxZoom: 18
         }).addTo(map);
         
-        d3.csv("/data_pick100.csv").then(function(data) {
-        data.forEach(function(d) {
-            try{
-                var marker = new L.Marker(
-                [d.lat,d.long], 
-                {
-                id: d.id,
-                position_street: d.position_street,
-                }
-                )
-                .on('click', markerOnClick).addTo(map)
-                // .bindPopup('Nhà ở '+pos_street(d.position_street)+' đường '+d.address_street+', ID: <a href="{{ url_for('form') }}?id='+d.id+'"> '+d.id+'</a> <br> ').openPopup();;
-                .bindPopup(popup_string(d)).openPopup();;
-                // console.log(popup_string(d))
-                // console.log(d)
-            }
-            catch(err){
-                console.log(d.id);
-            }
+        // d3.csv("/data_pick50_2.csv").then(function(data) {
+        // data.forEach(function(d) {
+        //     try{
+        //         var marker = new L.Marker(
+        //         [d.lat,d.long], 
+        //         {
+        //         id: d.id,
+        //         position_street: d.position_street,
+        //         }
+        //         )
+        //         .on('click', markerOnClick).addTo(map)
+        //         // .bindPopup('Nhà ở '+pos_street(d.position_street)+' đường '+d.address_street+', ID: <a href="{{ url_for('form') }}?id='+d.id+'"> '+d.id+'</a> <br> ').openPopup();;
+        //         .bindPopup(popup_string(d)).openPopup();;
+        //         // console.log(popup_string(d))
+        //         // console.log(d)
+        //     }
+        //     catch(err){
+        //         console.log(d.id);
+        //     }
             
-        });
-        })
+        // });
+        // })
         // console.log(data); // [{"Hello": "world"}, …]
         // });
 

@@ -49,18 +49,18 @@
                 }
             }
         }
-        var id = GetURLParameter('id')
-
+        var id = GetURLParameter('id');
+        var district = GetURLParameter('district');
         var map = L.map('mapid').setView([10.762622, 106.660172], 13);
         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18
         }).addTo(map);
-        d3.csv("/data_pick100.csv").then(function(data) {
+        d3.csv("data_pick_gg/"+district+".csv").then(function(data) {
         var counterr = 0
         data.forEach(function(d) {
             if (d.id == id){
                 var marker = new L.Marker(
-                [d.lat,d.long], 
+                [d.lat_y,d.long_y], 
                 {
                 id: d.id,
                 position_street: d.position_street,
@@ -73,10 +73,11 @@
                     var form = document.getElementById(d.id);
                     console.log(form);
                     $('#'+d.id).submit(function(e) {
-                    console.log('gettt')
-                    
+                    $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
+                    $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
+                    // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
                     e.preventDefault();
-                });
+                    });
                    
             })
 ;;
@@ -86,7 +87,7 @@
                 try{
                 counterr = counterr + 1;
                 var marker = new L.Marker(
-                [d.lat,d.long], 
+                [d.lat_y,d.long_y], 
                 {
                 id: d.id,
                 position_street: d.position_street,
@@ -101,7 +102,7 @@
                     $('#'+d.id).submit(function(e) {
                     $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
                     $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
-                    
+                    // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
                     e.preventDefault();
                     });
                    
@@ -109,6 +110,7 @@
                 }
                 catch(err){
                     console.log(d.id);
+                    console.log(err)
                 }
             }
             
@@ -144,7 +146,7 @@
             ret = ret + '<br> Tiêu đề post: ' +d.title;
             ret = ret + '<br> Vị trí: ' +d.district_name;
             ret = ret + '<br> Ngày đăng: ' + new Date(d.post_date * 1000).toISOString().slice(0, 19).replace('T', ' ');
-            ret = ret + '<br> <a href="{{ url_for('label') }}?id='+d.id+'"> Gán nhãn cho BĐS này</a>';
+            ret = ret + '<br> <a href="{{ url_for('label') }}?id='+d.id+'&district='+district+'"> Gán nhãn cho BĐS này</a>';
             ret = ret + '<br> <a href="'+d.link+'">Link bài viết</a>';
             ret = ret + '<form id = "'+d.id+'">';
             ret = ret + '<br> <label for="position_street">Xếp hạng mức tương quan</label>\
