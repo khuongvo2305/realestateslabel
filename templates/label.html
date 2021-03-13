@@ -73,10 +73,11 @@
                     var form = document.getElementById(d.id);
                     console.log(form);
                     $('#'+d.id).submit(function(e) {
-                    console.log('gettt')
-                    
+                    $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
+                    $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
+                    // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
                     e.preventDefault();
-                });
+                    });
                    
             })
 ;;
@@ -100,8 +101,8 @@
                     console.log(form);
                     $('#'+d.id).submit(function(e) {
                     $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
-                    // $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
-                    $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
+                    $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
+                    // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
                     e.preventDefault();
                     });
                    
@@ -145,7 +146,7 @@
             ret = ret + '<br> Tiêu đề post: ' +d.title;
             ret = ret + '<br> Vị trí: ' +d.district_name;
             ret = ret + '<br> Ngày đăng: ' + new Date(d.post_date * 1000).toISOString().slice(0, 19).replace('T', ' ');
-            ret = ret + '<br> <a href="{{ url_for('label') }}?id='+d.id+'"> Gán nhãn cho BĐS này</a>';
+            ret = ret + '<br> <a href="{{ url_for('label') }}?id='+d.id+'&district='+district+'"> Gán nhãn cho BĐS này</a>';
             ret = ret + '<br> <a href="'+d.link+'">Link bài viết</a>';
             ret = ret + '<form id = "'+d.id+'">';
             ret = ret + '<br> <label for="position_street">Xếp hạng mức tương quan</label>\
