@@ -1,214 +1,0 @@
-,_id_x,id,page_source,link,title,content,address_street,address_ward,surrounding,surrounding_name,surrounding_characteristics,interior_room,project,address_city,address_district,transaction_type,realestate_type,price_sell,price_rent,legal,floor,position_street,potential,area_origin,address_number,lat_x,long_x,coordinate,price_m2,orientation,area_cal,post_id,post_date,crawled_date,created_at,price_score,price_score_filter,geom,status_price_score,price_score_timestamp,comment_id,comment_filter_id,is_suspicious,created_by,contact_phone,hash_post_key,number_duplicated_post,orientation_id,done,label_cluster,_id_y,index,lat_y,long_y,district_name
-523,604330eb886de23638253b1e,594100,3,https://batdongsan.com.vn/ban-nha-mat-pho-duong-pham-hung-xa-binh-hung-1-prj-khu-dan-cu-t30/ban-tien-dang-kinh-doanh-spa-1-ham-1-tret-2-lau-san-thuong-gia-18-ty-5-pr25131171,Bán nhà mặt tiền Phạm Hùng đang kinh doanh spa (1 hầm + 1 trệt + 2 lầu + sân thượng) giá 18 tỷ 5,"- Bán nhà góc 2 mặt tiềnđường Phạm Hùng ( nối dài ) thuộc xã Bình Hưng, huyện Bình Chánh đang kinh doanh spa:<br/>+ DT đất: 5x21m (nở hậu) góc, CN 120m2.<br/>+ Hiện trạng nhà: 1 hầm, 1 trệt, 2 lầu + sân thượng.<br/>+ Pháp lý: Sổ hồng.<br/>+ Vị trí: Mặt tiền đường Phạm Hùng 40m. cách ngã 4 Phạm Hùng v nguyễn Văn Linh 1km5.<br/>+ Nhà hiện đang kinh doanh spa cao cấp, nhà góc 2 mặt tiền 40m & 12m, lề đường 8m rộng rãi, đậu xe thoải mái...<br/>+ Giá bán: 18 tỷ 5.<br/>+ Giá thuê: 35 tr/tháng.<br/>- Liên hệ: 093869.1001 Cảnh.",Phạm Hùng,bình hưng,ngã 4,"ngã tư Phạm Hùng, nguyễn Văn Linh",,,,1.0,1.0,5.0,2.0,18500000000,35000000,3.0,4.0,2.0,{2},"{5,21}",,10.7143220620659,106.685945666279,"(106.685945666279,106.685945666279)",158181818.18181798,,120.0,bdscomvn_25131171,1586435623,1586387308.0,2020-04-09 06:09:02.867484,5.7,5.9,0101000020E610000023E0A688E6AB5A40AAC40E9FBB6D2540,1.0,2020-04-09 06:10:00.736589,9,9.0,False,2.0,938691001.0,8ed613405c5b531e6e761f88a513ce67,1.0,,0.0,0.0,60484e265b19110d9fc66367,0,10.7059344,106.6850342,Huyện Bình Chánh
-524,604330eb886de23638253b73,668593,3,https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-nguyen-van-linh-xa-binh-hung-1-prj-senturia-nam-sai-gon/ban-pho-shophoues-gia-6-6-ty-gd-1-khu-do-thi-mizuki-park-lh-0906-844-806-tho-pr23326039,"Bán shophouse giá 6.6 tỷ GĐ 1 Senturia liền kề khu đô thị Mizuki Park, LH 0906 844 806 Thọ","Nằm trong khu đô thị Senturia Nam Sài Gòn - 19,8ha mặt tiền Nguyễn Văn Linh - liền kề khu đô thị Mizuki Park.<br/>- Giá 6,6 tỷ/căn.<br/>- Diện tích: 5*17,5m = 87m2.<br/>- Xây dựng: 1 trệt 2 lầu.<br/>Bàn giao hoàn thiện ngoài - trong thô.<br/><br/>Thông tin dự án.<br/>CĐT Tiến Phước uy tín với hơn 26 năm kinh nghiệm trong ngành. (Estella, Palm, Impire, Senturia Vườn Lài, Senturia An Phú,... ).<br/>Sở hữu vĩnh viễn, vận hành quản lý CBRE.<br/>Vị trí: Mặt tiền đường Nguyễn Văn Linh, ngã 3 Phạm Hùng, Bình Hưng, Bình Chánh (kế bên dự án Dương Hồng và Mizuki Park).<br/>Quy mô: 19,8 ha.<br/>Công viên bờ sông trải dài 1km.<br/>MĐXD cực thấp: 28%. Đất cây xanh, công viên lên tới 4ha.<br/>25 tiện ích cao cấp bên trong dự án: Hồ bơi Địa Trung Hải, vườn kí ức, khu rừng tình yêu, công viên, gym, spa, nhà hàng, cafe, khu vui chơi,...<br/>Với 9 tầng TTTM siêu đẳng cấp.<br/>Thiết kế: Ong&Ong, phong cách Địa Trung Hải.<br/>LH 0906844806 Thọ để biết thêm chi tiết.",Phạm Hùng,,"khu đô thị, khu đô thị, Công viên, công viên, Hồ bơi, vườn kí ức, công viên, gym, spa, nhà hàng, cafe, khu vui chơi, TTTM, siêu đẳng","khu đô thị Mizuki Park, khu đô thị Mizuki Park, Bình Hưng, Dương Hồng, Mizuki Park, Hồ bơi Địa Trung Hải",,,Senturia Nam Sài Gòn,1.0,1.0,1.0,2.0,6600000000,0,2.0,3.0,3.0,{2},"{5,17.5}",3.0,10.7264413997982,106.668484731462,"(106.668484731462,106.668484731462)",75862068.9655172,,87.0,bdscomvn_23326039,1588741003,1588716234.0,2020-05-06 05:04:01.776275,0.0,0.0,0101000020E610000061E02E74C8AA5A4000308D20F0732540,0.0,,0,0.0,False,2.0,906844806.0,59652ae372ab41abfc81d4c2546beba6,1.0,,0.0,0.0,60484e265b19110d9fc66368,0,10.7193284,106.6837776,Huyện Bình Chánh
-525,604330ec886de23638253b92,100536,6,https://landber.com/tin-dang/Ads_01_23004421,"Nhà hẻm C9 đường Phạm Hùng, giáp Quận 8 - gần trung tâm hành chính Quận 8","Em mua chung cư ở, cần bán gấp căn nhà hẻm C9, Phạm Hùng, Bình Hưng, Bình Chánh.
-Vị trí gần trung tâm hành chính Quận 8.
-
-Diện tích: 4 * 14m (56m2).
-- Tổng diện tích sử dụng 162m2.
-
-- Giá: 4.2 tỷ/căn.
-- Hẻm 5m, xe hơi vào được. Khu dân cư sống yên tĩnh, an ninh không ngập úng.
-- Nhà 2 tấm rưỡi có 1 phòng khách, 1 phòng bếp, 1 phòng thờ, 3 phòng ngủ, 4 WC, 1 sân thượng, 2 giếng trời.
-- Mỗi tầng, mỗi phòng đều có CB chống giật riêng, công tắc điện Panasonic.
-- Vị trí thuận tiện đi lại, gần trung tâm thành phố, trường đại học Rmit, gần chợ, siêu thị.
-- Giấy tờ vi bằng. Hồ sơ đầy đủ, lên phường nhờ hỗ trợ làm sổ nhé.
-Liên hệ: 0901.747.720 (Ms. Mùi).",Phạm Hùng,bình hưng,"trung tâm hành chính, trường đại học, chợ, siêu thị","Quận 8, trung tâm hành chính Quận 8, Quận 8, đại học Rmit","yên tĩnh, an ninh, không ngập úng, thuận tiện đi lại",3 phòng ngủ,Hẻm C9,1.0,1.0,1.0,2.0,4200000000,0,2.0,1.0,3.0,{2},"{4,14}",9.0,10.7246443018663,106.68003290831498,"(106.680032908315,10.7246443018663)",28125000.0,,162.0,Ads_01_23004421,1573750800,1574017081.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000A95ABFA885AB5A40477FF39304732540,1.0,2020-04-13 11:01:02.48959,1,8.0,False,1.0,901747720.0,eee3a17836d9e536401c21c2d95e6434,2.0,,1.0,0.0,60484e265b19110d9fc66369,0,10.7337461,106.6732866,Huyện Bình Chánh
-526,604330ec886de23638253b98,305136,6,https://landber.com/tin-dang/Ads_01_11621196,"Bán nhà C9/3A mặt tiền đường Phạm Hùng xã Bình Hưng huyện Bình Chánh, DT 640,8m2 giá 50tỷ","Bán nhà cấp 4 C9/3A mặt tiền đường Phạm Hùng, xã Bình Hưng huyện Bình Chánh. DT 640.8m2 ngang 17,8m (đang cho điện máy Thiên Hòa thuê 110tr/tháng) giá 50 tỷ.
-
-
-Bán nhà MT đường Phạm Hùng xã Bình Hưng huyện Bình Chánh, DT 26x50m có 771m2 thổ cư giá 140tr/m2 cho diện tích 771m2 phần diện tích còn lại không tính tiền.
-+ 229 Phạm Hùng phường 4 Quận 8. DT 683m2 lộ giới còn 426m2 sổ hồng giá 65tỷ.
-
-
-Bán 1750m2 góc 2MT đường Phạm Hùng xã Bình Hưng huyện Bình Chánh, qua khỏi ngã 4 Nguyễn Văn Linh 150m, đang cho thuê làm bãi xe, giá 30tr/m2 mua bán giấy tay ra thừa phát lại lập vi bằng.
-
-LH: 0902666333.",Phạm Hùng,bình hưng,ngã 4,ngã tư Nguyễn Văn Linh,,,C9/3A,1.0,1.0,5.0,2.0,50000000000,110000000,3.0,1.0,1.0,"{1,2}","{26,50}",229.0,10.7240129905345,106.680302582565,"(106.680302582565,10.7240129905345)",51136363.6363636,,1750.0,Ads_01_11621196,1578157200,1578700333.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000000DE0D7138AAB5A403573A8D4B1722540,1.0,2020-04-13 11:10:02.554917,1,8.0,False,2.0,902666333.0,2eb232d252974bff20a90be4ca1adeab,1.0,,1.0,0.0,60484e265b19110d9fc6636a,0,10.7383522,106.6701919,Huyện Bình Chánh
-527,604330ec886de23638253ba5,709860,3,https://batdongsan.com.vn/ban-nha-rieng-duong-dinh-duc-thien-xa-binh-chanh-3/-ban-cap-4-huyen-dien-tich-5m-x-20m-ket-cau-pr24976428,Nhà bán cấp 4 đường Đinh Đức Thiện - Xã Bình Chánh Huyện Bình Chánh - Diện tích: 5m x 20m,"Nhà bán cấp 4 đường Đinh Đức Thiện - Xã Bình Chánh Huyện Bình Chánh.<br/>- Diện tích: 5m x 20m.<br/>- Kết cấu: Cấp 4 (DTCN 103m2) sổ hồng riêng.<br/>- Vị trí: Nhà khu dân cư hiện hữu, hẻm xe hơi thông thoáng ra đường chính Đinh Đức Thiện khoảng 50m, cách Quốc lộ 1A khoảng 500m, nhiều tiện ích xung quanh.<br/>- Giá bán: 2,8 tỷ thương lượng.<br/>- LH: Hoàng Ân Land.<br/>Nhận ký gởi mua bán nhà đất.",Đinh Đức Thiện,bình chánh huyện,,"Đinh Đức Thiện, Quốc lộ 1 A",,,,1.0,1.0,1.0,2.0,2800000000,0,3.0,1.0,3.0,{2},"{5,20}",4.0,10.6605057540644,106.57734651211399,"(106.577346512114,106.577346512114)",27184466.0194175,,103.0,bdscomvn_24976428,1588999978,1588975612.0,2020-05-09 05:07:02.418829,0.0,0.0,0101000020E610000051FFC83EF3A45A40730D69CF2D522540,0.0,,0,0.0,False,3.0,,0dfb0635abc8ba34030b992bb5875920,1.0,,1.0,0.0,60484e265b19110d9fc6636b,0,10.6683663,106.5795783,Huyện Bình Chánh
-528,604330ec886de23638253bd6,762252,6,https://batdongsan.com.vn/ban-nha-rieng-duong-dinh-duc-thien-xa-tan-quy-tay/ban-2-can-binh-chanh-80-7m2-75-1m2-shr-pr24435248,"Bán 2 căn nhà Bình Chánh 80,7m2, 75,1m2 Đinh Đức Thiện SHR","Bán 2 căn nhà liền kề Đinh Đức Thiện huyện Bình Chánh.<br/>DT 4x20.<br/>SHR từng căn 80,7m2 & 75,1m2.<br/>1 trệt 1 lầu, 2PN, 2WC.<br/>Giá 2 tỷ 650, 2tỷ 300.<br/>Sang tên trong ngày, dọn vào ở ngay.<br/>Ko tiếp QC.",Đinh Đức Thiện,,,,,2,,1.0,1.0,1.0,2.0,2650000000,0,3.0,2.0,0.0,{2},"{4,20}",,10.6564026545375,106.584098905149,"(106.584098905149,10.6564026545375)",33125000.0,,80.0,bdscomvn_24435248,1589088056,1589065835.0,2020-06-30 10:16:13.371594,0.0,0.0,0101000020E6100000B1CF5FE061A55A40F67D3C0214502540,0.0,,0,0.0,False,1.0,,e80af85c1b0f2e43725bba7bcec98c18,1.0,,1.0,0.0,60484e265b19110d9fc6636c,0,10.6570604,106.58279,Huyện Bình Chánh
-529,604330ec886de23638253c21,61587,6,https://landber.com/tin-dang/Ads_01_23516315,"Nhà gác lửng 4x24 đường bờ kinh T14 Tân quý Tây Bình Chánh giá 2,4 tỷ thương lượng","Cần bán nhà cấp 4 diện tích 4x24 có gác lửng gồm 2 pn , 2wc. Đường rộng 8m thông thoáng tiện cho kinh doanh buôn bán, gần chợ gần trường học gần trung tâm hành chính huyện bình chánh trong bán kính 2km đổ về.
-Giá bán 2,4 tỷ còn thương lượng . SHR chính chủ nhé
-
-Chưa qua cò lái. Liên hệ tôi để xem nhà theo sđt 0937627026. Coi nhà vào ngày chủ nhật nhé. Vì vợ chồng bận đi làm cuối tuần được nghỉ mới có ở nhà.xin cảm ơn.",Bờ Kinh T14,tân quý tây,"chợ, trường học, trung tâm hành chính huyện",trung tâm hành chính huyện bình chánh,,"2 pn, 2 wc",,1.0,1.0,1.0,2.0,2400000000,0,3.0,1.0,0.0,{2},"{4,24}",,10.6572193256173,106.596252022391,"(106.596252022391,10.6572193256173)",0.0,,96.0,Ads_01_23516315,1574096400,1574201849.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000000A163EFE28A65A40B1A62B0D7F502540,1.0,2020-04-13 00:55:02.363957,1,8.0,False,3.0,937627026.0,094131fad4b13118c76a105c46791d4d,1.0,,1.0,0.0,60484e265b19110d9fc6636d,0,10.6683663,106.5795783,Huyện Bình Chánh
-530,604330ec886de23638253c29,58149,6,https://landber.com/tin-dang/Ads_01_23526487,"Bán gấp nhà 65m2 Tỉnh Lộ 10, Phạm Văn Hai, Bình Chánh","Bán gấp cho con đi học nhà mặt tiền hẻm Tỉnh Lộ 10 ngay cầu Xáng, Tỉnh Lộ 10, Phạm Văn Hai, Bình Chánh. Cách chợ, trường học, bệnh viện, chưa tới 500m.
-* Nhà cấp bốn có gác 3,5m, 18,5m xây dựng kiên cố mới sửa lại như mới mua dọn vào ở liền.
-
-* Giá chỉ 1 tỷ 440tr giá này bao rẻ mặt tiền Tỉnh Lộ 10 kiếm không có căn thứ hai.
-* Pháp lý SHC CCVB.
-
-* LH gặp chủ xem nhà: 0971761942.",Tỉnh Lộ 10,phạm văn hai,"cầu, chợ, trường học, bệnh viện","cầu Xáng, Tỉnh Lộ 10, Phạm Văn Hai, Bình Chánh",,,,1.0,1.0,1.0,2.0,1440000000,0,2.0,1.0,5.0,{2},"{0,0}",,10.777627346186199,106.537331812164,"(106.537331812164,10.7776273461862)",18398571.4285714,,65.0,Ads_01_23526487,1574182800,1574215273.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000002F16F8A463A25A40A3B0E82B258E2540,1.0,2020-04-13 02:22:01.923211,2,7.0,False,3.0,971761942.0,91611e9bbd3aa9159abdc40279822dc4,1.0,,1.0,0.0,60484e265b19110d9fc6636e,0,10.7962594,106.5006194,Huyện Bình Chánh
-531,604330ec886de23638253c2d,126396,6,https://landber.com/tin-dang/Ads_01_23429864,Bán đất mặt tiền Bình Chánh giá 1.8 tỷ nằm cạnh KDC,"Bán đất mặt tiền Đinh Đức Thiện, Bình Chánh chỉ từ 1,7 tỷ đồng sổ hồng riêng từng. LH: 0938225206 hoặc 0829881096
-
-
-
-- Chung quanh có đầy đủ các tiện ích như: Trường học, chợ, siêu thị, trạm y tế,... Nằm gần tuyến đường lớn nên thuận tiện về các di chuyển về các quận trung tâm thành phố.
-- KDC hiện hữu cơ sở hạ tầng hoàn thiện, điện âm, nước máy.
-- Gần trường học cấp 1, 2, 3.
-- Gần UBND, trạm y tế, cách chợ Bình Chánh 1km.
-- Gần các KCN như: KCN Cầu Tràm 6km, KCN Tân Tạo 7km, KCN Lê Minh Xuân 10km, cụm CN Hải Sơn 4km.
-- Cách Bv Chợ Rẫy 18km, Bv huyện Bình Chánh 5km.
-- Cách bến xe Miền Tây Quận 6 14km - Đến bến xe Miền Tây mới xã ở An Phú tây chỉ 3km.
-- Chỉ 6km đến khu đại học Hưng Long.
-- Nhà sách Nguyễn Văn Cừ, Siêu Thị điện máy Tân Túc 2km.
-- Siêu thị Big C An Lạc chỉ 10km.
-- Ra Quốc Lộ 50 chỉ 6km, Quốc Lộ 1A khoảng 1km, Nguyễn Văn Linh 10km.
-- Về Quận 6 chỉ 25, Quận 4, Quận 5 chỉ 35 phút
-- Từ Nguyễn Văn Linh về Quận 8 khoảng 15, về Quận 1 chỉ 35 phút
-- Ra đến ngã 3 Đinh Đức Thiện với QL1A chỉ 1km.
-- Đa dạng diện tích: 5,5x14,1; 5,5x20 6x15 , 6x18, 8,5x15 Xây dựng tự do, cơ sở hạ tầng rất đẹp đường nhựa rộng đến 40m điện âm nước máy
-- Giá chỉ từ 1,7 tỷ/lô. Sổ đỏ từng bao công chứng sang tên. Ngân hàng hỗ trợ vay.
-- Liên hệ: 0938225206 hoặc 0829881096 (Phước Thành) để xem đất và hỗ trợ tốt nhất.",Đinh Đức Thiện,,"Trường học, chợ, siêu thị, trạm y tế, trường học, UBND, trạm y tế, chợ, KCN, KCN, KCN, KCN, CN, Bv, bến xe, bến xe, khu đại học, Nhà sách, Siêu Thị điện máy, Siêu thị, ngã 3","chợ Bình Chánh, KCN Cầu Tràm, KCN Tân Tạo, KCN Lê Minh Xuân, CN Hải Sơn, Bv Chợ Rẫy, Bình Chánh, bến xe Miền Tây, Quận 6, bến xe Miền Tây, An Phú tây, khu đại học Hưng Long, Nhà sách Nguyễn Văn Cừ, Siêu Thị điện máy Tân Túc, Siêu thị Big C An Lạc, Quốc Lộ 50, Quốc Lộ 1 A, Nguyễn Văn Linh, Quận 6, Quận 4, Quận 5, Nguyễn Văn Linh, Quận 8, Quận 1, ngã ba Đinh Đức Thiện, QL 1 A",,,,1.0,1.0,1.0,2.0,1700000000,0,3.0,1.0,1.0,{2},"{5.5,14.1}",,10.6603106390316,106.57697880233101,"(106.576978802331,10.6603106390316)",25854819.5247258,,78.0,Ads_01_23429864,1573578000,1573999835.0,2020-02-12 08:49:25.145194,2.9,3.6,0101000020E6100000D69F7F38EDA45A40C8AE6F3C14522540,1.0,2020-04-13 02:47:01.885833,2,7.0,False,3.0,938225206.0,66020130b8c8768cce4ddf668312f21e,1.0,,2.0,0.0,60484e265b19110d9fc6636f,0,10.659734,106.57826,Huyện Bình Chánh
-532,604330ec886de23638253c56,108371,6,https://landber.com/tin-dang/Ads_01_23171072,"BÁN NHÀ LỚN Ở NGUYỄN HỮU TRÍ, BÌNH CHÁNH, VỊ TRÍ ĐẸP, HẺM XE HƠI, 370 M2, SHR, 0907542989 MAI","Giá rẻ Mua đất 25,6 triệu/m2, Tặng biệt thự.
-CHÍNH CHỦ CẦN BÁN BIỆT THỰ ĐẸP NGUYỄN HỮU TRÍ ẤP 5 - BÌNH CHÁNH - TP HCM.
-
-Tôi cần bán gấp căn biệt thự Góc 2 Mặt tiền Hẻm Xe hơi, diện tích đất 370 m2 mới xây.
-Xây 1 trệt 1 lầu.
-
-- 4 Phòng ngủ, 1 Phòng Khách, 1 Phòng thờ, 1 nhà bếp, 1 phòng ăn, Ban Công quanh nhà, đậu xe trong nhà. Sân vườn, Đất rộng co thể xây hồ bơi.
-Biệt thự view đẹp thoáng mát, 4 bề gió lộng, phong thủy tốt.
-Đi bộ ra chợ, siêu thị, trung tâm thương mại, gần trường học, gần bệnh viện Bình Chánh, UBND Bình Chánh, trung tâm khu Hành Chánh.
-- Hẻm xe hơi, biệt thự gốc 2 mặt tiền. Cách 20 m ra Nguyễn Hữu Trí, 50 m ra Tân Túc. Gần gốc đường giao giữa Tân Túc và Nguyễn Hữu Trí.
-Giá bán 9.5 tỷ, có thương lượng cho người thiện chí mua.
-Giấy tờ sổ hồng, công chứng trong ngày được.
-Liên Hệ: 0907542989 Mai.
-Địa chỉ: E2/15 Đường Nguyễn Hữu Trí, Ấp 5, Thị trấn Tân Túc, Bình Chánh, Hồ Chí Minh.",Nguyễn Hữu Trí,tân túc,"chợ, siêu thị, trung tâm thương mại, trường học, bệnh viện, UBND","bệnh viện Bình Chánh, UBND Bình Chánh, Nguyễn Hữu Trí, Tân Túc, Tân Túc, Nguyễn Hữu Trí",,4 phòng ngủ,,1.0,1.0,1.0,2.0,25600000,0,3.0,2.0,5.0,{2},"{0,0}",,10.6928186747759,106.583390792749,"(106.583390792749,10.6928186747759)",43428571.4285714,,370.0,Ads_01_23171072,1573750800,1574011622.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000045E9554656A55A40E8701C21B9622540,1.0,2020-04-13 12:41:01.505189,2,7.0,False,3.0,907542989.0,77445c667fbe0652905384af0f43aa48,1.0,,2.0,0.0,60484e265b19110d9fc66370,0,10.6932511,106.5783992,Huyện Bình Chánh
-533,604330ec886de23638253c7d,132612,6,https://landber.com/tin-dang/Ads_01_23431665,NHÀ 1 TRỆT 2 LẦU 5 X 20 ĐƯỜNG ĐINH ĐỨC THIỆN. GIÁ 1TY9,"nhà 1 trệt và 2lầu cách chợ Bình Chánh 2km
-
-Vị trí : Quốc lộ 1A vào ĐINH ĐỨC THIỆN 2Km.
-
-Diện tích : 5 m x 20
-thiết kế : Tang tret:1 phòng khách và bếp cực rộng..có thể thiết kế thêm phòng ngủ phía dưới nếu nhà có người già,1 nhà vê sinh
-Lầu 1: 2 phòng ngủ,2 nhà vệ sinh
-lầu 2: 2 phòng ngủ,1 nhà vệ sinh
-thiết kế đẹp, ban công rộng, nhà vê sinh thoải mái.. đủ tắm tập thể 10 người..
-nhà hướng chính tây, xe hơi đến cửa, vô nhà thoải mái... cách đường lớn DDT đúng 40 mét... thẳng tắp..tiện ích ngay cửa
-Nhà đẹp vô ở ngay.. tặng nội thất y hình
-
-Chỉ với 1,8 tỷ - nhận nhà ở ngay. Ngân hàng hổ trợ cho vay 50% với lãi suất cực ưu đãi và thời gian lên đến 20 năm .r - Công chứng sang tên trong ngày ( bao chi phí sang tên )
- Thiết kế : 1 trệt 2 lầu, 4 phòng ngủ, 2WC, sân trước rộng rãi, ban công thoáng mát.
- ĐƯỜNG TRƯỚC NHÀ 14M
-Xe hơi vào tận nhà, nhà mới 100%, điện nước riêng, sổ hồng chính chủ - Công chứng sang tên trong ngày.
- cám ơn anh/ chị đã xem tin",Đinh Đức Thiện,an phú tây,chợ,"chợ Bình Chánh, ĐINH ĐỨC THIỆN",,4 phòng ngủ,,1.0,1.0,1.0,2.0,1800000000,0,3.0,3.0,6.0,{2},"{5,20}",,10.686774927365,106.607425678951,"(106.607425678951,10.686774927365)",9364161.96234846,tây,100.0,Ads_01_23431665,1583773200,1573995573.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000FB75F40FE0A65A40AB7D99F6A05F2540,1.0,2020-04-13 06:30:01.451095,2,7.0,False,1.0,,7a81095c96ae75e4b6dac998b1ca93e1,3.0,,2.0,0.0,60484e265b19110d9fc66371,0,10.6683663,106.5795783,Huyện Bình Chánh
-534,604330ec886de23638253cbb,200628,6,https://landber.com/tin-dang/Ads_01_21124881,Bán nhà trung tâm huyện Bình Chánh,"Bán nhà mặt tiền 58 đường Số 5, xã Bình Chánh, huyện Bình Chánh. Diện tích: 80m2= 5m x 16m (4 tầng).
-Giá: 12 tỷ 2, pháp lý: Sổ hồng.
-
-Hướng: Đông nam.
-Nhà 4 tầng thuận tiện cho kinh doanh, mở văn phòng, ngay trung tâm.
-
-SĐT chính chủ: 0905108585 (Chị Hạnh).",Số 5,bình chánh,,,,,58,1.0,1.0,1.0,2.0,12200000000,0,3.0,4.0,1.0,{2},{80},58.0,10.6647129019149,106.56762281161899,"(106.567622811619,10.6647129019149)",28497581.7899545,đông - nam,80.0,Ads_01_21124881,1560272400,1573973010.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000006C17A1EE53A45A405AE8DD3F55542540,1.0,2020-04-13 00:15:01.353149,1,8.0,False,3.0,905108585.0,e57e4d1c90816f5669feb00955da6823,1.0,,2.0,0.0,60484e265b19110d9fc66372,0,10.7354997,106.6731023,Huyện Bình Chánh
-535,604330ec886de23638253d1a,663822,3,https://batdongsan.com.vn/cho-thue-nha-rieng-duong-18-1-xa-binh-hung-1-prj-khu-dan-cu-binh-hung/cho-chanh-11tr-thang-pr25137144,"Cho thuê nhà khu dân cư Bình Hưng, Bình Chánh, 11 tr/tháng","Cho thuê nhà số 52 đường 18 khu dân cư Bình Hưng, Bình Chánh: Trệt + 2 lầu: 4*18.<br/>Giá cho Thuê: 11 triệu / tháng.<br/>LH: 0939.39.2369 hoặc 0913.961.951 Liễu để xem nhà trực tiếp!",đường 18,bình hưng,khu dân cư,khu dân cư Bình Hưng,,,,1.0,1.0,5.0,2.0,11000000,11000000,2.0,3.0,6.0,{2},"{4,18}",52.0,10.722496188210002,106.655843529829,"(106.655843529829,106.655843529829)",152777.777777778,,72.0,bdscomvn_25137144,1586497440,1586473278.0,2020-05-05 23:17:01.399589,0.0,0.0,0101000020E610000046FA2357F9A95A4067B13705EB712540,0.0,,0,0.0,False,2.0,939392369.0,a6f3935942e6f2f867f5e151ef00fe81,1.0,,0.0,0.0,60484e265b19110d9fc66373,0,10.8259251,106.7190694,Huyện Bình Chánh
-536,604330ec886de23638253d25,610679,3,https://batdongsan.com.vn/ban-nha-mat-pho-duong-so-9-xa-binh-hung-1-prj-khu-dan-cu-trung-son/ban-14x-9-kdc-n-chanh-8x18-5-1t2l-gia-14-ty-pr24595499,"Bán nhà biệt thự Số 14 đường Số 9 KDC Trung Sơn Bình Hưng Bình Chánh, 8x18.5m 1T, 2L giá 17.2 tỷ","Nhà trống cần chuyển nhượng lại căn biệt thự tại KDC cao cao cấp Trung Sơn, Bình Hưng, Bình Chánh, nhà Số 14 đường Số 9 song song đường 9A<br/>Dt 8 x 18.5m XD 1 trệt 2 lầu 4PN 5WC, cách trung tâm Q1 chưa tới 10 phút.<br/>Giá bán 17.2 tỷ sổ hồng chính chủ.<br/>Liên hệ: 0913 446 101.",Số 9,trung sơn bình hưng,,"9 A, Q 1",,4,Trung Sơn,1.0,1.0,1.0,2.0,17200000000,0,3.0,3.0,1.0,{2},"{8,18.5}",14.0,10.730073150830501,106.689059969576,"(106.689059969576,106.689059969576)",161029469.69697,đông,148.0,bdscomvn_24595499,1582970778,1586729791.0,2020-04-13 05:17:02.862264,2.0,3.6,0101000020E6100000EC93FC8E19AC5A405A02E525CC752540,1.0,2020-04-13 09:51:02.214044,2,7.0,False,2.0,913446101.0,63c93dfe88dfbd9d3b0c04476120786a,1.0,,0.0,0.0,60484e265b19110d9fc66374,0,10.73798,106.6887488,Huyện Bình Chánh
-537,604330ec886de23638253d46,304804,6,https://landber.com/tin-dang/Ads_01_22648915,"Bán nhà đất nông nghiệp 9600m2 đường Kênh 7, Ấp Tân Kiên, Bình Chánh có 800m2 thổ, giá 42 tỷ còn TL","- Kẹt tiền nên cần bán gấp 9600m2 đất nông nghiệp và có 800m2 thổ cư đang có 50 phòng trọ cho thuê.
-- Vị trí: Đường Kênh 7, ấp Tân Kiên, Bình Chánh.
-
-- Hiện trạng: Có dãy nhà trọ đang cho thuê và đất trống.
-- Ngay bệnh viện Nhi Đồng 2 TPHCM.
-
-- Giá 42 tỷ (còn TL).
-LH để xem nhà thực tế: 0934.257.241. (Minh Đức).",Kênh 7,tân kiên,bệnh viện,bệnh viện Nhi Đồng 2 TPHCM,,,,1.0,1.0,6.0,2.0,42000000000,0,2.0,1.0,6.0,{1},"{0,0}",,10.7277344324191,106.57096944500799,"(106.570969445008,10.7277344324191)",0.0,,9600.0,Ads_01_22648915,1578157200,1578700038.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000C7546DC38AA45A40A4D3869B99742540,1.0,2020-04-13 00:57:01.646515,1,8.0,False,2.0,934257241.0,14da0c5f1ccbf7a25982f6ec1499563a,1.0,,2.0,0.0,60484e265b19110d9fc66375,0,10.7280233,106.5677426,Huyện Bình Chánh
-538,604330ec886de23638253d49,684607,3,https://batdongsan.com.vn/ban-nha-mat-pho-duong-nguyen-van-linh-xa-binh-hung-1-prj-khu-dan-cu-phi-long-5/can-ban-shophouse-pl5-chinh-25m-vao-mizuki-1-tret-2-5-lau-5x20-gia-8-4ty-lh-0977112463-mr-vinh-pr25344281,"Cần bán shophouse PL5 đường chính 25m vào Mizuki.1 trệt 2.5 lầu,5x20 giá 8.4tỷ LH:0977112463 Mr vinh","Cần bán nhà shophouse KDC Phi long 5 trục đường chính số 1 Dương Hồng,Mizuki.<br/>Khu dân cư sầm uất,tiện ích trường học công viên khu vui chơi.<br/>Giao thông thuận tiện đi các quận 7 ,Q8 ,4 ,5 và quận 1<br/>Rất gần các Trường Đại học Rmit,Văn Hiến,Kinh tế và Tôn Đức Thắng,<br/>Tiện kinh doanh,cafe làm văn phòng hoặc đâu tư.<br/>Giá thuê trên 20tr 1 tháng.<br/>Nhà 1 trệt 2.5 lầu.<br/>Diện tích : 5m x 20m <br/>Giá : 8.4 tỷ <br/>Thông tin chi tiết vui lòng liên hệ :<br/>0977112463 hoặc 0931822618 Mr Vinh.",Dương Hồng,,"trường học, công viên, khu vui chơi, Trường Đại học","Mizuki, quận 7, Q 8, 4  5, quận 1, Trường Đại học Rmit, Văn Hiến, Kinh tế, Tôn Đức Thắng","sầm uất, Giao thông thuận tiện",5,PL 5,1.0,1.0,1.0,2.0,8400000000,0,2.0,3.0,1.0,{2},"{5,20}",1.0,10.7205279528046,106.662612803377,"(106.662612803377,106.662612803377)",84000000.0,,100.0,bdscomvn_25344281,1588829303,1588806684.0,2020-05-07 06:23:02.229637,0.0,0.0,0101000020E6100000711A883F68AA5A40A54C320AE9702540,0.0,,0,0.0,False,3.0,977112463.0,d35141b6d849881188ac7fd10552165b,1.0,,0.0,0.0,60484e265b19110d9fc66376,0,10.7217624,106.6628344,Huyện Bình Chánh
-539,604330ec886de23638253d66,414339,6,https://landber.com/tin-dang/Ads_01_21308577,"Bán gấp nhà trọ 290m2 đường Quách Điêu, Bình Chánh. LH: 0783921621","Chính chủ cần tiền bán gấp dãy trọ 18 phòng + 2 ki ốt mặt tiền đường nhựa 12m, Quách Điêu, Vĩnh Lộc A, Bình Chánh.
-- DT: 10*29m, đất thổ cư, sổ hồng riêng.
-
-- Tiện ích, tiện nghi: Điện nước đầy đủ, nước máy sạch sẽ, an ninh tốt. Khu dân cư đông, hiện hữu, kinh doanh buôn bán tấp nập. Xung quanh có nhiều tiện ích đầy đủ gần chợ, trường học, bệnh viện, ủy ban thuận lợi cho việc di chuyển.
-Hiện tại các phòng đang cho thuê kín, chủ yếu khách thuê ở lâu dài.
-
-- Phòng cho thuê với giá 1tr5/ phòng, ki ốt 2tr.
-Gần nhiều KCN lớn lượng công nhân thuê ở đông, lâu dài.
-- Liên hệ: 0906873184.",Quách Điêu,vĩnh lộc a,"chợ, trường học, bệnh viện, ủy ban, KCN",,"sạch sẽ, an ninh tốt, dân cư đông, tấp nập","18 phòng, 2 ki ốt",,1.0,1.0,6.0,2.0,1500000,0,3.0,1.0,6.0,"{2,1}","{10,29}",,10.8288841443012,106.571526409676,"(106.571526409676,10.8288841443012)",25445183.3607006,,290.0,Ads_01_21308577,1581699600,1581731029.0,2020-02-15 08:44:01.664228,2.0,3.6,0101000020E6100000E39681E393A45A40B5E4A78063A82540,1.0,2020-04-13 08:49:01.486807,2,7.0,True,3.0,783921621.0,900cf4488afd6f1332e9abecb8895e5d,1.0,,0.0,0.0,60484e265b19110d9fc66377,0,10.8214374,106.5754834,Huyện Bình Chánh
-540,604330ec886de23638253d7b,464779,6,https://landber.com/tin-dang/Ads_01_24513908,"Chính chủ bán nhà mặt tiền phạm hùng - nguyễn tri phương nd, 5x22 trệt 2 lầu sân thượng giá 14 ty 5","- Chính chủ bán nhà mặt tiền Phạm Hùng - Nguyễn Tri Phương nối dài, xã Bình Hưng - Bình Chánh Tp HCM.
-
-+ Dt đất: 5x22 xd trệt 2 lầu + sân thượng.
-
-+ Vị trí: Mặt tiền Phạm Hùng, đường 40m, vỉa hè rộng 8m thích hợp mở cty văn phòng, vị trí giao thông thuận tiện cách ngã 4 phạm hùng - nguyễn văn linh 800m ... đi trung tâm Q1, Q5, Phú mỹ Hưng khoảng 10 phút ...
-+ Nhà đẹp, nội thất đầy đủ ...
-+ Giá chuyển nhượng: 14 tỷ 5.
-+ Pháp lý : sổ hồng cá nhân, mua bán công chứng nhanh gọn.
-+ Liên hệ chính chủ và xem nhà: 0938691001 Cảnh
-Cám ơn đã xem tin. Chắc ai đó sẽ mua.",Phạm Hùng,bình hưng,ngã 4,"ngã tư phạm hùng, nguyễn văn linh, Q 1, Q 5, Phú mỹ Hưng",giao thông thuận tiện,,Đại Phúc Green Villas,1.0,1.0,1.0,2.0,14500000000,0,3.0,3.5,1.0,{2},"{5,22}",,10.717488709920401,106.68352588826099,"(106.683525888261,10.7174887099204)",122585946.230198,,110.0,Ads_01_24513908,1587040323,1582524757.0,2020-02-24 13:13:02.00883,2.0,3.6,0101000020E610000029035EE3BEAB5A40FBB620AE5A6F2540,1.0,2020-04-13 10:57:02.17486,2,7.0,False,2.0,938691001.0,c99e78028fc6600fe067e94b2cefbd8c,2.0,,0.0,0.0,60484e265b19110d9fc66378,0,10.7059344,106.6850342,Huyện Bình Chánh
-541,604330ec886de23638253df1,334850,6,https://landber.com/tin-dang/Ads_01_24137197,"Nhà 2 mặt tiền trước sau chợ Ấp 5 Vĩnh Lộc B, Bình Chánh","Cần bán gấp trong tết căn nhà 2 mặt tiền trước và sau nhà ngay chợ Ấp 5 Vĩnh Lộc B, ngay chợ thuận tiện kinh doanh buôn bán mọi ngành nghề
-
-- Diện tích 6x23m, nhà xây 1 trệt 1 lầu, có 1 phòng khách, 1 bếp, 3 phòng ngủ, 2 wc
-
-- Cách uỷ ban Vĩnh Lộc B chỉ 200m, cách trường học chỉ 1km
-- Giá 5,7 tỷ, thương lượng nhẹ
-- Liên hệ 0901347577 gặp Lâm để xem nhà",Vĩnh Lộc,vĩnh lộc b,"chợ, chợ, chợ, uỷ ban, trường học","chợ Ấp 5, chợ Ấp 5, uỷ ban Vĩnh Lộc B",,3 phòng ngủ,,1.0,1.0,1.0,2.0,5700000000,0,2.0,2.0,2.0,{2},"{6,23}",,10.798238893431199,106.56045107421801,"(106.560451074218,10.7982388934312)",0.0,,134.0,Ads_01_24137197,1578416400,1578730497.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000008AB12E6EDEA35A405B5DABC4B2982540,1.0,2020-04-13 03:55:03.280527,1,8.0,False,3.0,901347577.0,340fb4d73e0631385ec2878e2a582805,1.0,,0.0,0.0,60484e265b19110d9fc66379,0,10.7716029,106.5514332,Huyện Bình Chánh
-542,604330ec886de23638253df9,168852,6,https://landber.com/tin-dang/Ads_01_23269738,"Bán gấp nhà vườn Vĩnh Lộc A, 9x28m, CN 254m2, 2 MT hẻm thông 8m, giá 5,7 tỷ TL với chủ","Chính chủ gửi bán.
-Nhà vườn 2MT Vĩnh Lộc A, Bình Chánh, sát mt đường Vĩnh Lộc.
-
-Hẻm xi măng 8m xe tải ra vô thoải mái.
-9 x 28m. CN 254m2. Giá cực tốt 5.7 tỷ TL với chủ.
-
-Thích hợp nghỉ dưỡng cuối tuần, cách ngã. 5 Vĩnh Lộc 2km. Cách Lê Trọng Tấn 10 phút...
-Giao thông vô cùng thuận lợi.
-
-Nhanh tay lên. A chị ơi.
-LH Thường 0909.6798.17.",Vĩnh Lộc,vĩnh lộc a,ngã . 5,"Vĩnh Lộc, ngã  5 Vĩnh Lộc, Lê Trọng Tấn",Giao thông vô cùng thuận lợi,,,1.0,1.0,1.0,2.0,5700000000,0,2.0,1.0,3.0,{2},"{9,28}",,10.810655961464699,106.57463141997101,"(106.574631419971,10.8106559614647)",16527777.777777802,,254.0,Ads_01_23269738,1573318800,1573979879.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000D901DDC2C6A45A40C798554C0E9F2540,1.0,2020-04-13 13:23:02.506088,1,8.0,False,2.0,909679817.0,b8bdd3017beb63927782377f35be28d0,1.0,,2.0,0.0,60484e265b19110d9fc6637a,0,10.7716029,106.5514332,Huyện Bình Chánh
-543,604330ec886de23638253e02,575782,6,https://landber.com/tin-dang/Ads_02_13085313,"Bán nhà 3 lầu 5x20m, 6pn, mặt tiền 12m đường Nguyễn Văn Linh, huyện Bình Chánh","Địa chỉ: 12 đường Nguyễn Văn Linh, xã Phong Phú, huyện Bình Chánh, Tp Hồ Chí Minh.
-DT nhà 5 x 20m, hướng Đông Bắc, gồm 1 trệt 3 lầu có 6pn, 5wc, 1pk, 1 bếp.
-Mặt tiền đường đối diện công viên, KDC 13E Intresco nằm ngay Nguyễn Văn Linh và Quốc Lộ 50.Ngay sau đại học Văn Hiến, đại học Mật Mã, liền kề đại học Kinh Tế TPHCM.Cách trung tâm Chợ Lớn 10p.Cách trung tâm Q1 15p.Gần làng đại học, chợ Bình Điền, BX Quận 8, BV Việt Pháp, Lotte Mart, KDC Trung Sơn.Tiện ích hữu hiệu: Hồ bơi, sân tennis, siêu thị Vinmart, Citimart, quán ăn, cafe container, nhà trẻ, trường học quốc tế Canada, phòng gym, yoga...Cơ sở hạ tầng hoàn chỉnh: Đường nhựa rộng 12 - 60m, hệ thống điện và internet ngầm, hệ thống chiếu sáng và camera an ninh.Pháp lý sổ hồng riêng chính chủ.Chính chủ bán giá 6,3 tỷ.Cho thuê giá 16 tr/tháng.LH: Mr Lễ 0833491971.","Nguyễn Văn Linh,Huyện Bình Chánh,Hồ Chí Minh",phong phú,"công viên, đại học, đại học, đại học, làng đại học, chợ, BV, KDC, Hồ bơi, sân tennis, siêu thị, quán ăn, cafe container, nhà trẻ, trường học quốc tế, phòng gym, yoga","Nguyễn Văn Linh, Quốc Lộ 50, đại học Văn Hiến, đại học Mật Mã, đại học Kinh Tế TPHCM, Q 1, chợ Bình Điền, Quận 8, BV Việt Pháp, Lotte Mart, KDC Trung Sơn, siêu thị Vinmart, Citimart, trường quốc tế Canada",an ninh,6 phòng ngủ,,1.0,1.0,5.0,2.0,6300000000,16000000,3.0,4.0,1.0,{2},"{5,20}",12.0,10.6985695476778,106.65223065316601,"(106.652230653166,10.6985695476778)",64585424.60046221,đông - bắc,100.0,Ads_02_13085313,1584550800,1584569188.0,2020-03-19 05:07:02.258129,7.7,7.1,,1.0,2020-04-13 03:59:03.623788,10,10.0,False,3.0,833491971.0,e8436fb5cf747cb34dd8cca8d7a39fe9,1.0,,0.0,0.0,60484e265b19110d9fc6637b,0,10.7097372,106.6423746,Huyện Bình Chánh
-544,604330ec886de23638253e7d,132572,6,https://landber.com/tin-dang/Ads_01_23431170,nhà cần bán 1 lầu 2pn 2wc 60m2 900tr/căn Huỳnh Hữu trí bình chánh,"nhà 1 lầu 2pn 2wc có sân trước sân sau thoáng mát , nhà xây mới hoàn thiện , xây dựng kiên cố , thiết kế đẹp mắt 
-
-Vị trí nằm trên đương T13 Đường Huỳnh Hữu Trí nối dài 
-
-- mặt tiền đương 10m , đường trải nhựa , xe hơi đi vào rộng rãi 
-- dân cư đông đúc , xung quanh nhà có đầy đủ các tiện ích để sử dụng ( chợ , bệnh viện , trường học, trung tâm hành chính )
-- sổ hồng riêng , sang tên công chứng trong ngày 
-- có ngân hàng hỗ trợ vay 300tr/căn 
-- LH 0938.190.419 Quốc Huy để biết thêm thông tin",Huỳnh Hữu Trí,,"chợ, bệnh viện, trường học, trung tâm hành chính",,đông đúc,2 phòng ngủ,,1.0,1.0,1.0,2.0,900000000,0,3.0,2.0,6.0,{2},"{0,0}",13.0,10.6877715898486,106.59405278793501,"(106.594052787935,10.6877715898486)",23823015.8730159,,60.0,Ads_01_23431170,1573578000,1573995600.0,2020-02-12 08:49:25.145194,8.0,3.6,0101000020E6100000EA11FCF504A65A4015090B9923602540,1.0,2020-04-13 05:38:01.46861,10,7.0,True,3.0,938190419.0,9a24a73f19b3afe2d10c8312c9c05d4d,1.0,,2.0,0.0,60484e265b19110d9fc6637c,0,10.6683663,106.5795783,Huyện Bình Chánh
-545,604330ec886de23638253e86,352837,6,https://landber.com/tin-dang/Ads_01_24002650,"Cần bán căn nhà từ cổng khu công nghiệp Vĩnh Lộc vào khoảng 3km, gần chợ Vĩnh Lộc","Cần bán nhà gần khu công nghiệp và gần chợ.
-Nhà E8/26 Ấp 5, xã vĩnh lộc A, Bình Chánh.
-
-DT 267m2, giá 8.5 tỷ.",Ấp 5,vĩnh lộc a,"khu công nghiệp, chợ, khu công nghiệp, chợ","khu công nghiệp Vĩnh Lộc, chợ Vĩnh Lộc",,,E8/26,1.0,1.0,1.0,2.0,8500000000,0,2.0,1.0,6.0,{2},"{0,0}",0.0,10.8228722188572,106.56586257587799,"(106.565862575878,10.8228722188572)",21767757.3005698,,267.0,Ads_01_24002650,1577206800,1578689581.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000445BAA1737A45A40B58EE9814FA52540,1.0,2020-04-13 05:45:02.164621,1,8.0,False,1.0,,6bf9c4e54c9fd6491ae36632444efa4d,1.0,,0.0,0.0,60484e265b19110d9fc6637d,0,10.8209666,106.5843386,Huyện Bình Chánh
-546,604330ec886de23638253e94,499564,6,https://landber.com/tin-dang/Ads_01_21242947,"Bán nhà đất có nhà tạm, đất trồng cây lâu năm tại ấp 6, xã Hưng Long, Bình Chánh, giá chỉ 4.6tr/m2","Bán nhà đất có nhà tạm, đây là đất trồng cây lâu năm thuộc Kênh T2 ấp 6 xã Hưng Long, huyện Bình Chánh.
-Diện tích 2544,4 m2.
-
-Đường xe tải 7 tấn. Có 12 nhà trọ thu nhập trên 10 tr/tháng.
-Phía sau: Có ao nuôi cá diện tích ao 700m2. Có nhà thủy tạ phù hợp cho đại gia nghỉ ngơi cuối tuần.
-
-Giá bán 4,6tr/m2.
-Liên hệ 0938422138.",Ấp 6,hưng long,,,xe tải,,,1.0,1.0,1.0,2.0,11700000000,0,2.0,1.0,6.0,{2},"{0,0}",,10.6582468460963,106.628810845342,"(106.628810845342,10.6582468460963)",4598333.59534664,,2544.4,Ads_01_21242947,1583168400,1583198992.0,2020-03-03 08:30:01.632986,2.0,3.6,0101000020E61000002C07D86F3EA85A40885B09BB05512540,1.0,2020-04-13 06:08:01.481859,2,7.0,False,2.0,938422138.0,7392e648e839725fed66a3d68c1c8c2e,1.0,,0.0,0.0,60484e265b19110d9fc6637e,0,10.6818047,106.619877,Huyện Bình Chánh
-547,604330ec886de23638253ec2,324566,6,https://landber.com/tin-dang/Ads_01_24125920,Bán nhà chính chủ hẻm C9 Phạm Hùng,"Chính chủ bán nhà hẻm C9 Phạm Hùng, Bình Hưng, Bình Chánh - Diện tích: 56m2 (4mx14m).
-- Tổng diện tích sử dụng 162m2.
-
-
-Giá: 3.9 tỷ (bớt chút lộc cho người thiện chí).
-
-- Nhà chính chủ hẻm C9 Phạm Hùng, Bình Hưng, Bình Chánh cách Nguyễn Văn Linh 100m. Nhà hướng chính Nam.
-- Hẻm cụt 5m, xe hơi vào tận cửa.
-- Nhà 2 tấm rưỡi, sàn đúc thật, nóc đúc thật, móng bê tông cốt thép, có thể lên được 5 lầu.
-- Công năng: 1 phòng khách, 1 phòng bếp, 1 phòng thờ, 3 phòng ngủ, 4 WC, 1 sân thượng, 2 giếng trời lấy sáng 4m2 và 2m2.
-- Mỗi tầng, mỗi phòng, mỗi công tắc ổ cắm đều có CB chống giật riêng, công tắc điện Panasonic.
-Vị trí đắc địa rất thuận tiện.
-- 5 phút đến cầu Nguyễn Tri Phương, qua quận 5.
-- Gần trường RMIT, trường ĐH Công Nghệ Sài Gòn.
-- 30 giây đến Cao Lỗ, 10 phút đến Phú Mỹ Hưng, 10 phút đến cầu Nguyễn Văn Cừ, quận 1.
-- Gần chợ, siêu thị, trường học mầm non, cấp 1, 2 3.
-* Rất thích hợp cho hộ gia đình, vợ chồng sinh sống,
-Pháp lý: Bộ thuế, GPXD, giấy tờ mua bán.
-Liên hệ: 0917171542 Chính Chủ.
-Miễn tiếp môi giới đăng tin.",Phạm Hùng,bình hưng,"cầu, trường, trường ĐH, cầu, chợ, siêu thị, trường học mầm non","Nguyễn Văn Linh, cầu Nguyễn Tri Phương, quận 5, trường RMIT, trường ĐH Công Nghệ Sài Gòn, Cao Lỗ, Phú Mỹ Hưng, cầu Nguyễn Văn Cừ, quận 1",,3 phòng ngủ,Hẻm C9,1.0,1.0,1.0,2.0,3900000000,0,2.0,6.0,3.0,{2},"{4,14}",9.0,10.723818801734303,106.679993293288,"(106.679993293288,10.7238188017343)",28125000.0,nam,56.0,Ads_01_24125920,1582909200,1578720034.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000EC0A970285AB5A40995BC36098722540,1.0,2020-04-13 12:37:02.483583,1,8.0,False,1.0,917171542.0,649854cbe9e344e02cbbdea03f8a43c1,3.0,,2.0,0.0,60484e265b19110d9fc6637f,0,10.7337461,106.6732866,Huyện Bình Chánh
-548,604330ec886de23638253efb,660975,3,https://batdongsan.com.vn/ban-nha-rieng-duong-quoc-lo-50-xa-binh-hung-1/-dt3-5x6m-1-lau-2-mat-hem-ap-3-50-hung-pr25144141,"Nhà dt3,5x6m 1 lầu 2 mặt hẻm ấp 3 đường Quốc Lộ 50,Bình Hưng","Nhà bán bán diện tích 3,5x6m ,nhà xây dựng 1 lầu,ban công 2 mặt hẻm ấp 3 đường Quốc Lộ 50, Bình Hưng, Bình Chánh.Gần ngã tư Quốc Lộ 50 và Nguyễn Văn Linh<br/>Thông tin kê khai riêng biệt<br/>Giá bán : 760 triệu<br/>Thông tin liên hệ : 0902378439<br/>""Xem hình chi tiết căn nhà""",Quốc Lộ 50,bình hưng,ngã tư,"ngã tư Quốc Lộ 50, Nguyễn Văn Linh",,,,1.0,1.0,1.0,2.0,760000000,0,2.0,2.0,3.0,{2},"{3.5,6}",3.0,10.720094049596801,106.670495285375,"(106.670495285375,106.670495285375)",38000000.0,,20.0,bdscomvn_25144141,1586580944,1586556138.0,2020-05-05 19:27:01.418828,0.0,0.0,0101000020E6100000C3B30E65E9AA5A40E31FD22AB0702540,0.0,,0,0.0,False,2.0,902378439.0,fd7b5506468629d104923536d1aac104,1.0,,0.0,0.0,60484e265b19110d9fc66380,0,10.6825361,106.6331738,Huyện Bình Chánh
-549,604330ec886de23638253efe,666516,3,https://batdongsan.com.vn/ban-nha-rieng-duong-hung-long-xa-hung-long-5/ban-d46-a68-gia-750tr-can-68m2-gia-re-t-khu-vuc-lh-a-xem-0978267024-pr24325090,"Bán nhà D46/A68 Hưng Long, giá 750tr/căn 68m2 giá rẻ nhất khu vực, LH A Long Xem Nhà 0978267024","Nhà ngay khu dân cư đông đúc, khu dân cư hiện hữu, tiện kinh doanh buôn bán cafe hay tạp hóa cửa hàng nhỏ.<br/>+ Kết cấu: Nhà 1 trệt, 1 lầu mới xây xong nhà mới 100% nhé.<br/>+ Diện tích: Ngang 4 x 16m.<br/>+ Pháp lý: Sổ hồng riêng, sang tên công chứng sang tên công chứng trong ngày.<br/>Giá: 750tr/căn thật 100% nhé full giá.<br/><br/>LH A Long xem nhà 0978267024.<br/><br/>Nhà gần khu vực như chợ Bình chánh, Đinh Đức Thiện, Đường 835B, Đoàn Nguyễn Tuấn, QL1A, đường Võ Văn Kiệt, đường Tỉnh Lộ 10, khu công nghiệp Pouyuen, siêu thị Big C, Quận 8, Quận 6, Quận 5, quận Bình tân, Quận 7, quận Nhà Bè, Quận 10, Quận 12, Quận Tân Phú, đường Mã Lò, đường Lê Đình Cẩn, đường Tân Kỳ Tân Quý.",Hưng Long,/ a 68,"chợ, khu công nghiệp, siêu thị","chợ Bình chánh, Đinh Đức Thiện, Đoàn Nguyễn Tuấn, QL 1 A, Võ Văn Kiệt, Tỉnh Lộ 10, khu công nghiệp Pouyuen, siêu thị Big C, Quận 8, Quận 6, Quận 5, Bình tân, Quận 7, Nhà Bè, Quận 10, Quận 12, Tân Phú, Mã Lò, Lê Đình Cẩn, Tân Kỳ Tân Quý",dân cư đông đúc,2,,1.0,1.0,1.0,2.0,750000000,0,3.0,2.0,6.0,{2},"{4,16}",,10.668252420299302,106.62333223904601,"(106.623332239046,106.623332239046)",11718750.0,,64.0,bdscomvn_24325090,1588730501,1588705458.0,2020-05-06 02:29:01.840478,0.0,0.0,0101000020E6100000BA4FE7ACE4A75A400251652E25562540,0.0,,0,0.0,False,3.0,978267024.0,88a0a2432b7c4d4e1965cee8632c5953,1.0,,0.0,0.0,60484e265b19110d9fc66381,0,10.6767924,106.6171688,Huyện Bình Chánh
-550,604330ec886de23638253f04,662147,6,https://landber.com/tin-dang/Ads_01_24721361,Chính chủ cho thuê nhà phố Camelia Garden - Compound an ninh 24/24 - LH 0944 460 369,"- Khu dân cư compound an ninh 24/7.
-
-
-- Nằm trong khu đô Thị Mizuki cực kỳ đẳng cấp của Nam Long.
-
-
-- Ngã 3 Nguyễn Văn Linh vào đã thông xe.
-
-- Căn hộ Flora và Ehome trong khu đã bàn giao rất nhiều tiện tích cao cấp.
-
-- Đầy đủ dịch vụ tiện ích, gym, hồ bơi. Khu dân trí cao và văn minh, tiện di chuyển về các quận trung tâm.
-
-- Diện tích: 5,7m x 13m.
-
-- Thiết kế: 1 trệt, 1 lầu, 2PN 3WC.
-
-- Nhà đã hoàn thiện full nội thất vào ở ngay.
-
-- Giá cho thuê: 15tr/th (Thương lượng khách thiện chí ạ).
-
-- Anh/Chị xem nhà vui lòng LH: 0944 460 369 (zalo, viber, sms).",Nguyễn Văn Linh,đường nguyễn văn linh,"gym, hồ bơi",,"an ninh, an ninh, dân trí cao, văn minh",2 phòng ngủ,Camellia Garden,1.0,1.0,5.0,2.0,15000000,15000000,2.0,2.0,6.0,{2},"{5.7,13}",3.0,10.7194635425164,106.661847767731,"(106.661847767731,106.661847767731)",156250.0,,96.0,Ads_01_24721361,1586451600,1586498654.0,2020-05-05 21:05:02.573299,0.0,0.0,0101000020E61000006555BDB65BAA5A40588B83865D702540,0.0,,0,0.0,False,3.0,944460369.0,27cdf062ad04ff19cae7ff40b5fc015b,1.0,,0.0,0.0,60484e265b19110d9fc66382,0,10.6936779,106.6067974,Huyện Bình Chánh
-551,604330ec886de23638253f20,610833,3,https://batdongsan.com.vn/ban-nha-rieng-duong-c7-xa-binh-hung-1/hang-ngop-1-tret-1-lau-52m2-pham-2-6-ty-pr25154139,"Hàng ngộp 1 trệt 1 lầu 52m2 C7 Phạm Hùng 2,6 tỷ","Hàng ngộp c7 phạm hùng :anger:<br/>Bán lỗ trong mùa dịch :anger:<br/>DT:4,3  12<br/>- 1trệt 1 lầu 3pn 2wc nhà xây đẹp và kiên cố.<br/>Khu vực cho làm sổ . Hẽm trước nhà 3m cách đường xe hơi 10m .khu dân cư đông đúc , yên tĩnh an ninh. Mua bán ccvb <br/>- tiện ích xung quanh đầy đủ gần chợ gần siêu thị . <br/>- Giá chốt 2ti6 tip người thiện chí ( 0939.633.783 Tân",C7,,"chợ, siêu thị",,"đông đúc, yên tĩnh, an ninh","3 pn, 2 wc",,1.0,1.0,1.0,2.0,2600000000,0,2.0,2.0,3.0,{2},"{0,0}",7.0,10.7200164236559,106.67049328698499,"(106.670493286985,106.670493286985)",80924428.1045752,,51.0,bdscomvn_25154139,1586780978,1586732959.0,2020-04-13 06:10:03.330826,2.0,3.6,0101000020E61000006EF2AC5CE9AA5A40B65E20FEA5702540,1.0,2020-04-13 09:51:02.277047,2,7.0,False,3.0,939633783.0,7f95e1ed819f39df808c7695ba626d82,1.0,,0.0,0.0,60484e265b19110d9fc66383,0,10.687392,106.5938538,Huyện Bình Chánh

@@ -1,1003 +1,0 @@
-,_id_x,id,page_source,link,title,content,address_street,address_ward,surrounding,surrounding_name,surrounding_characteristics,interior_room,project,address_city,address_district,transaction_type,realestate_type,price_sell,price_rent,legal,floor,position_street,potential,area_origin,address_number,lat_x,long_x,coordinate,price_m2,orientation,area_cal,post_id,post_date,crawled_date,created_at,price_score,price_score_filter,geom,status_price_score,price_score_timestamp,comment_id,comment_filter_id,is_suspicious,created_by,contact_phone,hash_post_key,number_duplicated_post,orientation_id,done,label_cluster,_id_y,index,lat_y,long_y,district_name
-3890,60433104886de2363825d1d2,620266,3,https://batdongsan.com.vn/ban-nha-mat-pho-phuong-an-phu-prj-an-phu-an-khanh/b-gia-b-13-ty-con-thuong-luong-qu-2-goi-ngay-093-6666466-hog-h-pr25169075,"Bán Nhà phố phường An Phú,giá bán 13 tỷ còn thương lượng  .Quân 2 ,gọi ngay 093 6666466 Hoàng Anh ","Bán Nhà An Phú - An Khánh khu D Gần trườn học,kế bên Chi Cục Thuế thành phố gần công viên hồ sinh thái.<br/>Diện tích:4m x 16,4 = 65.8m2, sổ hồng, TDTSD = 181,9 m2, hướng tây, đường rộng 12 mét.<br/>Nhà 1 trệt, 2 lầu, áp mái, có 4 phòng ngủ, 5wc, phòng khách, phòng ăn, có nội thất.<br/>Vị trí gần siêu thị điện máy, trường học Thủ Thiêm, chợ, khu mua sắm Parkson, cầu Thủ Thiêm và nhiều dịch vụ tiện ích khác.<br/> Gọi Ngay .093 6666466 Hoàng Anh <br/> CTY BĐS Hưng Đông Land.<br/> Địa chỉ: 7/8 Trần Não, phường bình an .Quận 2.",Trần Não,an phú,"trườn học, công viên, hồ sinh thái, siêu thị điện máy, trường học, chợ, khu mua sắm, cầu","Chi Cục Thuế, trường Thủ Thiêm, khu mua sắm Parkson, cầu Thủ Thiêm",,"4 phòng ngủ, 5 wc, phòng khách, phòng ăn",An Phú,1.0,14.0,1.0,2.0,13000000000,0,3.0,3.0,1.0,{2},"{4,16.4}",0.0,10.797499751510198,106.73791850949,"(106.73791850949,106.73791850949)",163849576.462926,tây,65.8,bdscomvn_25169075,1586983018,1586934409.0,2020-04-15 14:07:02.194128,0.0,3.4,0101000020E6100000F9578E0E3AAF5A40EF9B2EE351982540,1.0,2020-04-15 14:08:01.28338,0,8.0,False,2.0,936666466.0,3434c00f92c8f132c1e65f738fbe7aa1,1.0,,0.0,0.0,60484e265b19110d9fc6708e,0,10.785929,106.729691,Quận 2
-3891,60433104886de2363825d1d9,693881,3,https://batdongsan.com.vn/ban-nha-mat-pho-duong-d4-phuong-binh-an/b-luong-dinh-cua-sau-uy-b-p-q2-duc-1-tret-2-lau-s-thuong-lh-0906486506-pr24776561,"Bán nhà đường Lương Định Của sau ủy ban p.Bình An, Q2, đúc 1 trệt 2 lầu sân thượng. LH 0906486506","Nhà đường Lương Định Của, Số 95 đường D4 16m, sau ủy ban nhân dân, phường Bình An, cùng dãy công an phường, khu dân cư an ninh. Tiện ở, làm văn phòng nhà đối diện công viên.<br/>H. Đông Nam.<br/>DT 4m x 16m giá 13 tỷ TL.<br/>Quý khách xem nhà hẹn 45 phút, hoặc trước 1 ngày.<br/>Sổ hồng cầm tay công chứng ngay.<br/>Cảm ơn quý khách đã xem tin.<br/>Nhận ký gửi mua bán cho thuê nhanh khu vực Q2.<br/>LH A. Tác 0906486506/0973011238.",D4,bình an,"ủy ban, ủy ban nhân dân, dãy công an phường, công viên",D 4,an ninh,4,,1.0,14.0,1.0,2.0,13000000000,0,3.0,1.0,1.0,{2},"{4,16}",,10.7886141043501,106.73354380397,"(106.73354380397,106.73354380397)",203125000.0,đông,64.0,bdscomvn_24776561,1588891617,1588867300.0,2020-05-07 23:02:02.480165,0.0,0.0,0101000020E6100000040FB661F2AE5A4034B2563AC5932540,0.0,,0,0.0,False,2.0,906486506.0,6e7cad2ebc42e9990e5d179ffa2b2cd4,1.0,,0.0,0.0,60484e265b19110d9fc6708f,0,10.7888648,106.7336113,Quận 2
-3892,60433104886de2363825d204,405852,2,https://mogi.vn/quan-2/mua-nha-mat-tien-pho/can-ban-gap-can-nha-so-12-duong-nguyen-cu-p-thao-dien-quan-2-id20179956,Cần bán gấp căn nhà số 12 đường Nguyễn Cừ P.Thảo Điền Quận 2,"
-Cần bán nhà đẹp giá rẻ tại Đường Nguyễn Cừ , Phường Thảo Điền , Quận 2 
-(+) Vị trí: Vị trí giao thông thuận tiện đến trường học,chợ, siêu thị , vào trung tâm thành phố quận 1 rất gần . Khu vực- An ninh sạch sẽ,
-(+) Diện tích: 4x26 (m2).
-(+) Kết cấu : 1 trệt 3 lầu, 4 pn, 5wc, tặng nội thất, mái bê tông 
-(+) Giá bán :16,8 Tỷ 
-(+) Mọi chi tiết thuê , bán villa – biệt thự Quận 2 vui lòng liên hệ:
-Trần Nam 0902 971 889 và 0968 274 869.
-Mail: nambdspro@gmail.com
-Ngoài ra còn nhiều nhà phố, biệt thự khác anh/chị vui lòng tham khảo tại website http://thuenhaquan2.com/
-",Nguyễn Cừ, thảo điền,"trường học, chợ, siêu thị",,"giao thông thuận tiện, An ninh, sạch sẽ",4,,1.0,14.0,1.0,2.0,16800000000,0,2.0,4.0,6.0,{2},"{4,26}",12.0,10.803680138663001,106.728366491299,"(106.728366491299,10.803680138663)",90121967.6417647,,104.0,mogi_20179956,1581526800,1581616303.0,2020-02-14 00:52:01.589409,2.0,3.6,0101000020E61000007BE87C8E9DAE5A40400190F67B9B2540,1.0,2020-04-13 06:56:02.236891,1,8.0,False,2.0,902971889.0,57a9886d72172adf76271950f6165037,2.0,,0.0,0.0,60484e265b19110d9fc67090,0,10.8028955,106.7381841,Quận 2
-3893,60433104886de2363825d21b,424580,2,https://mogi.vn/quan-2/thue-nha-mat-tien-pho/cho-thue-nha-so-39-nguyen-cu-thao-dien-quan-2-gia-51-trieu-thang-id20306463,"Cho thuê nhà số 39 Nguyễn Cừ, Thảo Điền, Quận 2, giá 51 Triệu/tháng","
-1.	THÔNG TIN
--	Diện tích: 4 x 30 (m2)
--	Cấu Trúc: 1 trệt 2 lầu 4pn
-- Giá thuê : 2200$ / tháng .
-- Yêu cầu cọc 3 thanh toán trước 1 tháng .
-- Giá có thể thương lượng . 
-2.	LỢI ÍCH
--	Nhà khu đô thị mới cao cấp
--	Giá rẻ hơn thị trường 10-20 triệu
-1.	SỰ KHÁC BIỆT
--	Khu vực quy hoạch rất VIP, hiện đại gấp 2 nơi khác vì đầy đủ tiện ích như: SIÊU THỊ, TRƯỜNG HỌC QUỐC TẾ, BỆNH VIỆN QUỐC TẾ MỸ, 4 CÔNG VIÊN XANH, nhà thuốc, an ninh 24/24, dân trí cao, không ngập lụt, khu vui chơi trẻ em
--	Nhà xây chất lượng cao, nội thất cao cấp, hướng nhà thoáng mát nhiều gió tự nhiên
-2.	VỊ TRÍ
--	Phường THẢO ĐIỀN , QUẬN 2 vào Quận 1 chỉ mất 15 phút
--	Gần cầu SÀI GÒN, đường CAO TỐC, Sông
--	Ra sân bay 25 phút
--	Gần nhiều trường quốc tế: BIS, AIS, ISHCM...Horizon, Kidzone, Smartkids....
-
-GỌI NGAY 0902 971 889 hay 0968 274 869 trước khi cho thuê xong.
-",Nguyễn Cừ, thảo điền,"SIÊU THỊ, TRƯỜNG HỌC, BỆNH VIỆN QUỐC TẾ, CÔNG VIÊN, nhà thuốc, khu vui chơi, cầu, Sông, sân bay, trường quốc tế","TRƯỜNG HỌC QUỐC TẾ, BỆNH VIỆN QUỐC TẾ MỸ, CÔNG VIÊN XANH, Quận 1, cầu SÀI GÒN, CAO TỐC, BIS, AIS, ISHCM, Horizon, Kidzone, Smartkids","an ninh, dân trí cao, không ngập lụt",4,,1.0,14.0,5.0,2.0,869000000,50600000,2.0,3.0,6.0,{1},"{4,30}",39.0,10.803690564881697,106.728316535347,"(106.728316535347,10.8036905648817)",88728496.1018166,,120.0,mogi_20306463,1583514000,1581840235.0,2020-02-16 15:04:01.465986,9.9,3.6,0101000020E6100000C61CF5BC9CAE5A40938A68547D9B2540,1.0,2020-04-13 08:33:01.87946,11,7.0,True,2.0,902971889.0,6f4dcb443fb1fd43dde73c538cffa760,2.0,,0.0,0.0,60484e265b19110d9fc67091,0,10.8036217,106.7281402,Quận 2
-3894,60433104886de2363825d235,438268,6,https://landber.com/tin-dang/Ads_02_13068579,"Bán nhà MT Đường 39, Phường Bình An, Quận 2, Hồ Chí Minh diện tích 156m2 giá 32.5 Tỷ","Bán nhà số 16 đường 39 Trần Não, Phường Bình An, Quận 2.Nhà hướng Đông Nam, nhà kế bên góc đường 34, đường trước nhà 45m, 1 trệt, 2 lầu, tum và sân thượng.Diện tích: 7.5x21m.Diện tích xây dựng trên 400m2.Đã có sổ hồng tên cá nhân.Diện tích: 156m2.Giá: 32,5 tỷ.","39,Quận 2,Hồ Chí Minh",bình an,,,,,,1.0,14.0,1.0,2.0,32500000000,0,3.0,3.5,1.0,{2},"{7.5,21}",39.0,10.790808288562904,106.72913365908701,"(106.729133659087,10.7908082885629)",189025771.56045905,đông - nam,156.0,Ads_02_13068579,1581958800,1582002247.0,2020-02-18 12:11:01.708569,2.2,3.6,0101000020E61000002C0C3920AAAE5A402891F1D2E4942540,1.0,2020-04-13 13:04:02.255879,1,8.0,False,1.0,,9530db4aecc5388b3b72d8d0984a1247,1.0,,0.0,0.0,60484e265b19110d9fc67092,0,10.7717861,106.7909292,Quận 2
-3895,60433104886de2363825d23a,715283,6,https://landber.com/tin-dang/Ads_01_25814710,"Bán nhanh biệt thự đẹp khu 215 Nguyễn Văn Hưởng ,P.Thảo Điền, Q.2, 10x20m trệt 2 lầu giá 32 tỷ","Bán nhanh biệt thự đẹp vào ở ngay khu biệt thự VIP Đường Nguyễn Văn Hưởng Phường Thảo Điền Quận 2 TP. Hồ Chí Minh
-
-Diện tích: 10x20m công nhận đủ
-
-Kết cấu: trệt 2 lầu, biệt thự đẹp vào là ở ngay. Đường rộng xe hơi quay đầu.
-Khu vực sạch sẽ an ninh.
-Gần các trường học Quốc Tế, các dịch vụ cao cấp.
-Giá 32 tỷ chào
-Pháp lý đầy đủ vào là có thể sang tên công chứng ngay.
-Liện hệ: 0962766965 Ngọc Ánh để đi xem nhà
-Cảm ơn bạn đã xem tin",Nguyễn Văn Hưởng,thảo điền,trường học,trường Quốc Tế,"sạch sẽ, an ninh",,,1.0,14.0,1.0,2.0,32000000000,0,2.0,3.0,6.0,{2},"{10,20}",215.0,10.807942242311,106.735282534095,"(106.735282534095,106.735282534095)",160000000.0,,200.0,Ads_01_25814710,1591894800,1591927459.0,2020-06-25 15:50:01.652001,0.0,0.0,0101000020E6100000855079DE0EAF5A40A790079BAA9D2540,0.0,,0,0.0,False,2.0,962766965.0,3541ad8b721cd7cfb787b4762097d37a,1.0,,0.0,0.0,60484e265b19110d9fc67093,0,10.8126474,106.7322018,Quận 2
-3896,60433104886de2363825d24a,169610,6,https://landber.com/tin-dang/Ads_01_23380074,"KD THUA LỖ BÁN GẤP NHÀ CŨ 960TR/75M2 ĐƯỜNG TRẦN NÃO,Q.2-GẦN METRO-CÓ SỔ-LH 0931351193-TIỆN KD VÀ Ở","Vì kinh doanh thua lỗ nên cần sang gấp đất có nhà nát gấp giá rẻ.
-
-- Nhà khá cũ nát, chủ yếu lấy nền móng xây lại chứ không ở được nữa.
-
-DT 75m2.
-Giá 960tr.
-Vị trí: Đường Trần Não, P. Bình An, hẻm vào 5m.
-Sổ sách rõ ràng, công chứng sang tên ngay.
-Dân cư đông đúc tiện kinh doanh phục vụ nhu cầu sinh hoạt cho người dân trong vùng.
-Đầy đủ tiện ích như trường học các cấp, bệnh viện, công viên cây xanh, khu vui chơi giải trí, gần khu KTX trường đại học Giao Thông Vận Tải.
-Phù hợp cho xây dựng nhà hàng ăn uống hoặc nhà trọ cho thuê.
-Đất chính chủ làm việc trực tiếp, miễn trung gian.
-Liên hệ 0931351193 Anh Vũ để được xem nhà cảm ơn.",Trần Não,bình an,"trường học, bệnh viện, công viên, khu vui chơi giải trí, trường đại học","METRO, đại học Giao Thông Vận Tải",đông đúc,1 phòng ngủ,,1.0,14.0,1.0,2.0,960000000,0,1.0,1.0,3.0,"{2,1}","{0,0}",,10.7909495709443,106.730234156256,"(106.730234156256,10.7909495709443)",69051935.1258211,,75.0,Ads_01_23380074,1583600400,1573979684.0,2020-02-12 08:49:25.145194,8.0,3.6,0101000020E6100000A6E20A28BCAE5A4079FB9757F7942540,1.0,2020-04-13 11:32:02.939777,10,7.0,True,2.0,931351193.0,fc79fb0786e01afc958829c260f3bce3,2.0,,2.0,0.0,60484e265b19110d9fc67094,0,10.785749,106.729637,Quận 2
-3897,60433104886de2363825d254,715774,3,https://batdongsan.com.vn/cho-thue-nha-mat-pho-duong-tran-luu-3-phuong-an-phu/cho-mt-q2-10x20m-decor-tam-huyet-co-the-vao-hoat-dong-ngay-lh-0902393718-pr25817082,"Cho thuê MT Trần Lựu, Q2 10x20m trang trí tâm huyết - Có thể vào hoạt động ngay LH: 0902393718","Cho thuê mặt tiền mặt bằng kinh doanh 21 - 23 Trần Lựu, Quận 2.<br/><br/>Diện tích: 10*20.<br/>Kết cấu: Xây một nửa còn lại để sân vườn. 2 kho để đồ. Trên lầu có 1 phòng studio, 1 sân thượng.<br/>- Mặt bằng rất rộng có vỉa hè để xe 100m2.<br/>Nếu thuê KD quán cafe sẽ được hỗ trợ set up, menu, công thức đồ uống, training nhân viên(cái này bonus thêm).<br/><br/>Giá thuê: 35tr/tháng.<br/>Liên hệ xem mặt bằng trực tiếp và gặp chủ nhà: Bảo Bảo.<br/>Zalo/Viber: 0902393718.<br/>* Cảm ơn A/C đã xem tin.",Trần Lựu,,,,,"2 kho, 1 phòng studio",,1.0,14.0,5.0,2.0,35000000,35000000,2.0,1.0,1.0,{2},"{10,20}",-2.0,10.792902370482901,106.738495979406,"(106.738495979406,106.738495979406)",175000.0,,200.0,bdscomvn_25817082,1591947813,1591924144.0,2020-06-25 16:33:03.736443,0.0,0.0,0101000020E6100000D0F1A38443AF5A40274AAC4CF7952540,0.0,,0,0.0,False,3.0,902393718.0,43520b37f7f29d975645839caa313a74,1.0,,0.0,0.0,60484e265b19110d9fc67095,0,10.7917029,106.7357537,Quận 2
-3898,60433104886de2363825d258,597473,3,https://batdongsan.com.vn/cho-thue-nha-mat-pho-duong-do-xuan-hop-phuong-an-phu-prj-khu-do-thi-lakeview-city/-cho-nguyen-c-ho-thien-dep-du-nova-gia-chi-25tr-th-lh-0902446185-pr24710897,"Nhà phố Lakeview cho thuê nguyên căn hoàn thiện đẹp, dự án Nova giá chỉ 25tr/th, LH 0902446185","Lakeview City là khu đô thị sinh thái kiểu mẫu đáng sống nhất khu đô thị Nam Rạch Chiếc bởi khu đô thị Lakeview City sở hữu một vị trí vô cùng đắc địa hơn nữa với quy mô lên đến 30ha cùng hàng loạt tổ hợp dịch vụ, hệ thống tiện ích vượt trội, hoàn hảo.<br/>- Diện tích: 5m*20m - Xây dựng 1 trệt và 3 lầu 4PN, 5WC.<br/>- Giá cho thuê: 25.000.0000 VNĐ/tháng.<br/>- Nhà hoàn thiện đẹp mới 100%.<br/>- Khu vực an ninh có chốt bảo vệ riêng ngay cổng, có camera giám sát ở các ngã ba, ngã tư đường.<br/>- Tiện ích: Có hồ bơi và hồ cảnh quan, công viên cây xanh, trung tâm thương mại tại khu đang xây dựng, đường sá rộng thoáng mát để xe ô tô thoải mái...<br/>- Vị trí thuận lợi để đi đến trung tâm thành phố không quá 10 phút thông qua cao tốc Long Thành Dầu Giây, Mai Chí Thọ, Hầm Thủ Thiêm.<br/>- Gần siêu thị Vincom, trường học, bệnh viện quận 2...<br/>Địa chỉ: 697 Đỗ Xuân Hợp phường An Phú, Quận 2, Hồ Chí Minh.<br/>Liên hệ: Mrs Riêng 0902446185 (Zalo, SMS, Viber).<br/>Tư vấn và xem nhà miễn phí.<br/>Có nhiều căn nhà cho bạn lựa chọn phù hợp với nhu cầu.",Đỗ Xuân Hợp,an phú,"ngã ba, hồ bơi, hồ cảnh quan, công viên, trung tâm thương mại, cao tốc, Hầm, siêu thị, trường học, bệnh viện","cao tốc Long Thành Dầu Giây, Mai Chí Thọ, Hầm Thủ Thiêm, siêu thị Vincom, bệnh viện quận 2",an ninh,4,Lakeview City,1.0,14.0,5.0,2.0,25000000,250000000,2.0,4.0,1.0,{2},"{5,20}",697.0,10.7954731053494,106.775801502713,"(106.775801502713,106.775801502713)",174494338.994339,,100.0,bdscomvn_24710897,1588611600,1586458972.0,2020-04-10 02:03:01.644187,2.0,3.6,0101000020E6100000C19558BBA6B15A4089A5384048972540,1.0,2020-04-10 02:04:00.762544,2,7.0,True,2.0,902446185.0,e22744360c17aa6033c8e0f67dde3466,5.0,,0.0,0.0,60484e265b19110d9fc67096,0,10.7948475,106.781118,Quận 2
-3899,60433104886de2363825d263,335378,6,https://landber.com/tin-dang/Ads_01_24060758,"Bán nhà 5.55x15.35m đường 8m P. Bình Trưng Tây Q2 hướng Đông, 85m2 6.2 tỷ 09331824632 Lê Duy","Bán nhà 5.55x15.35m P. Bình Trưng Tây, Q2 hướng Đông, 85m 6.2 tỷ 09331824632 Lê Duy.
-- Pháp lý: Sổ hồng - bao sang tên.
-
-- DTMB: 85m2, công nhận 70.4m2 cân đối vuông.
-Diện tích xây dựng 47m2, diện tích sàn 150m2 thiết kế trệt + 2 lầu, có sân đỗ ô tô.
-
-- Vị trí đất gần chợ, ngân hàng, nhà hàng, trường học, siêu thị...
-- Khu dân cư ổn định, đường trước nhà 8m, có sân đậu ô tô.
-* Công Ty TNHH MTV DV Bất Động Sản Phát Tài Tỷ.
-phattaity.com - liên hệ xem nhà đất: 0933182463 Lê Duy (Có thương lượng).",Lê Duy,bình trưng tây,"chợ, ngân hàng, nhà hàng, trường học, siêu thị",,ổn định,4 phòng ngủ,,1.0,14.0,1.0,2.0,6200000000,0,3.0,3.0,6.0,{2},"{5.55,15.35}",,10.784506494402098,106.759800228083,"(106.759800228083,10.7845064944021)",65333794.6705273,đông,85.0,Ads_01_24060758,1578502800,1578730933.0,2020-02-12 08:49:25.145194,7.6,3.8,0101000020E6100000ECC62291A0B05A40DAE9D1D5AA912540,1.0,2020-04-13 01:56:02.429234,10,7.0,False,3.0,933182463.0,a8bcad76ddcf86469220f4b4b0af89db,1.0,,0.0,0.0,60484e265b19110d9fc67097,0,10.7776799,106.7713215,Quận 2
-3900,60433104886de2363825d27c,387999,2,https://mogi.vn/quan-2/mua-nha-mat-tien-pho/can-ban-gap-can-nha-pho-so-55-duong-bui-ta-han-p-an-phu-quan-2-id20179239,Cần bán gấp căn nhà phố số 55 đường Bùi Tá Hán P.An Phú Quận 2,"
-Cần bán nhà đẹp giá rẻ tại Đường Bùi Tá Hán , Phường An Phú , Quận 2 
-(+) Vị trí: Vị trí giao thông thuận tiện đến trường học,chợ, siêu thị , vào trung tâm thành phố quận 1 rất gần . Khu vực- An ninh sạch sẽ,
-(+) Diện tích: 4x20 (m2).
-(+) Kết cấu: 1 trệt , 1 lầu , 4 pn,4 toilet , nội thất cơ bản
-(+) Giá bán :16 Tỷ 
-(+) Mọi chi tiết thuê , bán villa – biệt thự Quận 2 vui lòng liên hệ:
-Trần Nam 0902 971 889 và 0968 274 869.
-Mail: nambdspro@gmail.com
-Ngoài ra còn nhiều nhà phố, biệt thự khác anh/chị vui lòng tham khảo tại website http://thuenhaquan2.com/
-",Bùi Tá Hán, an phú,"trường học, chợ, siêu thị",,"giao thông thuận tiện, An ninh, sạch sẽ",4,,1.0,14.0,1.0,2.0,16000000000,0,2.0,2.0,6.0,{2},"{4,20}",55.0,10.794561649199801,106.74434360508499,"(106.744343605085,10.7945616491998)",120547751.111817,,80.0,mogi_20179239,1581440400,1581471168.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000F2345C53A3AF5A4035F0D3C8D0962540,1.0,2020-04-13 04:37:02.362763,1,8.0,False,2.0,902971889.0,2af706456c03171cf4363247055feea4,1.0,,0.0,0.0,60484e265b19110d9fc67098,0,10.7965531,106.7438769,Quận 2
-3901,60433104886de2363825d28f,717399,3,https://batdongsan.com.vn/cho-thue-nha-rieng-duong-so-1-phuong-an-phu/cho-lam-v-phong-tai-qu-2-80m2-gia-16tr-pr25814664,"Cho thuê nhà riêng làm văn phòng tại An Phú Quận 2, 80m2, giá 16tr","Nhu cầu không ở, cần cho thuê lại nhà <br/>Địa chỉ số 8 đường số 1, phường An Phú, Quận 2. Gần Thảo Điền, gần Metro<br/>- Diện tích 80m2, đầy đủ bếp, WC<br/>- 1 trệt 2 lầu, đã từng cho thuê làm văn phòng<br/>- Vị trí yên tĩnh, đường lớn 2 ô tô chạy<br/>- Điện nước tính theo giá nhà nước<br/>- Giá thuê 16tr<br/>Liên hệ xem nhà: a TriểnL 0.9.0.9_.9.0.4.9.0.8<br/>(miễn tiếp môi giới)<br/>",Số 1,an phú,,"Thảo Điền, Metro 
-",yên tĩnh,4,,1.0,14.0,5.0,2.0,16000000,16000000,2.0,3.0,6.0,"{2,1}","{0,0}",8.0,10.8082701859688,106.75348598819299,"(106.753485988193,106.753485988193)",200000.0,,80.0,bdscomvn_25814664,1591937616,1591912941.0,2020-06-25 19:30:01.858625,0.0,0.0,0101000020E610000005524B1D39B05A40BD22FE96D59D2540,0.0,,0,0.0,False,2.0,909.0,24949162b3bd092ad12e6505a65a7265,1.0,,0.0,0.0,60484e265b19110d9fc67099,0,10.7891832,106.756826,Quận 2
-3902,60433104886de2363825d299,458079,6,https://landber.com/tin-dang/Ads_01_23590801,"Cần tiền cho con đi du học bán dãy trọ 250m2 Nguyễn Thị Định, q2, SHR - tiện KD - 0779859131","Cần tiền cho con đi du học bán dãy trọ DT 250m2 Nguyễn Thị Định, Q2, SHR, tiện KD, 0779859131 Nguyên.
-- Cần sang lại 2 dãy trọ, mỗi dãy là 12 phòng, 2 ki ốt trước nhà.
-
-- Tổng cộng 24 phòng, diện tích 10x25m = 250m2.
-- Diện tích mỗi phòng 3x4m = 12m2, có gác lửng 8m2, cửa sổ thông thoáng, nhà vệ sinh riêng.
-
-- Điện nước máy sinh hoạt, internet cáp quang, đầy đủ.
-- Khu vực gần nhiều khu công nghiệp, nhà máy, xí nghiệp, công nhân đông, khu dân cư tấp nập, luôn cho thuê kín.
-- Thu nhập mỗi tháng 28 triệu (trung bình 1.1tr/phòng/tháng).
-- Chính chủ, sổ hồng riêng từng dãy.
-- Không qua trung gian, miễn tiếp cò.
-- Thương lượng cho khách nào thiện chí.
-LH 0779859131 Nguyên xem trực tiếp.",Nguyễn Thị Định,bình khánh,"khu công nghiệp, nhà máy, xí nghiệp",,tấp nập,"12 phòng, 2 ki ốt",,1.0,14.0,5.0,2.0,0,28000000,3.0,1.0,6.0,"{2,1}","{10,25}",,10.7811815428865,106.73572833512699,"(106.735728335127,10.7811815428865)",0.0,,250.0,Ads_01_23590801,1582390800,1582394872.0,2020-02-23 01:08:02.502118,0.0,0.0,0101000020E61000002C874C2C16AF5A407CDFF506F78F2540,2.0,2020-04-13 11:35:00.321204,0,0.0,False,2.0,779859131.0,87ecff67d8a715ff6fca04a00550a3db,1.0,,0.0,0.0,60484e265b19110d9fc6709a,0,10.7848314,106.7572885,Quận 2
-3903,60433104886de2363825d2a2,543309,6,https://landber.com/tin-dang/Ads_01_24783346,NHẬP CƯ NƯỚC NGOÀI BÁN GẤP NHÀ NÁT 79M2 NGUYỄN THỊ ĐỊNH-Q2 GIÁ 870TR-SỔ RIÊNG-GẦN CHỢ-LH 0703786521,"NHẬP CƯ NƯỚC NGOÀI BÁN GẤP NHÀ NÁT 79M2 NGUYỄN THỊ ĐỊNH, Q2 GIÁ 870TR SHR-LH 0703786521
-
-- Nhập cư Canada tháng 12 nên gia đình tôi cần bán gấp lô đất có nhà nát đủ 879m2 chủ yếu lấy đất xây dựng.
-
-- Nằm ngay trên mặt tiền đường Nguyễn Thị Định, Q. 2.
-- Nhà nát, chủ yếu lấy đất xây dựng thôi chứ nhà cũng không còn ở được nữa, nên tôi tính giá đất.
-- Diện tích trong sổ là 79m2, hướng Đông Nam, nở hậu tí xíu.
-- Không nằm trong quy hoạch giải tỏa.
-- Dân cư xung quanh có trình độ, an ninh cao.
-- Gần trường học, trung tâm mua sắm đang xây dựng, tiện kinh doanh.
-- Sổ hồng chính chủ, không chung sổ.
-- Liên hệ: Lan Chi 0703786521 chính chủ chưa qua mua bán - miễn cò lái.
-Cảm ơn vì đã xem tin.",Nguyễn Thị Định,cát lái,"CHỢ, trường học, trung tâm mua sắm",,an ninh cao,,,1.0,14.0,1.0,2.0,870000000,0,1.0,1.0,1.0,{2},"{0,0}",,10.7810273880122,106.761849318461,"(106.761849318461,10.7810273880122)",93132564.5710108,đông - nam,79.0,Ads_01_24783346,1584118800,1584111692.0,2020-03-14 01:20:01.588455,8.0,3.6,,1.0,2020-04-13 11:01:02.658633,10,7.0,True,2.0,703786521.0,64d6bd219982f49d09b76baffced5668,1.0,,0.0,0.0,60484e265b19110d9fc6709b,0,10.784376,106.759941,Quận 2
-3904,60433104886de2363825d2a8,717732,3,https://batdongsan.com.vn/cho-thue-nha-mat-pho-pho-luong-dinh-cua-phuong-binh-an/cho-3-tang-tien-ngang-18m-duong-so-4-goc-2-mt-kd-da-nganh-pr25812998,"CHO THUÊ NHÀ 3 TẦNG MẶT TIỀN NGANG 18m ĐƯỜNG SỐ 4 LƯƠNG ĐỊNH CỦA, NHÀ GÓC 2 MT, KD ĐA NGÀNH","Cho thuê nhà góc 2 mặt tiền đường số 4 Lương Định Của, Quận 2. Ngang 18m góc 2 MT tiện kinh doanh đa ngành nghề: cafe thương hiệu, trà sữa.. shop thời trang, nội thất...<br/>Nhà hướng ĐÔNG NAM.<br/>Giá thuê 30 triệu.<br/>Liên hệ: 0931458593 Xuân Hiếu.",Lương Định Của,lương định của,,ĐA NGÀNH,,,,1.0,14.0,5.0,2.0,30000000,30000000,2.0,3.0,2.0,{2},"{0,0}",4.0,10.785893174396696,106.73088312803101,"(106.730883128031,106.730883128031)",30000000.0,đông - nam,1.0,bdscomvn_25812998,1591933714,1591909807.0,2020-06-25 20:12:01.637756,0.0,0.0,0101000020E6100000D70507CAC6AE5A40F95D149760922540,0.0,,0,0.0,False,2.0,931458593.0,c19bbfce7eecd1cedf6f9f987caf33c4,1.0,,0.0,0.0,60484e265b19110d9fc6709c,0,10.7850819,106.7293453,Quận 2
-3905,60433104886de2363825d2ca,723952,3,https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-song-hanh-prj-thu-thiem-lakeview/tra-tien-ngan-hang-ban-gap-trong-tuan-5-20-city-quan-2-goi-ngay-0906-602-072-pr25806888,"TRẢ  TIỀN NGÂN HÀNG BÁN GẤP TRONG TUẦN 5*20 LAKEVIEW CITY , QUẬN 2 GỌI NGAY 0906 602 072 ","Kẹt tiền xoay công việc cần căn nhà phố liền kề, xây dựng 1 trệt, 3 lầu, nhà gần ngay công viên, yên tĩnh, ít xe qua lại.<br/>- Diện tích: 5x20m.<br/>- Do không còn nhu cầu sử dụng nên muốn bán, Hòa Bình xây dựng nên đảm bảo chất lượng.<br/>- Giá cần bán ngay trong tuần 11.7 tỷ, thương lượng khách thiện chí.<br/>- Hỗ trợ ngân hàng 70% giá trị căn nhà (tối đa được 8 tỷ).<br/>- Gọi Ngay : 0906.602.072",LAKEVIEW CITY,,công viên,,yên tĩnh,,,1.0,14.0,1.0,2.0,10600000000,0,2.0,4.0,6.0,{2},"{5,20}",20.0,10.7727143228373,106.723044619834,"(106.723044619834,106.723044619834)",106000000.0,,100.0,bdscomvn_25806888,1591883658,1591858937.0,2020-06-26 05:57:01.673656,0.0,0.0,0101000020E610000021EFF05C46AE5A406C793336A18B2540,0.0,,0,0.0,False,2.0,906602072.0,9e9de91e6e2c4dbed6b9bee04a3f4e1d,1.0,,0.0,0.0,60484e265b19110d9fc6709d,0,10.7939467,106.7725112,Quận 2
-3906,60433104886de2363825d2cf,724048,3,https://batdongsan.com.vn/ban-nha-rieng-duong-tran-nao-54/no-nh-ban-gap-nat-so-2-q2-67m2-1-1-ty-tien-o-kd-shr-xdtd-lh-0782053354-pr26016324,"Nợ NH bán gấp nhà nát đường Số 2 Trần Não, q2, 67m2, 1,1 tỷ, tiện ở, KD, SHR-XDTD - LH 0782053354","- Nợ NH đến kì đáo hạn thanh toán nên tôi bán gấp nhà nát đường Số 2 Trần Não, Phường Bình An, Quận 2. Gần chợ.<br/>Gần chợ tiện kinh doanh buôn bán.<br/>- Diện tích 67m2, nở hậu một xíu, không tranh chấp giải tỏa, thổ cư 100% xây dựng ngay, điện âm nước máy.<br/>- Vị trí khá đẹp, xung quanh dân cư đông dân trí cao, yên tĩnh, bán kính 500m gần chợ, trường, nhà thờ, trạm y tế, UBND, bệnh viện, cửa hàng tiện lợi... Tiện ở, kinh doanh buôn bán, cho thuê, đầu tư mua đi bán lại cũng rất hợp lý, mặt tiền đường rộng rãi thoải mái xe hơi ra vào dễ dàng.<br/>- Xung quanh dân cư đông đúc tiện kinh doanh buôn bán.<br/>- Đường rộng rãi cách mặt tiền đường lớn 50m.<br/>- Giá trị pháp lý: Sổ hồng chính chủ, thanh toán công chứng sang tên.<br/>- Liên hệ ngay cho chị Trúc SĐT 0782053354 để xem nhà trực tiếp.<br/>Nhà chính chủ không qua trung gian. Xin cám ơn anh chị em đã xem tin.<br/>Thông tin pháp lý: Sổ hồng<br/>",Trần Não,bình an,"chợ, br /, chợ, chợ, trường, nhà thờ, trạm y tế, UBND, bệnh viện, cửa hàng","chợ  
-","đông dân trí cao, yên tĩnh, đông đúc",,,1.0,14.0,1.0,2.0,1100000000,0,3.0,1.0,1.0,"{2,1}","{0,0}",2.0,10.786811032014501,106.72978401283599,"(106.729784012836,106.729784012836)",16417910.4477612,,67.0,bdscomvn_26016324,1593150820,1593126201.0,2020-06-26 06:04:06.009072,0.0,0.0,0101000020E61000006E1101C8B4AE5A40C54445E5D8922540,0.0,,0,0.0,False,3.0,782053354.0,63263507a3496504ebe7fef586007199,1.0,,0.0,0.0,60484e265b19110d9fc6709e,0,10.7979776,106.731094,Quận 2
-3907,60433104886de2363825d2d4,724171,3,https://batdongsan.com.vn/cho-thue-nha-mat-pho-duong-so-1-phuong-an-phu/cho-nguyen-c-210m2-tai-qu-2-g-thao-dien-gia-16tr-thg-pr26016059,"Cho thuê nhà nguyên căn 210m2 tại An Phú, quận 2, gần Thảo Điền, giá 16tr/tháng","Tôi chính chủ cho thuê nhà riêng 80m2.<br/>- Nhà gồm 1 trệt 2 lầu. Tổng diện tích sàn hơn 200m2.<br/>- Nội thất như hình, đầy đủ bếp, WC.<br/>- Điện nước tính theo giá nhà nước.<br/>- Vị trí yên tĩnh, đường lớn 2 ô tô chạy.<br/>- Giá thuê 16tr/tháng.<br/>Địa chỉ số 8 đường Số 1, phường An Phú, Quận 2. Gần Thảo Điền, gần Metro.<br/>Liên hệ chính chủ: Triển 0909.904.908 (miễn tiếp môi giới).",Số 1,an phú,,"Thảo Điền, Thảo Điền, Metro ",yên tĩnh,3,,1.0,14.0,5.0,2.0,16000000,16000000,2.0,3.0,6.0,{2},"{0,0}",8.0,10.8081936588711,106.753538261204,"(106.753538261204,106.753538261204)",200000.0,,80.0,bdscomvn_26016059,1593148284,1593126285.0,2020-06-26 06:10:08.516024,0.0,0.0,0101000020E6100000180A8BF839B05A403E5F2B8FCB9D2540,0.0,,0,0.0,False,2.0,909904908.0,24949162b3bd092ad12e6505a65a7265,1.0,,0.0,0.0,60484e265b19110d9fc6709f,0,10.7891832,106.756826,Quận 2
-3908,60433104886de2363825d2f5,721423,3,https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-pho-luong-dinh-cua-phuong-an-phu/b-khu-280-qu-2-dt-7-x-20m-xay-1-ham-1-tret-2-lau-ton-pr25806922,"Bán biệt thự khu 280 Lương Định Của Phường An Phú Quận 2 DT: 7 x 20m, xây 1 hầm, 1 trệt, 2 lầu. Tổn","Bán biệt thự khu 280 Lương Định Của Phường An Phú Quận 2<br/>DT: 7 x 20m, xây 1 hầm, 1 trệt, 2 lầu. Tổng diện tích sàn 286,5m2<br/>Đường 12m, hướng: Tây Nam<br/>Pháp lý: Sổ hồng, bán 23 tỷ ( thương lượng )<br/>LH: 0902343213 SƠN BẢY",Lương Định Của,an phú,,,,,,1.0,14.0,1.0,2.0,23000000000,0,3.0,3.5,6.0,{2},"{7,20}",280,10.7902306431531,106.741611456465,"(106.741611456465,106.741611456465)",164285714.285714,tây - nam,140.0,bdscomvn_25806922,1591884148,1591863476.0,2020-06-26 02:52:04.68963,0.0,0.0,0101000020E6100000D8F6E58F76AF5A408F47611C99942540,0.0,,0,0.0,False,2.0,902343213.0,c4ce3acbd2a605362efce27a31093db0,1.0,,0.0,0.0,60484e265b19110d9fc670a0,0,10.7908897,106.7468002,Quận 2
-3909,60433104886de2363825d2fa,185942,6,https://landber.com/tin-dang/Ads_01_23252537,"Bán nhà chính chủ tại số 16 đường 15 khu An Phú An Khánh, P. An Phú, Q. 2, TP.HCM","Chính chủ cần bán nhà đẹp, giá tốt tại:
-
-
-
--Địa chỉ: số 16 đường 15 khu An Phú An Khánh, P. An Phú, Q. 2, TP.HCM
-
--Diện tích:  115m2 (5m x 23m)
-
--Kết cấu 1 trệt 2 lầu + sân thượng
-
--Nhà gồm có 4 phòng ngủ, 4 toilet
-
--Hướng Đông Nam thoáng mát
-
--Đường nội bộ rộng rãi, ô tô tránh nhau thoải mái
-
--Sổ hồng chính chủ
-
-
-
-Tiện ích:
-
--Tọa lạc trong khu đô thị mới bậc nhất của khu Đông Sài Gòn - Khu An Phú An Khánh. Với tiện ích đầy đủ, kết nối giao thông thuận tiện và mật độ xây dựng cao, rất thích hợp an cư hay kinh doanh, lý tưởng cho mọi gia đình, ngay sau đường Song Hành kế bên Metro, Parkson, Estella high, khu kinh doanh sầm uất
-
--Giao thông thuận lợi
-
-
-
-Giá bán: 17 tỷ (thương lượng cho khách có thiện chí mua)
-
-Liên hệ chính chủ: 0903916060 Anh Sơn
-
-Miễn trung gian, môi giới",đường 15,an phú,,"Song Hành, Metro  Parkson, Estella high","giao thông thuận tiện, sầm uất, Giao thông thuận lợi",4 phòng ngủ,An Phú An Khánh,1.0,14.0,1.0,2.0,17000000000,0,3.0,3.5,6.0,{2},"{5,23}",16,10.7985991952455,106.756492583503,"(106.756492583503,10.7985991952455)",77628965.670738,đông - nam,115.0,Ads_01_23252537,1572541200,1573976404.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000EF73DE5F6AB05A40EC6164FEE1982540,1.0,2020-04-13 07:18:02.33462,1,8.0,False,3.0,903916060.0,2bf9ed3a865420c67b4fba4e203ec2ce,1.0,,2.0,0.0,60484e265b19110d9fc670a1,0,10.7990718,106.7439092,Quận 2
-3910,60433104886de2363825d30a,93401,6,https://landber.com/tin-dang/Ads_01_22883192,"Biệt thự đường 38 Xuân Thủy, P. Thảo Điền, Quận 2. DT: 12,5x14,5m giá 42 tỷ, LH: 0902959222","Biệt thự quá đẹp cần bán gấp đường 38 Xuân Thủy phường Thảo Điền quận 2.
-
-
-- Biệt thự 1 trệt 2 lầu sân thượng, với diện tích: 12,5x14,5m vuông vắn, xem là thích ngay.
-
-
-- Biệt thự được xây theo kiểu hiện đại, chắc chắn, dành cho khách mua để ở, xứng đáng là một nơi hưởng thụ với đầy đủ những tiện nghi sau một ngày làm việc mệt mỏi.
-
-- Lợi thế khu vực: Biệt thự nằm trong cung đường liền kề Xuân Thủy, con đường nổi tiếng nhất của Phường Thảo Điền. Sát bên Thảo Điền Pearl - trung tâm thương mại sầm uất đầu đường Quốc Hương.
-Cung đường sầm uất, nhiều người nước ngoài sinh sống.
-
-- Pháp lý: Rõ ràng, mua bán nhanh gọn.
-
-- Giá: 42 tỷ thương lượng.
-
-- Liên hệ: 0902959222.",Xuân Thủy,thảo điền,trung tâm thương mại,"Xuân Thủy, Thảo Điền Pearl, Quốc Hương","sầm uất, sầm uất",4 phòng ngủ,,1.0,14.0,1.0,2.0,42000000000,0,2.0,3.5,0.0,{2},"{12.5,14.5}",38,10.8032091362903,106.730914932467,"(106.730914932467,10.8032091362903)",87988128.46193442,,70.0,Ads_01_22883192,1573837200,1574021908.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000085C66C4FC7AE5A40326E583A3E9B2540,1.0,2020-04-13 06:57:02.684767,1,8.0,False,2.0,902959222.0,089fd5d6d1b6fb9d3db445cec9c661cb,1.0,,1.0,0.0,60484e265b19110d9fc670a2,0,10.802763,106.7295648,Quận 2
-3911,60433104886de2363825d30e,65366,6,https://landber.com/tin-dang/Ads_01_22625714,"Bán gấp mặt tiền số 41 đường Số 9, P. Bình An, Q.2, Trần Não cắt vào (8 x 16m) không lộ giới","Chính chủ cần tiền bán gấp nhà mặt tiền 41 đường Số 9, P.Bình An, Q.2, đi Trần Não Vào.
-
-
-DT: 8 x 16m, cấp 4 tiện xây mới.
-
-
-Nhà góc 2 mặt tiền vuông vức không lộ giới, giấy tờ pháp lý đầy đủ sang tên nhanh lẹ.
-
-Cần bán gấp nên bán thấp hơn giá thị trường. Thực sự khu vực đang phát triển nên nhà không muốn bán nhưng do kẹt tiền.
-
-Khu vực đa phát triển cực tốt, nhà chung cư mọc lên liên tục, giá đất tăng vọt.
-
-Giá bán: 13 tỷ.
-
-LH xem nhà: 0917847567 Văn Thuận.",Số 9,bình an,,Trần Não,,,Số 41,1.0,14.0,1.0,2.0,4000000000,0,2.0,1.0,1.0,{2},"{8,16}",41,10.793449055722403,106.732429032807,"(106.732429032807,10.7934490557224)",217449437.818452,,128.0,Ads_01_22625714,1574010000,1574067388.0,2020-02-12 08:49:25.145194,7.9,3.6,0101000020E610000011A3051EE0AE5A4065BD62F43E962540,1.0,2020-04-13 10:06:02.075635,10,7.0,False,3.0,917847567.0,33b3ba48ee62334c7bc8185145bd5b88,1.0,,1.0,0.0,60484e265b19110d9fc670a3,0,10.7932498,106.7329774,Quận 2
-3912,60433104886de2363825d314,80101,6,https://landber.com/tin-dang/Ads_01_23487854,"Bán nhà 136 Nguyễn Văn Hưởng, quận 2, DT 34mx36m, giá tốt 215 tỷ, 0904.29.33.63","Bán nhà 136 Nguyễn Văn Hưởng, quận 2, DT 34mx36m, giá tốt 215 tỷ, 0904.29.33.63
-
-Nhà vị trí đẹp, khu vực sang trọng, sầm uất, dễ kinh doanh, buôn bán, khu vực chuyên văn phòng, tòa nhà, ngân hàng.
-
-Diện tích khuôn viên: Bề ngang 34m, chiều sâu 36m.
-Một số vị trí đẹp khác được ủy quyền chào bán:
-- Mặt tiền Quốc Hương, 1000m2, giá 150 tỷ.
-- Mặt tiền Xuân Thủy, 1200m2, giá 180 tỷ.
-- Mặt tiền Thảo Điền, 1500m2, giá 225 tỷ.
-- Mặt tiền Trần Não, 868m2, giá 195 tỷ.
-Tiếp khách mua trực tiếp và thiện chí, liên hệ: Anh Duy 0904.29.33.63 (Giám đốc kinh doanh nhà phố, Thạc sỹ quản trị kinh doanh).
-Chúng tôi theo đuổi chiến lược:
-+ Kinh doanh chuẩn mực, minh bạch.
-+ Chuyên nghiệp, xuất sắc trong hoạt động.
-+ Đề cao những nguyên tắc hành xử đạo đức.
-+ Đưa ra giải pháp thực tế và quan điểm tích cực.
-+ Vì lợi ích bền vững của khách hàng và chủ nhà.
-Chúng tôi đang quản lý những bất động sản chào bán và cho thuê tốt nhất trên thị trường.",Nguyễn Văn Hưởng,thảo điền,"văn phòng, ngân hàng",,"sang trọng, sầm uất",,,1.0,14.0,1.0,2.0,215000000000,0,2.0,1.0,1.0,{2},"{34,36}",136,10.8085837916486,106.733269765912,"(106.733269765912,10.8085837916486)",143501267.29058,,1000.0,Ads_01_23487854,1586192400,1574029201.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000017EF4FE4EDAE5A40AA69DAB1FE9D2540,1.0,2020-04-13 01:38:01.706226,1,8.0,False,2.0,904293363.0,4275813a8831b68a66c7c305784b591c,4.0,,1.0,0.0,60484e265b19110d9fc670a4,0,10.8109821,106.7251624,Quận 2
-3913,60433104886de2363825d33a,299479,6,https://landber.com/tin-dang/Ads_01_24104225,"Chính chủ cần bán đất số 90 Phạm Hy Lượng, Thạnh Mỹ Lợi, Quận 2, DT 100m2 5.7x17.5","Chính chủ, cần tiền bán đất địa chỉ 90 Phạm Hy Lượng, cách chợ Thạnh Mỹ Lợi 500m. Đất trống tiện xây dựng mới.
-
-- Diện tích 100m2: 5.7x17.5
-
-- Sổ hồng chính chủ.
-- Hướng: Đông Nam.
-- Giá: 7.2 tỷ.
-- Liên hệ: Thanh 0938 339 115",Phạm Hy Lượng, thạnh mỹ lợi,chợ,chợ Thạnh Mỹ Lợi,,,,1.0,14.0,1.0,2.0,7200000000,0,3.0,1.0,1.0,{2},"{5.7,17}",90,10.770048273862901,106.768305398715,"(106.768305398715,10.7700482738629)",44982724.05982179,đông - nam,100.0,Ads_01_24104225,1578070800,1578694244.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000843468EA2BB15A404B2A71C4438A2540,1.0,2020-04-13 02:45:02.287487,1,8.0,False,2.0,938339115.0,fd9a330fcd14791181b4feece92d5b89,1.0,,1.0,0.0,60484e265b19110d9fc670a5,0,10.7690464,106.7663723,Quận 2
-3914,60433104886de2363825d33b,299480,6,https://landber.com/tin-dang/Ads_01_22718366,"Bán biệt thự khu 215 Nguyễn Văn Hưởng, phường Thảo Điền, Q. 2, 8x20m, giá 32 tỷ","Bán biệt thự khu 215 Nguyễn Văn Hưởng, phường Thảo Điền, Quận 2.
-Diện tích: 8x20m vuông vức.
-
-Kết cấu: Trệt 2 lầu biệt thự siêu xinh.
-Khu 215 là khu vip nhất của tuyến đường Nguyễn Văn Hưởng thông với đường Thảo Điền, gần các trường học Quốc Tế.
-
-Giá 32 tỷ thương lượng với khách thiện chí.
-Liên hệ: Ngọc Ánh: 0962766965 để đi xem nhà.
-
-Cảm ơn bạn đã dành thời gian xem tin.",Nguyễn Văn Hưởng,thảo điền,trường học,"Thảo Điền, trường Quốc Tế",,,215,1.0,14.0,1.0,2.0,32000000000,0,2.0,3.0,1.0,{2},"{8,20}",215,10.808053259091404,106.733505343351,"(106.733505343351,10.8080532590914)",76382698.71917991,,160.0,Ads_01_22718366,1578416400,1578694243.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000A54865C0F1AE5A4078722228B99D2540,1.0,2020-04-13 11:59:02.266084,1,8.0,False,2.0,962766965.0,844c3860cb30f2f58eaf064d38f46396,2.0,,1.0,0.0,60484e265b19110d9fc670a6,0,10.812154,106.732161,Quận 2
-3915,60433104886de2363825d33c,300135,6,https://landber.com/tin-dang/Ads_02_13036843,"Bán nhà Quận 2, đường Số 1, Thảo Điền, 110m2, 1 trệt 1 lầu, 3PN","Bán nhà phố quận 2 đường Số 1 khu Làng Báo Chí, Thảo Điền. Nhà phố cần bán có diện tích 10x11m = 110m2, xây dựng 1 trệt 1 lầu, gồm 3 phòng ngủ, 3WC, có gara xe hơi, nhà đẹp hướng Đông - Nam, đường 2 xe hơi chạy thoải mái, có chốt bảo vệ an ninh 24/24, khu dân cư yên tĩnh, thoáng mát, gần sông Saigon, khu không bị ngập nước.- Vị trí: Gần ngay các trường Quốc tế đi bộ chỉ 100m là tới, gần bệnh viện, nhà hàng, cửa hàng tiện lợi, siêu thị... Vị trí cực kỳ đẹp và thuận lợi.- Pháp lý: Sổ hồng.Giá bán: 17.5 tỷ ~ 159 triệu/m2.Hotline: 0919462121 0933235111 Ms. Yan Lin (English, ).","Số 1,Quận 2,Hồ Chí Minh",thảo điền,"sông, trường Quốc tế đi bộ, bệnh viện, nhà hàng, cửa hàng, siêu thị","Làng Báo Chí, Thảo Điền, sông Saigon","yên tĩnh, thoáng mát, không bị ngập nước, đẹp và thuận lợi",3 phòng ngủ,,1.0,14.0,1.0,2.0,17500000000,0,3.0,2.0,0.0,{2},"{10,11}",,10.8103070841331,106.734169051545,"(106.734169051545,10.8103070841331)",97335724.551321,đông,110.0,Ads_02_13036843,1578070800,1578694896.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000AD8730A0FCAE5A403523F491E09E2540,1.0,2020-04-13 00:20:03.031445,2,7.0,True,2.0,919462121.0,64ce5e7e096af5ac5e124953a2f94e62,1.0,,1.0,0.0,60484e265b19110d9fc670a7,0,10.8145214,106.728544,Quận 2
-3916,60433104886de2363825d358,730944,3,https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-nguyen-van-huong-phuong-thao-dien-prj-holm-villas-thao-dien/can-ban-gap-quan-2-gia-tot-pr20102033,"Cần bán gấp biệt thự Holm Thảo Điền, Quận 2, giá 49 tỷ","Holm Villas vị trí đắc địa tại trung tâm Thảo Điền, quận 2 với mặt tiền sông Sài Gòn trải dài & tiện ích vượt trội cho cộng đồng dân cư văn minh, đẳng cấp.<br/><br/>Khu biệt thự đẳng cấp ven sông Holm Villas tọa lạc tại số 151 Nguyễn Văn Hưởng, khu vực Thảo Điền, quận 2, TP. HCM. Diện tích toàn khu biệt thự là 2,7 ha, có chiều dài mặt sông hơn 200m, khu biệt thự chỉ có 29 căn biệt thự được xây dựng hiện đại theo phong cách Châu Âu kết hợp với không gian thoáng đãng bên bờ sông Sài Gòn, đem lại sự bình yên nhẹ nhàng cho cuộc sống của bạn.<br/><br/>Biệt thự Holm Villas Thảo Điền nằm ở vị trí phía sau là mặt sông còn phía trước là mặt tiền Nguyễn Văn Hưởng, cách trung tâm thành phố chưa đầy 5 km, đường khu dự án này là con đường rộng và đẹp nhất Thảo Điền, về mặt giao thông cực kỳ thuận tiện cho việc đi lại.<br/><br/>Tổng quan khu biệt thự Holm Villas.<br/><br/>- Tổng diện tích dự án Holm: 2.7 ha.<br/>- Số lượng biệt thự toàn dự án Holm Villas: 29 căn biệt thự.<br/>- Diện tích đất: Từ 272m2 đến 1018m2.<br/>- Diện tích xây dựng: Từ 395m2 - 588m2.<br/>- Các loại biệt thự bao gồm:<br/>+ Biệt thự bờ sông: Gồm 11 căn có DT đất từ 798m2 đến 1018m2, DT xây dựng 588m2.<br/>+ Biệt thự hồ bơi: Gồm 06 căn có DT đất từ 445m2 đến 675m2, DT xây dựng 480 m2.<br/>+ Biệt thự sân vườn: Gồm 12 căn có DT đất từ 272m2 đến 434 m2, DT xây dựng 395 m2.<br/><br/>Tiện ích đầy đủ với tiêu chuẩn 5 sao.<br/>Ngày bàn giao dự kiến: 12/2016.<br/>Bàn giao nhà hoàn thiện.<br/><br/>* Chủ đầu tư biệt thự Holm Villas Thảo Điền.<br/><br/>Công ty Cổ phần TDS JSC (Saphire), Saphire có thành tích ấn tượng trong lĩnh vực khai thác và phát triển thị trường nhà ở đặc biệt cao cấp và dự án thương mại lớn, phát triển từ giai đoạn khởi xướng cho đến khi bàn giao.<br/><br/>Vị trí dự án: Nguyễn Văn Hưởng, P. Thảo Điền, Quận 2.<br/><br/>Tiện ích khu biệt thự Holm Villas, Quận 2.<br/><br/>Hồ bơi tràn bờ (25.5m x 8.5m 1m - 2.2m sau).<br/>Hồ bơi trẻ em (7m x 5.4m 0.7m - 1.2m sau).<br/>Phòng tập gym, khu đồ nướng BBQ ngoài trời.<br/>Khoảng 6000 m2 dành cho công viên và khu tiện ích cộng đồng.<br/>Khu vực ngắm cảnh dọc bờ sông và công viên giải trí.<br/>Lối đi bộ nội khu, bảo vệ nghiêm ngặt 24/24.<br/>Hệ thống điện dự phòng trung tâm, 100%.<br/>Khu vực tòa nhà quản lý với trang thiết bị bảo trì hoàn chỉnh và hệ thống.<br/><br/>Điểm nổi bật của biệt thự cao cấp Holm Villas.<br/>Khu biệt thự Holm Villas cao cấp khép kín hàng đầu tại quận 2.<br/>Sở hữu không gian sống nghỉ dưỡng cao cấp.<br/>Cộng đồng dân trí cao cộng đồng văn minh, đẳng cấp.<br/>Nhiều tiện ích hiện hữu hàng đầu tại Holm Villas.<br/>Nhiều tiện ích nội khu cao cấp 5 sao.<br/>Cơ hội đầu tư sinh lợi giá trị đầu tư & cho thuê trong tương lai cao.<br/>Sử dụng lâu dài & giá trị gia tăng theo thời gian.<br/>Chủ đầu tư uy tín Sapphire Việt Nam.<br/><br/>Giá từ: 36.76 tỷ/căn.<br/>Thông tin chi tiết liên hệ PKD: 090 316 4884.",Nguyễn Văn Hưởng,thảo điền,"sông, sông, sông, sông, sông, hồ bơi, Hồ bơi, Phòng tập gym, khu đồ nướng BBQ, công viên, sông, công viên","sông Sài Gòn, sông Holm Villas, sông Sài Gòn, Thảo Điền","văn minh, giao thông cực kỳ thuận tiện cho việc đi lại, dân trí cao, văn minh",9,Holm Thảo Điền,1.0,14.0,1.0,2.0,49000000000,0,2.0,4.0,1.0,"{2,1}","{1.2,5.4,7,7}",151,10.810801253792803,106.72451313734301,"(106.724513137343,106.724513137343)",49000000000.0,,1018.0,bdscomvn_20102033,1593180637,1593159184.0,2020-06-26 15:17:08.650551,0.0,0.0,0101000020E6100000289A596C5EAE5A400D318957219F2540,0.0,,0,0.0,False,2.0,903164884.0,ac2b517dee95f169ce0fad723d853244,1.0,,1.0,0.0,60484e265b19110d9fc670a8,0,10.8141431,106.7264813,Quận 2
-3917,60433104886de2363825d359,728974,3,https://batdongsan.com.vn/cho-thue-nha-rieng-duong-cao-duc-lan-phuong-an-phu/can-cho-gap-mat-tien-gan-dt-4x20m-lh-kim-anh-0904-357-135-pr25803126,"Cần cho thuê gấp nhà mặt tiền gần Cao Đức Lân, DT: 4x20m, LH Kim Anh: 0904.357.135","Cho thuê gấp nhà mặt tiền vị trí đẹp sát Cao Đức Lân, Quận 2.<br/>- Diện tích: 4x20m<br/>- Hướng Đông Nam thoáng mát, đường rộng 14m<br/>- Kết cấu nhà gồm:<br/>  + 1 phòng khách<br/>  + 5 phòng làm việc<br/>  + Đầy đủ nội thất, giếng trời,..<br/>  + 1 bếp<br/>- Hợp đồng thuê ít nhất 3 năm<br/>- Vị trí nhà nằm trong khu đô thị hiện đại Quận 2, đông đúc dân cư, thuận lợi cho việc kinh doanh, mua bán, làm nhà ở,..<br/>- Tiện di chuyển qua các quận trung tâm như quận 1, Bình Thạnh, ...<br/>- Khu vực phạm vi bán kính 1,5km có đầy đủ tiện nghi như: công viên, trường học, bệnh viện, TTTM,...<br/>- Gía thuê 30Tr/ tháng ( có thương lượng khách thiện chí)<br/>- Liên hệ Kim Anh 0904.357.135 để xem nhà.<br/>Ngoài ra BĐS Kim Anh còn có rất nhiều nhà phố, đất nền, biệt thự, villa hiện đại, sang trọng, khách thiện chí vui lòng liên hệ Kim Anh 0904. 357.135 để được tư vấn kĩ hơn.<br/>Bất Động Sản Kim Anh, 72 Cao Đức Lân, An Phú, quận 2, TPHCM.",Cao Đức Lân,,"công viên, trường học, bệnh viện, TTTM","Cao Đức Lân, Cao Đức Lân, quận 1, Bình Thạnh",đông đúc dân cư,"1 phòng khách, 5 phòng làm, 1 bếp",,1.0,14.0,5.0,2.0,30000000,30000000,2.0,1.0,1.0,{2},"{4,20}",,10.794204993641904,106.74252156721501,"(106.742521567215,106.742521567215)",375000.0,đông - nam,80.0,bdscomvn_25803126,1591864291,1591841563.0,2020-06-26 12:36:03.788431,0.0,0.0,0101000020E6100000F1F02D7985AF5A400C067409A2962540,0.0,,0,0.0,False,2.0,904357135.0,1a016cd5e9f8a03694627eb2c5129bac,1.0,,1.0,0.0,60484e265b19110d9fc670a9,0,10.7951603,106.7432669,Quận 2
-3918,60433104886de2363825d377,748632,1,https://batdongsan.com.vn/ban-nha-mat-pho-duong-nguyen-van-huong-phuong-thao-dien/ban-136-quan-2-dt-34mx36m-gia-tot-215-ty-0904-29-33-63-pr23348835,"Bán nhà 136 Nguyễn Văn Hưởng, quận 2, DT 34mx36m, giá tốt 215 tỷ, 0904.29.33.63","Bán nhà 136 Nguyễn Văn Hưởng, quận 2, DT 34mx36m, giá tốt 215 tỷ, 0904.29.33.63.<br/>Nhà vị trí đẹp, khu vực sang trọng, sầm uất, dễ kinh doanh, buôn bán, khu vực chuyên văn phòng, tòa nhà, ngân hàng.<br/>Diện tích khuôn viên: Bề ngang 34m, chiều sâu 36m.<br/>Một số vị trí đẹp khác được ủy quyền chào bán:<br/>- Mặt tiền Quốc Hương, 1000m2, giá 150 tỷ.<br/>- Mặt tiền Xuân Thủy, 1200m2, giá 180 tỷ.<br/>- Mặt tiền Thảo Điền, 1500m2, giá 225 tỷ.<br/>- Mặt tiền Trần Não, 868m2, giá 195 tỷ.<br/>Tiếp khách mua trực tiếp và thiện chí, liên hệ: Anh Duy 0904.29.33.63 (Giám đốc kinh doanh nhà phố, Thạc sỹ quản trị kinh doanh).<br/>Chúng tôi theo đuổi chiến lược:<br/>+ Kinh doanh chuẩn mực, minh bạch.<br/>+ Chuyên nghiệp, xuất sắc trong hoạt động.<br/>+ Đề cao những nguyên tắc hành xử đạo đức.<br/>+ Đưa ra giải pháp thực tế và quan điểm tích cực.<br/>+ Vì lợi ích bền vững của khách hàng và chủ nhà.<br/>Chúng tôi đang quản lý những bất động sản chào bán và cho thuê tốt nhất trên thị trường.",Nguyễn Văn Hưởng,,"văn phòng, tòa nhà, ngân hàng",,"sang trọng, sầm uất",,,1.0,14.0,1.0,2.0,215000000000,0,2.0,1.0,1.0,"{2,1}","{34,36}",136,10.8085793422619,106.73310623131901,"(106.733106231319,10.8085793422619)",175653594.771242,,1500.0,bdscomvn_23348835,1589295941,1589274631.0,2020-06-30 04:33:01.186822,0.0,0.0,0101000020E610000074006636EBAE5A40E8788E1CFE9D2540,0.0,,0,0.0,False,2.0,904293363.0,47fe84729f9e74387f26a7e14ccd5ab3,1.0,,1.0,0.0,60484e265b19110d9fc670aa,0,10.8109821,106.7251624,Quận 2
-3919,60433104886de2363825d37c,744627,3,https://batdongsan.com.vn/cho-thue-nha-mat-pho-duong-mai-chi-tho-phuong-an-loi-dong-prj-dai-quang-minh/cho-nhieu-shouse-khu-do-thi-sala-dt-san-225m2-760m2-lh-0908111886-pr18793799,"Cho thuê nhiều nhà phố shophouse KĐT Sala Đại Quang Minh. DT sàn: 225m2 - 760m2, LH 0908111886","Cần cho thuê nhiều căn nhà phố - shophouse khu đô thị Sala Đại Quang Minh, Thủ Thiêm, Quận 2.<br/>Diện tích: 7x24m, 1 hầm, 4 lầu, áp mái.<br/>Tổng diện tích sàn xây dưng: 225m2 - 690m2 - 760m2/căn.<br/>* 2 căn giá tốt Shophouse Sarimi Sala:<br/>- Shophouse dưới tháp B1: 6.5x11.5m giá 65.16 triệu/tháng.<br/>- Shophouse dưới tháp A1: 7x11.5m giá 72.14 triệu/tháng.<br/>* 3 căn giá tốt nhất Shophouse <a href=""/cho-thue-nha-mat-pho-duong-nguyen-co-thach-54"">Nguyễn Cơ Thạch</a> Sala sau:<br/>- Shophouse Sala dãy SH8 giá thuê: 5000usd/tháng.<br/>- Shophouse dãy SH11 căn góc giá thuê: 5100usd/tháng.<br/>- Shophouse dãy SH10 giá cho thuê 114.02 triệu/tháng.<br/>* Đặc biệt 1 căn duy nhất: Shop Sari Town: DT 5.7x20m, 1 hầm, 4 lầu đã hoàn thiện nội thất. Giá thuê 65 triệu/tháng.<br/>Anh chị có nhu cầu thuê xin vui lòng liên hệ:<br/>Công Ty Bất Động Sản Nhà Thủ Thiêm.<br/>Hotline phòng thuê Sala: 0908 111 886.<br/>Địa chỉ: Số 109 Nguyễn Cơ Thạch - khu đô thị Sala Đại Quang Minh, Thủ Thiêm, Quận 2.<br/>Nhận ký gửi mua bán - cho thuê căn hộ nhà phố khu đô thị Sala.<br/>Xem thêm thông tin nhiều căn shophouse nhà phố Sala cho thuê tại:<br/>Web: <a rel=nofollow target=_blank href=http://nhadatthuthiem.net/>http://nhadatthuthiem.net/</a><br/>Cám ơn quý khách đã xem tin!",Nguyễn Cơ Thạch,thủ thiêm,,,,8,shophouse KĐT Sala Đại Quang Minh,1.0,14.0,5.0,2.0,65000000,65160000,3.0,5.0,1.0,{2},"{7,24}",109,10.774364933195699,106.726829750575,"(106.726829750575,106.726829750575)",386904.761904762,,760.0,bdscomvn_18793799,1591782744,1591758263.0,2020-06-27 14:19:01.916041,0.0,0.0,0101000020E6100000BA1EEE6084AE5A40597D7E8F798C2540,0.0,,0,0.0,False,2.0,908111886.0,959c939788ed2f55579ce822cb188975,1.0,,1.0,0.0,60484e265b19110d9fc670ab,0,10.7699004,106.7241635,Quận 2
-3920,60433104886de2363825d391,748524,6,https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-phuong-thao-dien/ban-gan-vo-truong-toan-quan-2-goi-ngay-0936666466-hoang-anh-pr25607126,"Bán Nhà biệt thự Gần Võ Trường Toản, phường Thảo Điền.Quận 2,gọi Ngay 0936666466 Hoàng Anh","-Bán Biệt Thự gần Võ Trường Toản Thảo Điền, Phường Thảo Điền, Quận 2:<br/>- Diện Tích: 427m2<br/>- 1 Trệt 2 lầu ốp mái.<br/>- Được phép xây cao tầng.<br/>- Giá 55 tỷ còn thương lượng ( sổ Hồng)<br/>- Tiện ích xung quanh  Thảo Điền: Trường Quốc tế Mỹ - TAS - 10 Phút đi bộ, tuyến Metro Số 1 Bến Thành - Suối Tiên - 20 phút đi bộ, nhà hàng cà phê Thảo Điền Village - 10 phút đi bộ, siêu thị An Phú, siêu thị Ân Nam - 15 Phút đi Bộ, Trung tâm thương mại Vincom Mega Mall - 15 Phút đi xe đạp. Ngoài ra, Thảo Điền là nơi tập trung nhiều trường Quốc Tế lớn: Trường Quốc tế Anh - BVIS, trường Quốc tế IS - HCMC, trường Quốc Tế Úc...<br/>- Khu biệt thự Fkhẳng định đẳng cấp ngay trung tâm phường Thảo Điền với dòng sông Sài Gòn chạy xung quanh tạo nên hệ sinh thái tươi mới mang lại một không gian sống trong lành, thích hợp để nghỉ ngơi thư giãn.<br/>- Gọi Ngay: 096666466 Hoàng Anh.<br/>- CTY BĐS Hưng Đông land.<br/>- Địa chỉ: 7/8 Trần Não, phường bình An.Quận 2",Trần Não,thảo điền,"Trường Quốc tế, tuyến, nhà hàng cà phê, siêu thị, siêu thị, Trung tâm thương mại, trường Quốc Tế, Trường Quốc tế, trường Quốc tế, trường Quốc Tế","Võ Trường Toản, Võ Trường Toản Thảo Điền, Thảo Điền, Trường Quốc tế Mỹ - TAS, tuyến Metro Số 1 Bến Thành, Suối Tiên, nhà hàng cà phê Thảo Điền Village, siêu thị An Phú, siêu thị Ân Nam, Trung tâm thương mại Vincom Mega Mall, Thảo Điền, Trường Quốc tế Anh - BVIS, trường Quốc tế IS - HCMC, trường Quốc Tế Úc",,,,1.0,14.0,1.0,2.0,55000000000,0,3.0,3.0,1.0,{2},"{0,0}",7/8,10.8079329181544,106.73520367128599,"(106.735203671286,10.8079329181544)",128805620.608899,,427.0,bdscomvn_25607126,1590595478,1590573954.0,2020-06-30 04:32:02.357199,0.0,0.0,0101000020E6100000B504B3930DAF5A407AAB2962A99D2540,0.0,,0,0.0,False,2.0,936666466.0,c6fb9a9409bb3cf178bc924de5f0c6ed,1.0,,1.0,0.0,60484e265b19110d9fc670ac,0,10.785929,106.729691,Quận 2
-3921,60433104886de2363825d396,741165,3,https://batdongsan.com.vn/cho-thue-nha-mat-pho-duong-do-xuan-hop-phuong-an-phu-prj-khu-do-thi-lakeview-city/-full-noi-that-gia-tot-nhat-du-tai-novald-chi-28tr-thg-lh-0902446185-pr25880687,Nhà full nội thất giá thuê tốt nhất dự án tại Lakeview City Novaland chỉ 28tr/tháng. LH 0902446185,"Cần cho thuê nhà phố Lakeview City quận 2, nhà hoàn thiện nội thất đẹp. Cho thuê với giá hữu nghị.<br/>- Diện tích: 5m*20m - Xây dựng 1 trệt và 3 lầu 4PN, 5WC.<br/>- Giá cho thuê: 28tr/tháng nội thất đẹp.<br/>- Khu vực an ninh có chốt bảo vệ riêng ngay cổng, có camera giám sát ở các ngã ba, ngã tư đường.<br/>- Tiện ích: Có hồ bơi và hồ cảnh quan, công viên cây xanh, trung tâm thương mại tại khu đang xây dựng, đường sá rộng thoáng mát để xe ô tô thoải mái...<br/>- Vị trí thuận lợi để đi đến trung tâm thành phố không quá 10 phút thông qua cao tốc Long Thành Dầu Giây, Mai Chí Thọ, Hầm Thủ Thiêm.<br/>- Gần siêu thị Vincom, trường học, bệnh viện quận 2...<br/>Địa chỉ: 697 Đỗ Xuân Hợp phường An Phú, Quận 2, Hồ Chí Minh.<br/>Liên hệ: Thu Riêng 0902446185 (Zalo, SMS, Viber).<br/>Tư vấn và xem nhà miễn phí.",Đỗ Xuân Hợp,an phú,"ngã ba, ngã tư, hồ bơi, hồ cảnh quan, công viên, trung tâm thương mại, cao tốc, Hầm, siêu thị, trường học, bệnh viện","cao tốc Long Thành Dầu Giây, Mai Chí Thọ, Hầm Thủ Thiêm, siêu thị Vincom, bệnh viện quận 2","an ninh, thoáng mát",4,Lakeview City Novaland,1.0,14.0,5.0,2.0,28000000,28000000,2.0,4.0,1.0,{2},"{5,20}",697,10.795449496780698,106.77580492605301,"(106.775804926053,106.775804926053)",280000.0,,100.0,bdscomvn_25880687,1593246200,1593223710.0,2020-06-27 09:09:04.58859,0.0,0.0,0101000020E6100000485EB4C9A6B15A40D5950C2845972540,0.0,,0,0.0,False,2.0,902446185.0,b8eb1e5094c614040ab860285ba3d19f,1.0,,1.0,0.0,60484e265b19110d9fc670ad,0,10.7948475,106.781118,Quận 2
-3922,60433104886de2363825d39a,745416,1,https://batdongsan.com.vn/ban-nha-rieng-duong-tran-nao-phuong-binh-an/cho-con-di-du-hoc-ban-gap-85m2-dat-tho-cu-12-quan-2-ngay-ubnd-tt-930tr-lh-0762831017-pr25559062,CHO CON ĐI DU HỌC BÁN GẤP 85M2 ĐẤT THỔ CƯ-ĐƯỜNG 12 TRẦN NÃO-QUẬN 2-NGAY UBND-TT 930TR-LH 0762831017,"CHO CON ĐI DU HỌC BÁN GẤP 85M2 ĐẤT THỔ CƯ-XÂY DỰNG NGAY-ĐƯỜNG 12 TRẦN NÃO-QUẬN 2-NGAY UBND-TT 930TR-LH 0762831017<br/>- Nằm gần các tuyến đường lớn thuận tiện di chuyển sang các quận trung tâm khác.<br/>- Nằm trong khu dân cư đông đúc, sầm uất. Dân cư hiện hữu.<br/>- Đèn đường, cây xanh đầy đủ thích hợp cho việc sinh sống và đầu tư.<br/>- Tiện ích đầy đủ: Chợ, trường học các cấp, công viên, TTTM.<br/>- Sổ riêng từng nền, pháp lý đầy đủ.<br/>- Diện tích 85m2, ngang 5 dài 17, nở hậu<br/>- Vị trí mặt tiền đường, gần chợ, khu chế xuất nên rất tiện kinh doanh buôn bán, xây trọ và an cư.<br/>- Đường rộng 8m xe ô tô di chuyển vô cùng thuận tiện.<br/>- Sang tên đổi sổ trong ngày.<br/>Liên hệ chính chủ 0762831017 gặp Khánh Ly.<br/>Cảm ơn anh chị xem tin.",Trần Não,,"UBND, UBND, Chợ, trường học, công viên, TTTM, chợ, khu chế xuất",,"dân cư đông đúc, sầm uất",,,1.0,14.0,1.0,2.0,930000000,0,1.0,1.0,1.0,{2},"{0,0}",12,10.7913460729738,106.73047553151301,"(106.730475531513,10.7913460729738)",10941176.470588198,đông,85.0,bdscomvn_25559062,1590252908,1590228102.0,2020-06-30 04:06:21.489943,0.0,0.0,0101000020E61000001198711CC0AE5A402B7BFE4F2B952540,0.0,,0,0.0,False,2.0,762831017.0,5553c6cbf9045893eaa4688e183a52ff,1.0,,1.0,0.0,60484e265b19110d9fc670ae,0,10.7984643,106.7331152,Quận 2
-3923,60433104886de2363825d39c,745539,2,https://batdongsan.com.vn/ban-nha-rieng-phuong-thao-dien/ban-gan-vincom-mega-mall-quan-2-dt-148m2-tret-2lau-4pn-gia-ban-19-ty-pr25605038,"Bán nhà gần Vincom Mega Mall Thảo Điền, Quận 2, DT 148m2, trệt, 2 lầu, 4PN. Giá bán 19 tỷ","Bán nhà gần Vincom Mega Mall Thảo Điền. Vị trí nhà ngay bên hông khu căn hộ Masteri Thảo Điền, ngay Vincom Mega Mall Thảo Điền, ngay trạm ga số 7 tàu điện ngầm Bến Thành - Suối Tiên 100m.<br/>Vị trí gần trường Quốc tế, khu dân cư cao cấp với nhiều khu căn hộ xung quanh.<br/><br/>Bán biệt thự gần Vincom Thảo Điền. Diện tích khuôn viên khoảng 148m2, sổ trừ lộ giới đang được sử dụng thêm còn 131.7m2 (ngang 8.35 x 15). Xây đất 98.1m2, trệt, 2 lầu, sàn sử dụng 254.3m2, có 4PN, nhà đẹp, theo phong cách hiện đại.<br/><br/>Đặc điểm nổi bật là: Nở hậu, có 2 mặt tiền trước sau thông thoáng. Giá bán 19 tỷ, đang cho thuê 46tr/tháng.<br/>NTLand - Sàn giao dịch bất động sản.<br/>Chuyên nhận ký gửi và tư vấn miễn phí:<br/>Mua bán - Cho thuê nhà đất, biệt thự tại Thảo Điền, Quận 2.<br/>Địa chỉ: 50 Xuân Thủy, P. Thảo Điền, Quận 2.<br/>Điện thoại: 0937 - 500 - 741 Zalo/Viber/fb: 0937 - 500 - 741.<br/>Email: <a href='mailto:bietthuthaodienluxury@gmail.com'>bietthuthaodienluxury@gmail.com</a><br/>Website: <a rel='nofollow' target='_blank' href='http://thaodienland.net'>http://thaodienland.net</a>",Xuân Thủy,thảo điền,"Vincom, Vincom, căn hộ, trạm ga, tàu điện ngầm, trường, br / >","Vincom Mega Mall Thảo Điền, Vincom Mega Mall Thảo Điền, căn hộ Masteri Thảo Điền, Vincom Mega Mall Thảo Điền, tàu điện ngầm Bến Thành, Suối Tiên, trường Quốc tế, Vincom Thảo Điền",,4,,1.0,14.0,5.0,2.0,19000000000,46000000,2.0,3.0,2.0,{1},"{8.35,15}",50,10.80789823895,106.73529462515499,"(106.735294625155,10.80789823895)",128378378.378378,,148.0,bdscomvn_25605038,1590583267,1590559697.0,2020-06-30 04:08:18.777403,0.0,0.0,0101000020E6100000C0FD2F110FAF5A409D9285D6A49D2540,0.0,,0,0.0,False,1.0,,bf5b17bdc8864a0abbe47c3b801c14a9,1.0,,1.0,0.0,60484e265b19110d9fc670af,0,10.8028479,106.73109,Quận 2
-3924,60433104886de2363825d3c0,748283,3,https://batdongsan.com.vn/ban-nha-rieng-duong-nguyen-thi-dinh-phuong-binh-trung-tay/ban-cap-4-hem-gan-duy-trinh-q2-dt-3-x-8m-tdt-24m2-xay-1-tret-1-g-pr25502537,"Bán Nhà cấp 4 hẻm Nguyễn Thị Định Gần Nguyễn Duy Trinh Q2. DT: 3 x 8m, tdt 24m2. Nhà xây 1 trệt 1 g","Bán Nhà cấp 4 hẻm Nguyễn Thị Định Gần Nguyễn Duy Trinh Q2. DT: 3 x 8m, tdt 24m2.<br/>Nhà xây 1 trệt 1 gác, sổ hồng, bán 2.8 tỷ<br/>Lh: 0902343213 SƠN BẢY ",Nguyễn Thị Định,,,"Nguyễn Duy Trinh, Nguyễn Duy Trinh",,,,1.0,14.0,1.0,2.0,2800000000,0,3.0,1.5,3.0,{2},"{3,8}",,10.7809024648129,106.761947360683,"(106.761947360683,10.7809024648129)",116666666.666667,,24.0,bdscomvn_25502537,1589889780,1589868992.0,2020-06-30 04:29:51.652646,0.0,0.0,0101000020E610000005DADCBEC3B05A407979A772D28F2540,0.0,,0,0.0,False,2.0,902343213.0,e87ddcc77767403b414d5c263b59c10d,1.0,,1.0,0.0,60484e265b19110d9fc670b0,0,10.7895859,106.7546627,Quận 2
-3925,60433104886de2363825d3ce,739008,3,https://batdongsan.com.vn/ban-nha-rieng-duong-quoc-huong-phuong-thao-dien/ban-biet-thu-duy-nhat-co-gia-tot-7-5x22m-doi-cong-vien-gia-tot-pr23765323,"Biệt thự ngang 8 dài 22m Quốc Hương, Thảo Điền nhà rộng - sân vườn lớn thoáng mát, 21 tỷ","- Cần bán nhà phố đẹp khu hẻm 47 Quốc Hương, Quận 2, mới nâng cấp đường rộng rãi sạch sẽ, đặc biệt căn nhà đối diện công viên nội khu.<br/><br/>- Với lợi thế khu dân cư ổn định, đồng bộ, yên tĩnh, thích hợp cho việc ở, hoặc khai thác cho thuê lâu dài với mức giá cực tốt.<br/><br/>Thông tin sản phẩm cẩn bán.<br/>- Diện tích đất: 7.5x22m (174m2).<br/>- Kết cấu: 1 trệt + 2 lầu - 3PN.<br/>- Sân rộng rãi.<br/>- Giá bán thiện chí từ gia chủ: 21 tỷ.<br/>Liên hệ: Duyên My 0906.748.345 (Zalo/Viber).<br/>Cảm ơn quý khách đã xem tin!",Quốc Hương,thảo điền,"công viên, br / >",,"sạch sẽ, ổn định , đồng bộ, yên tĩnh",3 PN,,1.0,14.0,1.0,2.0,21000000000,0,2.0,3.0,1.0,"{2,1}","{7.5,22}",47,10.800639187024,106.732198448676,"(106.732198448676,106.732198448676)",120689655.172414,,174.0,bdscomvn_23765323,1591801154,1591776042.0,2020-06-27 05:55:02.070448,0.0,0.0,0101000020E6100000D3CFE156DCAE5A4006542861ED992540,0.0,,0,0.0,False,2.0,906748345.0,5c2adc3154966ba1eb7ddd278010b87f,1.0,,1.0,0.0,60484e265b19110d9fc670b1,0,10.8045827,106.73156,Quận 2
-3926,60433104886de2363825d3d3,749532,6,https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-nguyen-van-huong-phuong-thao-dien-prj-holm-villas-thao-dien/can-ban-ho-boi-rieng-tai-gia-36-ty-dt-773-5m2-da-nhan-so-lh-0908700752-pr21351533,"Cần bán biệt thự hồ bơi riêng tại Holm Thảo Điền giá 49 tỷ, DT: 295m2 đã nhận sổ, LH: 0933883337","Tôi cần bán gấp căn biệt thự vườn duy nhất tại Holm Thảo Điền, Quận 2:<br/>+ Diện tích xây dựng: 472m2.<br/>+ Diện tích đất 295m2.<br/>+ Kiến trúc resort hiện đại. Giá 49 tỷ (giá tốt còn thương lượng cho khách thiện chí).<br/>+ Tiến độ thanh toán cực tốt, ưu đãi cho khách hàng.<br/><br/>- Vị trí biệt thự Holm Residences: 151 đường Nguyễn Văn Hưởng, phường Thảo Điền, quận 2, thành phố Hồ Chí Minh.<br/>- Tổng diện tích: 2.7 ha (29 biệt thự).<br/>- Loại hình sở hữu: Sở hông lâu dài và đã có sổ.<br/>- Garage đóng có thể chứa được hơn xe ô tô.<br/>- Villa Compound thiết kế khu clubhouse chuẩn 5 sao, an ninh 24/7, tuyệt đối yên tĩnh.<br/>- Villa thiết kế bến du thuyền đẳng cấp cho những khách hàng muốn thừa hưởng du thuyền.<br/>- Tất cả các phòng khách, phòng ngủ, bếp, BBQ đều view trực diện sông.<br/>Anh chị có nhu cầu xem nhà liên hệ tôi: Anh Quốc: 0933883337<br/>Cám ơn anh chị đã xem tin.",Nguyễn Văn Hưởng,thảo điền,"hồ bơi, sông",,an ninh,6,Holm Residences,1.0,14.0,1.0,2.0,49000000000,0,2.0,3.0,0.0,{2},"{0,0}",151,10.8107346762694,106.724554295839,"(106.724554295839,10.8107346762694)",166101694.915254,đông,472.0,bdscomvn_21351533,1591275435,1591250484.0,2020-06-30 04:40:05.758875,0.0,0.0,0101000020E6100000A433FB185FAE5A40E99E909D189F2540,0.0,,0,0.0,False,3.0,933883337.0,ac2b517dee95f169ce0fad723d853244,1.0,,1.0,0.0,60484e265b19110d9fc670b2,0,10.8141431,106.7264813,Quận 2
-3927,60433104886de2363825d3d8,743258,3,https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-mai-chi-tho-phuong-an-loi-dong-prj-dai-quang-minh/ban-gap-bt-saroma-villa-kdt-sala-443m2-can-goc-vi-tri-dep-gia-re-call-0973317779-pr25398498,"Bán gấp BT Saroma Villa, KĐT Sala, 443m2, căn góc, vị trí đẹp, giá rẻ. Call 0973317779","Chủ nhà cần bán gấp biệt thự Saroma Villa trong khu đô thị Sala - Đại Quang Minh.<br/>Diện tích đất: 443m2.<br/>Xây dựng 1 hầm + 3 tầng.<br/>Căn góc tại vị trí cực đẹp.<br/>Giá bán tỷ có TL (miễn trung gian).<br/><br/>Thông tin sơ bộ về khu biệt thự.<br/>Chủ đầu tư: Đại Quang Minh.<br/>Vị trí: Số 10 Mai Chí Thọ, khu đô thị Thủ Thiêm, Quận 2.<br/>Tên chính thức: Saroma Villa.<br/>Diện tích toàn khu: 15.45 ha.<br/>Số lượng: 177 căn (đơn lập và song lập).<br/>Diện tích đất: 332m2 - 1079m2.<br/>Số tầng: 3 tầng và 1 tầng hầm.<br/>Mật độ xây dựng: 35% 45%.<br/>Loại hình sở hữu:<br/>+ Sở hữu vĩnh viễn đối với công dân Việt Nam.<br/>+ Sở hữu 50 năm đối với công dân nước ngoài.<br/>Tình trạng bàn giao: Các căn biệt thự Sala Saroma Villa được bàn giao cho khách hàng với hình thức giao thô (hoàn thiện bên ngoài, bên trong thô hoàn toàn).<br/>Mục đích sử dụng: Để ở.<br/>Chỗ đậu xe: Tầng hầm.<br/>Tiện ích biệt thự Sala Saroma Villa: Hồ bơi, vườn cảnh quan, khu vui chơi trẻ em, phòng tập gym, các phòng chức năng, dịch vụ khác.<br/>Liên hệ xem nhà: 0973317779 - Hoàng Nam.",Mai Chí Thọ,,"Hồ bơi, khu vui chơi trẻ em, phòng tập gym, phòng chức năng, dịch vụ",,,6,Saroma Villa,1.0,14.0,1.0,2.0,0,0,2.0,3.0,1.0,{2},"{0,0}",10,10.774376221903601,106.726819516715,"(106.726819516715,106.726819516715)",0.0,,443.0,bdscomvn_25398498,1593255801,1593234941.0,2020-06-27 12:16:06.118192,0.0,0.0,0101000020E61000009B98013684AE5A409EC0470A7B8C2540,0.0,,0,0.0,False,2.0,973317779.0,8600e141f3022d3a125c2176101b815c,1.0,,1.0,0.0,60484e265b19110d9fc670b3,0,10.7720885,106.7220463,Quận 2
-3928,60433104886de2363825d3dc,749853,2,https://batdongsan.com.vn/ban-nha-rieng-duong-tran-nao-phuong-binh-an/sieu-dep-biet-thu-goc-2-mat-tien-quan-2-gia-tot-28-5-ty-voi-212m2-dt-15x15m-pr25502524,"Siêu Đẹp biệt thự góc 2 mặt tiền Quận 2 giá tốt 28.5 tỷ với 212m2 đường Trần Não, Dt 15x15m","Chính chủ cần bán gấp căn biệt thự hiện đại siêu vị trí căn góc 2 MT 212m2 ở đường Trần Não, P. Bình An, Quận 2 15x15m căn góc 28.5 tỷ, HH MG.<br/><br/>- DTKV: 212m2, , 1 trệt 1 lầu, 4 phòng ngủ, 5WC.<br/>- Nhà nằm trong khu Compound an ninh, khu dân cư yên tĩnh.<br/>- Cách 100m mặt tiền đường Trần Não, đường lớn xe ô tô thoải mái.<br/>- Đường không kẹt xe, không ngập nước, hướng nhà tốt, có gara để xe. Nội thất do chính tôi lựa mua chính chủ nhập nước ngoài.<br/>- Giá bán nhanh để gia đình tôi đi định cư 28.5 tỷ, thương lượng với ai thiện chí mua nhanh.<br/><br/>Gọi ngay Chú Việt để xem nhà",Trần Não,bình an,,,"an ninh, yên tĩnh, không kẹt xe, không ngập nước",5,,1.0,14.0,1.0,2.0,28500000000,0,2.0,3.0,2.0,{2},"{15,15}",,10.7911890893905,106.73071590105101,"(106.730715901051,10.7911890893905)",129545454.545455,,225.0,bdscomvn_25502524,1589889631,1589869029.0,2020-06-30 04:42:29.754949,0.0,0.0,0101000020E61000009C6BA00CC4AE5A40C7C47FBC16952540,0.0,,0,0.0,False,1.0,,9b8ffab24cd689beec1ff953e52a98bf,1.0,,1.0,0.0,60484e265b19110d9fc670b4,0,10.7897139,106.7300427,Quận 2
-3929,60433104886de2363825d3f3,750478,6,https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-nguyen-van-huong-phuong-thao-dien-prj-holm-villas-thao-dien/can-ban-ho-boi-gia-36-ty-806m2-dat-410m2-vuon-da-nhan-so-lh-0908700752-pr21782694,"Cần bán biệt thự hồ bơi Holm Thảo Điền giá 50 tỷ, 295m2 đất - đã nhận sổ, 0933883337","Tôi cần bán gấp căn biệt thự vườn duy nhất tại Holm Thảo Điền, Quận 2.<br/>+ Diện tích xây dựng: 420m2.<br/>+ Diện tích đất 295m2.<br/>+ Kiến trúc resort hiện đại. Giá TT 36 tỷ (giá tốt còn thương lượng cho khách thiện chí).<br/>+ Tiến độ thanh toán cực tốt, ưu đãi cho khách hàng xin gia hạn.<br/><br/>- Vị trí biệt thự ven sông Holm Residences: 145 đường Nguyễn Văn Hưởng, phường Thảo Điền, Quận 2, thành phố Hồ Chí Minh.<br/>- Tổng diện tích: 2.7 ha (29 biệt thự).<br/>- Loại hình sở hữu: Sở hông lâu dài và đã có sổ.<br/>- Garage đóng có thể chứa được hơn 2 xe ô tô.<br/>- Villa compound thiết kế khu clubhouse chuẩn 5 sao, an ninh 24/7 bằng camera tia hồng ngoại, tuyệt đối an ninh và yên tĩnh.<br/>- Villa thiết kế bến du thuyền đẳng cấp cho những khách hàng muốn thừa hưởng du thuyền cho riêng mình.<br/>- Tất cả các phòng khách, phòng ngủ, bếp, BBQ đều view trực diện sông.<br/>Anh chị có nhu cầu xem nhà liên hệ tôi: Anh Quốc: 0933883337.<br/>Cám ơn đã xem tin.",Nguyễn Văn Hưởng,thảo điền,"hồ bơi, sông, sông",sông Holm Residences,"an ninh, an ninh, yên tĩnh",6,Holm Thảo Điền,1.0,14.0,1.0,2.0,50000000000,0,2.0,3.0,0.0,{2},"{0,0}",145,10.8108041839453,106.72449756834601,"(106.724497568346,10.8108041839453)",169491525.423729,đông,420.0,bdscomvn_21782694,1591275274,1591250571.0,2020-06-30 04:46:58.079778,0.0,0.0,0101000020E6100000FB840C2B5EAE5A408E02DBB9219F2540,0.0,,0,0.0,False,3.0,933883337.0,105313544d5b0327eca44e75bc286bf3,1.0,,1.0,0.0,60484e265b19110d9fc670b5,0,10.8113174,106.7251064,Quận 2
-3930,60433104886de2363825d407,750756,6,https://batdongsan.com.vn/ban-nha-rieng-duong-nguyen-thi-dinh-phuong-cat-lai/can-tien-cho-con-di-du-hoc-ban-gap-day-tro-250m2-ng-q2-790tr-shr-tien-kd-lh-0936749972-pr19139933,"Cần tiền cho con đi du học bán dãy trọ 215m2 Nguyễn Thị Định, Q2, TT 959tr SHR, tiện KD, 0816365733","Cần tiền cho con đi du học bán dãy trọ DT 250m2 Nguyễn Thị Định, Q2, TT 959tr, SHR, tiện KD, 0816365733 Anh Long<br/>Cần sang lại 2 dãy trọ, mỗi dãy là 12 phòng, 2 ki ốt trước nhà, giá<br/>959tr/dãy.<br/>- Tổng cộng 24 phòng, diện tích 10x21.5m  = 215m2. - Diện tích mỗi phòng 3x4m = 12m2, có gác lửng 8m2, cửa sổ thông thoáng, nhà vệ sinh riêng.<br/>- Điện nước máy sinh hoạt, internet cáp quang, đầy đủ.<br/>- Khu vực gần nhiều khu công nghiệp, nhà máy, xí nghiệp, công nhân đông, khu dân cư tấp nập, luôn cho thuê kín.<br/>- Thu nhập mỗi tháng 28 triệu (trung bình 1.1tr/phòng/tháng).<br/>- Chính chủ, sổ hồng riêng từng dãy.<br/>- Không qua trung gian, miễn tiếp cò.<br/>- Thương lượng với khách thiện chí <br/>Lh 0816365733 anh Long để xem trực tiếp",Nguyễn Thị Định,,"khu công nghiệp, nhà máy, xí nghiệp",,tấp nập,"12 phòng, 2 ki ốt, nhà vệ sinh",,1.0,14.0,5.0,2.0,0,959000000,3.0,1.0,1.0,"{2,1}","{10,21.5}",,10.7809501513569,106.76203158821698,"(106.762031588217,10.7809501513569)",0.0,,250.0,bdscomvn_19139933,1589044580,1589022206.0,2020-06-30 04:48:49.983145,0.0,0.0,0101000020E6100000317A2320C5B05A40C5C4BFB2D88F2540,0.0,,0,0.0,False,3.0,816365733.0,86c7f7c32aba65f1c709fe4050dc8ca9,1.0,,1.0,0.0,60484e265b19110d9fc670b6,0,10.792365,106.752534,Quận 2
-3931,60433104886de2363825d40a,750958,6,https://batdongsan.com.vn/ban-nha-rieng-duong-nguyen-thi-dinh-phuong-binh-khanh/can-tien-cho-con-di-du-hoc-ban-day-tro-250m2-q2-840tr-shr-tien-kd-0779859131-pr23590801,"Cần tiền cho con đi du học bán dãy trọ 250m2 TT 2 tỷ Nguyễn Thị Định, Q2 SHR - tiện KD - 0779859131","Cần tiền cho con đi du học bán dãy trọ DT 250m2 Nguyễn Thị Định, Q2, SHR, tiện KD, 0779859131 Nguyên.<br/>- Cần sang lại 2 dãy trọ, mỗi dãy là 12 phòng, 2 ki ốt trước nhà.<br/>- Tổng cộng 24 phòng, diện tích 10x25m = 250m2.<br/>- Diện tích mỗi phòng 3x4m = 12m2, có gác lửng 8m2, cửa sổ thông thoáng, nhà vệ sinh riêng.<br/>- Điện nước máy sinh hoạt, internet cáp quang, đầy đủ.<br/>- Khu vực gần nhiều khu công nghiệp, nhà máy, xí nghiệp, công nhân đông, khu dân cư tấp nập, luôn cho thuê kín.<br/>- Thu nhập mỗi tháng 28 triệu/th (trung bình 1.1tr/phòng/tháng).<br/>- Chính chủ, sổ hồng riêng từng dãy.<br/>- Không qua trung gian, miễn tiếp cò.<br/>- Thương lượng cho khách nào thiện chí.<br/>LH 0779859131 Nguyên xem trực tiếp.",Nguyễn Thị Định,,"khu công nghiệp, nhà máy, xí nghiệp",,tấp nập,"12 phòng, 2 ki ốt, nhà vệ sinh",,1.0,14.0,5.0,2.0,0,28000000,3.0,1.0,0.0,"{2,1}","{10,25}",,10.781647932940901,106.736053221232,"(106.736053221232,10.7816479329409)",0.0,,250.0,bdscomvn_23590801,1590880284,1590858685.0,2020-06-30 04:50:16.039091,0.0,0.0,0101000020E6100000C753F87E1BAF5A4019EF692834902540,0.0,,0,0.0,False,2.0,779859131.0,938acce6fdbc3825f17505d9b7d80f67,1.0,,1.0,0.0,60484e265b19110d9fc670b7,0,10.7848314,106.7572885,Quận 2
-3932,60433104886de2363825d410,739852,3,https://batdongsan.com.vn/cho-thue-nha-rieng-duong-song-hanh-phuong-an-phu-prj-khu-do-thi-lakeview-city/cho-nguyen-c-ho-thien-co-b-gia-tot-25tr-qu-2-pr26028060,"Cho thuê nhà nguyên căn hoàn thiện cơ bản giá tốt 25tr, Lakeview City, An Phú, Quận 2","Cho thuê căn nhà phố 270m2 - nội thất cơ bản tại khu dân cư Lakeview City địa chỉ 697 Đỗ Xuân Hợp, Phường An Phú, Quận 2.Nhà rất mới hợp LÀM VĂN PHÒNG, KINH DOANH VÀ Ở RẤT TIỆN ÍCH.<br/>- Diện tích 270m2 bao gồm:4 tầng, 4 phòng ngủ, 1 phòng bếp rộng, 5 WC.<br/>- Full cơ bản bao gồm: máy lạnh, sàn, bếp, tủ đồ, đã hoàn thiện cửa, gường...<br/><br/>* Tiện ích nội khu đầy đủ và tiện nghi.<br/>- Trung tâm thương mại Vincom +.<br/>- Bãi để xe hơi rộng rãi.<br/>- Hồ bơi.<br/>- Công viên.<br/>- An ninh tốt luôn có bảo vệ toàn khu 24/24<br/><br/>*Giá thuê: 25tr/tháng. ( Có thương lượng cho khách thiện chí )<br/><br/>Liên hệ: Mr. 0917810068 ( Tuấn Anh ) zalo, viber, sms<br/>Gmail : anhnguyendtnland@gmail.com<br/>",Đỗ Xuân Hợp,an phú,"Trung tâm thương mại, Hồ bơi, Công viên",Trung tâm thương mại Vincom,An ninh,4,Lakeview City,1.0,14.0,5.0,2.0,25000000,25000000,2.0,4.0,1.0,{2},"{0,0}",697,10.795440546313,106.775807176616,"(106.775807176616,106.775807176616)",250000.0,,270.0,bdscomvn_26028060,1593240555,1593216144.0,2020-06-27 07:03:07.185353,0.0,0.0,0101000020E61000004FE424D3A6B15A4056A7B8FB43972540,0.0,,0,0.0,False,2.0,917810068.0,f645d4dcb65bfe0153fa3af6538e334a,1.0,,1.0,0.0,60484e265b19110d9fc670b8,0,10.7948475,106.781118,Quận 2
-3933,60433104886de2363825d420,753989,6,https://landber.com/tin-dang/Ads_01_25467571,"Cần bán dinh thự khu bảo vệ 24/24 Giang Văn Minh Quận 2. DT: 12x20m, hầm 3 lầu đẹp, 0962766965","cần bán biệt thự mới,đẹp nhất khu vực đường Giang Văn Minh Phường An Phú, Quận 2, Thành phố Hồ Chí Minh
-
-Khu người giàu dân trí cao, an ninh, không ngập nước.
-
-DT: 12x20m, DTCN: 240m2
-KC: Hầm, 3 lầu, không lỗi phong thủy.
-Nội thất gỗ quý xem nhà muốn ở ngay. Nhà trong khu bảo vệ 24/24.
-Giá: 43.7 tỷ bớt lộc cho khách xuống tiền nhanh.
-	
-Liện hệ: 0962766965 Ngọc Ánh để đi xem nhà
-Cảm ơn bạn đã xem tin",Giang Văn Minh,an phú,,,"dân trí cao, an ninh, không ngập nước, bảo vệ",,,1.0,14.0,1.0,2.0,43700000000,0,2.0,3.5,0.0,{2},"{12,20}",24/24,10.798813935546901,106.756865705984,"(106.756865705984,10.7988139355469)",182083333.33333305,,240.0,Ads_01_25467571,1589562000,1589641772.0,2020-06-30 05:14:18.470324,0.0,0.0,0101000020E61000008FAADB7C70B05A409786E123FE982540,0.0,,0,0.0,False,2.0,962766965.0,affc2e97698306d2e52ca8c03523ab2a,1.0,,1.0,0.0,60484e265b19110d9fc670b9,0,10.8055275,106.7497515,Quận 2
-3934,60433104886de2363825d431,755261,3,https://batdongsan.com.vn/ban-nha-mat-pho-duong-le-van-thinh-phuong-cat-lai/ban-cap-4-hem-khu-1-quan-2-dt-5x11-gia-3-ty-6-pr25561389,"Bán nhà phố cấp 4 hẻm đường Lê Văn Thịnh, Khu phố 1, phường Cát Lái, Quận 2, DT 5X11 giá 3 tỷ 6 ","Bán nhà có sổ hồng ngay khu dân cư đông đúc, thuận tiện đi lại và sinh sống.<br/>Nhà cấp 4 hẻm 264/1A đường Lê Văn Thịnh, KP1, phường Cát Lái, Quận 2<br/>DT 5m x 11m là  55,2m2. <br/>Giá 3,6 tỉ.<br/>Đang có HĐ thuê là 5 triệu/tháng , còn 10 tháng<br/>Nếu mua sang HĐ hoặc chủ lấy lại nhà ạ.<br/>Gía tốt nhất khu vực, call em ngay nhé.<br/>LH 0944 589 718 (zalo)- 090 998 0787 <br/>Em xin cảm ơn ạ.",Lê Văn Thịnh,cát lái,,,"đông đúc, thuận tiện đi lại",2,,1.0,14.0,1.0,2.0,3600000000,0,3.0,1.0,3.0,{2},"{5,11}",,10.7763686831302,106.781886445658,"(106.781886445658,10.7763686831302)",65217391.30434781,,55.0,bdscomvn_25561389,1590295650,1590271400.0,2020-06-30 05:24:35.952182,0.0,0.0,0101000020E61000005852726D0AB25A40855D2F32808D2540,0.0,,0,0.0,False,2.0,944589718.0,2bf1ca3b551fef1f793dad19324a7033,1.0,,1.0,0.0,60484e265b19110d9fc670ba,0,10.782703,106.7692559,Quận 2
-3935,60433104886de2363825d43a,756870,6,https://batdongsan.com.vn/ban-nha-rieng-duong-tran-nao-phuong-binh-an/gd-pha-san-ban-gap-day-tro-12-phong-100m2-1-ty-8-q2-shr-gan-truong-dai-hoc-lh-quan-pr25371893,"GĐ phá sản bán gấp dãy trọ 12 phòng/100m2/ 1 tỷ 5 Trần Não, Q2, SHR, gần trường GTVT. LH 0932113691","- Dãy nhà trọ hiện đang kinh doanh gồm 12 phòng đầy đủ nội thất.<br/>- Gần các trường ĐH lớn như ĐH Văn Hóa, GTVT TPHCM...<br/>- Bán kính 100m đầy đủ các tiện ích: Chợ, bệnh viện, trường học, siêu thị...<br/>- Đường trước nhà 30m.<br/>- Khu vực an ninh, yên tĩnh, dân trí cao...<br/>- Gần UBND Bình An tiện công chứng, giải quyết giấy tờ.<br/>- Thuận tiện đầu tư.<br/>- LH: Minh Quân: 0932113691 để đi xem trực tiếp. Chỉ tiếp thiện chí, uy tín, miễn cò lái, trung gian.",Trần Não,,"trường, trường ĐH, ĐH, Chợ, bệnh viện, trường học, siêu thị, UBND","trường GTVT, ĐH Văn Hóa, GTVT TPHCM, UBND Bình An","an ninh, yên tĩnh, dân trí cao",12,,1.0,14.0,1.0,2.0,1500000000,0,3.0,2.0,0.0,{2},"{0,0}",,10.791297340939698,106.730526701229,"(106.730526701229,10.7912973409397)",15000000.0,,100.0,bdscomvn_25371893,1589666676,1589645034.0,2020-06-30 05:39:51.485504,0.0,0.0,0101000020E6100000AAA810F3C0AE5A40C97ED1EC24952540,0.0,,0,0.0,False,2.0,932113691.0,0179d9100143da76fb2e93d5d9dec213,1.0,,1.0,0.0,60484e265b19110d9fc670bb,0,10.786084,106.729189,Quận 2
-3936,60433104886de2363825d43d,757181,6,https://batdongsan.com.vn/ban-nha-rieng-duong-tran-nao-phuong-binh-an/li-di-nen-toi-b-gap-nat-qu-2-75m2-790tr-g-cho-tien-kd-lh-0775394454-nhi-pr25429915,"Ly dị nên tôi bán gấp nhà nát Trần Não Q2 75m2 870TR gần chợ Bình An tiện KD, LH: 0775394454 Nhi","Chia tài sản tôi cán gấp căn nhà nát 75m2 đường Số 8 Trần Não, Quận 2, ngay chợ, tiện ở, SHR, XDTD, bán gấp miễn cò.<br/>- Nằm sau UBND p. Bình An. An ninh tốt.<br/>- Đường xe hơi vô được, thông thoáng, không ngập nước.<br/>- Vị trí đẹp, thuận tiện đi các Quận 1, Bình Thạnh, Quận 9...<br/>- Liền kề trường học, resort cao cấp, chung cư cao cấp, an ninh tốt.<br/>- Khu vực đầy đủ tiện ích trong bán kính 1km như chợ, siêu thị, công viên cây xanh thoáng mát.<br/>Liên hệ chủ nhà chị Nhi trực tiếp qua SĐT 0775394454 để được xem nhà.<br/>Nhá mấy tôi sẽ gọi lại.<br/><br/>Cảm ơn vì đã xem tin.",Trần Não,,"chợ, chợ, UBND, trường học, resort, chung cư, chợ, siêu thị, công viên","chợ Bình An, Bình An, Quận 1, Bình Thạnh, Quận 9","An ninh tốt, thông thoáng, không ngập nước, an ninh tốt, đầy đủ tiện ích",,,1.0,14.0,1.0,2.0,870000000,0,3.0,1.0,1.0,{2},"{0,0}",8,10.7913004158619,106.730531800497,"(106.730531800497,10.7913004158619)",11600000.0,đông,75.0,bdscomvn_25429915,1590210995,1590189447.0,2020-06-30 05:42:33.006707,0.0,0.0,0101000020E610000089F47308C1AE5A402EE0FE5325952540,0.0,,0,0.0,False,2.0,775394454.0,382f1db7e0856e0b742013e6959782e6,1.0,,1.0,0.0,60484e265b19110d9fc670bc,0,10.7961541,106.7314228,Quận 2
-3937,60433104886de2363825d44a,758937,6,https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-phan-van-dang-phuong-thanh-my-loi-prj-feliz-en-vista/pkd-du-an-chuy-ban-lai-2-va-3-png-gia-tot-do-chu-nha-ki-gui-pr25379024,pkd dự án Feliz En Vista chuyên bán lại căn hộ 2 và 3 phòng giá tốt do chủ nhà kí gửi,"Bảng giá cập nhật căn hộ Feliz En Vista tháng 5/2020<br/>Căn hộ 1 phòng ngủ (57m2): Giá từ 2,950 tỷ - 3,3 tỷ.<br/>Căn hộ 2 phòng ngủ (85m2): Giá từ 4 tỷ - 4,5 tỷ.<br/>Căn hộ 3 phòng ngủ (106m2): Giá từ 5,2 tỷ - 6 tỷ.<br/>Căn hộ 4 phòng ngủ (180m2 - 240m2): Giá từ 9 tỷ - 13 tỷ.<br/>Căn hộ duplex 2 phòng ngủ (102m2): Giá từ 4,9 tỷ - 5,6 tỷ.<br/>Căn hộ duplex 3 phòng ngủ (132m2): Giá 6,5 tỷ - 7,5 tỷ.<br/>Alo ngay: 0902.330.322<br/><br/>Thông tin sơ bộ về dự án<br/>Tên dự án: Căn hộ Feliz En Vista<br/>Chủ đầu tư: CapitaLand và Thiên Đức<br/>Vị trí: Số 1 Phan Văn Đáng Phường Thạnh Mỹ Lợi Quận 2<br/>Diện tích xây dựng : 10,153m2<br/>Tầng cao xây dựng: 4 block cao 34 tầng.<br/>Tổng số căn hộ: 800 căn hộ và 1 tòa căn hộ dịch vụ<br/>Diện tích: 57m2 - 85m2-102m2 - 106m2-132m2-180m2-240m2<br/>Căn hộ 1PN -1WC: 57m2.<br/>Căn hộ 2PN -2WC: 85m2-102m2<br/>Căn hộ 3PN -2WC: 106m2-132m2<br/>Căn hộ 4PN -3WC: 180m2-240m2<br/>Giao nhà: Quý 2/2020<br/>Tiêu chuẩn bàn giao: Hoàn thiện nội thất cơ bản và giao thô<br/>Hãy liên hệ ngay với chúng tôi: 0902.330.322 để được cập nhật những sản phẩm và chính sách ưu đãi mới nhất cho khách hàng.<br/>",Phan Văn Đáng,thạnh mỹ lợi,,,,2,Feliz En Vista,1.0,14.0,1.0,2.0,4200000000,0,2.0,34.0,1.0,{2},"{0,0}",1,10.778132087762597,106.756433113008,"(106.756433113008,10.7781320877626)",49411764.7058824,,240.0,bdscomvn_25379024,1589086171,1589061952.0,2020-06-30 05:57:54.949397,0.0,0.0,0101000020E6100000C07E6E6669B05A401ED13954678E2540,0.0,,0,0.0,False,2.0,902330322.0,c12606e86910dc39d3899d53c89e3f75,1.0,,1.0,0.0,60484e265b19110d9fc670bd,0,10.7773548,106.756027,Quận 2
-3938,60433104886de2363825d44f,759477,1,https://batdongsan.com.vn/ban-nha-mat-pho-duong-dong-van-cong-phuong-an-phu/chinh-chu-b-building-mt-52-ngay-du-capitald-7-1x18m-ham-6-lau-0977771919-pr25469946,"Chính chủ bán building MT 52 Đồng Văn Cống ngay dự án Capitaland 7.1x18m, hầm, 6 lầu 0977771919","DT: 7x18m. Vuông vức công nhận đủ: 126m2.<br/><br/>Kết cấu: 1 hầm 1 trệt 6 lầu. DTXD: 95,6m2. DT sàn: 766,3m2.<br/><br/>Vị trí: Ngay dự án Capitaland, mặt tiền đường lớn, lưu thông kinh doanh không sợ thiếu chỗ đậu xe hơi, xe máy... Có thể làm văn phòng, nhà hàng, nhà thuốc, nha khoa, cà phê, spa, showroom...<br/><br/>- Lân cận khu vực có đầy đủ tiện ích như, bệnh viện, trường học, ngân hàng, Chi Cục Thuế, siêu thị, trung tâm thương mại...<br/>- Chuỗi các dự án được các chủ đầu tư Singapore uy tín đầu tư về Thạnh Mỹ Lợi như: Kusto Home, Mapletree, Capitaland... Nâng cao dân trí, tiềm năng bất động sản tăng cao...<br/><br/>Giá chỉ: 31 tỷ thương lượng cho khách mua. Call 0938179199.",Đồng Văn Cống,,"bệnh viện, trường học, ngân hàng, Chi Cục Thuế, siêu thị, trung tâm thương mại",,dân trí,,Capitaland 7,1.0,14.0,1.0,2.0,31000000000,0,2.0,7.5,1.0,"{2,3}","{1,18}",52,10.7840831992331,106.752680960939,"(106.752680960939,10.7840831992331)",246031746.031746,,766.0,bdscomvn_25469946,1590294022,1590272172.0,2020-06-30 06:03:17.570446,0.0,0.0,0101000020E610000081E3C3EC2BB05A402619645A73912540,0.0,,0,0.0,False,2.0,977771919.0,24a292a55c86468a6c115561930c4a16,1.0,,1.0,0.0,60484e265b19110d9fc670be,0,10.77894,106.7568,Quận 2
-3939,60433104886de2363825d46d,763686,6,https://landber.com/tin-dang/Ads_01_25468792,CHIA TÀI SẢN BÁN GẤP 85M2 NHÀ NÁT LẤY ĐẤT ĐƯỜNG 17 TRẦN NÃO-Q2-GIÁ 950TR-GẦN UB-0763353170 KHANG,"CHIA TÀI SẢN BÁN GẤP 85M2 NHÀ NÁT LẤY ĐẤT ĐƯỜNG 17 TRẦN NÃO-Q2-GIÁ 950TR-GẦN UB-0763353170
-
-- Dân trí cao, an ninh tuyệt đối.
-
-- Sổ hồng riêng, sang tên trong ngày.
-- Điện âm nước máy đầy đủ - không vướng quy hoạch giải tỏa.
-- Miễn cò lái, trung gian.
-- Diện tích: 85m2.
-- Giá chỉ 950 triệu
-- Liên hệ trực tiếp 0763353170  gặp A. Khang
-- Có bớt cho người thiện chí Cần bán để chia tiền cho con !
-Cảm ơn mọi người xem tin.",Trần Não,bình an,UB -,"UB - 0763353170 KHANG, UB - 0763353170","Dân trí cao, an ninh",2 phòng ngủ,,1.0,14.0,1.0,2.0,950000000,0,3.0,1.0,1.0,{2},"{0,0}",17,10.791314877952699,106.73046119788499,"(106.730461197885,10.7913148779527)",11176470.588235302,,85.0,Ads_01_25468792,1589648400,1589652154.0,2020-06-30 10:38:31.931013,0.0,0.0,0101000020E61000008EFA52E0BFAE5A40544A433927952540,0.0,,0,0.0,False,2.0,763353170.0,cdec102e02327a982a064a4d3172cf06,1.0,,1.0,0.0,60484e265b19110d9fc670bf,0,10.792214,106.731887,Quận 2
-3940,60433104886de2363825d490,768340,6,https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-phan-van-dang-phuong-thanh-my-loi-prj-feliz-en-vista/chu-nha-ki-gui-nhieu-1-va-2-pn-du-an-gia-tot-ban-lai-pr25380356,chủ nhà kí gửi nhiều căn 1 và 2 PN dự án Feliz En Vista giá tốt cần bán lại,"Bảng giá cập nhật căn hộ Feliz En Vista tháng 5/2020<br/>Căn hộ 1 phòng ngủ (57m2): Giá từ 3 tỷ - 3,5 tỷ.<br/>Căn hộ 2 phòng ngủ (85m2): Giá từ 4 tỷ - 4,5 tỷ.<br/>Căn hộ 3 phòng ngủ (106m2): Giá từ 5,5 tỷ - 6,5 tỷ.<br/>Căn hộ 4 phòng ngủ (180m2 - 240m2): Giá từ 9 tỷ - 13 tỷ.<br/>Căn hộ duplex 2 phòng ngủ (102m2): Giá từ 4,9 tỷ - 5,6 tỷ.<br/>Căn hộ duplex 3 phòng ngủ (132m2): Giá 6,5 tỷ - 7,5 tỷ.<br/>Alo ngay: 0938.05.1111<br/><br/>Thông tin sơ bộ về dự án<br/>Tên dự án: Căn hộ Feliz En Vista<br/>Chủ đầu tư: CapitaLand và Thiên Đức<br/>Vị trí: Số 1 Phan Văn Đáng Phường Thạnh Mỹ Lợi Quận 2<br/>Diện tích xây dựng : 10,153m2<br/>Tầng cao xây dựng: 4 block cao 34 tầng.<br/>Tổng số căn hộ: 800 căn hộ và 1 tòa căn hộ dịch vụ<br/>Diện tích: 57m2 - 85m2-102m2 - 106m2-132m2-180m2-240m2<br/>Căn hộ 1PN -1WC: 57m2.<br/>Căn hộ 2PN -2WC: 85m2-102m2<br/>Căn hộ 3PN -2WC: 106m2-132m2<br/>Căn hộ 4PN -3WC: 180m2-240m2<br/>Giao nhà: Quý 2/2020<br/>Tiêu chuẩn bàn giao: Hoàn thiện nội thất cơ bản và giao thô<br/>Hãy liên hệ ngay với chúng tôi: 0938.05.1111 để được cập nhật những sản phẩm và chính sách ưu đãi mới nhất cho khách hàng.<br/>",Phan Văn Đáng,thạnh mỹ lợi,,,,2,Feliz En Vista,1.0,14.0,1.0,2.0,4300000000,0,2.0,34.0,1.0,{2},"{0,0}",1,10.778142889154804,106.75644439931801,"(106.756444399318,10.7781428891548)",50588235.2941176,,240.0,bdscomvn_25380356,1589100426,1589076313.0,2020-06-30 11:21:11.943833,0.0,0.0,0101000020E6100000E813C59569B05A40CF11A9BE688E2540,0.0,,0,0.0,False,2.0,938051111.0,165c0ec1f23cfade7a9d975e7f0dc1d9,1.0,,1.0,0.0,60484e265b19110d9fc670c0,0,10.7773548,106.756027,Quận 2
-3941,60433104886de2363825d498,769294,1,https://batdongsan.com.vn/ban-nha-mat-pho-duong-mai-chi-tho-phuong-an-loi-dong-prj-dai-quang-minh/ban-sala-dien-tich-5-6x20m-7x24m-xd-1-ham-4-lau-ap-lh-0973317779-pr25292537,"Bán nhà phố Sala Đại Quang Minh, diện tích: 5.6x20m, 7x24m. XD 1 hầm, 4 lầu, áp mái, LH 0973317779","+ Bán nhà phố Sala Đại Quang Minh, diện tích: 5.6x20m, 7x24m. XD 1 hầm, 4 lầu, áp mái.<br/><br/>+ Nhà phố Nguyễn Cơ Thạch lộ giới 44.7m, diện tích 7x24m, giá: 75 tỷ - 80 tỷ.<br/><br/>Thông tin chi tiêt xin quý khách vui long liên hệ.<br/>Phòng kinh doanh Sala: 0973317779.<br/>Địa chỉ: Khu Đô Thị Sala, Số 10 Mai Chí Thọ, Thủ Thiêm, Quận 2.",Mai Chí Thọ,,,,,6,,1.0,14.0,1.0,2.0,45000000000,0,2.0,5.0,1.0,{2},"{5.6,20}",10,10.774387277760502,106.726841488338,"(106.726841488338,10.7743872777605)",45000000000.0,,168.0,bdscomvn_25292537,1589099539,1589076756.0,2020-07-02 04:54:56.282759,0.0,0.0,0101000020E61000008A72299284AE5A400DD7407D7C8C2540,0.0,,0,0.0,False,2.0,973317779.0,5700094334bbc7fb15d9606948f92167,1.0,,1.0,0.0,60484e265b19110d9fc670c1,0,10.7720885,106.7220463,Quận 2
-3942,60433104886de2363825d4ad,614752,3,https://batdongsan.com.vn/cho-thue-nha-rieng-duong-nguyen-trong-quan-1-phuong-thanh-my-loi/-2-tuyet-dep-cho-de-o-hoac-lam-van-phong-pr16086330,Nhà quận 2 tuyệt đẹp cho thuê để ở hoặc làm văn phòng,"Nhà tuyệt đẹp dành cho công ty thuê làm văn phòng hoặc để ở khu vực quận 2, P. Thạnh Mỹ Lợi.<br/>Địa chỉ: 04 Nguyễn Trọng Quản, P. Thạnh Mỹ Lợi, Q. 2.<br/>Đặc điểm: 8 x 20m, 1 trệt, 2 lầu, 1 sân thượng. Tổng diện tích 480m2.<br/>Hướng: Đông Nam.<br/>Đường rộng: 10m.<br/>Gần công viên (cách 30m).<br/>Vị trí:<br/>7p đến Q. 1.<br/>5p đến cao tốc Long Thành - Dầu Giây.<br/>Cách chợ Thạnh Mỹ Lợi: 2 phút.<br/>Cách UBND Q2: 2 phút.<br/>Cách bệnh viện Phúc An Khang: 2 phút.<br/>Biệt lập trong khu dân cư Thạnh Mỹ Lợi yên tĩnh.<br/>Gần bờ sông Sài Gòn rất mát mẻ.<br/>Gần công viên nhiều cây xanh thoáng mát, sạch sẽ, an ninh (cách trụ sở công an 100m), đối diện là tòa nhà làm việc của công ty nước ngoài có bảo vệ 24/24.<br/>Hàng xóm thân thiện, học thức.<br/>Xung quanh đầy đủ các tiện ích: Bệnh viện, chợ, trường học, công viên.<br/>Đặc điểm nhà.<br/>1 trệt, 2 lầu, 1 sân thượng.<br/>Phòng khách: 1.<br/>Phòng bếp, phòng ăn: 1.<br/>Phòng ngủ: 7 phòng, toilet riêng.<br/>Có gara đậu xe.<br/>Sân trước: 1 trồng cây Sake rất mát.<br/>Sân sau: 1 rất thoáng mát.<br/>Trang bị.<br/>Trang bị hệ thống camera, báo động, internet ADSL, truyền hình cáp.<br/>Nhà bếp trang thiết bị cao cấp hãng Haffele (Germany).<br/>Toilet: Hãng ToTo, vòi nước nóng lạnh.<br/>Các phòng ngủ được trang bị máy lạnh Sanyo, Sharp.<br/>Phòng ngủ: Lót gỗ cao cấp.<br/>Phòng khách: Ghế sofa cao cấp.<br/><br/>Cho thuê để làm văn phòng làm việc hoặc ở.<br/><br/>Giá thuê: 21tr/tháng.<br/>Đặt cọc: 2 tháng.<br/>Thanh toán: Hàng tháng.<br/>Quà tặng: Máy nước uống nóng lạnh.<br/>Liên hệ: Anh Vũ - 0913711499.<br/>Xem chi tiết:",Nguyễn Trọng Quản,thạnh mỹ lợi,"công viên, cao tốc, chợ, UBND, bệnh viện, sông, công viên, trụ sở công an, tòa nhà, Bệnh viện, chợ, trường học, công viên","Q  1, br / >, cao tốc Long Thành, Dầu Giây, chợ Thạnh Mỹ Lợi, UBND Q 2, bệnh viện Phúc An Khang, sông Sài Gòn","yên tĩnh, mát mẻ, thoáng mát, sạch sẽ, an ninh, bảo vệ, thân thiện, đầy đủ các tiện ích",7,Thạnh Mỹ Lợi,1.0,14.0,5.0,2.0,21000000,21000000,2.0,3.5,1.0,"{2,1}","{8,20}",4,10.7710709032271,106.77031037887801,"(106.770310378878,106.770310378878)",69156301.1025597,đông,480.0,bdscomvn_16086330,1586871282,1586822560.0,2020-04-14 07:03:02.723287,2.0,3.6,0101000020E61000003443E7C34CB15A40F48330CEC98A2540,1.0,2020-04-14 07:04:01.158454,2,7.0,True,2.0,913711499.0,673e8c43b6a24899be900d8c680a2a53,1.0,,1.0,0.0,60484e265b19110d9fc670c2,0,10.7720214,106.7711504,Quận 2
-3943,60433104886de2363825d4b7,93398,6,https://landber.com/tin-dang/Ads_01_23254898,"Thanh lý NN Mai Chí Thọ, P. An Phú, Q2, 45m2/1,925 tỷ, LH 0766904469","Tôi cần bán nhà nát 45m2 đường Mai Chí Thọ, phường An Phú, Quận 2.
-- DIện tích: 45m2 (4x11,25), giá: 1,925 tỷ.
-
-- Nằm kế ngay bên cục thuế thành phố Hồ Chí Minh. Di chuyển cực kỳ thuận tiện, về trung tâm Q1 chỉ 5 phút.
-- Đường trước nhà 4m ô tô thoải mái quay đầu.
-
-- Xung quanh bán kính 500m có chợ, trạm y tế, trường học, ngân hàng. Tiện kinh doanh, ở hoặc mua đi bán lại.
-Liên hệ ngay: Sương Mai(không tiếp môi giới cảm ơn).",Mai Chí Thọ,an phú,"chợ, trạm y tế, trường học, ngân hàng",Q 1,Di chuyển cực kỳ thuận tiện,,,1.0,14.0,1.0,2.0,1925000000,0,2.0,1.0,0.0,{2},"{4,11.25}",2,10.794811744492,106.75178399352801,"(106.751783993528,10.794811744492)",1551785.71428571,,45.0,Ads_01_23254898,1573837200,1574021911.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000001779C3A1DB05A40D823A290F1962540,1.0,2020-04-13 07:47:01.469454,1,8.0,False,2.0,766904469.0,940b1d281bbd7c6fe43d38a3a4862c23,1.0,,1.0,0.0,60484e265b19110d9fc670c3,0,10.7986253,106.7510987,Quận 2
-3944,60433104886de2363825d4bf,93384,6,https://landber.com/tin-dang/Ads_01_23254397,Bán gấp nhà nát Trần Não p.Bình An Q2 52m2/1tỷ925 LH:0766904469,"Tôi cần bán nhà nát 52m2 đường Trần Não, phường Bình An, Quận 2.
--DIện tích: 52m2 (4,5x11,55), giá: 1tỷ925
-
--Nằm gần công an phường Bình An. Di chuyển cực kỳ thuận tiện, về trung tâm Q1 chỉ 5 phút.
--Đường trước nhà 4m ô tô thoải mái quay đầu.
-
--Xung quanh bán kính 500m có chợ, trạm y tế, trường học, ngân hàng. Tiện kinh doanh, ở hoặc mua đi bán lại.
-Liên hệ ngay: Sương Mai( không tiếp mô giới cảm ơn)",Trần Não,bình an,"công an phường, chợ, trạm y tế, trường học, ngân hàng","công an phường Bình An, Q 1",,,,1.0,14.0,1.0,2.0,1925000000,0,2.0,1.0,0.0,{2},"{4.5,11.55}",2,10.7865758995447,106.730067014141,"(106.730067014141,10.7865758995447)",58867608.9044065,,55.0,Ads_01_23254397,1573837200,1574021920.0,2020-02-12 08:49:25.145194,7.9,3.6,0101000020E61000000268FF6AB9AE5A4079BB8813BA922540,1.0,2020-04-13 09:05:02.478971,10,7.0,True,2.0,766904469.0,b7a22a8c4bfe0cbe6295fa8582ddf94f,1.0,,1.0,0.0,60484e265b19110d9fc670c4,0,10.796704,106.7309045,Quận 2
-3945,60433104886de2363825d4d9,54838,6,https://landber.com/tin-dang/Ads_01_23394226,"Bán nhà 1 trệt 1 lầu hẻm 265 Nguyễn Thị Định, phường Bình Trưng Tây, q2","Bán nhà 1 trệt 1 lầu hẻm 265 Nguyễn Thị Định, phường Bình Trưng Tây, q2. Nhà có 2PN, sổ hồng chính chủ. Cách MT Nguyễn Thị Định 100m.",Nguyễn Thị Định,bình trưng tây,,,,2 phòng ngủ,Hẻm 265,1.0,14.0,1.0,2.0,2850000000,0,3.0,2.0,1.0,{2},"{0,0}",265.0,10.7806291005283,106.762065300856,"(106.762065300856,10.7806291005283)",51222910.51405589,,0.0,Ads_01_23394226,1574528400,1574564841.0,2020-02-12 08:49:25.145194,7.1,3.7,0101000020E6100000E6258AADC5B05A407526129EAE8F2540,1.0,2020-04-13 07:44:02.522014,10,7.0,False,1.0,,166b3dbd499a51e65def3a6dfaf11bb6,1.0,,1.0,0.0,60484e265b19110d9fc670c5,0,10.7839537,106.7578011,Quận 2
-3946,60433104886de2363825d4e4,59516,6,https://landber.com/tin-dang/Ads_01_23517476,"Cần bán gấp 4 căn biệt thự khu An Phú - An Khánh, VCB hỗ trợ 85%. Gọi ngay 0911374466.","1. Cần bán Biệt thự 280 Lương Định Của với những thông tin như sau:
-
-- Địa chỉ: Số 280, Đường Lương Định Của, P. An Phú, Q2.
-
-- Cách Công An An Phú 30 giây.
-- Đường nội bộ 9m.
-- Hướng Đông Bắc.
-- Diện tích 7x20m, sổ cực kì vuông vức và hoàn công đầy đủ.
-- Kết cấu nhà: 1 trệt, 3 lầu.
-- Giá bán từ 20.6 tỷ.
-- Khu dân cư cao cấp, mặt bằng chung thu nhập mỗi người tối thiểu cũng trên 20tr.
-***
-2. Ngoài ra, cần bán nhà phố đường số 15 với những thông tin như sau:
-- Địa chỉ: Khu đô thị An Phú- An Khánh, Đường số 15, P. An Phú, Q2.
-- Sau lưng Metro An Phú, kế bên chung cư Phúc An Lộc, đến trường THPT Thủ Thiêm 100m.
-- Đường nội bộ 9m.
-- Hướng Đông Nam.
-- Diện tích 5x23m, sổ cực kì vuông vức và hoàn công đầy đủ.
-- Kết cấu nhà: 1 trệt, 2 lầu, sân thượng.
-- Giá bán từ 16.8 tỷ.
-- Khu đô thị cao cấp, mặt bằng chung thu nhập mỗi người tối thiểu cũng trên 20tr.
-2. Nhà phố đường 19::
-- Địa chỉ: Khu đô thị An Phú- An Khánh, Đường số 19, P. An Phú, Q2.
-- Đối diện chung cư An Khang, đến chi cục thuế TPHCM 1 phút.
-- Đường nội bộ 10m.
-- Hướng Đông Bắc.
-- Diện tích 5x20m, sổ cực kì vuông vức và hoàn công đầy đủ.
-- Kết cấu nhà: 1 trệt, 1 lửng, 2 lầu, sân thượng
-- Giá bán từ 19.8 tỷ. Thương lượng cho khách thiện chí.
-- Khu dân cư cao cấp, mặt bằng chung thu nhập mỗi người tối thiểu cũng trên 20tr.
-4. Biệt thự 2 mặt tiền đường 33&amp;15, Diện tích: 12x30m, 1 trệt 1 lầu, 3 phòng ngủ, có sân vườn, đang cho thuê 50 triệu/ tháng. Giá chỉ 69 tỷ đồng.
-***
-Khu đô thị An Phú-An Khánh:
-- Đường từ 10-50m.
-- Đường kết nối đều là đường lớn, rộng, đẹp, đi vào Q1 chỉ 1-5 phút.
-- Vị trí quá đẹp để sử dụng đa mục đích. Có thể để ở; làm văn phòng và kinh doanh lại càng tuyệt vời (mặt tiền đường chính, xung quanh rất nhiều chung cư là lượng khách đáng kể...)
-- Khu dân cư khu vực rất sầm uất, cao cấp.
-- Mặt bằng chung thu nhập của khu vực từ trung đến cao, tính trung bình thì thu nhập mỗi người tối thiểu cũng trên dưới 20tr.
-- Một vị trí được xem là tiềm năng và có tính thanh khoản cao cho bất cứ chủ nhân nào sở hữu nó.
-***
-Lh: 0911374466 - Phượng
-Cảm ơn các bạn đã đọc tin.",Lương Định Của,an phú,"Công An, chung cư, trường THPT, chung cư, chi cục thuế, chung cư","Công An An Phú, Metro An Phú, chung cư Phúc An Lộc, trường THPT Thủ Thiêm, chung cư An Khang, chi cục thuế TPHCM, An Phú, An Khánh, Q 1",sầm uất,3 phòng ngủ,An Phú An Khánh,1.0,14.0,5.0,2.0,20600000000,50000000,2.0,4.0,1.0,{2},"{7,20}",280.0,10.7976552083267,106.73810423607401,"(106.738104236074,10.7976552083267)",200543295.721108,đông - bắc,115.0,Ads_01_23517476,1574096400,1574203000.0,2020-02-12 08:49:25.145194,7.6,6.9,0101000020E61000009ABE8C193DAF5A40A67E724366982540,1.0,2020-04-13 08:18:02.163748,10,9.0,False,2.0,911374466.0,ac8bfcb0b5801d9c9e4a82bc1cf3153c,2.0,,1.0,0.0,60484e265b19110d9fc670c6,0,10.7908897,106.7468002,Quận 2
-3947,60433104886de2363825d4e9,61681,6,https://landber.com/tin-dang/Ads_01_23516301,"Tôi chính chủ cần bán gấp nhà Q2 đường Trần Não 56m2 giá 3 tỷ 3 HXH, Sổ hồng riêng LH 0965549178","Tôi chính chủ có căn nhà Q2 cần bán gấp đi định cư nước ngoài. Hiện trạng nhà 1 trệt 1 lầu bê tông cốt thép, đúc chắc chắn.
-Diện tích đất 56m2 (4m x 14m) có nở hậu.
-
-Diện tích sử dụng 115m2 - ban công 2m.
-Bao gồm 2 phòng ngủ và 2 wc.
-
-Tặng kèm nội thất bên trong gồm 2 máy lạnh và tivi 50 inch, tủ lạnh...
-Hẻm 5m rộng rãi thoáng mát, xe hơi ra vào quay đầu thoải mái, hẻm thông ra các đường khác.
-Xung quanh có bách hoá xanh, tạp hoá, công viên, trường học, chợ... Dân cư an ninh.
-Anh chị nào có nhu cầu xin liên hệ trực tiếp để tránh ko mất phí qua trung gian môi giới.
-* Không tiếp môi giới cò đất *.
-Cám ơn đã xem tin.",Trần Não,thảo điền,"tạp hoá, công viên, trường học, chợ",bách hoá xanh,an ninh,2 phòng ngủ,,1.0,14.0,1.0,2.0,3300000000,0,3.0,2.0,3.0,{2},"{4,14}",,10.799148346173196,106.73343406219101,"(106.733434062191,10.7991483461732)",92229662.6541133,,115.0,Ads_01_23516301,1574096400,1574201821.0,2020-02-12 08:49:25.145194,7.9,3.6,0101000020E61000008BB86B95F0AE5A40B4EED6F829992540,1.0,2020-04-13 11:57:01.529486,10,7.0,True,3.0,965549178.0,d7886d10058d94dc5dc4a77889b81acd,1.0,,1.0,0.0,60484e265b19110d9fc670c7,0,10.79652,106.7316635,Quận 2
-3948,60433104886de2363825d522,80411,6,https://landber.com/tin-dang/Ads_01_23172004,"GĐ PHÁ SẢN BÁN GẤP NHÀ NÁT (LẤY ĐẤT) ĐỦ 68M2 TRẦN NÃO, Q2, SHR, 0932113691 QUÂN","- Nhà nằm trong khu dân cư, an ninh, yên tĩnh.
-- Có sổ hồng năm 2013, không vướng quy hoạch, lộ giới.
-
-- Bán kính 100m có đầy đủ tiện ích: Siêu thị, chợ, tttm, trường học, bệnh viện...
-- Gần các trường đại học lớn nên tiện kinh doanh nhà trọ hoặc quán cafe.
-
-- Diện tích 68m2, mặt tiền 5m tiện cho thuê, kinh doanh, mua bán hoặc cho thuê nhà trọ.
-- Chính chủ cần bán gấp 850tr nhận nền nên có thể bớt ít lộc.
-- Chỉ tiếp anh/chị thiện chí, uy tín, miễm cò lái, trung gian.
-- Lh: 0932113691 minh quân để xem nhà.
-* Cảm ơn anh/chị đã xem tin *.",Trần Não,trần não,"Siêu thị, chợ, tttm, trường học, bệnh viện, trường đại học",,"an ninh, yên tĩnh",1 phòng ngủ,,1.0,14.0,1.0,2.0,850000000,0,3.0,1.0,1.0,"{2,1}","{0,0}",,10.7866452784236,106.729744288135,"(106.729744288135,10.7866452784236)",75316730.40274341,,68.0,Ads_01_23172004,1573923600,1574028986.0,2020-02-12 08:49:25.145194,8.0,3.6,0101000020E6100000CEFE6221B4AE5A4096C3802BC3922540,1.0,2020-04-13 12:15:02.083899,10,7.0,True,2.0,932113691.0,13acfca41450c74cd7f4d2ab041a4785,1.0,,1.0,0.0,60484e265b19110d9fc670c8,0,10.7923009,106.730814,Quận 2
-3949,60433104886de2363825d523,80457,6,https://landber.com/tin-dang/Ads_01_23487746,"CƯỚI VỢ CHO CON BÁN GẤP NHÀ 86M2 ĐƯỜNG 14 TRẦN NÃO - Q2 - 850TR SỔ HỒNG - ĐẤT THỔ CƯ, 0934974749","Cưới vợ cho con bán gấp 80m2 nhà đường 14 Trần Não, ngay chợ, tiện KD, chỉ 850tr, có sổ.
-
-- Khu dân cư yên tĩnh.
-
-- Dân trí cao, an ninh tuyệt đối.
-- Sổ hồng riêng, sang tên trong ngày.
-- Điện âm nước máy đầy đủ - không vướng quy hoạch giải tỏa.
-- Fix nhẹ cho chị em nhiệt tình.
-- Miễn cò lái, trung gian.
-- Diện tích: 86m2.
-- Giá chỉ 850 triệu.
-- Liên hệ trực tiếp Thanh Tú 0934974749.
-Cảm ơn mọi người xem tin.",Trần Não,,chợ,,"yên tĩnh, Dân trí cao, an ninh",,,1.0,14.0,1.0,2.0,850000000,0,3.0,1.0,1.0,{2},"{0,0}",14.0,10.786286612583,106.72988120574499,"(106.729881205745,10.786286612583)",204373837.825706,,80.0,Ads_01_23487746,1573923600,1574028954.0,2020-02-12 08:49:25.145194,8.0,3.6,0101000020E6100000DC28A95FB6AE5A4030A7AC2894922540,1.0,2020-04-13 08:19:03.098256,10,7.0,True,2.0,934974749.0,66f83cfdae1c21246cf05f596b401b46,1.0,,1.0,0.0,60484e265b19110d9fc670c9,0,10.7986151,106.7331943,Quận 2
-3950,60433104886de2363825d525,80636,6,https://landber.com/tin-dang/Ads_01_22853016,"Định cư Hàn Quốc bán nhà cũ tặng nội thất 77m2, Trần Não, q.2,1 tỷ chẵn kế ĐH GTVT. LH 0784951046","Do gia đình định cư nước ngoài nên cần bán gấp căn nhà ở quận 2 đường Trần Não giá mềm - LH 0784951046 Phương Anh.
-
-- Diện tích: 77m2 công nhận đủ trong sổ.
-
-Gía: 1 tỷ chẵn không bớt thêm
-- Nằm ngay khu có nhiều tiện ích thích hợp để sinh sống.
-- Nhà 1 trệt một lửng, có thể xây thêm tầng nữa.
-- Tặng nội thất cơ bản, dọn vào ở ngay không cần suy nghĩ.. Ai kỹ tính có thể sơn sửa lại nhà bếp chút xíu.
-Cách mặt tiền Mai Chí Thọ đúng 25m. Sổ hồng riêng đầy đủ.
-- LH C. Phương Anh 0784951046 để xem nhà.
-- Miễn cò lái môi giới mất thời gian.
-- Cảm ơn đã xem tin.",Trần Não,bình an,ĐH,ĐH GTVT,,,,1.0,14.0,1.0,2.0,1000000000,0,3.0,1.5,0.0,{2},"{0,0}",,10.790837752718899,106.730763746311,"(106.730763746311,10.7908377527189)",69051935.1258211,,77.0,Ads_01_22853016,1583600400,1574028843.0,2020-02-12 08:49:25.145194,8.0,3.6,0101000020E61000009BE04DD5C4AE5A404FBD98AFE8942540,1.0,2020-04-13 07:30:02.142097,10,7.0,True,2.0,784951046.0,d00ca2ccde9df0af31edc49ac6287adc,3.0,,1.0,0.0,60484e265b19110d9fc670ca,0,10.79652,106.7316635,Quận 2
-3951,60433104886de2363825d528,80671,6,https://landber.com/tin-dang/Ads_01_23487613,"CON BỆNH CẦN TIỀN GẤP BÁN NHÀ NÁT 88M2 NGUYỄN HOÀNG-Q.2, KẾ METRO, TT 990TR, SHR. LH 0904669073","CON BỆNH CẦN TIỀN GẤP BÁN NHÀ NÁT 88M2 NGUYỄN HOÀNG-Q.2, KẾ METRO, TT 990TR, SHR. LH 0904669073
-
-hính chủ bán gấp 88m2 nhà nát có mặt tiền kinh doanh Nguyễn Hoàng, Q. 2.
-
-Giá TT 990tr, thổ cư 100%, không bớt.
-- Nhà nát chủ yếu đã đập lấy đất, không dính quy hoạch hay lộ giới.
-- Không còn ở được nữa nên tôi bán là tính giá đất.
-- Sổ hồng riêng năm 2010 - bao sang tên công chứng.
-- Xung quanh điện âm nước máy đầy đủ - khu an ninh. Hàng xóm thân thiện vui vẻ.
-- Bán kính 500m có đầy đủ ủy ban, chợ, trường học... Tiện mua về xây dựng nhà ở ngay.
-- Khu vực không sụt lún, đất cứng cáp, nền cao.
-Đặc biệt có mặt tiền rộng rãi tiện kinh doanh, nằm kế Metro, lượng dân cư qua lại cực đông đúc, trước tôi cũng kinh doanh quán chè nhưng sau vì bận con cái nên ngưng bán nửa năm nay.
-- Bớt nhẹ xăng xe cho anh em nhiệt tình.
-Miễn cò lái trung gian, môi giới.
-LH chủ nhà: 0904669073 Thu Thủy.",Nguyễn Hoàng,,"ủy ban, chợ, trường học","METRO, METRO","an ninh, thân thiện, vui vẻ, đông đúc",,,1.0,14.0,1.0,2.0,990000000,0,3.0,1.0,1.0,{2},"{0,0}",,10.796296873027801,106.74473142214599,"(106.744731422146,10.7962968730278)",224706345.382698,,88.0,Ads_01_23487613,1573923600,1574028820.0,2020-02-12 08:49:25.145194,8.0,3.6,0101000020E6100000C99AFBADA9AF5A407E1F4739B4972540,1.0,2020-04-13 04:28:02.199112,10,7.0,True,2.0,904669073.0,ca4fde391b42b45f460be4e5563f5404,1.0,,1.0,0.0,60484e265b19110d9fc670cb,0,10.7954133,106.7450032,Quận 2
-3952,60433104886de2363825d534,83421,6,https://landber.com/tin-dang/Ads_01_23271278,"Con bệnh nặng bán gấp nhà nát 69m2 Nguyễn Thị Định, q2 SHR - Gần chợ - Tiện KD - LH 0934969173 Linh","Con bệnh nặng bán gấp nhà nát 69m2 - Nguyễn Thị Định - q2 - SHR - gần chợ - tiện KD - LH 0934969173 Linh.
-Nằm trong khu dân cư yên tĩnh, trình độ dân trí cao, an ninh, không trộm cắp.
-
-Điện âm nước máy đầy đủ, không vướng quy hoạch hay giải tỏa.
-Sổ hồng năm 1991, sang tên trong ngày.
-
-Diện tích 69m2 có nở hậu.
-Gần trường đại học, tiện kinh doanh buôn bán hoặc cho thuê trọ.
-Liên hệ trực tiếp với chủ nhà, miễn cò lái, trung gian môi giới.
-Đi xem nhà trong ngày.
-SĐT: 0934969173 Khánh Linh.
-Cảm ơn anh chị đã xem tin!",Nguyễn Thị Định,cát lái,"chợ, chợ, trường đại học",,"yên tĩnh, dân trí cao, an ninh",,,1.0,14.0,1.0,2.0,0,0,3.0,1.0,1.0,"{2,1}","{0,0}",,10.7807066422395,106.76173507823499,"(106.761735078235,10.7807066422395)",0.0,,69.0,Ads_01_23271278,1588784400,1574026886.0,2020-02-12 08:49:25.145194,0.0,0.0,0101000020E6100000FB4E7C44C0B05A407D60F0C7B88F2540,2.0,2020-04-13 06:35:00.644728,0,0.0,False,2.0,934969173.0,bf01c7fd2754cfceeb1808438a6755be,10.0,,1.0,0.0,60484e265b19110d9fc670cc,0,10.769779,106.775773,Quận 2
-3953,60433104886de2363825d53a,85188,6,https://landber.com/tin-dang/Ads_01_22589925,"Bán nhà khu Quốc Hương, Thảo Điền, vị trí đẹp, 7.5x22m giá tốt, đối diện công viên. LH: 0907661916","- Cần bán nhà phố đẹp khu hẻm 47 Quốc Hương, Quận 2, mới nâng cấp đường rộng rãi sạch sẽ, đặc biệt căn nhà đối diện công viên nội khu.
-
-
-- Với lợi thế khu dân cư ổn định, đồng bộ, yên tĩnh, thích hợp cho việc ở, hoặc khai thác cho thuê lâu dài với mức giá cực tốt.
-
-
-Thông tin sản phẩm cẩn bán.
-
-- Diện tích đất: 7.5x22m (174m2).
-- Kết cấu: 1 trệt + 2 lầu - 3PN.
-- Sân rộng rãi.
-- Giá bán thiện chí từ gia chủ: 22 tỷ.
-
-Anh/chị quan tâm xin liên hệ chuyên viên nhà đất Thảo Điền Mr Nam: 0907661916.
-Trân trọng cảm ơn quý anh/chị đã xem tin.",Quốc Hương,thảo điền,"công viên, công viên",,"ổn định , đồng bộ, yên tĩnh",3 phòng ngủ,Hẻm 47,1.0,14.0,1.0,2.0,22000000000,0,2.0,3.0,3.0,"{2,1}","{7.5,22}",47.0,10.800540452521801,106.732589754388,"(106.732589754388,10.8005404525218)",91883685.808257,,174.0,Ads_01_22589925,1573837200,1574025724.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000AE1E23C0E2AE5A407D692D70E0992540,1.0,2020-04-13 08:47:02.91497,1,8.0,False,2.0,907661916.0,be59fd29d7e9b00deac1fa657d8b6966,2.0,,2.0,0.0,60484e265b19110d9fc670cd,0,10.8045827,106.73156,Quận 2
-3954,60433104886de2363825d542,86351,6,https://landber.com/tin-dang/Ads_01_23480805,"Bán nhà mặt tiền Đường Số 12 Trần Não, Q2, DT: 5x40m NH 7.4m DTCN 265m2, giá 29 tỷ","LH: 090.699.2494 Ngọc
-
-
-
--Vị trí cực đắc địa, tập trung nhiều cao ốc văn phòng, nhà hàng, khách sạn, bệnh viện nên khu vực cực kỳ phát triển, dân trí cao, xung quanh đầy đủ mọi tiện ích, khu vực sầm uất, giao thông cực kỳ thuận tiện.
-
--Diện tích: 5 x 40m, nở hậu 7.4m, công nhận 265m2
--Kết cấu:  nhà 2 lầu
--Thích hợp làm để ở, làm văn phòng, căn hộ dịch vụ cao cấp, cho thuê thu nhập cao.
-
--Gia đình cần tiền bán gấp với giá cực rẻ, thấp hơn giá thị trường rất nhiều, còn thương lượng cho khách hàng thiện chí. 
-Rất mong gặp anh chị thiện chí.
-
--Giá: 29 tỷ
-
-- Sổ hồng chính chủ, giấy tờ hợp lệ, công chứng trong ngày. 
-
-Liên hệ ngay để xem nhà: 090.699.2494 / 08.9898.2494 (Zalo/Viber) Ngọc",Trần Não,bình an,"cao ốc, văn phòng, nhà hàng, khách sạn, bệnh viện",,"dân trí cao, sầm uất, giao thông cực kỳ thuận tiện",,,1.0,14.0,1.0,2.0,29000000000,0,3.0,3.0,1.0,"{2,1}","{5,7.4,40}",,10.7936168240057,106.73153527361201,"(106.731535273612,10.7936168240057)",125548972.95603798,,265.0,Ads_01_23480805,1583427600,1574024958.0,2020-02-12 08:49:25.145194,7.8,3.6,0101000020E610000039025379D1AE5A40C051C1F154962540,1.0,2020-04-13 05:43:02.381068,10,7.0,False,2.0,906992494.0,ac9a697c6ff0c193f3dd6d6289671413,5.0,,2.0,0.0,60484e265b19110d9fc670ce,0,10.7984643,106.7331152,Quận 2
-3955,60433104886de2363825d549,91842,6,https://landber.com/tin-dang/Ads_01_23487362,Định cư Úc sang lại dãy nhà trọ 2tỷ5 Nguyễn Hoàng q2 195m2 gần trường học bệnh viện LH0931351193,"Định cư úc nên sang lại dãy nhà trọ 2.5 tỷ đường Nguyễn Hoàng 245m2 - q2 - gần trường, bệnh viện - KD tốt. 
-
-- Vì sắp ra nước ngoài định cư luôn nên tôi cần sang nhượng gấp cho ai muốn kinh doanh nhà trọ giá mềm 2.5 tỷ bao gồm 2 dãy, mỗi dãy 6 phòng. 
-
-- Đã có sổ, bao sang tên khách mua. 
-- Nằm trên trục đường chính Nguyễn Hoàng. 
-- Thuận tiện đi lại và xây dựng, không lo kẹt xe. 
-- Hẻm vào trọ 10m, hẻm thông, đi lại thoải mái. 
-- Nằm trong khu dân cư đông đúc, cơ sở hạ tầng đầy đủ không lo ngập úng. 
-- Liền kề là khu dân cư, trường học và bệnh viện, khuôn viên là trung tâm thương mại và hành chính thành phố. 
-- Khu dân trí cao, an ninh hoàn toàn. 
-- Sang nhượng lại sửa lại ít có thể cho thuê phòng giá cao. 
-- tổng diện tích 245m2 có nở hậu .giá 2 tỷ 
-- Liên hệ trực tiếp với Hoàng Anh Vũ 0931351193 để xem nhà",Nguyễn Hoàng,an phú,"trường học, bệnh viện, trường, bệnh viện, khu dân cư, trường học, bệnh viện, khuôn viên, trung tâm thương mại",bệnh viện LH 0931351193,"Thuận tiện đi lại, không lo kẹt xe, đông đúc, không lo ngập úng, dân trí cao, an ninh",6 phòng,,1.0,14.0,1.0,2.0,2500000000,0,2.0,1.0,3.0,"{2,1}","{0,0}",5.0,10.796384855787402,106.745069918079,"(106.745069918079,10.7963848557874)",121675569.157323,,195.0,Ads_01_23487362,1588856573,1574022930.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000006CD8BC39AFAF5A40D1457DC1BF972540,1.0,2020-04-13 10:03:01.935796,2,7.0,False,2.0,931351193.0,c68e28a245322291e0a1c6fbe8bfbfba,7.0,,2.0,0.0,60484e265b19110d9fc670cf,0,10.7915504,106.7461048,Quận 2
-3956,60433104886de2363825d54b,91905,6,https://landber.com/tin-dang/Ads_01_22852679,Ly dị vợ bán gấp nhà nát 96m2 Trần Lựu Q2 920tr nằm sau Chi Cục Thuế q2 tiện đầu tư KD LH0931351193,"Ly dị nên vợ chồng tôi quyết định bán gấp căn nhà nát đường Trần Lựu, P. Bình An, Q2.
-
-Diện tích 96m2. Hướng Đông Nam, nở hậu tí xíu. 920tr
-
-Dân cư xung quanh có trình độ, an ninh cao.
-Không nằm trong quy hoạch giải tỏa.
-Gần công viên, bệnh viện.
-Gần ủy ban Quận 2 nên cũng dễ giải quyết giấy tờ sổ sách.
-Nằm sau Chi Cục Thuế Quận 2 an ninh cực kì tốt.
-Xung quanh dân cư hiện hữu. Dân trí cao thuận tiện KD.
-Liên hệ chủ nhà anh Vũ 0931351193 để xem trực tiếp, miễn cò lái.
-Cảm ơn mọi người đọc tin.",Trần Lựu,bình an,"công viên, bệnh viện, ủy ban","Chi Cục Thuế, ủy ban Quận 2, Chi Cục Thuế","an ninh cao, an ninh, Dân trí cao",,,1.0,14.0,1.0,2.0,920000000,0,2.0,1.0,6.0,{2},"{0,0}",,10.7915465145468,106.736337120776,"(106.736337120776,10.7915465145468)",117136043.974004,đông - nam,96.0,Ads_01_22852679,1573837200,1574022887.0,2020-02-12 08:49:25.145194,8.0,3.6,0101000020E61000000124BB2520AF5A407F7BB29545952540,1.0,2020-04-13 11:00:02.929893,10,7.0,True,2.0,931351193.0,d03f9501b762761e7fe99421c7f2f626,1.0,,2.0,0.0,60484e265b19110d9fc670d0,0,10.7937678,106.7403437,Quận 2
-3957,60433104886de2363825d572,102806,6,https://landber.com/tin-dang/Ads_01_23469807,"Bán nhà mặt tiền Nguyễn Duy Trinh p.bình trưng tây Q2, 4x29, 3 lầu, giá 27.5tỷ 0933849709","Bán nhà mặt tiền 328 Nguyễn Duy Trinh, P. Bình Trưng Tây, Quận 2, TPHCM.
-
-_ DT đất: 4 x 29,1m = 116,4m2.
-
-_ DT xây dựng: 114m2.
-Kết cầu 1 trệt + 3 lầu. DTSD: 336,5m2.
-Nhà còn mới, sổ hồng năm 2012. Nhà hướng Bắc.
-Vị trí mặt tiền Nguyễn Duy Trinh thuận tiện để ở, mua bán, kinh doanh, cho thuê... Gần các trung tâm mua sắm như: Điện Máy Xanh, Nguyễn Kim, VinMart.... Gần Ngã 3 Lê Văn Thịnh và Nguyễn Duy Trinh, bệnh viện Quận 2, nhà thiếu nhi quận 2.....
-Hiện tại mặt tiền Nguyễn Duy Trinh, P. Bình Trưng Tây, quận 2, khu vực này rất ít nhà đất có nhu cầu bán lại nên việc sở hữu nhà đất tại mặt tiền tại đây mang đến cho khách hàng rất nhiều cơ hội kinh doanh và gia tăng giá trị lợi nhuận trong tương lai.
-_ Giá bán: 27.5 tỷ Liên hệ 0933 849 709 Lý",Nguyễn Duy Trinh,bình trưng tây,"trung tâm mua sắm, Ngã 3, bệnh viện, nhà thiếu nhi","Điện Máy Xanh, Nguyễn Kim, VinMart, Ngã 3 Lê Văn Thịnh, Nguyễn Duy Trinh, bệnh viện Quận 2, nhà thiếu nhi quận 2",,,CT36 - Dream Home,1.0,14.0,1.0,2.0,27500000000,0,3.0,4.0,1.0,"{2,1}","{4,29}",328.0,10.787405805726301,106.764061386109,"(106.764061386109,10.7874058057263)",108485309.201563,bắc,116.0,Ads_01_23469807,1573750800,1574015531.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000003D5EBA61E6B05A40BB8C90DA26932540,1.0,2020-04-13 08:45:01.753866,1,8.0,False,2.0,933849709.0,f70395a5221230c10df79a139f9d3ce1,1.0,,2.0,0.0,60484e265b19110d9fc670d1,0,10.7882396,106.7679107,Quận 2
-3958,60433104886de2363825d59d,112839,6,https://landber.com/tin-dang/Ads_01_22988819,"Bán biệt thự 215 Nguyễn Văn Hưởng, P. Thảo Điền - 300m2 đất - giá 45 tỷ","- Vị trí: Nằm trong nội khu 215 Nguyễn Văn Hưởng, p. Thảo Điền, quận 2.
-
-
-- DT đất 296m2, kết cấu trệt 2 lầu có gara, 5 phòng ngủ, 6WC, sân vườn hồ bơi sau nhà, có hầm rượu trong nhà - có thể cái tạo thành phòng karaoke nếu thích.
-
-
-- Giá: 45 tỷ thương lượng.
-
-- Khu vực gần trường BIS, nội khu yên tĩnh, an ninh.
-
-Đường 8m thông thoáng, rộng rãi.
-
-- Pháp lý sổ hồng hoàn công.
-
-Chủ nhà dễ mến, mong gặp khách thiện chí!
-
-Quý khách quan tâm, vui lòng liên hệ Thanh Như: 0931464913.
-
-Xin cảm ơn!",Nguyễn Văn Hưởng,thảo điền,trường BIS,,"yên tĩnh, an ninh, thông thoáng",5 phòng ngủ,215,1.0,14.0,1.0,2.0,45000000000,0,3.0,3.0,6.0,{2},"{0,0}",215.0,10.8084776545663,106.73309177216,"(106.73309177216,10.8084776545663)",78925697.0098192,,296.0,Ads_01_22988819,1588698000,1574008905.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000003099C0F9EAAE5A4058D17BC8F09D2540,1.0,2020-04-13 06:40:02.369025,1,8.0,False,2.0,931464913.0,a2e8d2f4c1e70721bbe49fb4ad76d19c,3.0,,2.0,0.0,60484e265b19110d9fc670d2,0,10.8126474,106.7322018,Quận 2
-3959,60433104886de2363825d629,144908,6,https://landber.com/tin-dang/Ads_01_23418766,Bán khách sạn đang kinh doanh P Bình Trưng Đông Q2.Lh 0938864337 Mr Sơn,"Chủ vốn kinh doanh cần bán Ks P Bình Trưng Đông Q2 đường 64 rộng 10m vỉa hè 3m thông thoáng tứ phía.
-Dt 4x20. 1 trệt 2 lầu 1 sân thượng có 13P hoàn công đầy đủ đang có hợp đồng thuê 2 năm giá 40tr/tháng .
-
-Vị trí trắc địa cách Mt Nguyễn Duy Trinh 20m",đường 64,bình trưng đông,,Nguyễn Duy Trinh,,1 phòng ngủ,,1.0,14.0,5.0,2.0,9500000000,40000000,2.0,3.5,6.0,{1},"{4,20}",,10.7827176848756,106.776646150413,"(106.776646150413,10.7827176848756)",41828942.5547391,,80.0,Ads_01_23418766,1573491600,1573987474.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000AC250E92B4B15A405215555FC0902540,1.0,2020-04-13 12:38:03.030034,1,8.0,False,2.0,938864337.0,c3c9070e26f113d6e6ac8b93a2254315,1.0,,2.0,0.0,60484e265b19110d9fc670d3,0,10.812835,106.7295199,Quận 2
-3960,60433104886de2363825d62b,145036,6,https://landber.com/tin-dang/Ads_01_21813212,"Nhà bán khu 215 Nguyễn Văn Hưởng, Phường Thảo Điền Quận 2 DT 5x21,5m, giá 19 tỷ khu vực đủ tiện ích","Chính chủ bán nhà siêu vị trí khu 215 Nguyễn Văn Hưởng. Chỉ cách MT Nguyễn Văn Hưởng 100m. Khu cực vip cho kinh doanh buôn bán, mở văn phòng, cho thuê...
-
-
-Diện tích: 5x21m CN đủ 105m2.
-
-
-Kết cấu: Nhà mới hoàn công tháng rồi gồm trệt - 3 lầu - Sân thượng.
-Nhà mới đẹp được thiết kế theo phong cách Tây Âu, toàn bộ nội thất nhập ngoại cao cấp.
-
-Giá bán; 19 tỷ thương lượng cho khách thiện chí.
-
-- Quý khách quan tâm xem nhà chính chủ liên hệ: Quang Vinh 0965 863 596.
-Miễn trung gian (Zalo, Viber).",Nguyễn Văn Hưởng,thảo điền,,Nguyễn Văn Hưởng,,,215,1.0,14.0,1.0,2.0,19000000000,0,2.0,4.5,6.0,"{2,1}","{5,21.5}",215.0,10.8082334834868,106.73264918258499,"(106.732649182585,10.8082334834868)",78925697.0098192,,105.0,Ads_01_21813212,1582390800,1573987387.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000022A965B9E3AE5A40413776C7D09D2540,1.0,2020-04-13 08:28:02.473323,1,8.0,False,2.0,965863596.0,6ef9b17225255f6c508319bb26d13636,4.0,,2.0,0.0,60484e265b19110d9fc670d4,0,10.8126474,106.7322018,Quận 2
-3961,60433104886de2363825d641,154415,6,https://landber.com/tin-dang/Ads_01_23123070,"Nhà mặt tiền 103 Trần Não, Bình An, Quận 2, 6x50m, nở hậu, có HĐ thuê, tiện lấy HĐ và xây mới","Mặt tiền 103 Trần Não, Bình An, quận 2.
-Vị trí đoạn đường gần An Phú đường đã mở rộng 2 chiều như hình khu vực kinh doanh cao.
-
-Diện tích: 6 x 50m, nở hậu 6.5m.
-Hướng Tây.
-
-Kết cấu: Cấp 4. Tiện xây mới cao tầng.
-Giá: 86 tỷ thương Lượng.
-Call: 0902.279.011 &amp; 0933.63.0788 Mr Đăng Đất Ngọc Toàn Cầu.",Trần Não,bình an,,An Phú,,4 phòng ngủ,103,1.0,14.0,1.0,2.0,86000000000,0,2.0,1.0,1.0,{2},"{6,50}",103.0,10.790886637376099,106.729968588189,"(106.729968588189,10.7908866373761)",125548972.95603798,tây,300.0,Ads_01_23123070,1573405200,1573983819.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000052582BCEB7AE5A4066BFE417EF942540,1.0,2020-04-13 07:48:02.443649,1,8.0,False,3.0,902279011.0,ad8b212ce498713b2a3c1ad9951d58bd,1.0,,2.0,0.0,60484e265b19110d9fc670d5,0,10.7938885,106.7310427,Quận 2
-3962,60433104886de2363825d668,198085,6,https://landber.com/tin-dang/Ads_01_21681360,"CHÍNH CHỦ BÁN NHÀ QUẬN 2, HẺM 289 CÁCH NGUYỄN THỊ ĐỊNH 100M","Bán/cho thuê nhà hẻm 289 cách đường Nguyễn Thị Định 100m. Đường trước nhà hiện tại là 5m, ô tô ra vào thoải mái. Địa chỉ 289/2/3 Nguyễn Thị Định, Bình Trưng Tây, Quận 2.
-DT 74m2, ngang 4m nở hậu 5,6m. Hướng Đông.
-
-Nhà mới xây, hoàn công năm 2019.
-Nhà 1 trệt 3 lầu đổ bê tông kiên cố. Ép cọc btct, DTSD: 240m2.
-
-Có 4 phòng ngủ, 5 toilet, 1 bếp, 2 phòng khách, 1 sân thượng, tầng nào cũng có ban công rất thoáng.
-Xây dựng và thi công nội thất theo thiết kế.
-Nội thất gỗ rất đẹp, 2 TV 55 inch, 1 tủ lạnh 2 cánh, 4 máy lạnh, bếp... Toàn bộ nội thất mới 100%.
-Giá 7,7 tỷ còn thương lượng. Để lại toàn bộ nội thất, tivi, tủ lạnh, lò nướng...
-Ngân hàng hỗ trợ vay mua (nếu cần).",Nguyễn Thị Định,bình trưng tây,,,,4 phòng ngủ,289/2/3,1.0,14.0,1.0,2.0,7700000000,0,2.0,4.0,3.0,{2},"{0,0}",289.0,10.780822523193601,106.762288504116,"(106.762288504116,10.7808225231936)",51222910.51405589,đông,74.0,Ads_01_21681360,1569517200,1573973751.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000ECD2B855C9B05A40993142F8C78F2540,1.0,2020-04-13 07:06:02.159204,1,8.0,False,2.0,,1cc34e0af1994f832a52574e3234c3e3,1.0,,2.0,0.0,60484e265b19110d9fc670d6,0,10.7846258,106.7575679,Quận 2
-3963,60433104886de2363825d669,198352,6,https://landber.com/tin-dang/Ads_01_22301034,"Bán nhà 2 tầng đẹp tại Số 66, đường Số 4, Phường Thảo Điền, Quận 2, Hồ Chí Minh","Do chuyển định cư nước ngoài nên tôi cần bán nhà.
-+ Địa chỉ: Số 66 đường Số 4, khu phố 3, phường Thảo Điền, Quận 2 (khu Làng Báo Chí cũ).
-
-+ Nằm gần khu vực cầu Sài Gòn nên rất thuận lợi cho di chuyển vào trung tâm TP.
-+ Khu vực yên tĩnh, an ninh tốt, có nhiều khách Tây thuê ở ngắn, dài hạn để lưu trú.
-
-+ Trước nhà là đường nhựa kết nối với tuyến đường Xa Lộ Hà Nội nên rất thuận tiện cho việc di chuyển.
-+ Tiện ích xung quanh, lân cận: Trong phạm vi 500m có công viên cầu Sài Gòn, trường học quốc tế, chọ, siêu thị, BigC...
-+ Nhà có khoảng sân trước khá rộng nên thuận lợi cho để xe ô tô vào bên trong khuôn viên.
-Nhà rộng rãi thoáng mát, rất thích hợp cho việc đầu tư kinh doanh.
-+ Chính chủ cần bán nên mong gặp người thiện chí và thương lượng để bớt chút lộc cho người mua.
-+ ACE có nhu cầu vui lòng gọi trước 0903013489 để xem nhà.",Số 4,thảo điền,"cầu, công viên cầu, trường học quốc tế, siêu thị","cầu Sài Gòn, Xa Lộ Hà Nội, công viên cầu Sài Gòn, BigC","yên tĩnh, an ninh tốt",,Số 66,1.0,14.0,1.0,2.0,17000000000,0,2.0,1.0,6.0,{2},"{0,0}",66.0,10.806396636498699,106.74192131574499,"(106.741921315745,10.8063966364987)",75268485.1413102,,110.0,Ads_01_22301034,1582477200,1573973691.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000006D58AA37BAF5A4099BB1A05E09C2540,1.0,2020-04-13 09:05:02.534159,1,8.0,False,1.0,903013489.0,19586a0842bf32cc2b87ee6902c31405,2.0,,2.0,0.0,60484e265b19110d9fc670d7,0,10.7556493,106.7032174,Quận 2
-3964,60433104886de2363825d66a,266588,6,https://landber.com/tin-dang/Ads_01_23550211,"Bán nhà đẹp q2, DT 5x20m, nở hậu 8m tổng 120m2 - 3PN 2WC gần chợ Cây Xoài","Nhà đẹp ngay hẻm 214 Lê Văn Thịnh, diện tích 5x20m nở hậu 8m tổng DT sử dụng 120m2, 1trệt, 1 lầu, 3PN, 2WC, hướng Đông. Đã có sổ hồng.
-
-
-Hẻm nhỏ nên xe hơi vô được gần đến nhà. Phòng khách rộng rãi, có sân trước và bên hông nhà thoáng mát có thể trồng hoa hoặc phơi đồ, đậu xe máy thoải mái. Khu dân cư yên tĩnh, văn minh. Hẻm kế bên chợ Cây Xoài, gần trường học, bệnh viện quận 2.
-
-
-Nhà hiện đang cho thuê giá 10tr.
-
-Giá bán 5 tỷ 300.
-Có thể thương lượng chút cho người thiện chí mua.
-Liên hệ chính chủ 0903123981.",Lê Văn Thịnh,cát lái,"chợ, chợ, trường học, bệnh viện","chợ Cây Xoài, chợ Cây Xoài, bệnh viện quận 2","yên tĩnh, văn minh",3 phòng ngủ,Hẻm 214,1.0,14.0,5.0,2.0,5300000000,10000000,3.0,2.0,3.0,{1},"{5,20}",214.0,10.779684241343501,106.76874917546101,"(106.768749175461,10.7796842413435)",59921575.7360919,đông,120.0,Ads_01_23550211,1574269200,1578450172.0,2020-02-12 08:49:25.145194,5.6,5.9,0101000020E6100000A5DBBD2F33B15A40C08DDBC5328F2540,1.0,2020-04-13 08:01:02.312905,9,9.0,False,3.0,903123981.0,bad310d58e84fb747d306134d5766c2a,1.0,,2.0,0.0,60484e265b19110d9fc670d8,0,10.778726,106.768343,Quận 2
-3965,60433104886de2363825d670,295135,6,https://landber.com/tin-dang/Ads_02_12875541,"Chính chủ bán nhà giá 3,1 tỷ đường Nguyễn Duy Trinh, phường Bình Trưng Đông, Q2","+ Chính chủ bán nhà địa chỉ 778/1 Nguyễn Duy Trinh, phường Bình Trưng Đông, quận 2 (đoạn gần cầu Xây Dựng). DT đất: 4,5 x 14,3m = 64,5 m2, nhà 1 trệt 1 lầu, nhà mới, đẹp. Cách Nguyễn Duy Trinh 30 m, khu dân cư ổn định, yên tĩnh rất an ninh. Nhà đang làm sổ hồng - (trước đây năm 2001 quy hoạch, nay đã bỏ quy hoạch giờ là khu dân cư ổn định lâu dài), hình thức mua bán: Giấy tay. Giá bán 3,1 tỷ.+ Liên hệ chính chủ Anh Đôn - 0907107686.","Nguyễn Duy Trinh,Quận 2,Hồ Chí Minh",bình trưng đông,cầu,"cầu Xây Dựng, Nguyễn Duy Trinh","ổn định, yên tĩnh, an ninh",,,1.0,14.0,1.0,2.0,3100000000,0,3.0,2.0,6.0,{2},"{4.5,14.3}",778,10.7847890354514,106.778302053557,"(106.778302053557,10.7847890354514)",45058190.6946545,,64.5,Ads_02_12875541,1577293200,1578689789.0,2020-02-12 08:49:25.145194,7.7,3.6,0101000020E61000000F9C6AB3CFB15A40C20B53DECF912540,1.0,2020-04-13 04:21:01.442965,10,7.0,False,2.0,907107686.0,1894d7d7fda656a18c77da57e7e2feb9,1.0,,2.0,0.0,60484e265b19110d9fc670d9,0,10.7895943,106.7565608,Quận 2
-3966,60433104886de2363825d690,323254,6,https://landber.com/tin-dang/Ads_01_24127619,"Chính chủ bán nhà 50 đường Số 4, Quận 2","Chính chủ bán nhà sổ hồng.
-- Địa chỉ: 50, đường Số 4, P. Thảo Điền, Q2.
-
-- Diện tích: Ngang 10m * sâu 11m = 110m2.
-- Thiết kế: Trệt, 2 lầu, sân thượng. 4PN, 3WC, 1 phòng nhỏ trên sân thượng có thể làm phòng cho người giúp việc hoặc phòng thờ, 1 phòng giặt đồ.
-
-- Hướng nhà: Tây Bắc.
-- Giá bán: 17.8 tỷ.
-- Liên hệ: A Hùng, SĐT: 0987269228.",Số 4,thảo điền,,,,4 phòng ngủ,50,1.0,14.0,1.0,2.0,17800000000,0,3.0,3.5,6.0,{2},"{10,11}",50,10.8056300821947,106.742026941752,"(106.742026941752,10.8056300821947)",76677976.45889941,tây - bắc,110.0,Ads_01_24127619,1578330000,1578718718.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000F4E4915E7DAF5A408666CF8B7B9C2540,1.0,2020-04-13 03:40:02.112077,1,8.0,False,3.0,987269228.0,eb19f8900c535df4af9f4bbda2145bd2,1.0,,2.0,0.0,60484e265b19110d9fc670da,0,10.78917,106.778344,Quận 2
-3967,60433104886de2363825d696,116847,6,https://landber.com/tin-dang/Ads_01_23451008,"Mua trực tiếp CĐT MT khu Thảo Điền Q2 nhà phố 7,5x20m trệt 5 lầu, Biệt thự 8x20m hầm trệt 3 lầu","Thông báo nhận booking Nhà phố (townhouse)+ Villas Q2 Thảo Điền
-
-
-
-- Thông tin sản phẩm 
-
-SỐ LƯỢNG
-- 12 townhouse (nhà phố)
-- 6 villas
-
-TOWNHOUSE
-- Townhouse có mặt dựng nối liền với 1 số phần của tòa căn hộ dịch vụ kế bên.
-- Diện tích đất từ 138m2 đến 160m2 ( căn 1 và 12)
-- 6 căn nhà phố mặt đường số.10, 6 căn đường số 9.
-- Xây dựng 1 trệt, 4 lầu, 1 sân thượng. 
-- không có hàng rào, hoàn toàn open hợp cho kinh doanh nhiều ngành nghề
-- Tầng 1, 2 được thiết kế phù hợp kinh doanh, 3 4 5 phù hợp gia đình sinh sống
-- Mỗi căn đc set up thang máy riêng phù hợp cho việc tách bạch không gian kinh doanh và sống
-
-Giá : từ 2.800 usd/m2 tính trên GFA. 
-
-VILLAS 
-- 6 căn Villa có diện tích đất từ 163m2 đến gần 200m2, 
-- chiều dài mỗi căn Villa khác nhau. 
-- design concept của Villa khác với nhà phố.
-- Cư dân của nhà phố và villa được sử dụng tiện ích của căn hộ 
-- KH mua xong villa có thể cover riêng phần mái sau hoàn công
-- Các căn số 5 và 6 dài hơn phần phía sau so với các căn khác.
-- Mỗi căn đều có hồ bơi hoàn thiện tất cả hạng mục.
-- Mặt bằng Villas : 1 hầm , 1 trệt, 2 lầu,1 sân thượng. 
-
-Giá từ 5.800 usd/m2 tính trên GFA
-
-Tiến độ thanh toán:
-Đợt 1: Trong vòng 14 ngày ký THỏa Thuận cọc TT 10
-Đợt 2: Cách 3 tháng Đợt 1 Ký HĐMB TT 10%
-6 Đợt tiếp theo: Lần lượt cách 3 tháng TT 5%
-Đợt 9: Bàn giao nhà Qúy IV/2021 TT 45% ( Ko Đóng 2% phí bảo trì )
-Đợt 10: Nhận sổ TT 5%
-- Dự kiến cuối 2021 đầu 2022 bàn giao
-- Bàn giao hoàn thiện bên ngoài thô bên trong
-
-PHÁP LÝ :
-Đã có 1/500, GPXD, Sổ đỏ từng căn
-
-Chiếu khấu khi mua sản phẩm:
-
-+ 1% cho KH ở Quận 1,2,3,Bình Thạnh,Thủ Đức
-+ 1% cho KH mua từ 2 căn trở lên 
-+ 1% cho KH thân thiết của Fraser Property Vietnam và Fraser Property Limited
-
-Hotline PKD: 0944 459 800 (zalo/viber)",Thảo Điền,thảo điền,hồ bơi,,,4 phòng ngủ,,1.0,14.0,1.0,2.0,31200000000,0,3.0,5.5,1.0,{2},"{7.5,20}",,10.8054840791641,106.736337502337,"(106.736337502337,10.8054840791641)",52000000.0,,200.0,Ads_01_23451008,1573664400,1574006178.0,2020-02-12 08:49:25.145194,0.0,0.0,0101000020E6100000E0D6542720AF5A40D8EAC268689C2540,2.0,2020-04-13 11:31:00.484428,0,0.0,False,3.0,944459800.0,cb94d69dfc8a4781f1676849fec7ed57,1.0,,1.0,0.0,60484e265b19110d9fc670db,0,10.8064331,106.7323097,Quận 2
-3968,60433104886de2363825d6ac,751619,1,https://batdongsan.com.vn/ban-nha-rieng-duong-tran-nao-phuong-binh-an/ban-gap-biet-thu-220m2-nb-6g8-q2-14x15m-can-goc-chi-28-3-ty-lh-0935367005-pr24002541,"Bán gấp biệt thự góc 2 mặt tiền 212m2 đường Trần Não, Q2, 14x15m chỉ 28.5 tỷ, LH 0935367005","Chính chủ cần bán gấp căn biệt thự hiện đại siêu vị trí căn góc 2 MT 212m2 ở đường Trần Não, P. Bình An, Quận 2 14x15m căn góc 28.5 tỷ, HH 1% MG.<br/><br/>- DTKV: 212m2, DTXD: 98.3m2, 1 trệt 1 lầu, 4 phòng ngủ, 5WC.<br/>- Nhà nằm trong khu Compound an ninh, khu dân cư yên tĩnh.<br/>- Cách 100m mặt tiền đường Trần Não, đường lớn xe ô tô thoải mái.<br/>- Đường không kẹt xe, không ngập nước, hướng nhà tốt, có gara để xe. Nội thất do chính tôi lựa mua chính chủ nhập nước ngoài.<br/>- Giá bán nhanh để gia đình tôi đi định cư 28.5 tỷ, thương lượng với ai thiện chí mua nhanh.<br/>- Alo Hùng nhận giá tốt nhất: 0935.36.7005.",Trần Não,bình an,,,"an ninh, yên tĩnh, không kẹt xe, không ngập nước","4 phòng ngủ, 5 WC, gara",,1.0,14.0,1.0,2.0,28500000000,0,2.0,2.0,1.0,{2},"{14,15}",2,10.7913705255441,106.730487632863,"(106.730487632863,10.7913705255441)",134433962.264151,,212.0,bdscomvn_24002541,1590664070,1591250838.0,2020-06-30 04:55:21.189353,0.0,0.0,0101000020E6100000CE51334FC0AE5A40D9757C842E952540,0.0,,0,0.0,False,2.0,935367005.0,9b8ffab24cd689beec1ff953e52a98bf,1.0,,1.0,0.0,60484e265b19110d9fc670dc,0,10.7897139,106.7300427,Quận 2
-3969,60433104886de2363825d6ae,736159,6,https://landber.com/tin-dang/Ads_01_25786758,"Cho thuê nhà riêng làm văn phòng tại An Phú, Quận 2, 80m2, giá 16tr","Nhu cầu không ở, cần cho thuê lại nhà.
-Địa chỉ số 8 đường Số 1, phường An Phú, Quận 2. Gần Thảo Điền, gần Metro.
-
-- Diện tích 80m2, đầy đủ bếp, WC.
-- 1 trệt 2 lầu, đã từng cho thuê làm văn phòng.
-
-- Vị trí yên tĩnh, đường lớn 2 ô tô chạy.
-- Điện nước tính theo giá nhà nước.
-- Giá thuê 16tr.",Số 1,an phú,,"Thảo Điền, Metro",yên tĩnh,2 phòng ngủ,Số 8,1.0,14.0,5.0,2.0,16000000,16000000,2.0,3.0,0.0,"{2,1}","{0,0}",8,10.808273985743101,106.753465175975,"(106.753465175975,106.753465175975)",200000.0,,80.0,Ads_01_25786758,1591722000,1591790483.0,2020-06-27 01:42:01.664543,0.0,0.0,0101000020E6100000375F00C638B05A40BCF27D16D69D2540,0.0,,0,0.0,False,2.0,,24949162b3bd092ad12e6505a65a7265,1.0,,1.0,0.0,60484e265b19110d9fc670dd,0,10.7891832,106.756826,Quận 2
-3970,60433104886de2363825d6b6,741499,3,https://batdongsan.com.vn/cho-thue-nha-mat-pho-duong-so-1-phuong-an-phu/cho-rieng-lam-v-phong-tai-qu-2-80m2-gia-16tr-pr25786758,"Cho thuê nhà riêng làm văn phòng tại An Phú, Quận 2, 80m2, giá 16tr","Nhu cầu không ở, cần cho thuê lại nhà.<br/>Địa chỉ số 8 đường Số 1, phường An Phú, Quận 2. Gần Thảo Điền, gần Metro.<br/>- Diện tích 80m2, đầy đủ bếp, WC.<br/>- 1 trệt 2 lầu, đã từng cho thuê làm văn phòng.<br/>- Vị trí yên tĩnh, đường lớn 2 ô tô chạy.<br/>- Điện nước tính theo giá nhà nước.<br/>- Giá thuê 16tr.",Số 1,an phú,,"Thảo Điền, Metro",yên tĩnh,2,,1.0,14.0,5.0,2.0,16000000,16000000,2.0,3.0,0.0,"{2,1}","{0,0}",8,10.808240210840099,106.753469509429,"(106.753469509429,106.753469509429)",200000.0,,80.0,bdscomvn_25786758,1591787005,1591765468.0,2020-06-27 09:30:01.982743,0.0,0.0,0101000020E6100000D7612DD838B05A40BCBD31A9D19D2540,0.0,,0,0.0,False,2.0,,24949162b3bd092ad12e6505a65a7265,1.0,,1.0,0.0,60484e265b19110d9fc670de,0,10.7891832,106.756826,Quận 2
-3971,60433104886de2363825d6c4,738857,3,https://batdongsan.com.vn/ban-nha-rieng-duong-nguyen-van-huong-phuong-thao-dien/ban-villa-dt-10x20m-chi-31-5-ty-nam-trong-khu-villa-sang-trong-lh-0916396588-pr26027492,"Bán villa Nguyễn Văn Hưởng DT 10x20m, chỉ 31.5 tỷ, nằm trong khu villa sang trọng. LH: 0916396588","Cần bán biệt thự hẻm 215 Nguyễn Văn Hưởng:<br/>- Diện tích: 10x20m.<br/>- Kết cấu: Biệt thự cổ vintage 1 trệt 2 lầu.<br/>- Nhà full nội thất đẹp.<br/>- Nằm trong khu dân cư cao cấp, an ninh.<br/>- Pháp lý rõ ràng.<br/>- Giá rẻ hơn so với khu vực: Chỉ 31.5 tỷ.<br/>- Liên hệ xem nhà: 0916396588",Nguyễn Văn Hưởng,,,,an ninh,,,1.0,14.0,1.0,2.0,0,0,2.0,3.0,1.0,{2},"{10,20}",215,10.808571417808,106.73301550942301,"(106.733015509423,106.733015509423)",0.0,,200.0,bdscomvn_26027492,1593233883,1593208939.0,2020-06-27 05:27:08.704556,0.0,0.0,0101000020E6100000B71BE2B9E9AE5A4060EEA712FD9D2540,0.0,,0,0.0,False,2.0,916396588.0,a414ee4d9044b0ceccc0068fd685312b,1.0,,1.0,0.0,60484e265b19110d9fc670df,0,10.812154,106.732161,Quận 2
-3972,60433104886de2363825d6c5,750019,6,https://batdongsan.com.vn/cho-thue-nha-rieng-phuong-an-phu/cho-nguyen-c-khu-khh-4x20m-1-tret-3-lau-pr25407954,"Cho thuê nhà nguyên căn khu An Phú An Khánh, 4x20m, 1 trệt 3 lầu","Cho thuê nhà nguyên căn để ở hoặc làm văn phòng.<br/>- Nhà đường 31F Bùi Tá Hán, 4x20m, 5PN, 4WC, 1 trệt, 3 lầu, nội thất cơ bản. Giá cho thuê 28 triệu/tháng.<br/>- Nhà đường 24 An Phú, 4x20m, 1 trệt 3 lầu, hướng Bắc. Giá cho thuê 28 triệu/tháng.<br/>- Nhà đường Đỗ Pháp Thuận, An Phú 4,5x20m, 1 hầm 1 trệt 2 lầu 1 thượng. Giá 35 triệu/tháng.<br/>- Nhà đường Nguyễn Hoàng An Phú, 4x20m, 1 trệt 3 lầu, hướng Đông Nam. Giá 35 triệu/tháng.<br/>- Nhà đường số 19 An Phú, 5x20m, 1 trệt 3 lầu, 5 phòng ngủ hướng Tây Bắc, nội thất cao cấp, giá 32 triệu/ tháng.<br/><br/>Liên hệ xem nhà:Bích Phương 0983117667 / 0933389933",An Phú,an phú,,,,"5 PN, 4 WC, 5 phòng ngủ",An Phú An Khánh,1.0,14.0,5.0,2.0,0,28000000,2.0,4.0,6.0,{2},"{4,20}",24,10.798873721934301,106.756911831823,"(106.756911831823,10.7988737219343)",0.0,bắc,1.0,bdscomvn_25407954,1589272149,1589249789.0,2020-06-30 04:43:38.130097,0.0,0.0,0101000020E6100000A0E8523E71B05A40FCAEFAF905992540,0.0,,0,0.0,False,2.0,983117667.0,633656f0bdea870e8c8b37e6f71254d6,1.0,,2.0,0.0,60484e265b19110d9fc670e0,0,10.8277539,106.7261401,Quận 2
-3973,60433104886de2363825d6cb,755905,6,https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-phan-van-dang-phuong-thanh-my-loi-prj-feliz-en-vista/chuy-nhan-ki-gui-cho-thue-va-ban-lai-du-an-cho-khach-hang-lh-0938-05-1111-pr25378621,chuyên nhận kí gửi cho thuê và bán lại dự án Feliz En Vista cho khách hàng LH:0938.05.1111,"Bảng giá cập nhật căn hộ Feliz En Vista tháng 5/2020<br/>Căn hộ 1 phòng ngủ (57m2): Giá từ 2,950 tỷ - 3,3 tỷ.<br/>Căn hộ 2 phòng ngủ (85m2): Giá từ 4 tỷ - 4,5 tỷ.<br/>Căn hộ 3 phòng ngủ (106m2): Giá từ 5,2 tỷ - 6 tỷ.<br/>Căn hộ 4 phòng ngủ (180m2 - 240m2): Giá từ 9 tỷ - 13 tỷ.<br/>Căn hộ duplex 2 phòng ngủ (102m2): Giá từ 4,9 tỷ - 5,6 tỷ.<br/>Căn hộ duplex 3 phòng ngủ (132m2): Giá 6,5 tỷ - 7,5 tỷ.<br/>Alo ngay: 0938.05.1111<br/><br/>Thông tin sơ bộ về dự án<br/>Tên dự án: Căn hộ Feliz En Vista<br/>Chủ đầu tư: CapitaLand và Thiên Đức<br/>Vị trí: Số 1 Phan Văn Đáng Phường Thạnh Mỹ Lợi Quận 2<br/>Diện tích xây dựng : 10,153m2<br/>Tầng cao xây dựng: 4 block cao 34 tầng.<br/>Tổng số căn hộ: 800 căn hộ và 1 tòa căn hộ dịch vụ<br/>Diện tích: 57m2 - 85m2-102m2 - 106m2-132m2-180m2-240m2<br/>Căn hộ 1PN -1WC: 57m2.<br/>Căn hộ 2PN -2WC: 85m2-102m2<br/>Căn hộ 3PN -2WC: 106m2-132m2<br/>Căn hộ 4PN -3WC: 180m2-240m2<br/>Giao nhà: Quý 2/2020<br/>Tiêu chuẩn bàn giao: Hoàn thiện nội thất cơ bản và giao thô<br/>Hãy liên hệ ngay với chúng tôi: 0938.05.1111 để được cập nhật những sản phẩm và chính sách ưu đãi mới nhất cho khách hàng.",Phan Văn Đáng,thạnh mỹ lợi,,,,2,Feliz En Vista,1.0,14.0,1.0,2.0,4200000000,0,2.0,34.0,1.0,{2},"{0,0}",1,10.7781072561483,106.756438121614,"(106.756438121614,10.7781072561483)",49411764.7058824,,240.0,bdscomvn_25378621,1589082857,1589058261.0,2020-06-30 05:30:10.274503,0.0,0.0,0101000020E61000000572707B69B05A40F9DF0313648E2540,0.0,,0,0.0,False,2.0,938051111.0,c12606e86910dc39d3899d53c89e3f75,1.0,,1.0,0.0,60484e265b19110d9fc670e1,0,10.7773548,106.756027,Quận 2
-3974,60433104886de2363825d6cd,756194,1,https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-pho-65-phuong-thanh-my-loi-prj-victoria-village/-goc-don-lap-mat-tien-cong-vien-ban-30-ty-pr23403593,"Biệt thự góc đơn lập mặt tiền công viên, bán 45 tỷ","Cần bán biệt thự mặt tiền công viên như hình.<br/>Trên hợp đồng đánh số D06.<br/>Nhà nước vừa sửa lại số 02 đường 65, Thạnh Mỹ Lợi.<br/><br/>LH 0918730435.",đường 65,thạnh mỹ lợi,"công viên, công viên",,,,,1.0,14.0,1.0,2.0,45000000000,0,2.0,1.0,1.0,{2},"{0,0}",02,10.7762292473505,106.759783708621,"(106.759783708621,10.7762292473505)",157342657.342657,,0.0,bdscomvn_23403593,1589026235,1589004657.0,2020-06-30 05:33:09.986025,0.0,0.0,0101000020E61000000224D94BA0B05A4058237FEB6D8D2540,0.0,,0,0.0,False,2.0,918730435.0,c0511f0aac31247afed6c4240b7f5e30,1.0,,1.0,0.0,60484e265b19110d9fc670e2,0,10.806475,106.7318995,Quận 2
-3975,60433104886de2363825d6ed,602160,3,https://batdongsan.com.vn/cho-thue-nha-mat-pho-duong-song-hanh-phuong-an-phu-prj-khu-do-thi-lakeview-city/can-cho-gap-noi-that-day-du-gia-chi-28tr-th-lh-ngay-0917330220-pr25143266,Cần cho thuê gấp nhà phố Lakeview city nội thất đầy đủ giá chỉ 28tr/th lh ngay 0917330220," Cần cho thuê nhà phố Lakeview City quận 2, nhà hoàn thiện nội thất đẹp. Cho thuê với giá hữu nghị.<br/>- Diện tích: 5m*20m - Xây dựng 1 trệt và 3 lầu 4PN, 5WC.<br/>- Giá cho thuê: 28.000.000 VNĐ/tháng nội thất đầy đủ vào ở liền<br/>- Khu vực an ninh có chốt bảo vệ riêng ngay cổng, có camera giám sát ở các ngã ba, ngã tư đường.<br/>- Tiện ích: Có hồ bơi và hồ cảnh quan, công viên cây xanh, trung tâm thương mại tại khu đang xây dựng, đường sá rộng thoáng mát để xe ô tô thoải mái...<br/>- Vị trí thuận lợi để đi đến trung tâm thành phố không quá 10 phút thông qua cao tốc Long Thành Dầu Giây, Mai Chí Thọ, Hầm Thủ Thiêm.<br/>- Gần siêu thị Vincom, trường học, bệnh viện quận 2...<br/>Địa chỉ: 697 Đỗ Xuân Hợp phường An Phú, Quận 2, Hồ Chí Minh.<br/>Liên hệ: Tú 0917330220 (Zalo, SMS, Viber).<br/>Tư vấn và xem nhà miễn phí.<br/>Có nhiều căn nhà cho bạn lựa chọn phù hợp với nhu cầu",Đỗ Xuân Hợp,an phú,"ngã ba, ngã tư, hồ bơi, hồ cảnh quan, công viên, trung tâm thương mại, cao tốc, Hầm, siêu thị, trường học, bệnh viện","cao tốc Long Thành Dầu Giây, Mai Chí Thọ, Hầm Thủ Thiêm, siêu thị Vincom, bệnh viện quận 2","an ninh, thoáng mát",5,Lakeview City,1.0,14.0,5.0,2.0,28000000,28000000,2.0,4.0,6.0,{2},"{5,20}",697,10.7954425159273,106.775816250895,"(106.775816250895,106.775816250895)",88440617.2161172,,100.0,bdscomvn_25143266,1588846097,1586552751.0,2020-04-11 04:06:02.492737,2.0,3.6,0101000020E6100000225334F9A6B15A400883CF3D44972540,1.0,2020-04-11 04:07:00.793074,2,7.0,True,2.0,917330220.0,04582adc38c875449b2f9db1e9d7ec7d,2.0,,0.0,0.0,60484e265b19110d9fc670e3,0,10.7948475,106.781118,Quận 2
-3976,60433104886de2363825d6f1,618981,6,https://landber.com/tin-dang/Ads_01_22025745,"Bán nhà cấp 4 DT 5x24m nở hậu DT 120,5m2 đường Nguyễn Thị Định, phường Cát Lái, quận 2 giá bán 7 tỷ","Cần tiền bán căn nhà cấp 4 diện tích đất 5x24m nở hậu ở phường Cát Lái, Quận 2.
-Nhà diện tích lớn nên rất phù hợp cho ace mua đầu tư khách sạn cafe...
-
-Nhà khu dân cư đông đúc và nhộn nhịp.
-Thuận lợi: Khu đất này được phép xây dựng 7 tấm.
-
-Xây hết phần diện tích không chừa phần lộ giới.
-- Nhà cấp có thể cho thuê mở công ty, shop...
-Giá bán 7 tỷ thương lượng.
-LH 0943678399 Vinh.",Nguyễn Thị Định,cát lái,,,"đông đúc, nhộn nhịp",,,1.0,14.0,1.0,2.0,7000000000,0,2.0,1.0,6.0,"{2,4,1}","{5,24}",,10.7808577480584,106.761980028836,"(106.761980028836,106.761980028836)",52700533.4027968,,120.5,Ads_01_22025745,1586883600,1586913324.0,2020-04-15 08:17:03.276313,2.0,3.6,0101000020E61000008903E247C4B05A40577A3596CC8F2540,1.0,2020-04-15 08:18:01.122233,1,8.0,False,2.0,943678399.0,d9f5da671b1e6638bacbe51d51792d57,1.0,,0.0,0.0,60484e265b19110d9fc670e4,0,10.7802413,106.7617965,Quận 2
-3977,60433104886de2363825d6f8,648258,6,https://landber.com/tin-dang/Ads_01_23531428,"Bán biệt thự mặt tiền số 155 Nguyễn Văn Hưởng, Thảo Điền, Quận 2, giá 53 tỷ, 307m2, hầm 2 lầu","Không sử dụng nên cần chuyển nhượng lại căn biệt thự 3MT Số 155, đường Nguyễn Văn Hưởng, P. Thảo Điền, quận 2 ngay cổng khu chính vào khu BT Thảo Điền 2, DT 20 x 16m, căn góc CN 307m2 đất xây 1 hầm 1 trệt 2 lầu, 4PN, 5WC nội thất dính tường.
-Giá 53 tỷ còn TL tí, sổ hồng.
-
-Liên hệ: 0939 026 281.",Nguyễn Văn Hưởng,thảo điền,,Thảo Điền 2,,4 phòng ngủ,Số 155,1.0,14.0,1.0,2.0,53000000000,0,3.0,3.5,1.0,{2},"{16,20}",155,10.8085149995489,106.733062814718,"(106.733062814718,106.733062814718)",172638436.48208502,,307.0,Ads_01_23531428,1588525200,1588561693.0,2020-05-04 10:23:02.019694,0.0,0.0,0101000020E610000010C84B80EAAE5A409BC692ADF59D2540,0.0,,0,0.0,False,1.0,,1a7dd08304b2ba61a9b317763b97dc6a,1.0,,0.0,0.0,60484e265b19110d9fc670e5,0,10.8134869,106.7262529,Quận 2
-3978,60433104886de2363825d735,349306,6,https://landber.com/tin-dang/Ads_01_24104069,"Chính Chủ Bán Building MT 52 Đồng Văn Cống Ngay Dự Án Capitaland, Q.2, DT: 7.1x18m, Hầm, 7 Lầu","DT: 7x18m. Vuông Vức Công Nhận Đủ: 126m2
-
- 
-
-Kết cấu: 1 hầm 1 trệt 6 lầu. DTXD: 95,6m2. DT sàn: 766,3m2
- 
-Vị Trí: Ngay Dự Án Capitaland, mặt tiền đường lớn, lưu thông kinh doanh không sợ thiếu chỗ đậu xe hơi, xe máy... Có thể làm văn phòng, nhà hàng, nhà thuốc, nha khoa, cà phê, spa, showroom...
- 
-- Lân cận khu vực có Đầy Đủ tiện ích như, bệnh viện, trường học, ngân hàng, Chi Cục Thuế, siêu thị, trung tâm thương mại...
-- Chuỗi các dự án được các chủ đầu tư Singapore uy tín đầu tư về Thạnh Mỹ Lợi như: Kusto Home, Mapletree, Capitaland... Nâng cao dân trí, tiền năng bất động sản tăng cao..
- 
-Giá Chỉ: 33.9 Tỷ Thương Lượng cho khách mua 
-Hỗ Trợ Vay Vốn Ngân Hàng 70%-80%
-* LH: Lê Lâm 0904.93.94.95 xem nhà chính chủ (Zalo, Viber).
-Cam kết thông tin chính xác 100%. Mua bán trực tiếp chính chủ - sổ hồng trao tay.",Đồng Văn Cống, thạnh mỹ lợi,"bệnh viện, trường học, ngân hàng, Chi Cục Thuế, siêu thị, trung tâm thương mại",,dân trí,,,1.0,14.0,1.0,2.0,33900000000,0,3.0,7.5,1.0,"{2,3}","{7.1,18}",52.0,10.774319178826099,106.761217055944,"(106.761217055944,10.7743191788261)",131800779.087374,,126.0,Ads_01_24104069,1578070800,1578695233.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000DB1BBEC7B7B05A40A0723B90738C2540,1.0,2020-04-13 07:03:02.2117,1,8.0,False,2.0,904939495.0,9c42d8af519115133334de2b913a8bd9,1.0,,0.0,0.0,60484e265b19110d9fc670e6,0,10.77894,106.7568,Quận 2
-3979,60433104886de2363825d757,671426,3,https://batdongsan.com.vn/cho-thue-nha-mat-pho-duong-do-xuan-hop-phuong-an-phu-prj-khu-do-thi-lakeview-city/-ho-thien-day-du-noi-that-cho-gia-re-tai-du-lien-he-0902446185-pr25275403,"Nhà hoàn thiện đầy đủ nội thất, cho thuê giá rẻ tại dự án Lakeview City, liên hệ 0902446185","Do không có nhu cầu tôi cần cho thuê nhà phố tại khu đô thị Lakeview City phường An Phú Quận 2 TP. HCM. LH 0902446185.<br/>- Diện tích: 5m*20m - Xây dựng 1 trệt và 3 lầu 4PN, 5WC.<br/>- Giá cho thuê: 28.000.0000 VNĐ/tháng.<br/>- Nhà hoàn thiện đẹp mới 100%.<br/>- Khu vực an ninh có chốt bảo vệ riêng ngay cổng, có camera giám sát ở các ngã ba, ngã tư đường.<br/>- Tiện ích: Có hồ bơi và hồ cảnh quan, công viên cây xanh, trung tâm thương mại tại khu đang xây dựng, đường sá rộng thoáng mát để xe ô tô thoải mái...<br/>- Vị trí thuận lợi để đi đến trung tâm thành phố không quá 10 phút thông qua cao tốc Long Thành Dầu Giây, Mai Chí Thọ, Hầm Thủ Thiêm.<br/>- Gần siêu thị Vincom, trường học, bệnh viện quận 2...<br/>Địa chỉ: 697 Đỗ Xuân Hợp phường An Phú, Quận 2, Hồ Chí Minh.<br/>Liên hệ: Mrs Riêng 0902446185 (Zalo, SMS, Viber).<br/>Tư vấn và xem nhà miễn phí.<br/>Có nhiều căn nhà cho bạn lựa chọn phù hợp với nhu cầu.",Đỗ Xuân Hợp,an phú,"ngã ba, ngã tư, hồ bơi, hồ cảnh quan, công viên, trung tâm thương mại, cao tốc, Hầm, siêu thị, trường học, bệnh viện","cao tốc Long Thành Dầu Giây, Mai Chí Thọ, Hầm Thủ Thiêm, siêu thị Vincom, bệnh viện quận 2","an ninh, thoáng mát",4,Lakeview City,1.0,14.0,5.0,2.0,28000000,280000000,2.0,4.0,6.0,{2},"{5,20}",697.0,10.7954524218786,106.775794460477,"(106.775794460477,106.775794460477)",280000.0,,100.0,bdscomvn_25275403,1588912378,1588734175.0,2020-05-06 10:40:01.667442,0.0,0.0,0101000020E6100000900ACF9DA6B15A404CFC328A45972540,0.0,,0,0.0,False,2.0,902446185.0,d283734d3618a177775bd296ccf98adc,4.0,,0.0,0.0,60484e265b19110d9fc670e7,0,10.7948475,106.781118,Quận 2
-3980,60433104886de2363825d7bb,105925,6,https://landber.com/tin-dang/Ads_01_23473389,"Bán nhà khu Him Lam 95 Lương Định Của, Bình An, Q 2, DT 4x20m, 1 trệt 2 lầu sân thượng giá 13.5 tỷ","Nhà 1 trệt 2 lầu sân thượng.
-
-
-
-- Vị trí khu HimLam mặt tiền nội bộ đường Lương Định Của, phường Bình An, quận 2. Khu vực đang phát triển cực mạnh, tiềm năng tăng trưởng trong tương lai.
-
-- Diện tích: 4m x 20m.
-
-- Giá 13.5 tỷ.
-
-- Sổ hồng pháp lý rõ ràng.
-
-- Xem nhà và thương lượng giá tốt nhất: Long 0901668876",Lương Định Của,bình an,,,,,Him Lam,1.0,14.0,1.0,2.0,13500000000,0,3.0,3.5,1.0,{2},"{4,20}",95.0,10.7931041819193,106.73182495878099,"(106.731824958781,10.7931041819193)",184835924.27091,,80.0,Ads_01_23473389,1573750800,1574013261.0,2020-02-12 08:49:25.145194,6.0,3.8,0101000020E610000005175A38D6AE5A40FB5357C011962540,1.0,2020-04-13 08:52:02.53895,9,7.0,False,2.0,901668876.0,204bdf84eac50376776efd05c77d5656,1.0,,2.0,0.0,60484e265b19110d9fc670e8,0,10.7873545,106.7324595,Quận 2
-3981,60433104886de2363825d7c6,108510,6,https://landber.com/tin-dang/Ads_01_17974062,BÁN KHÁCH SẠN QUẬN 2 NGUYỄN THỊ ĐỊNH,"Không người trông coi nên cần bán khách sạn mặt tiền Nguyễn Thị Định, gần vòng xoay Mỹ Thủy.
-Diện tích đất: 182,92 m2, dt sàn xây dựng 1006,85m2 ( 1 trệt, 1 lửng, 5 lầu và sân thượng). Có 25 phòng, có thang máy.
-
-Bán : 19 tỷ đang có hợp đồng cho thuê 50 triệu / tháng
-Liên hệ Trúc Ly 0909758848.",Nguyễn Thị Định,,vòng xoay,vòng xoay Mỹ Thủy,,2 phòng ngủ,,1.0,14.0,5.0,2.0,19000000000,50000000,2.0,7.0,1.0,"{4,1}","{0,0}",,10.781123689481301,106.76152927596,"(106.76152927596,10.7811236894813)",93132564.5710108,,182.92,Ads_01_17974062,1573750800,1574011523.0,2020-02-12 08:49:25.145194,7.8,7.3,0101000020E610000059CC49E5BCB05A4008E8B871EF8F2540,1.0,2020-04-13 08:16:02.224767,10,10.0,False,2.0,909758848.0,9bd42789f23c40951d4ab5e636d06079,1.0,,2.0,0.0,60484e265b19110d9fc670e9,0,10.7846258,106.7575679,Quận 2
-3982,60433105886de2363825d7e3,80360,6,https://landber.com/tin-dang/Ads_01_17855828,"Cưới vợ cho con bán gấp nhà 80m2 đường 14 Trần Não - Q2 - 850tr sổ hồng - đất thổ cư, gần UBND","Cưới vợ cho con bán gấp 80m2 nhà đường 14 Trần Não, ngay chợ, tiện KD, chỉ 850tr, có sổ.
-- Khu dân cư yên tĩnh.
-
-- Dân trí cao, an ninh tuyệt đối.
-- Sổ hồng riêng, sang tên trong ngày.
-
-- Điện âm nước máy đầy đủ - không vướng quy hoạch giải tỏa.
-- Fix nhẹ cho anh em nhiệt tình.
-- Miễn cò lái, trung gian.
-- Diện tích: 80m2.
-- Giá chỉ 850 triệu.
-- Liên hệ trực tiếp Khánh Ly 0762831017.
-Cảm ơn mọi người xem tin.",14,bình an,"UBND, chợ",,"yên tĩnh, Dân trí cao, an ninh",,,1.0,14.0,1.0,2.0,850000000,0,3.0,1.0,1.0,{2},"{0,0}",14.0,10.7913631037255,106.729949290811,"(106.729949290811,10.7913631037255)",114755836.889535,,80.0,Ads_01_17855828,1573923600,1574029024.0,2020-02-12 08:49:25.145194,8.0,3.6,0101000020E610000056F13A7DB7AE5A404186738B2D952540,1.0,2020-04-13 00:32:01.920212,10,7.0,True,2.0,762831017.0,4236d72ec67913b57e14693dbd420049,1.0,,1.0,0.0,60484e265b19110d9fc670ea,0,10.8063088,106.7495811,Quận 2
-3983,60433105886de2363825d81d,413267,6,https://landber.com/tin-dang/Ads_01_21919203,"Chính chủ bán nhà đẹp 3 tấm Bình Trưng Tây, Q2","Chính chủ bán nhà đẹp BTT, Q2.
-
-
-1. Địa chỉ: Hẻm 365 Nguyễn Thị Định, Q2. Giáo xứ Công Thành.
-2. Hướng nhà: Nam, chếch Tây.
-
-3. Diện tích: Ngang 4.7m, diện tích đất 51m2, Tổng diện tích sàn XD: 167m2.
-4. Quy mô: 3,5 tầng, gồm 1 trệt, 2 lầu, tầng sân thượng với phòng thờ và sân thượng trước sau rộng rãi.
-5. Công năng SD: Gồm phòng khách, bếp phòng ăn, 1 phòng đa năng rộng, 3 phòng ngủ, 4WC, phòng thờ, khu giặt phơi. Cây xanh, giếng trời thông thoáng, ống lạnh chờ sẵn. Hệ thống nước nóng Năng lượng mặt trời an toàn lắp sẵn.
-6: Nội thất có sẵn: Hệ bếp cao cấp đi kèm, rèm cửa chống nắng, 2 máy lạnh Panasonic Sky Series, Daikin.
-
-Giá: 5.5 tỷ, thương lượng lộc.",Nguyễn Thị Định,bình trưng tây,,Công Thành,,3 phòng ngủ,Hẻm 365,1.0,14.0,1.0,2.0,5500000000,0,2.0,3.5,3.0,{2},"{0,0}",365.0,10.781160467861302,106.762085423073,"(106.762085423073,10.7811604678613)",51222910.51405589,nam,51.0,Ads_01_21919203,1581699600,1581711334.0,2020-02-15 03:16:02.28099,2.0,3.6,0101000020E6100000B636F001C6B05A40FDC8CC43F48F2540,1.0,2020-04-13 10:12:01.295235,1,8.0,False,3.0,,724ea9ffef7c72dbf597979f90c34b49,1.0,,0.0,0.0,60484e265b19110d9fc670eb,0,10.782277,106.760656,Quận 2
-3984,60433105886de2363825d83d,419448,6,https://landber.com/tin-dang/Ads_01_24282608,"Chia tài sản bán gấp nhà nát đường Số 8 Trần Não q2 85m2 SHR gần UBND P. Bình An, LH 0931351193","Chia tài sản tôi cán gấp căn nhà nát 85m2 đường Số 8 Trần Não, Quận 2, ngay chợ, tiện ở, SHR, XDTD, bán gấp miễn cò.
-- Nằm sau UBND p. Bình An. An ninh tốt.
-
-- Đường xe hơi vô được, thông thoáng, không ngập nước.
-- Vị trí đẹp, thuận tiện đi các Quận 1, Bình Thạnh, Quận 9...
-
-- Liền kề trường học, resort cao cấp, chung cư cao cấp, an ninh tốt.
-- Khu vực đầy đủ tiện ích trong bán kính 1km như chợ, siêu thị, công viên cây xanh thoáng mát.
-Liên hệ chủ nhà A. Vũ SĐT 0931351193 để được xem nhà.
-Cảm ơn vì đã xem tin.",Số 8,bình an,"UBND, chợ, trường học, resort, chung cư, chợ, siêu thị, công viên","Bình An, Quận 1, Bình Thạnh, Quận 9","An ninh, thông thoáng, không ngập nước, an ninh",,,1.0,14.0,1.0,2.0,0,0,3.0,1.0,6.0,{2},"{0,0}",8.0,10.7941402039177,106.73419919416,"(106.73419919416,10.7941402039177)",0.0,,85.0,Ads_01_24282608,1581786000,1581775764.0,2020-02-15 21:10:02.341727,0.0,0.0,0101000020E6100000B6EA9D1EFDAE5A40ED87788B99962540,2.0,2020-04-13 06:08:00.782546,0,0.0,False,2.0,931351193.0,3ffa1388b0e9844a20cedadae74677c3,1.0,,0.0,0.0,60484e265b19110d9fc670ec,0,10.8137509,106.7303221,Quận 2
-3985,60433105886de2363825d842,420024,6,https://landber.com/tin-dang/Ads_01_24393365,"TRẢ NỢ BÁN GẤP DÃY NHÀ TRỌ 6 PHÒNG NGUYÊN THỊ ĐỊNH Q.2 CHỈ 1,6TỶ TIỆN ĐẦU TƯ KDOANH LH 0775394454","Cần tiền cho con đi du học bán dãy trọ 250m2 Nguyễn Thị Định - giá trả trước 1,6 tỷ - shr - tiện KD 
-
-- Cần sang lại 2 dãy trọ, mỗi dãy là 6 phòng, 2 ki ốt trước nhà, giá 1,6 tỷ/dãy.
-
-- Tổng 12 phòng, diện tích mỗi phòng 3x4m = 12m2, có gác lửng 8m2, cửa sổ thông thoáng, nhà vệ sinh riêng.
-- Điện nước máy sinh hoạt, internet cáp quang, đầy đủ.
-- Khu vực gần nhiều khu công nghiệp, nhà máy, xí nghiệp, công nhân đông, khu dân cư tấp nập, luôn cho thuê kín.
-- Thu nhập mỗi tháng 15 triệu (trung bình 1.1 tr/phòng/tháng).
-- Chính chủ, sổ hồng riêng từng dãy.
-- Không qua trung gian, miễn tiếp cò.
-- Thương lượng cho khách nào thiện chí.
-LH QUA SDT  0775394454 ĐỂ xem trực tiếp. GẶP CHỊ NHI",Nguyễn Thị Định,an phú,"khu công nghiệp, nhà máy, xí nghiệp",,tấp nập,"6 phòng, 2 ki ốt",,1.0,14.0,5.0,2.0,1600000000,15000000,3.0,1.0,6.0,"{2,1}","{3,4}",,10.7978124384083,106.75687175868299,"(106.756871758683,10.7978124384083)",74757251.8003295,,250.0,Ads_01_24393365,1581786000,1581782966.0,2020-02-15 23:10:01.893475,9.9,3.6,0101000020E6100000E8B33E9670B05A40759C36DF7A982540,1.0,2020-04-13 04:22:02.582247,11,7.0,False,2.0,775394454.0,b927529fbc7b049dc8a782996c4a1e2e,1.0,,0.0,0.0,60484e265b19110d9fc670ed,0,10.7848314,106.7572885,Quận 2
-3986,60433105886de2363825d848,420589,6,https://landber.com/tin-dang/Ads_01_21818740,"Chính chủ bán nhà cư xá Điện Lực 51 - 53 Trần Não, P. Bình An, Quận 2","Bán nhà khu Cư Xá Điện Lực 51 - 53 Trần Não, P. Bình An, diện tích 49.95m2 (4,5x11.1m) vuông vức, 1 trệt 2 lầu.
-Trệt: Phòng khách + bếp + WC.
-
-Lầu 1: 2PN + 1 WC.
-Lầu 2: 1 PN + 1 sân thượng.
-
-Nhà mới sửa nên nội thất còn rất mới, khu này còn lên được 1 tấm nữa.
-Đường trước nhà 7m, ô tô đỗ cửa, khu có bảo vệ 24/24 có camera nội khu, an ninh tuyệt đối, yên tĩnh thoáng mát. Có sân đỗ ô tô, công viên nhỏ nội khu để tập thể dục và trẻ em chơi.
-Khu không bị ngập nước, kết nối giao thông cực kỳ thuận lợi. Đối diện với Landmark 81, 5 phút đi về Q1, Bình Thạnh, hầm Thủ Thiêm, cao tốc...
-Đã lâu lắm khu này không có nhà bán nên đây là cơ hội cho khách có nhu cầu an cư hoặc đầu tư kinh doanh đều ok.
-Sổ đỏ chính chủ.
-Giá 7,9 tỷ có thương lượng.
-Liên hệ ĐT: 0912085989 hoặc 0938034886.",Trần Não,bình an,"công viên, hầm, cao tốc","Q 1, Bình Thạnh, hầm Thủ Thiêm","bảo vệ, an ninh, yên tĩnh, thoáng mát, không bị ngập nước, giao thông cực kỳ thuận lợi",3 phòng ngủ,"51,53",1.0,14.0,1.0,2.0,7900000000,0,3.0,3.0,6.0,{2},"{4.5,11.1}",53.0,10.791610407929301,106.73055118173401,"(106.730551181734,10.7916104079293)",69051935.1258211,,49.95,Ads_01_21818740,1581786000,1581798151.0,2020-02-16 03:23:02.585412,2.0,3.6,0101000020E61000008166BE59C1AE5A407E759AF54D952540,1.0,2020-04-13 08:42:03.312876,1,8.0,False,3.0,912085989.0,97b5d5eac7d08452ae9f32f3521b5c1f,1.0,,0.0,0.0,60484e265b19110d9fc670ee,0,10.7953789,106.7312512,Quận 2
-3987,60433105886de2363825d84d,420764,6,https://landber.com/tin-dang/Ads_01_24393571,"MỔ THẬN CẦN TIỀN BÁN GẤP NHÀ NÁT 70M2 TRẦN LỰU-Q2, GẦN METRO CŨ, GIÁ 1.1 TỶ. LH 0784951046 TIỆN KD","MỔ THẬN CẦN TIỀN BÁN GẤP NHÀ NÁT 70M2 TRẦN LỰU-Q2, GẦN METRO CŨ, GIÁ 1.1 TỶ. LH 0784951046 TIỆN KD
-
-- Diện tích: 70m2 Full thổ cư xây dựng toàn bộ.
-
-- Hiện trạng: Nhà nát, thuận tiện xây văn phòng, spa, căn hộ dịch vụ, phòng nhạc, khách sạn.
-- Vị trí: Nằm trong hẻm xe hơi, gần MT chính 50m, hẻm an ninh dân trí cao, hàng xóm thân thiện. Văn minh sạch đẹp, camera 24/24.
-- Khu vực tập trung nhiều văn phòng và CHDV.
-- Tiện ích: Gần siêu thị, trường học, cấp 1, 2, 3, bệnh viện, ngân hàng, ATM, trạm xăng. Đi ra trung tâm Quận 1 và chợ Bến Thành chỉ 20p. Cách sân bay 10p ô tô.
-
-- Pháp lý sạch sẽ rõ ràng. Công chứng ngay.
-- Giá TT 1.1 tỷ
-LH: 0784951046 gặp chị Anh để xem nhà
-+ Cảm ơn bạn đã xem tin!",Trần Lựu,an phú,"văn phòng, CHDV, siêu thị, trường học, bệnh viện, ngân hàng, ATM, trạm xăng, chợ, sân bay","METRO CŨ, METRO CŨ, Quận 1, chợ Bến Thành","an ninh, dân trí cao, thân thiện, Văn minh, sạch đẹp, camera 24 / 24",,,1.0,14.0,1.0,2.0,1100000000,0,2.0,1.0,3.0,"{2,4}","{0,0}",,10.7931369021014,106.738507982325,"(106.738507982325,10.7931369021014)",105139766.393009,,70.0,Ads_01_24393571,1581786000,1581798376.0,2020-02-16 03:32:02.291605,8.0,3.6,0101000020E6100000D4FAFBB643AF5A40868D3F0A16962540,1.0,2020-04-13 05:48:02.842745,10,7.0,True,2.0,784951046.0,6cda49cf4fb7c40e524995b85780bbd4,1.0,,0.0,0.0,60484e265b19110d9fc670ef,0,10.7935367,106.7399418,Quận 2
-3988,60433105886de2363825d855,520107,6,https://landber.com/tin-dang/Ads_01_24698604,"NHÀ ĐẤT BÁN LAKEVIEW CITY PHƯỜNG AN PHÚ , QUẬN 2","Cần ra gấp nhà phố căn góc 2 mặt tiền LAKEVIEW City An Phú Q2
-
-- Diện tích đất: 7*20
-
-- Thiết kế mẫu B đẹp nhất dự án 1 trệt 3 lầu.
-- Vị trí: 543 Nguyễn Duy Trinh , gần đường Song Hành Cao tốc Long Thành- Dầu Giây, dãy Shophouse và trường học quốc tế Mỹ.
-Tiềm năng: đường Song Hành sắp hoàn thành cộng với dự án Sài Gòn Sport City của Keppel sắp triển khai trong năm 2020 sẽ làm giá BĐS khu vực tăng mạnh.
--Giá bán: 12,8 tỷ có thương lượng cho khách thiện chí
-Liên hệ: 0905 789 681 xem nhà 24/7",Nguyễn Duy Trinh,an phú,"Shophouse, trường học","Song Hành Cao tốc Long Thành, Dầu Giây",,4 phòng ngủ,Lakeview City,1.0,14.0,1.0,2.0,12800000000,0,2.0,4.0,2.0,{2},"{7,20}",543.0,10.7958981469447,106.77601570183901,"(106.776015701839,10.7958981469447)",167271567.099567,,140.0,Ads_01_24698604,1583514000,1583530525.0,2020-03-07 04:36:03.702612,2.0,3.6,0101000020E61000001025C33DAAB15A402F2640F67F972540,1.0,2020-04-13 12:57:02.403158,2,7.0,False,3.0,905789681.0,88adf61be3986dc6c97f2d872a2e02cd,1.0,,0.0,0.0,60484e265b19110d9fc670f0,0,10.7898155,106.7714292,Quận 2
-3989,60433105886de2363825d864,125642,6,https://landber.com/tin-dang/Ads_02_12964387,"Bán nhà quận 2 An Phú 26 tỷ Sạch , Xanh, Rộng Yên tĩnh","mặt tiền rộng rãi sạch sẽ, thoáng ko bụi bặm, có sổ, phù hợp cho 4-6 người ở, gần sông sài gòn","An Phú,An Khánh,Quận 2,Hồ Chí Minh",an phú,sông,sông sài gòn Địa,"Yên tĩnh, rộng rãi, sạch sẽ, thoáng, ko bụi bặm",3 phòng ngủ,An Phú An Khánh,1.0,14.0,1.0,2.0,26000000000,0,2.0,1.0,1.0,{2},"{0,0}",,10.800992533482999,106.737722374467,"(106.737722374467,10.800992533483)",154717135.318375,,160.0,Ads_02_12964387,1573578000,1574000322.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E61000002CF7E7D736AF5A40B74C7FB11B9A2540,1.0,2020-04-13 12:58:02.199794,1,8.0,False,2.0,,94773a39ddfda8e9bd7f455aa350505a,1.0,,2.0,0.0,60484e265b19110d9fc670f1,0,10.8019128,106.7647475,Quận 2
-3990,60433105886de2363825d889,688505,3,https://batdongsan.com.vn/cho-thue-nha-mat-pho-duong-cao-duc-lan-phuong-an-phu/cho-tien-dt-4x20m-1-tret-3-lau-lh-kim-anh-0904-357-135-pr25201275,"Cho thuê nhà mặt tiền đường Cao Đức Lân, DT 4x20m, 1 trệt 3 lầu. LH Kim Anh 0904.357.135","Chủ cần cho thuê gấp nhà mặt tiền đường Cao Đức Lân giá cực ưu đãi.<br/>Diện tích 4x20m.<br/>Kết cấu nhà bao gồm:<br/>+ 1 trệt 3 lầu.<br/>+ 6 phòng ngủ (làm việc).<br/>+ 5WC.<br/>Giá cho thuê 30 triệu/tháng, cho thuê lâu dài.<br/>Mỗi năm sau chỉ tăng giá 5%.<br/>Nằm trong KĐT mới đang phát triển với đầy đủ các tiện ích xung quanh.<br/>Khu dân cư đông đúc, mặt tiền, tiện để ở hoặc làm văn phòng kinh doanh.<br/>Liên hệ Kim Anh 0904.357.135 để xem nhà.<br/>BĐS Kim Anh 72 Cao Đức Lân, An Phú, quận 2, TPHCM.",Cao Đức Lân,,,,đông đúc,6,,1.0,14.0,5.0,2.0,30000000,30000000,2.0,4.0,1.0,"{1,2}","{4,20}",,10.7942087733319,106.742547148854,"(106.742547148854,106.742547148854)",375000.0,,80.0,bdscomvn_25201275,1588847376,1588824324.0,2020-05-07 11:21:03.130963,0.0,0.0,0101000020E610000043047AE485AF5A404E504788A2962540,0.0,,0,0.0,False,2.0,904357135.0,5324506f23092952862a77f3d80242c2,1.0,,0.0,0.0,60484e265b19110d9fc670f2,0,10.7951603,106.7432669,Quận 2
-3991,60433105886de2363825d899,104933,6,https://landber.com/tin-dang/Ads_01_23474096,"Bán đất 2MT Đường số 12 Trần Não, Q2, 23x20m, giá 53 tỷ","Bán đất 2 mặt tiền Đường số 12 Trần Não, Phường Bình An, Quận 2. Góc 2 mặt tiền là lợi thế, thuận tiện xây cao ốc, Biệt thự hặc CHDV cho thuê đều được,
-
-Diện tích: 23x20m. CN 439.6m2.
-
-Kết cấu: đất trống, tiện xây mới.
-Thông tin chính xác, pháp lý rõ ràng, sổ hồng chính chủ.
-Giá bán: 53 tỷ.
-Gọi ngay:0933.221.393 Hương Hồ (Zalo ,Viber 24/7).",Trần Não,bình an,,,,,,1.0,14.0,1.0,2.0,53000000000,0,3.0,1.0,2.0,"{2,1}","{20,23}",12.0,10.786799259642502,106.729348958823,"(106.729348958823,10.7867992596425)",149819087.925046,,460.0,Ads_01_23474096,1573750800,1574014086.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000116141A7ADAE5A40E15C415AD7922540,1.0,2020-04-13 05:11:01.360997,2,7.0,False,2.0,933221393.0,8016be962b241319c309aaa120029761,1.0,,2.0,0.0,60484e265b19110d9fc670f3,0,10.7984643,106.7331152,Quận 2
-3992,60433105886de2363825d8a4,439366,6,https://landber.com/tin-dang/Ads_01_22472196,"Chính chủ bán nhà Quốc Hương, Phường Thảo Điền, quận 2, DT: 6x20m, giá 8,7 tỷ","Bán nhà Quốc Hương, Thảo Điền, Quận 2.
-Vị trí đắc địa, giá tăng liên tục. Buôn bán hoặc căn hộ dịch vụ rất tốt.
-
-Cần gấp cho con đi du học, gia đình hoàn cảnh, không có tiền xây. Cần bán nhà ngay Đại Học Văn Hóa, Quốc Hương, Phường Thảo Điền, Quận 2.
-Gần nhà, Có các nhà đầu tư xây căn hộ dịch vụ hoặc phòng trọ cao cấp, ký túc xá cao cấp thì xây được 5 tầng, 18 phòng. Mỗi phòng KTX 4 người, mỗi người 1,5 triệu. Thì 4x18x1,5m= 108 triệu/tháng. Có hai trường Đại học Quốc tế và 1 trường cao đẳng. Biết người ta làm được nhưng mình không có tiền làm.
-
-- Cả khu toàn biệt thự cao cấp hàng trăm tỷ. Khu dân cư cao cấp. Duy nhất có 1 căn nhà tôi là bán.
-- Địa chỉ: 33/2 Quốc Hương, phường Thảo Điền, Quận 2.
-- 6x20m.
-- Giá: 8,7 tỷ thương lượng.
-========
-Vị trí rất thuận lợi:
-+ Khu vực trung tâm Thảo Điền. Kế sát các khu biệt thự, đối diện mấy tòa chung cư nước ngoài lân cận.
-+ Xung quanh có các trường học quốc tế, trung tâm thương mại bao quanh trong bán kính 1km.
-+ Phù hợp khách đầu tư kinh doanh, giữ tiền... Khu dân trí cao, an sinh mọi mặt.
-+ Sổ vuông đẹp, diện tích công nhận đủ, khu vực đã phân lô, không lộ giới.
-
-Mời anh chị qua xem nhà. Ưu tiên anh chị có sẵn tiền mặt.
-Gọi càng sớm khi nhà còn: Lưu Zalo: Mr Tùng.",Quốc Hương,thảo điền,"Đại Học, trường Đại học, trường học, trung tâm thương mại","Đại Học Văn Hóa, Quốc Hương, trường Đại học Quốc tế",dân trí cao,18 phòng,33/2,1.0,14.0,1.0,2.0,8700000000,0,1.0,5.0,6.0,{2},"{6,20}",16.0,10.8006974656035,106.73249591557301,"(106.732495915573,10.8006974656035)",91883685.808257,,120.0,Ads_01_22472196,1581958800,1582009638.0,2020-02-18 14:14:03.178649,7.9,3.6,0101000020E6100000C1758C36E1AE5A409083A904F5992540,1.0,2020-04-13 06:58:02.157264,10,7.0,True,1.0,,03bc144680f3b04387f59806f5287628,1.0,,0.0,0.0,60484e265b19110d9fc670f4,0,10.8040674,106.7313708,Quận 2
-3993,60433105886de2363825d8cc,704659,3,https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-tran-luu-3-phuong-an-phu-prj-lancaster-eden/ban-cao-cap-nhat-q-2-chu-nhan-tan-huong-dac-quyen-cua-su-rieng-tu-voi-50-nhan-ngay-chi-pr23297719,"Sở hữu biệt thự Q.2, quà tặng năm mới hồ bơi & vườn Babylon lên đến 2 tỷ cùng nhiều ưu đãi khác","* 12 vì sao tinh tú trên bầu trời kiệt tác An Phú - An Khánh quận 2.<br/>Quý chủ nhân tương lai sẽ tận hưởng Đặc Quyền của sự riêng tư tại Lancaster Eden.<br/>==================================<br/>Lancaster Eden, khu compound đẳng cấp cho giới siêu giàu của tập đoàn Trung Thủy Lancaster.<br/>Chỉ 12 tuyệt tác cho chủ nhân xứng tầm.<br/>- Vị trí: Số 39 Trần Lựu, Phường An Phú - An Khánh, Quận 2 (Ngay cạnh bên Cục Thuế thành phố HCM).<br/><br/>Số villa: 12 Villas, 1 clubhouse.<br/>- Orchid villa: 485m2 đất.<br/>- Iris villa: 562m2 đất.<br/>- Peony villa: 598m2 đất.<br/>- Jasmine villa: 595m2 đất.<br/>- Camelia villa: 766m2 đất.<br/>------------------------------------<br/>- Gồm 1 hầm - 1 trệt - 2 lầu - sân thượng.<br/>- Bàn giao hoàn thiện bên ngoài, thô bên trong.<br/>- Giá bán dự kiến: Từ 180.000.000 m2/đất, tương đương khoảng 100 tỷ VNĐ/biệt thự.<br/><br/>Liên hệ: 0902 952 499 phòng kinh doanh chủ đầu tư để nhận chính sách bán hàng và phương thức thanh toán.<br/>====================================<br/>Tiện ích siêu đẳng cấp, sang trọng.<br/><br/>Vườn Eden: Một tác phẩm nghệ thuật thiên nhiên ngay trong tầm mắt. Đây thực sự là nơi dành cho mọi thế hệ bởi mỗi sự sắp đặt đều có chủ ý. Không khí trong lành, xanh mát cùng tiếng róc rách của nước, hương thơm ngát của cỏ cây... Tất cả hòa quyền vỗ về cho tâm hồn thư thái.<br/><br/>Hầm ánh sáng: Tất cả được bố trí khéo léo ẩn dưới khu vườn trung tâm với hệ thống giếng trời cho ánh sáng tự nhiên thoáng đãng. Không chỉ đơn thuần là một nơi dừng đỗ xe, đây còn là bức tranh thiên đường đầy ánh sáng.<br/><br/>Hệ thống giao thông ngầm được tính toán khoa học để đảm bảo sự yên tĩnh & mỹ quan tuyệt đối cho toàn khu.<br/><br/>Hồ bơi: Nơi thưởng thức 1 ly cocktail nhiệt đới, thả mình theo dòng nước hay trải nghiệm một cảm hứng sống đậm chất Tây với góc BBQ và khu ăn uống ngoài trời ngay tại tư gia. Đây thực sự là khu nghỉ dưỡng đáp ứng mọi nhu cầu thư giãn.<br/><br/>Club house: Không gian thư giãn đặc quyền của những chủ nhân thượng lưu, Bằng đỉnh cao nghệ thuật kiến trúc, mỗi hình thức giải trí cũng trở nên thời thượng, xứng tầm.<br/><br/>Phòng tập gym: Hệ thống luyện tập chuyên nghiệp ngay trong nội khu, phục vụ duy nhất thành viên 12 biệt thự Eden. Trải nghiệm những dịch vụ chăm sóc sức khỏe cao cấp đúng chuẩn.<br/>-------------------------<br/>Liên hệ: 0902 952 499 phòng kinh doanh chủ đầu tư để nhận chính sách bán hàng và phương thức thanh toán.",Trần Lựu,an khánh,"hồ bơi, Cục, Hồ bơi, Phòng tập gym","Cục Thuế thành phố HCM, 1 clubhouse",yên tĩnh,12 Villas,,1.0,14.0,1.0,2.0,118000000000,0,2.0,1.0,6.0,{2},"{0,0}",39.0,10.7985567878204,106.744609319963,"(106.744609319963,106.744609319963)",236000000.0,,500.0,bdscomvn_23297719,1572927774,1585987582.0,2020-05-08 15:39:02.028065,0.0,0.0,0101000020E61000007262D9ADA7AF5A40E05F6F6FDC982540,0.0,,0,0.0,False,3.0,0.0,130ac29def30657ce9ba6743d0eee586,1.0,,0.0,0.0,60484e265b19110d9fc670f5,0,10.7932414,106.7387025,Quận 2
-3994,60433105886de2363825d8d2,130679,6,https://landber.com/tin-dang/Ads_01_22596523,"Bán nhà đường 6 Nguyễn Thị Định, phường Bình Trưng Tây, Q2, đường xe hơi 4m, MT 5.6m, 80m2, 5.4 tỷ","Bán nhà mặt tiền đường rộng xe hơi thông ra đường 5, đường 6, đường 23, phường Bình Trưng Tây, Q2, cách đường Nguyễn Thị Định 200m, Nguyễn Duy Trinh 300m.
-
-
-Quý khách có thể mua ở và kinh doanh.
-
-
-Mặt tiền gần 6m, diện tích ~ 80m.
-
-Giá 5.4 tỷ có TL.
-
-Liên hệ Quang Huy 0906 050 881.
-
-Cám ơn quý khách đã đọc tin!",Nguyễn Thị Định,bình trưng tây,,"đường 5, đường 6, đường 23, Nguyễn Thị Định, Nguyễn Duy Trinh",,,6,1.0,14.0,1.0,2.0,5400000000,0,2.0,1.0,1.0,{2},"{0,0}",6.0,10.784208978884301,106.761040578019,"(106.761040578019,10.7842089788843)",93132564.57101072,,80.0,Ads_01_22596523,1573578000,1573996937.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000067618AE3B4B05A405113DBD683912540,1.0,2020-04-13 07:46:01.848968,2,7.0,False,2.0,906050881.0,2376016469633e1c315de4c5f8af06bf,1.0,,2.0,0.0,60484e265b19110d9fc670f6,0,10.7860225,106.7573691,Quận 2
-3995,60433105886de2363825d947,707574,3,https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-nguyen-van-huong-phuong-thao-dien-prj-holm-villas-thao-dien/ban-gap-can-quan-2-chi-con-1-can-goc-dep-nhat-du-an-0938-179-199-pr25271748,"Bán gấp căn biệt thự Holm Villas Thảo Điền Quận 2, chỉ còn 1 căn góc đẹp nhất dự án - 0938 179 199","Call 0938179199 - 0977771919.<br/>Holm Villas - khu biệt thự cao cấp bậc nhất Việt Nam đặc biệt chỉ có 11 căn mặt sông.<br/>Cần bán gấp căn villa mặt sông 2 mặt tiền cực đẹp.<br/><br/>Diện tích đất 805m2, nội thất cao cấp sang trọng, đặc biệt có chính sách tốt cho khách hàng thanh toán nhanh.<br/>Villa 1 hầm 3 lầu, nội thất nhập khẩu Châu Âu, thiết kế tinh tế hiện đại, sổ hồng hoàn chỉnh.<br/>Bán nhanh chỉ 135.8 tỷ, tặng toàn bộ nội thất cao cấp.<br/><br/>Ngoài ra, còn căn 272 - 290m2 giá từ 60 - 65 tỷ,<br/>Liên hệ: Mr Tùng 0938179199 - 0977771919 để biết thêm chi tiết.<br/><br/>* Thông tin về biệt thự ven sông:<br/>Các căn biệt thự ven sông của Holm Residences là đỉnh cao của kiến trúc hiện đại, không gian trang nhã và phong cách sống sang trọng vượt trội trên tất cả.<br/>Ngôi biệt thự ven sông chính là kết quả đáng tự hào phản ánh sự thành đạt của gia chủ. Từng chi tiết nhỏ nhất trong thiết kế đều được chăm chút vô cùng kỹ lưỡng nhằm mang lại hiệu quả cao nhất cho mái ấm tuyệt vời này.<br/><br/>- Số lượng biệt thự: 11.<br/>- Diện tích khuôn viên: 798m2 - 1,018m2.<br/>- Diện tích xây dựng: 588m2.<br/>- Quy mô xây dựng: 3 tầng + bán hầm + 2 nhà bếp + 1 phòng ăn + 1 phòng khách + 5 phòng ngủ + 1 phòng sinh hoạt gia đình + phòng làm việc + phòng gia nhân + nhà đỗ xe.<br/>- Bàn giao: Giao nhà hoàn thiện + Sổ hồng riêng. Án biệt thự Holm Thảo Điền, mặt sông, 800m2 - 1000m2, giá gốc, mua trực tiếp chủ đầu tư.<br/><br/>Dự án biệt thự ven sông Holm Residences tọa lạc bên trong khu Thảo Điền, với vị trí đắc địa bên sông cùng với phong cách thiết kế hiện đại và cực kỳ sang trọng tạo nên một điểm nhấn đặc biệt cho khu vực.<br/>Thiết kế tối ưu với không gian xanh tự nhiên tạo nên một môi trường sống sang trọng và đẳng cấp là những gì mà chủ đầu tư Công ty Sapphire mong muốn tạo ra.<br/>Tổng quan về dự án.<br/>- Tên: Biệt thự Holm Residences.<br/>- Chủ đầu tư: Công ty Sapphire.<br/>- Vị trí dự án: 151 Nguyễn Văn Hưởng, phường Thảo Điền, quận 2, TP HCM.<br/>- Tổng diện tích: 2,7ha với 200m mặt tiền sông Sài Gòn.<br/>- Dự án gồm: 28 căn biệt thự với 3 loại hình.",Nguyễn Văn Hưởng,thảo điền,"sông, sông, sông, sông","Holm Villas, sông Sài Gòn",,"2 nhà bếp, 1 phòng ăn, 1 phòng khách, 5 phòng ngủ, 1 phòng sinh hoạt",Holm Villas Thảo Điền,1.0,14.0,1.0,2.0,135800000000,0,3.0,3.5,2.0,{2},"{0,0}",151.0,10.8107640150043,106.72447740465799,"(106.724477404658,106.724477404658)",168695652.173913,,805.0,bdscomvn_25271748,1588982167,1588957282.0,2020-05-09 00:22:02.758125,0.0,0.0,0101000020E610000081EC79D65DAE5A402A6F02761C9F2540,0.0,,0,0.0,False,2.0,938179199.0,86dc4d546fc6a0d08e2cd2b7f857cd2f,1.0,,0.0,0.0,60484e265b19110d9fc670f7,0,10.8141431,106.7264813,Quận 2
-3996,60433105886de2363825d97c,439498,2,https://mogi.vn/quan-2/mua-nha-mat-tien-pho/can-ban-can-nha-cap-4-duong-tran-nao-binh-khanh-quan-2dien-tich-85m2-id20291499,"Cần Bán Căn Nhà Cấp 4 Đường Trần Não,Bình Khánh,Quận 2Diện Tích 85m2,","
-Cần Bán Căn Nhà Cấp 4 Đường Trần Não,Bình Khánh,Quận 2Diện Tích 85m2,Giá 12Tỷ
-Cấu trúc : Nhà cấp 4, 3 phòng, sổ hồng
-Khu vực yên tĩnh, vị trí đẹp, an ninh tốt..
-Gần bệnh viện , trường học, chợ.., trung tâm mua sắm..
-Thuận tiện buôn bán , kinh doanh, ở ….
-Chính Chủ ( miễn trung gian ) 
-Vui lòng liên hệ để biết thêm thông tin:
-Nguyễn Thủy: 090-139-6167
-",Trần Não, bình khánh,"bệnh viện, trường học, chợ, trung tâm mua sắm",,"yên tĩnh, an ninh",3,,1.0,14.0,1.0,2.0,12000000000,0,3.0,1.0,6.0,{2},"{0,0}",4.0,10.7834594821942,106.728849624529,"(106.728849624529,10.7834594821942)",149664950.124494,,85.0,mogi_20291499,1581958800,1582013069.0,2020-02-18 15:05:01.327433,2.0,3.6,0101000020E61000008843E578A5AE5A40BF87EB9921912540,1.0,2020-04-13 13:31:01.567512,2,7.0,False,1.0,,17fe6fe8cc0f752d275dbff5425ebaf1,1.0,,0.0,0.0,60484e265b19110d9fc670f8,0,10.7983988,106.7330409,Quận 2
-3997,60433105886de2363825d994,620358,3,https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-duong-lam-quang-ky-phuong-thanh-my-loi-prj-victoria-village/ban-can-so-65-don-lap-325m2-xay-1-tret-2-lau-san-ong-thang-may-pr23275702,"Bán căn nhà số 65 Lâm Quang Ky, biệt thự đơn lập 325m2 xây 1 trệt 2 lầu sân thượng, thang máy","Địa chỉ 65 Lâm Quang Ky, P Thạnh Mỹ Lợi, Quận 2, TPHCM.<br/><br/>Được xây như biệt thự đơn lập, chừa chỗ đậu xe ô tô rất rộng.<br/>Bề ngang mặt tiền đường rộng lên đến 28m, lộ giới đường Lâm Quang Ky là 25m.<br/><br/>Hướng nhà: Đông Nam.<br/>Nhà hoàn thiện đồng bộ cả khu biệt thự.<br/><br/>Giá bán 43.5 tỷ (không bớt vì rẻ lắm rồi).<br/>Đơn giá nhà + đất = 133 triệu/m2 thuộc dạng rẻ nhất tại các trục đường mặt tiền khu vực này.<br/><br/>LH Mr Toàn 0918 73 04 35.<br/><br/>Gọi trước 30p có người mang chìa khóa qua mở cửa.<br/>MTG.",Lâm Quang Ky,thạnh mỹ lợi,,,,,,1.0,14.0,1.0,2.0,43500000000,0,2.0,1.0,1.0,{2},"{0,0}",65.0,10.776250564622,106.759784215699,"(106.759784215699,106.759784215699)",103154587.622165,đông - nam,325.0,bdscomvn_23275702,1586981564,1586934782.0,2020-04-15 14:14:04.023048,0.0,3.4,0101000020E61000004F9CF94DA0B05A40381BC9B6708D2540,1.0,2020-04-15 14:15:01.191139,0,7.0,True,2.0,918730435.0,ecbbcf2215f1ca6b62fa8a52b55f1da2,1.0,,0.0,0.0,60484e265b19110d9fc670f9,0,10.7723602,106.7631941,Quận 2
-3998,60433105886de2363825d99a,645573,3,https://batdongsan.com.vn/cho-thue-nha-rieng-duong-song-hanh-phuong-an-phu-prj-khu-do-thi-lakeview-city/cho-shophous-5x20m-1-tret-1-lung-3-lau-gia-20tr-lh-tu-0917330220-pr25293527,"cho thuê shophous khu lakeview city, 5x20m 1 trệt 1 lủng 3 lầu, giá 20tr. Lh : Tú 0917330220","Cần cho thuê nguyên căn shophous tại dự án Lakeview City. Vị trí kết nối giữa các quận 1, 2, 9 đi vào trung tâm quận 1 chỉ mất 10p. Gần bệnh viện quận 2, Vincom Thảo Điền, đặc biệt là kế bên trục đường chính cao tốc Long Thành Dầu Giây, vị trí thuận tiện để ở và kinh doanh.<br/>Địa chỉ: 697 Đỗ Xuân Hợp, Phường An Phú, Quận 2.<br/>- Diện tích: 5*20m, 1 trệt 1 lửng 3 lầu, nhà hoàn thiện bên ngoài và giao thô bên trong.  <br/>- Giá thuê: 20.000.000 VNĐ/ tháng.<br/>- Gần hồ bơi, công viên, trung tâm thương mại...<br/>Liên hệ: 0917 330 220 để được tư vấn và xem nhà thực tế.<br/>",Đỗ Xuân Hợp,an phú,"bệnh viện, đường chính cao tốc, hồ bơi, công viên, trung tâm thương mại","quận 1, 2  9, quận 1, bệnh viện quận 2, Vincom Thảo Điền, đường chính cao tốc Long Thành Dầu Giây",,,lakeview city,1.0,14.0,5.0,2.0,20000000,20000000,2.0,4.5,6.0,{2},"{5,20}",697.0,10.7954917137995,106.775853945673,"(106.775853945673,106.775853945673)",200000.0,,100.0,bdscomvn_25293527,1588480639,1588461142.0,2020-05-03 15:52:02.833075,0.0,0.0,0101000020E6100000D6C84E97A7B15A40F9039EB04A972540,0.0,,0,0.0,False,1.0,,d0b34719c14dc448c8a9ee99dea98efa,1.0,,0.0,0.0,60484e265b19110d9fc670fa,0,10.7948475,106.781118,Quận 2
-3999,60433105886de2363825d9aa,408983,2,https://mogi.vn/quan-2/mua-nha-mat-tien-pho/can-ban-gap-can-nha-so-4-duong-le-van-mien-p-thao-dien-quan-2-id20180688,Cần bán gấp căn nhà số 4 đường Lê Văn Miến P.Thảo Điền Quận 2,"
-Cần bán nhà đẹp giá rẻ tại Đường Lê Văn Miến , Phường Thảo Điền , Quận 2 
-(+) Vị trí: Vị trí giao thông thuận tiện đến trường học,chợ, siêu thị , vào trung tâm thành phố quận 1 rất gần . Khu vực- An ninh sạch sẽ,
-(+) Diện tích: 160 (m2).
-(+) Kết cấu :2 lầu, 4pn, tây bắc 
-(+) Giá bán :22 Tỷ 
-(+) Mọi chi tiết thuê , bán villa – biệt thự Quận 2 vui lòng liên hệ:
-Trần Nam 0902 971 889 và 0968 274 869.
-Mail: nambdspro@gmail.com
-Ngoài ra còn nhiều nhà phố, biệt thự khác anh/chị vui lòng tham khảo tại website http://thuenhaquan2.com/
-",Lê Văn Miến, thảo điền,"trường học, chợ, siêu thị",,"giao thông thuận tiện, An ninh, sạch sẽ",4,,1.0,14.0,1.0,2.0,22000000000,0,2.0,3.0,6.0,{2},"{0,0}",4.0,10.804751012868,106.732799457036,"(106.732799457036,10.804751012868)",98280960.4778619,tây - bắc,160.0,mogi_20180688,1581526800,1581641070.0,2020-02-14 07:45:01.705038,2.0,3.6,0101000020E6100000A19FB12FE6AE5A40DD612353089C2540,1.0,2020-04-13 03:41:02.990064,1,8.0,False,2.0,902971889.0,84d1717d3fd31153bfebc6f3d441c1ac,1.0,,0.0,0.0,60484e265b19110d9fc670fb,0,10.8045861,106.7318518,Quận 2
-4000,60433105886de2363825d9b1,571534,6,https://landber.com/tin-dang/Ads_01_24825034,Kẹt tiền xoay vốn Nên bán nhà. Chính chủ ở Q2 đường số 5 P. Bình Trưng Đông 0812443630,"Cần tiền kinh doanh. Nên tôi bán nhà ở đường số 5 .khu phố 5 , quận 2
-
-Nhà mặt phố , dân cư sầm uất, người dân buôn bán tấp nập. xung quanh kề liền các siêu thị mini, công viên... 
-
-Thiết kế kiểu pháp, sang trọng, nhà mới hoàn toàn 
-Nhà cấp 4. (3 tầng ) 
-Giá 10 tỷ ( có thương lượng với những người có thiện chí mua ) 
-DT 100m2 ( 5*20 ) 
-để biết thêm thông tin chi tiết vui lòng liên hệ 0812443630 Thịnh",Số 5,bình trưng đông,"siêu thị mini, công viên",,"sầm uất, tấp nập",,,1.0,14.0,1.0,2.0,10000000000,0,2.0,3.0,6.0,{2},"{0,0}",,10.782029951954598,106.779446388583,"(106.779446388583,10.7820299519546)",40352975.38392921,,100.0,Ads_01_24825034,1584464400,1584464718.0,2020-03-18 00:06:03.46389,2.0,3.6,,1.0,2020-04-13 00:13:02.179452,1,8.0,False,3.0,812443630.0,f37c9b9ac8667971df3269e6604b9350,1.0,,0.0,0.0,60484e265b19110d9fc670fc,0,10.7879727,106.7745589,Quận 2
-4001,60433105886de2363825d9d1,525981,6,https://landber.com/tin-dang/Ads_01_19139933,"Cần tiền cho con đi du học bán dãy trọ 250m2 Nguyễn Thị Định, Q2, 790tr, SHR, tiện KD, 0936749972","Cần tiền cho con đi du học bán dãy trọ DT 250m2 Nguyễn Thị Định, Q2, 790tr, SHR, tiện KD, 0936749972.
-Cần sang lại 2 dãy trọ, mỗi dãy là 12 phòng, 2 ki ốt trước nhà, giá 790tr/dãy.
-
-- Tổng cộng 24 phòng, diện tích 10x25m = 250m2. - Diện tích mỗi phòng 3x4m = 12m2, có gác lửng 8m2, cửa sổ thông thoáng, nhà vệ sinh riêng.
-- Điện nước máy sinh hoạt, internet cáp quang, đầy đủ.
-
-- Khu vực gần nhiều khu công nghiệp, nhà máy, xí nghiệp, công nhân đông, khu dân cư tấp nập, luôn cho thuê kín.
-- Thu nhập mỗi tháng 28 triệu (trung bình 1.1tr/phòng/tháng).
-- Chính chủ, sổ hồng riêng từng dãy.
-- Không qua trung gian, miễn tiếp cò.
-- Thương lượng cho khách nào thiện chí.
-LH 0936749972 gặp chị Vi xem trực tiếp.",Nguyễn Thị Định,cát lái,"khu công nghiệp, nhà máy, xí nghiệp",,tấp nập,"12 phòng, 2 ki ốt",,1.0,14.0,5.0,2.0,790000000,2790000,3.0,1.0,6.0,"{2,1}","{10,25}",,10.7804219956502,106.76146499730801,"(106.761464997308,10.7804219956502)",51222910.51405589,,250.0,Ads_01_19139933,1583600400,1583604365.0,2020-03-08 01:07:04.093538,8.5,3.6,0101000020E6100000401FAFD7BBB05A400DCBC878938F2540,1.0,2020-04-13 04:03:02.340142,10,7.0,False,2.0,936749972.0,417e29799d2dd104e5c70ca1bba29ca8,1.0,,0.0,0.0,60484e265b19110d9fc670fd,0,10.7848314,106.7572885,Quận 2
-4002,60433105886de2363825d9dd,585662,3,https://batdongsan.com.vn/cho-thue-nha-mat-pho-duong-lam-quang-ky-phuong-thanh-my-loi/cho-bang-kinh-doanh-phu-hop-van-phong-cty-lh-0902644155-pr19702264,"Cho thuê mặt bằng kinh doanh, phù hợp làm văn phòng công ty, LH 0902644155","Cần cho thuê mặt bằng kinh doanh.<br/>- Đường lộ 8m.<br/>- Diện tích mặt bằng 250m2.<br/>- Ngay trung tâm hành chính quận 2.<br/>- Giá thuê 20tr/tháng.<br/>- Thích hợp làm văn phòng kinh doanh hoặc buôn bán.<br/>- LH: 0902644155 (Hưng).<br/>- ĐC: A15 Lâm Quang Ky, Thạnh Mỹ Lợi, Quận 2, TPHCM.",Lâm Quang Ky,thạnh mỹ lợi,trung tâm hành chính,trung tâm hành chính quận 2,,,,1.0,14.0,5.0,2.0,20000000,20000000,2.0,1.0,6.0,{2},"{0,0}",15.0,10.7700038651474,106.760651389137,"(106.760651389137,106.760651389137)",0.0,,250.0,bdscomvn_19702264,1552037406,1586210819.0,2020-04-07 05:07:01.853514,2.0,3.6,0101000020E610000021002A83AEB05A402A3455F23D8A2540,1.0,2020-04-07 05:08:00.722652,1,8.0,False,3.0,902644155.0,9afb37ba1a83fdbedf7e79c99274ad7a,1.0,,0.0,0.0,60484e265b19110d9fc670fe,0,10.7789354,106.7598656,Quận 2
-4003,60433105886de2363825d9e1,299557,6,https://landber.com/tin-dang/Ads_01_23711612,"Bán nhà siêu đẹp khu vip 215 Nguyễn Văn Hưởng, P. Thảo Điền Q. 2, 5x22m, trệt 3 lầu ST, 21,5 tỷ","Bán nhà siêu đẹp khu vip 215 Nguyễn Văn Hưởng, Phường Thảo Điền Quận 2, Thành Phố Hồ Chí Minh.
-Diện tích: 5x22m vuông vức nhà mới siêu đẹp. DTCN: 117m2.
-
-Kết cấu: Trệt 3 lầu sân thượng, chủ nhà xây để ở nên nhà rất kiên cố và nội thất siêu đẹp.
-
-
-Khu vực siêu vip, sạch sẽ thích hợp để ở, an ninh tuyệt đối và mát mẻ. Khu đang để sống.
-Đường ô tô quay đầu thoải mái, xe hơi vào tận nhà.
-Hiện giá đang tốt 21,5 tỷ bán trong năm với giá này.
-Liên hệ: Ngọc Ánh: 0962766965 để đi xem nhà.
-Cảm ơn bạn đã xem tin.",Nguyễn Văn Hưởng,thảo điền,,,"sạch sẽ, an ninh, mát mẻ",,Vinhomes Golden River Ba Son,1.0,14.0,1.0,2.0,21500000000,0,2.0,4.5,6.0,{2},"{5,22}",215.0,10.8087244156737,106.733308717439,"(106.733308717439,10.8087244156737)",78925697.0098192,,117.0,Ads_01_23711612,1578070800,1578694291.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000074D1AF87EEAE5A4031976920119E2540,1.0,2020-04-13 07:37:02.169469,1,8.0,False,2.0,962766965.0,6d91f0ec7cd798c0f23e1e0d9746ef08,1.0,,2.0,0.0,60484e265b19110d9fc670ff,0,10.8126474,106.7322018,Quận 2
-4004,60433105886de2363825d9ee,407208,2,https://mogi.vn/quan-2/mua-nha-mat-tien-pho/toi-can-ban-can-nha-pho-so-3-duong-quoc-huong-p-thao-dien-quan-2-id20184892,Tôi cần bán căn nhà phố số 3 đường Quốc Hương P.Thảo Điền Quận 2,"
-Cần bán nhà đẹp giá rẻ tại Đường Quốc Hương , Phường Thảo Điền , Quận 2 
-(+) Vị trí: Vị trí giao thông thuận tiện đến trường học,chợ, siêu thị , vào trung tâm thành phố quận 1 rất gần . Khu vực- An ninh sạch sẽ,
-(+) Diện tích: 4x22 (m2).
-(+) Kết cấu : hướng Tây Bắc, 1 trệt 2 lầu áp mái, 4 pn, 
-+) Giá bán :13,3 Tỷ 
-(+) Mọi chi tiết thuê , bán villa – biệt thự Quận 2 vui lòng liên hệ:
-Trần Nam 0902 971 889 và 0968 274 869.
-Mail: nambdspro@gmail.com
-Ngoài ra còn nhiều nhà phố, biệt thự khác anh/chị vui lòng tham khảo tại website http://thuenhaquan2.com/
-",Quốc Hương, thảo điền,"trường học, chợ, siêu thị",,"giao thông thuận tiện, An ninh, sạch sẽ",4,,1.0,14.0,1.0,2.0,13300000000,0,3.0,3.0,6.0,{2},"{4,22}",3.0,10.8056884916586,106.731118002721,"(106.731118002721,10.8056884916586)",96053446.1289266,tây - bắc,88.0,mogi_20184892,1581526800,1581620910.0,2020-02-14 02:09:01.899723,2.0,3.6,0101000020E610000009CD29A3CAAE5A40C6DFB433839C2540,1.0,2020-04-13 00:17:01.740854,1,8.0,False,2.0,902971889.0,c7ae4534c5f3e7f9e75bafaf16d018e5,1.0,,0.0,0.0,60484e265b19110d9fc67100,0,10.8022269,106.7325755,Quận 2
-4005,60433105886de2363825da17,482841,6,https://landber.com/tin-dang/Ads_02_13086464,"Cho thuê tòa nhà Kim Khánh Ngân tại Nguyễn Thị Định, P. Thạnh Mỹ Lợi, Q.2, TP.HCM","Tòa nhà tọa lạc vị trí đắc địa: 644 Nguyễn Thị Định, P. Thạnh Mỹ Lợi, Q.2, TP.HCM
--Diện tích: 14,7m x 28,6m. Nở hậu : 16m. Diện tích sàn điển hình: Ngang 14,7m + Dài 30,65m. Tổng diện tích cho thuê: 2300m2
--Thiết kế tòa nhà đẹp, kiên cố, gồm có: 1 hầm lớn + 1 trệt + 7 tầng (cho thuê trước 5 tầng). -Hướng Bắc và Đông Bắc-Loại hình tòa nhà văn phòng/ kinh doanh. Rất thích hợp để thuê làm Văn phòng, phòng khám, trường học, spa, thẩm mỹ viện, show room.. Tiện ích:Giáp ranh quận 1.-Nằm ngay ngã ba lớn-Đối diện chợ Cây Xoài , thuộc khu mua sắm, thương mại , vỉa hè rộng rãi.-View đẹp , thoáng , có thể đặt biển quảng cáo lớn .- Gần các khu mua sắm (1km) : Vincom , siêu thị Coopmart, Vinmart, cửa hàng tiện lợi,  bệnh viện Quận 2, trường học .- Gần khu hành chính khoảng (1-2km): Tòa Án ,Công An Q2, Chi Cục Thuế, UBND Q2, bưu điện Q2..-Gần các khu dân cư : Đảo Kim Cương , Vista Verde , B-H…Giao thông vô cùng thuận tiện: -Nằm ngay trung tâm đường Nguyễn Thị Định, Quận 2 . Giáp 2 mặt tiền , giao 3 lộ lớn (Nguyễn Thị Định , Lê Văn Thịnh , đường 18).-10 phút qua hầm Thủ Thiêm , quận 1,  Xa Lộ HN .-15p đến Khu Công Nghệ cao High-Tech Q9-5p đi Phà Cát Lái-10p Cầu Phú Mỹ Quận 7Pháp lý Đã có sổ đỏ / sổ hồng /giấy phép PCCC/ giấy hoàn côngGiá cho thuê: 280.000/m2/thángLiện hệ trực tiếp chính chủ: Ms Tạo : 0912.166.177Mr Phục : 0911.727.889Email: Quocphuc91@gmail.com","Nguyễn Thị Định,Quận 2,Hồ Chí Minh", thạnh mỹ lợi,"ngã ba, chợ, khu mua sắm, thương mại, khu mua sắm, siêu thị, cửa hàng, bệnh viện, trường học, khu hành chính, Công An, UBND, bưu điện, hầm, Khu Công Nghệ cao, Phà","quận 1, chợ Cây Xoài, Vincom, siêu thị Coopmart, Vinmart, bệnh viện Quận 2, Tòa Án, Công An Q 2, Chi Cục Thuế, UBND Q 2, bưu điện Q 2, Đảo Kim Cương, Vista Verde, Nguyễn Thị Định, Lê Văn Thịnh, đường 18, hầm Thủ Thiêm, quận 1, Xa Lộ HN, Khu Công Nghệ cao High, Q 9, Phà Cát Lái",,,Kim Khánh Ngân,1.0,14.0,1.0,2.0,0,0,3.0,8.5,2.0,"{1,2}","{14.7,28.6}",644.0,10.780462803549199,106.76168990997401,"(106.761689909974,10.7804628035492)",0.0,bắc,2300.0,Ads_02_13086464,1582909200,1582934500.0,2020-02-29 07:02:01.669301,0.0,0.0,0101000020E6100000F4410987BFB05A400CFA11D2988F2540,2.0,2020-04-13 05:04:00.588012,0,0.0,False,3.0,912166177.0,6f1017ba2464bc08fb29d4de507fb6a8,1.0,,0.0,0.0,60484e265b19110d9fc67101,0,10.7763676,106.7660193,Quận 2
-4006,60433105886de2363825da1d,543059,6,https://landber.com/tin-dang/Ads_01_24783501,"NHẬP CƯ NƯỚC NGOÀI BÁN GẤP NHÀ NÁT 83M2 NGUYỄN THỊ ĐỊNH, Q2 GIÁ 910TR SH. LH 0934974749","NHẬP CƯ NƯỚC NGOÀI BÁN GẤP NHÀ NÁT 83M2 NGUYỄN THỊ ĐỊNH, Q2 GIÁ 910TR SH. LH 0934974749
-
-
-
-Nhập cư Canada tháng 5 nên gia đình tôi cần bán gấp lô đất có nhà nát đủ 83m2 chủ yếu lấy đất xây dựng.
-Nằm ngay trên mặt tiền đường Nguyễn Thị Định, Q. 2.
-Nhà nát, chủ yếu lấy đất xây dựng thôi chứ nhà cũng không còn ở được nữa, nên tôi tính giá đất.
-Diện tích trong sổ là 83m2, hướng Đông Nam, nở hậu tí xíu.
-Không nằm trong quy hoạch giải tỏa.
-Dân cư xung quchị có trình độ, an ninh cao.
-Gần trường học, trung tâm mua sắm đang xây dựng, tiện kinh doanh.
-Sổ hồng chính chủ, không chung sổ.
-Liên hệ xem trực tiếp: 0934974749 Chị Tú.",Nguyễn Thị Định,,"trường học, trung tâm mua sắm",,an ninh cao,,,1.0,14.0,1.0,2.0,910000000,0,3.0,1.0,1.0,{2},"{0,0}",,10.787380286679197,106.750108475373,"(106.750108475373,10.7873802866792)",106879307.444848,đông - nam,83.0,Ads_01_24783501,1584118800,1584119179.0,2020-03-14 01:14:05.796989,8.0,3.6,,1.0,2020-04-13 05:10:03.29902,10,7.0,True,2.0,934974749.0,249dff60a1a52ee24b474ba2740d339e,1.0,,0.0,0.0,60484e265b19110d9fc67102,0,10.777476,106.764857,Quận 2
-4007,60433105886de2363825da25,605919,6,https://landber.com/tin-dang/Ads_01_24730067,"Bán gấp nhà chính chủ số 25 đường Số 1 Nguyễn Thị Định, q2 đối diện ngân hàng Agribank","Chính chủ cần bán gấp nhà cấp 4 nhà mới số nhà 25 mặt tiền đường Số 1, Nguyễn Thị Định, p. Bình Trưng Tây, Q2, DT đất là 121m2 thổ cư 100% có nhà cấp 4 còn rất mới 2 phòng ngủ, 1 phòng khách, 1 phòng bếp, sân để ô tô thoải mái khu dân cư hiện hữu xây dựng tự do đất vuông vức ngang 4,6x25m, vị trí rất đẹp đường rộng ô tô vào tận nhà đường thông thoáng, nhà cách đường Nguyễn Thị Định 80m, đối diện ngân hàng Agribank, khu vực rất nhiều tiện ích, cách 500m không thiếu thứ gì kế bên siêu thị Bách Hóa Xanh. Cách chợ chiều 300m gần trường cấp 1.2.3, giao thông thuận tiện gia đình, cần tiền bán gấp giá 6.1 tỷ, bớt lộc cho khách thiện chí, giấy tờ chính chủ bao sang tên công chứng. Ai có nhu cầu LH 0386210681/0907169112.",Số 1,bình trưng tây,"ngân hàng, ngân hàng, siêu thị, chợ, trường","ngân hàng Agribank, Nguyễn Thị Định, ngân hàng Agribank, siêu thị Bách Hóa Xanh",,2 phòng ngủ,25,1.0,14.0,1.0,2.0,6100000000,0,2.0,1.0,1.0,{2},"{4.6,25}",25.0,10.789445198938598,106.756821389964,"(106.756821389964,106.756821389964)",174565289.256198,,121.0,Ads_01_24730067,1586624400,1586636054.0,2020-04-12 03:15:01.898802,2.0,3.6,0101000020E6100000B5B3FBC26FB05A40CFD93E2932942540,1.0,2020-04-12 03:16:00.792509,2,7.0,False,3.0,386210681.0,128f03e2da99956215cd8f19b867cff8,1.0,,0.0,0.0,60484e265b19110d9fc67103,0,10.7979459,106.732978,Quận 2
-4008,60433105886de2363825da32,609140,3,https://batdongsan.com.vn/ban-nha-mat-pho-duong-tran-nao-phuong-binh-an/b-2-tien-so-3-p-q2-22x30m-gia-115-ty-lh-0938140491-pr25151213,"Bán nhà 2 mặt tiền Đường số 3 Trần Não, P. Bình An, Q2, 22x30m, giá 115 tỷ, LH 0938140491","Đất 2 mặt tiền Đường số 3 Trần Não, Phường Bình An, Quận 2.Hiện đang làm cà phê 3G, gần cư xá bộ công an.<br/>- Diện tích đất được công nhận: 760m2 (22m x 30m, nở hậu 24m).<br/>- Diện tích không phạm lộ giới: 671,7 m2 (trong 582m2 đất ở; 89,7m2 đất vườn (lên được thổ cư)<br/>- Diện tích nằm trong lộ giới: 88,5m2 (đất vườn)<br/>- Khu đất thuộc đất ở dân cư hiện hữu (thích hợp làm toà nhà Văn phòng, căn hộ dịch vụ cho thuê dài hạn; khách sạn, nhà hàng, xây villa để ở )<br/>- Chiều cao tầng tối đa: 1 hầm + 07 tầng; mật độ XD: 80%<br/>- Đường số 3 quy hoạch rộng 20m (16m hiện hữu), Hẻm hông 9m (hiện hữu).<br/>* Giá bán: 115 tỷ thương lượng.<br/>Liên hệ: 0938140491 gặp Phong.",Trần Não,bình an,"cư xá bộ công an, đất vườn",,,,,1.0,14.0,1.0,2.0,115000000000,0,2.0,7.5,2.0,"{2,1,4}","{22,30}",3.0,10.791311685641,106.730475584139,"(106.730475584139,106.730475584139)",150272150.224374,,1.0,bdscomvn_25151213,1586737587,1586689328.0,2020-04-12 18:05:03.004394,2.0,3.6,0101000020E6100000CB19AA1CC0AE5A40A38A25CE26952540,1.0,2020-04-12 18:06:00.772161,1,8.0,False,2.0,938140491.0,56542b94281d148ff997afd042accc9e,2.0,,0.0,0.0,60484e265b19110d9fc67104,0,10.7982717,106.7323968,Quận 2
-4009,60433105886de2363825da54,473644,2,https://mogi.vn/quan-2/mua-nha-mat-tien-pho/can-ban-gap-can-nha-so-215d2-duong-nguyen-van-huong-p-thao-dien-quan-2-id20179077,Cần bán gấp căn nhà số 215d2 đường Nguyễn Văn Hưởng P.Thảo Điền Quận 2,"
-Cần bán nhà đẹp giá rẻ tại Đường Nguyễn Văn Hưởng , Phường Thảo Điền , Quận 2 
-(+) Vị trí: Vị trí giao thông thuận tiện đến trường học,chợ, siêu thị , vào trung tâm thành phố quận 1 rất gần . Khu vực- An ninh sạch sẽ,
-(+) Diện tích: 5x23 (m2).
-(+) Kết cấu : 1 trệt, 3 lầu, 6 pn, đầy đủ nt
-(+) Giá bán :13,7 Tỷ 
-(+) Mọi chi tiết thuê , bán villa – biệt thự Quận 2 vui lòng liên hệ:
-Trần Nam 0902 971 889 và 0968 274 869.
-Mail: nambdspro@gmail.com
-Ngoài ra còn nhiều nhà phố, biệt thự khác anh/chị vui lòng tham khảo tại website http://thuenhaquan2.com/
-",Nguyễn Văn Hưởng, thảo điền,"trường học, chợ, siêu thị",,"giao thông thuận tiện, An ninh, sạch sẽ",6,,1.0,14.0,1.0,2.0,13700000000,0,2.0,4.0,6.0,{2},"{5,23}",2.0,10.8106730893895,106.730992722412,"(106.730992722412,10.8106730893895)",78127541.6571072,,115.0,mogi_20179077,1582563600,1582726015.0,2020-02-26 21:07:01.553228,2.0,3.6,0101000020E6100000FF17B395C8AE5A40C5590D8B109F2540,1.0,2020-04-13 11:16:02.656109,1,8.0,False,2.0,902971889.0,f7a59cbb3aedef9edbb3060d281561fd,1.0,,0.0,0.0,60484e265b19110d9fc67105,0,10.81181,106.732966,Quận 2
-4010,60433105886de2363825da5a,476878,2,https://mogi.vn/quan-2/mua-nha-mat-tien-pho/can-ban-gap-can-nha-duong-so-22-duong-tran-ngoc-dien-p-thao-dien-quan2-id20179125,Cần bán gấp căn nhà đường số 22 đường Trần Ngọc Diện P.Thảo Điền Quận2,"
-Cần bán nhà đẹp giá rẻ tại Đường Trần Ngọc Diện , Phường Thảo Điền , Quận 2 
-(+) Vị trí: Vị trí giao thông thuận tiện đến trường học,chợ, siêu thị , vào trung tâm thành phố quận 1 rất gần . Khu vực- An ninh sạch sẽ,
-(+) Diện tích: 240 (m2).
-(+) Kết cấu : 3 phòng ngủ, 2 WC, 2 phòng khách, nhà view sông, DTXD 97m2 
-(+) Giá bán :18 Tỷ 
-(+) Mọi chi tiết thuê , bán villa – biệt thự Quận 2 vui lòng liên hệ:
-Trần Nam 0902 971 889 và 0968 274 869.
-Mail: nambdspro@gmail.com
-Ngoài ra còn nhiều nhà phố, biệt thự khác anh/chị vui lòng tham khảo tại website http://thuenhaquan2.com/
-",Trần Ngọc Diện, thảo điền,"trường học, chợ, siêu thị, sông",,"giao thông thuận tiện, An ninh, sạch sẽ",3,,1.0,14.0,1.0,2.0,18000000000,0,2.0,1.0,6.0,{2},"{0,0}",,10.806105399419401,106.740978856854,"(106.740978856854,10.8061053994194)",75170191.49727121,,240.0,mogi_20179125,1582650000,1582791097.0,2020-02-27 15:12:01.605055,3.2,3.7,0101000020E6100000C24D95326CAF5A403245CFD8B99C2540,1.0,2020-04-13 08:26:01.704915,6,7.0,False,2.0,902971889.0,ee1de4d7a9f1bd0d375d2632c65a20ee,1.0,,0.0,0.0,60484e265b19110d9fc67106,0,10.8040755,106.7374937,Quận 2
-4011,60433105886de2363825da5d,621563,3,https://batdongsan.com.vn/cho-thue-nha-mat-pho-duong-do-xuan-hop-phuong-an-phu-prj-khu-do-thi-lakeview-city/hot-cho-quan-2-gia-re-18-trieu-thang-lien-he-0907860179-pr25172145,"Hot! Cho thuê nhà phố Lakeview City Quận 2 - Giá rẻ 18 triệu/tháng, liên hệ 0907860179","- Cần cho thuê nhà phố Lakeview City, quận 2, nhà hoàn thiện cơ nội thất cao cấp.<br/>- Giá cho thuê: 18.000.0000 VNĐ/tháng.<br/>- Khu vực an ninh có chốt bảo vệ riêng ngay cổng, có camera giám sát ở các ngã ba, ngã tư đường.<br/>- Tiện ích: Có hồ bơi và hồ cảnh quan, công viên cây xanh, trung tâm thương mại tại khu đang xây dựng, đường sá rộng thoáng mát để xe ô tô thoải mái...<br/>Địa chỉ: 697 Đỗ Xuân Hợp phường An Phú, Quận 2, Hồ Chí Minh.<br/>Khách liên hệ xem nhà 0907860179, xem nhà trực tiếp 24/24.",Đỗ Xuân Hợp,an phú,"ngã ba, ngã tư, hồ bơi, hồ cảnh quan, công viên, trung tâm thương mại",,"an ninh, thoáng mát",,Lakeview City,1.0,14.0,5.0,2.0,18000000,180000000,2.0,1.0,6.0,{2},"{0,0}",697.0,10.795463208664,106.775811931518,"(106.775811931518,106.775811931518)",67677766.1064426,,100.0,bdscomvn_25172145,1587035801,1586988536.0,2020-04-16 05:09:02.159907,0.0,3.4,0101000020E6100000EC6D16E7A6B15A402BC424F446972540,1.0,2020-04-16 05:10:00.81006,0,7.0,True,2.0,907860179.0,941621fb1ec29317e0015a0ae673573a,1.0,,0.0,0.0,60484e265b19110d9fc67107,0,10.7948475,106.781118,Quận 2
-4012,60433105886de2363825da62,442328,2,https://mogi.vn/quan-2/mua-nha-mat-tien-pho/can-ban-gap-can-nha-so-50-duong-tran-luu-p-an-phu-quan-2-id20183068,Cần bán gấp căn nhà số 50 đường Trần Lựu P.An Phú Quận 2,"
-Cần bán nhà đẹp giá rẻ tại Đường Trần Lựu , Phường An Phú , Quận 2 
-(+) Vị trí: Vị trí giao thông thuận tiện đến trường học,chợ, siêu thị , vào trung tâm thành phố quận 1 rất gần . Khu vực- An ninh sạch sẽ,
-(+) Diện tích: 4x20(m2).
-(+) Kết cấu:trệt 3 lầu, 4 phòng ngủ
-(+) Giá bán :16 Tỷ 
-(+) Mọi chi tiết thuê , bán villa – biệt thự Quận 2 vui lòng liên hệ:
-Trần Nam 0902 971 889 và 0968 274 869.
-Mail: nambdspro@gmail.com
-Ngoài ra còn nhiều nhà phố, biệt thự khác anh/chị vui lòng tham khảo tại website http://thuenhaquan2.com/
-",Trần Lựu, an phú,"trường học, chợ, siêu thị",,"giao thông thuận tiện, An ninh, sạch sẽ",5,,1.0,14.0,1.0,2.0,16000000000,0,2.0,4.0,6.0,{2},"{4,20}",50.0,10.7928386984709,106.738247581553,"(106.738247581553,10.7928386984709)",99621804.3122573,,80.0,mogi_20183068,1582045200,1582085479.0,2020-02-19 11:12:03.20072,2.0,3.6,0101000020E6100000BDC7C8723FAF5A4000DF31F4EE952540,1.0,2020-04-13 08:52:02.703546,1,8.0,False,2.0,902971889.0,002f1da1ed4195e860923aa7a3068b68,1.0,,0.0,0.0,60484e265b19110d9fc67108,0,10.7925535,106.7377644,Quận 2
-4013,60433105886de2363825da7a,626046,3,https://batdongsan.com.vn/cho-thue-nha-rieng-duong-so-4-phuong-thao-dien/can-ho-dich-vu-tai-proviewland-cho-1-phong-ngu-giam-gia-ho-tro-dich-corona-pr25179147,"Căn hộ dịch vụ tại Proviewland Thảo Điền cho thuê 1 phòng ngủ, giảm giá hỗ trợ dịch corona","Cho thuê căn hộ dịch vụ tại Thảo Điền Quận 2 Địa chỉ: Số 15 đường Số 4, phường Thảo Điền, quận 2.<br/>Căn hộ trên tầng 4 căn hộ số 4.2, diện tích 40m2, 1 phòng ngủ, đầy đủ tiện nghi, bao gồm Dịch vụ vệ sinh, internet Fibre, nước, thang máy.<br/>Tọa lạc tại khu Thảo Điền, là khu vực yên tĩnh, trong lành, thoáng đãng với nhiều cây xanh và cảnh quan đẹp. Căn hộ dịch vụ được trang bị đầy đủ nội thất chất lượng tốt, mang đến không gian sống thoải mái, thư giãn.<br/>Giá thuê: 11.8 triệu/tháng.<br/>+ Thuê bao gồm:<br/>Trang bị.<br/>Nước.<br/>Internet wifi Truyền hình cáp và cáp.<br/>Vệ sinh và giặt là 2 lần/tuần.<br/>An ninh 24/7.<br/>Chỗ đỗ xe cho xe máy.<br/>Liên hệ: 0919462121 Ms Yến(English/Chinese).<br/>0936746571 (Zalo/Viber/Whatsapp).",Số 4,thảo điền,,,"yên tĩnh, trong lành, thoáng đãng",1,Proviewland Thảo Điền,1.0,14.0,5.0,2.0,11800000,11800000,2.0,1.0,6.0,{2},"{0,0}",15.0,10.8061854783597,106.742279341105,"(106.742279341105,106.742279341105)",82094355.94010171,,40.0,bdscomvn_25179147,1587122923,1587074872.0,2020-04-17 05:08:02.248423,0.0,3.4,0101000020E6100000A0A2358181AF5A406321D057C49C2540,1.0,2020-04-17 05:09:00.714175,0,7.0,True,2.0,919462121.0,f0167b3b840c4de938b1c4882877eb9d,1.0,,0.0,0.0,60484e265b19110d9fc67109,0,10.809386,106.73326,Quận 2
-4014,60433105886de2363825da81,627426,3,https://batdongsan.com.vn/cho-thue-nha-rieng-duong-so-10-phuong-cat-lai/-cho-10-f-q2-pr25023373,"Cho thuê nhà 90/19 đường Số 10, p. Cát Lái, q2","Cho thuê nhà 1 lầu đường Số 10, p. Cát Lái, q2.<br/>Đường lớn xe tải vào.<br/>Địa điểm thuận tiện gần bệnh viện, chợ, nhà thờ, chùa.<br/>Dân cư đông an ninh.<br/>Phù hợp cho gia đình! Thuê lâu dài.<br/>Giá thuê 3.5tr/th.",Số 10,cát lái,"bệnh viện, chợ, nhà thờ, chùa",,"xe tải, Dân cư đông, an ninh",,,1.0,14.0,5.0,2.0,3500000,3500000,2.0,2.0,6.0,{2},"{0,0}",4.0,10.781047663347499,106.76446298483,"(106.76446298483,106.76446298483)",54246303.3960773,,1.0,bdscomvn_25023373,1587139322,1587093185.0,2020-04-17 10:14:02.682237,6.8,3.4,0101000020E61000005AB627F6ECB05A40C463B57AE58F2540,1.0,2020-04-17 10:15:00.768807,9,7.0,True,2.0,,05cc9b008e86fb83cb62cf7945518088,1.0,,0.0,0.0,60484e265b19110d9fc6710a,0,10.7951647,106.7326102,Quận 2
-4015,60433105886de2363825da82,627547,3,https://batdongsan.com.vn/cho-thue-nha-mat-pho-duong-song-hanh-phuong-an-phu-prj-khu-do-thi-lakeview-city/hot-cia-cho-cuc-thap-quan-2-full-23-trieu-lien-he-0907860179-pr25182048,"Hot cía cho thuê cực thấp, lakeview city, quận 2, nhà phố full 23 triệu, liên hệ 0907860179","- Chủ nhà gửi cho thuê nhà phố đã hoàn thiện nội thất, 1 trệt, 3 lầu, mới hoàn thiện xong,<br/>- Giá cho thuê 23 triệu/tháng có thể ký hợp đồng dài hạn<br/>- Khách thuê kết hợp ở vá làm văn phòng rất thuận tiện<br/>- Vị trí dự án 697 dỗ xuân hợp, giao thông thuận lợi kết nối với các khu vực lân cận như quận 9, quận 1, quận 7 và quận thủ đức,<br/>- Bao gồm đầy đủ các tiện ích như hồ bơi, trung tâm thương mại, trường học quốc tế các cấp<br/>- Khách liên hệ xem nhà gọi văn Cả 0907860179 để xem nhà thực tế<br/>",dỗ xuân hợp,lakeview city,"hồ bơi, trung tâm thương mại, trường học","quận 9, quận 1, quận 7, thủ đức",giao thông thuận lợi,,,1.0,14.0,5.0,2.0,23000000,23000000,2.0,4.0,6.0,{2},"{0,0}",697.0,10.795484815650301,106.775805235441,"(106.775805235441,106.775805235441)",68562334.6560847,,100.0,bdscomvn_25182048,1587143056,1587096472.0,2020-04-17 11:08:02.342176,0.0,3.4,0101000020E61000005A9200CBA6B15A408D5D27C949972540,1.0,2020-04-17 11:09:00.724246,0,7.0,True,2.0,907860179.0,bd0c3f7fb6d885a0dd36c78182c13a24,1.0,,0.0,0.0,60484e265b19110d9fc6710b,0,10.7948475,106.781118,Quận 2
-4016,60433105886de2363825dac8,652388,6,https://landber.com/tin-dang/Ads_03_4819081,"Villa khu 280 Lương Định Của, P. An Phú, Quận 2","Cho thuê villa khu compound 280 Lương Định Của, P. An Phú, Quận 2
-
-Diện tích: 7x20m
-
-Kết cấu: 1 trệt, 2 lầu, sân thượng, 4 phòng ngủ, 5 toilet, phòng ăn, bếp, phòng khách, gara để xe hơi, sân rộng
-Giá thuê: 36 triệu/ tháng, phù hơp làm văn phòng, trường showroom, ở
-Khu an ninh, thoáng mát, đường rộng xe hơi đỗ cửa
-Cho thuê lâu dài
-Xem nhà vui lòng liên hệ 0909233981. Gặp A. Quế. 
-Nhận ký gửi cho thuê hoặc bán tất cả các loại bất động sản tại Quận 2. Xin cám ơn.",Lương Định Của,bình an,,,"an ninh, thoáng mát",4 phòng ngủ,,1.0,14.0,5.0,2.0,36000000,36000000,2.0,3.5,6.0,{2},"{7,20}",280.0,10.7912727367525,106.729596003826,"(106.729596003826,106.729596003826)",120000.0,,300.0,Ads_03_4819081,1588611600,1588647679.0,2020-05-05 10:24:03.129572,0.0,0.0,0101000020E61000007CEE6FB3B1AE5A40F8223DB321952540,0.0,,0,0.0,False,2.0,909233981.0,0992e1f59c860f125d9c544ceb0ba7e1,1.0,,0.0,0.0,60484e265b19110d9fc6710c,0,10.7908897,106.7468002,Quận 2
-4017,60433105886de2363825dacd,334340,6,https://landber.com/tin-dang/Ads_01_21927338,"Bán nhà P. Thảo Điền, Quận 2, đường Nguyễn Văn Hưởng, DT=158m2, giá 29 tỷ - MS 269","Bán nhà P. Thảo Điền, Quận 2, đường Nguyễn Văn Hưởng, DT= 158m2, giá 29 tỷ - Ms 269.
-
-
-Diện tích khuôn viên đất: 158m2, rộng 10m, dài 15.8m.
-
-
-Giá bán: 29 tỷ.
-
-Pháp lý: Sổ hồng.
-
-Đường hiện hữu: 12m.
-
-Tại sao lại chọn nhà quận 2?
-
-- Nếu bạn Là người có ý định đầu tư bất động sản hay kinh doanh thì đây quả là một trong địa điểm cần quan tâm đến:
-
-- Quận 2 là một quận nội thành của Thành phố Hồ Chí Minh, là quận mới đô thị hóa, trung tâm tài chính thương mại mới của Thành phố Hồ Chí Minh.
-
-+ Được chia thành 11 phường: An Khánh, An Lợi Đông, An Phú, Bình An, Bình Khánh, Bình Trưng Đông, Bình Trưng Tây, Cát Lái, Thạnh Mỹ Lợi, Thảo Điền, Thủ Thiêm.
-
-- Quận 2 là 1 trong 5 quận nằm ở phía Đông Bắc Thành phố Hồ Chí Minh:
-
-Phía Bắc giáp quận Thủ Đức và quận Bình Thạnh (qua sông Sài Gòn và sông Rạch Chiếc).
-
-Phía Nam giáp sông Sài Gòn, ngăn cách với quận 7, sông Nhà Bè, ngăn cách với huyện Nhơn Trạch, tỉnh Đồng Nai.
-
-Phía Tây theo thứ tự từ Bắc xuống Nam lần lượt ngăn cách với quận Bình Thạnh, quận 1 và quận 4 bởi sông Sài Gòn.
-Phía Đông giáp quận 9.
-
-- Giữa đô thị đông đúc, chọn mua nhà phố Quận 2 là lựa chọn lí tưởng cho cuộc sống an ninh, thoáng mát, gần gũi với thiên nhiên.
-
-- Nếu Anh/chị có quan tâm thì mời đi xem thực địa, để được tư vấn trực tiếp.
-
-- Nhận ký gửi các bất động sản Quận, Huyện tại TP. HCM.
-
-- LH: 09 385 123 88 (Thịnh) - 22 Nguyễn Văn Hưởng, P. Thảo Điền, Q. 2.",Nguyễn Văn Hưởng,thảo điền,"trung tâm tài chính thương mại, sông, sông, sông, sông, huyện, sông","Thủ Đức, sông Sài Gòn, sông Rạch Chiếc, sông Sài Gòn, quận 7, sông Nhà Bè, huyện Nhơn Trạch, Đồng Nai, Bình Thạnh, quận 1, quận 4, sông Sài Gòn, quận 9","đông đúc, an ninh",,,1.0,14.0,1.0,2.0,29000000000,0,3.0,1.0,6.0,{2},"{0,0}",,10.808854328368303,106.733032464121,"(106.733032464121,10.8088543283683)",78925697.0098192,đông - bắc,158.0,Ads_01_21927338,1578416400,1578729938.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000B013FF00EAAE5A40C4238F27229E2540,1.0,2020-04-13 06:00:02.748003,1,8.0,False,2.0,938512388.0,15080dff838f77a0b6308926c15429fd,1.0,,0.0,0.0,60484e265b19110d9fc6710d,0,10.803376,106.727196,Quận 2
-4018,60433105886de2363825daf9,627698,3,https://batdongsan.com.vn/ban-nha-mat-pho-duong-so-6-phuong-binh-an/b-mt-q2-ds6-p-dt-4-1x18-xh-sieu-vi-tri-gia-tot-t-hien-nay-130tr-m2-pr24857737,"Bán nhà MT Q2 đường Số 6, P. Bình An DT 4.1x18m đường XH siêu vị trí giá tốt nhất hiện nay 130tr/m2","Bán nhà MT Q2 đường Số 6, P. Bình An DT 4.1x18m đường XH siêu vị trí giá tốt nhất hiện nay 130tr/m2.<br/>- Diện tích: 4,1x18m vuông vức.<br/>- Tổng diện tích sử dụng: 77,8m2.<br/>- Kết cấu: 2 tầng.<br/>- Tiện nghi: Nhà ngay chợ Đo Đạc gần khu chung cư của Bộ Công An, an ninh cực tốt.<br/>- Tình trạng pháp lý: Sổ hồng chính chủ.<br/>- Giá 10,3 tỷ.<br/>Chủ nhà cần tiền gấp nên giá còn thương lượng cho khách mua bán nhanh.<br/>* Cơ hội tốt liên hệ ngay để được giá tốt nhé mọi người: 0362554855.",Số 6,bình an,"chợ, chung cư","chợ Đo Đạc, Bộ Công An",an ninh,,,1.0,14.0,1.0,2.0,10300000000,0,3.0,2.0,1.0,{2},"{4.1,18}",,10.795199254584801,106.73501052636699,"(106.735010526367,106.735010526367)",219710338.51403505,,73.8,bdscomvn_24857737,1587149033,1587099924.0,2020-04-17 12:06:04.140435,0.0,3.4,0101000020E6100000B23D97690AAF5A408A7D505B24972540,1.0,2020-04-17 12:07:00.79689,0,7.0,False,2.0,362554855.0,65e77a5e27862850815b8ee2544fe5c6,1.0,,0.0,0.0,60484e265b19110d9fc6710e,0,10.7794465,106.7591046,Quận 2
-4019,60433105886de2363825db00,609825,3,https://batdongsan.com.vn/cho-thue-nha-mat-pho-duong-so-3-phuong-an-phu-prj-khu-dan-cu-van-minh/cho-nguyen-c-69-3-kdc-ng-giong-th-v-nhiep-p-q-2-pr25150869,"Cho thuê nhà nguyên căn, 69 đường Số 3, KDC sông Giồng, Thân Văn Nhiếp, P. An Phú, Q. 2","Nhà trong khu an ninh, dân trí cao, yên tĩnh, bảo vệ 24/24. Vị trí thuận lợi cho việc mở văn phòng hay ở. Giao thông thuận lợi, 10 phút vào tới quận 1. Nhà rất thông thoáng, hiện đại, hệ thống ánh sáng ấm áp, garage để được ô tô bán tải và vài xe máy, mặt tiền có thể để thêm nhiều xe. Tầng trệt có thể mở shop, gallery trưng bày. Ký hợp đồng thuê 2 năm.",Số 3,an phú,sông,"sông Giồng, Thân Văn Nhiếp, quận 1","an ninh, dân trí cao, yên tĩnh, bảo vệ 24 / 24, Giao thông thuận lợi",4,,1.0,14.0,1.0,2.0,35000000,0,2.0,1.0,3.0,"{2,1}","{0,0}",69.0,10.787814514620099,106.752007448112,"(106.752007448112,106.752007448112)",54555068.07761861,đông,119.0,bdscomvn_25150869,1586767346,1586718266.0,2020-04-13 02:05:02.253082,2.0,3.6,0101000020E610000040FFD8E320B05A40F2368F6C5C932540,1.0,2020-04-13 09:37:01.758089,2,7.0,False,2.0,,91a552b3197445e96af958156731ab14,1.0,,0.0,0.0,60484e265b19110d9fc6710f,0,10.7951203,106.7354098,Quận 2
-4020,60433105886de2363825db07,602844,3,https://batdongsan.com.vn/cho-thue-nha-rieng-duong-song-hanh-phuong-an-phu-prj-khu-do-thi-lakeview-city/hot-cho-pho-quan-2-gia-re-t-15-trieu-thang-lh-0931-929-186-pr24948385,"Hot! Cho thuê nhà phố Lakeview City - Quận 2, giá rẻ nhất 15 triệu/th, LH: 0931 929 186","- Cần cho thuê nhà phố Lakeview City, quận 2, nhà hoàn thiện Full nội thất. Cho thuê với giá hữu nghị.<br/>- Giá cho thuê: 15.000.0000 VNĐ/tháng.<br/>- Khu vực an ninh có chốt bảo vệ riêng ngay cổng, có camera giám sát ở các ngã ba, ngã tư đường.<br/>- Tiện ích: Có hồ bơi và hồ cảnh quan, công viên cây xanh, trung tâm thương mại tại khu đang xây dựng, đường sá rộng thoáng mát để xe ô tô thoải mái...<br/>Địa chỉ: 697 Đỗ Xuân Hợp phường An Phú, Quận 2, Hồ Chí Minh.<br/>------------<br/>Liên hệ: 0931 929 186.",Đỗ Xuân Hợp,an phú,"ngã ba, ngã tư, hồ bơi, hồ cảnh quan, công viên, trung tâm thương mại",,"an ninh, thoáng mát",,,1.0,14.0,5.0,2.0,15000000,150000000,2.0,1.0,6.0,{2},"{0,0}",697.0,10.795502264505998,106.775824501152,"(106.775824501152,106.775824501152)",88440617.2161172,,1.0,bdscomvn_24948385,1587043283,1586567005.0,2020-04-11 08:04:03.649335,2.0,3.6,0101000020E61000007BF8CE1BA7B15A40E5E4A3124C972540,1.0,2020-04-11 08:05:00.803558,2,7.0,True,2.0,931929186.0,7bca17078645fd294260db9fbb2963b1,3.0,,0.0,0.0,60484e265b19110d9fc67110,0,10.7948475,106.781118,Quận 2
-4021,60433105886de2363825db18,580949,6,https://landber.com/tin-dang/Ads_01_23568422,"Bán nhà đất (sổ hồng) chốt giá tốt nhất 15,2 tỷ, trong khu biệt thự An Bình, đường Số 3, Trần Não","Bán nhà đất (sổ hồng), chốt giá tốt nhất 15 tỷ, diện tích 8.3m x 15.56m, trong khu biệt thự An Bình, có bảo vệ 24/24, số 21 - 25 đường Số 3, Phường Bình An, Quận 2, đầu đường Trần Não quẹo vào. Khu vực an ninh, không ngập nước, gần khu Bộ Công An. Liên hệ chính chủ: 0903833167.",Số 3,bình an,,"Trần Não, Bộ Công An, Đường Số 3","an ninh, không ngập nước",,"Số 21,25",1.0,14.0,1.0,2.0,15000000000,0,3.0,1.0,6.0,{2},"{8.3,15.56}",-4.0,10.7953512432993,106.73434540636299,"(106.734345406363,106.734345406363)",127658013.85103402,,129.15,Ads_01_23568422,1588816943,1586117771.0,2020-04-06 03:20:02.208858,2.0,3.6,0101000020E61000001213E083FFAE5A40469B354738972540,1.0,2020-04-06 03:21:01.132162,2,7.0,False,1.0,903833167.0,085b134417248bd6426463aec3de0772,2.0,,0.0,0.0,60484e265b19110d9fc67111,0,10.7617661,106.7856658,Quận 2
-4022,60433105886de2363825db25,525996,6,https://landber.com/tin-dang/Ads_03_5894431,NỢ NGÂN HÀNG BÁN GẤP NHÀ NÁT NGUYỄN THỊ ĐỊNH- Q2- 56M2/890TR- SHR- GẦN CHỢ TIỆN Ở- LH THẢO,"Khu vực: Bán nhà riêng tại Đường Nguyễn Thị Định - Quận 2 - Hồ Chí Minh
-
-Giá: 890tr Diện tích: 56m² (4x14)
-
-Thông tin mô tả
-Nợ ngân hàng bán gấp nhà nát 76m2 Nguyễn Thị Định - q2 - miễn cò lái.
-Nằm gần mặt tiền đường lớn 6m xe hơi ra vào thoải mái.
-Nằm gần chung cư Thanh Đa tiện kinh doanh.
-Đối diện với công an phường an ninh tuyệt đối.
-Bán kính 500m có chợ trường THCS siêu thị.
-Diện tích: 76m2.
-Có sổ hồng năm 2002 sổ thổ cư bao sang tên công chứng.
-LH gặp Phương Thảo
-Mong tìm được khách thiện chí.",Nguyễn Thị Định, thạnh mỹ lợi,"CHỢ, chung cư, chợ, trường THCS, siêu thị",chung cư Thanh Đa,an ninh,1 phòng ngủ,,1.0,14.0,1.0,2.0,890000000,0,3.0,1.0,6.0,{2},"{4,14}",,10.762158297160699,106.767571515962,"(106.767571515962,10.7621582971607)",29195801.1394935,,56.0,Ads_03_5894431,1583600400,1583604468.0,2020-03-08 01:08:02.522147,7.8,3.6,0101000020E6100000879947E41FB15A40495CC19C39862540,1.0,2020-04-13 04:03:02.346057,10,7.0,False,1.0,,8280fca91f9c37c0c1d9775ae29a0cc3,1.0,,0.0,0.0,60484e265b19110d9fc67112,0,10.784202,106.760909,Quận 2
-4023,60433105886de2363825db27,53705,6,https://landber.com/tin-dang/Ads_01_20153483,"Cho thuê nhà An Phú, quận 2, DT: 4*20m, 1 trệt 2 lầu 4 phòng, giá chỉ 24 triệu. LH 0938087801","*Cho thuê nhà An Phú, quận 2 1 trệt 2 lầu, 4 phòng máy lạnh đầy đủ.
-- DT: 4*20m.
-
-- Giá: Chỉ 24 triệu và giá bao VAT 26 triệu.
-*Cho thuê nhà khu 280 Lương Định Của, DT: 7*20m, 1 hầm 3 lầu 4 phòng đầy đủ nội thất giá chỉ 40 triệu tháng.
-
-- Ngoài ra còn có nhiều căn An Phú Bình An Thảo Điền cho thuê.
-- Nhận tìm hàng mọi nhu cầu cho khách hàng.
-- Thông tin sản phẩm liên hệ: Ngoc 0938087801.
-- Nhận ký gửi mua bán nhà đất quận 2, quận 9.",Lương Định Của,an phú,,,,4 phòng ngủ,,1.0,14.0,1.0,2.0,24000000,0,2.0,3.0,1.0,{2},"{4,20}",280.0,10.7983899191595,106.75677679763001,"(106.75677679763,10.7983899191595)",77628965.670738,,140.0,Ads_01_20153483,1574442000,1574567885.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E6100000730CF3076FB05A401C7E4090C6982540,1.0,2020-04-13 09:16:02.223891,2,7.0,True,2.0,938087801.0,18d3ea7e087f7a846a551716ad7fec18,1.0,,1.0,0.0,60484e265b19110d9fc67113,0,10.7908897,106.7468002,Quận 2
-4024,60433105886de2363825db2f,698480,3,https://batdongsan.com.vn/cho-thue-nha-mat-pho-pho-do-quang-phuong-thao-dien/cho-villa-300m2-duong-quan-2-pr24485152,"Cho thuê villa 300m2 đường Đỗ Quang, Phường Thảo Điền, Quận 2","Cho thuê villa cao cấp mặt tiền đường Đỗ Quang, P. Thảo Điền Quận 2.<br/>33.000.000 đ/ tháng:<br/>Diện tích: 8x18m.<br/>DTSD: 300m2.<br/>Cấu trúc: 1trệt, 1 lầu, 3 phòng ngủ, nội thất dính tường, vào thoải mái setup, khu sầm uất, ngay cầu Sài Gòn, xe hơi vô tận cửa, sân rộng thênh thang.<br/>Gía thuê: 33 triệu/tháng.<br/>Phù hợp: Để ở hoặc kết hợp kinh doanh, làm văn phòng, công ty, spa,...<br/>Khu vip Quận 2, thuận tiện đi lại, làm việc, ăn uống,...<br/>Nhận ký gửi cho thuê nhà phố, villa quận 2; vui lòng liên hệ: Thuy. Namland@gmail.com<br/>Liên hệ: Ms Thủy 0937.990.755.",Đỗ Quang,thảo điền,cầu,cầu Sài Gòn,"sầm uất, thuận tiện đi lại",3 phòng ngủ,,1.0,14.0,5.0,2.0,33000000,33000000,2.0,2.0,1.0,{2},"{8,18}",,10.8040537747296,106.728800430528,"(106.728800430528,106.728800430528)",229166.666666667,,144.0,bdscomvn_24485152,1588917724,1588896873.0,2020-05-08 07:15:01.94755,0.0,0.0,0101000020E61000007B9B8FAAA4AE5A40CC60B5EFAC9B2540,0.0,,0,0.0,False,2.0,0.0,183033b00c647e1d5fddfe0baa95146e,1.0,,0.0,0.0,60484e265b19110d9fc67114,0,10.8039467,106.7287543,Quận 2
-4025,60433105886de2363825db43,341084,6,https://landber.com/tin-dang/Ads_01_23660576,"Bán nhà giá rẻ số 83 đường Số 6, Bình An, Quận 2, TP. HCM","Bán nhà giá rẻ số 83 đường Số 6 Bình An, Quận 2, TP. HCM.
-Diện tích 4 x 12, giá bán 7,4 tỷ (thương lượng) sổ hồng cá nhân.
-
-Nhà 1 trệt, 2 lầu, 2 phòng ngủ, 1PK, 1PB, đường xe hơi, không ngập nước, giao thông thuận lợi, khu an ninh, cách chợ, siêu thị, trường học bán kính 50 mét..
-Liên hệ xem nhà: Nga 0919842277(MTG).",Số 6,bình an,"chợ, siêu thị, trường học",,an ninh,2 phòng ngủ,Số 83,1.0,14.0,1.0,2.0,7400000000,0,3.0,3.0,6.0,{2},"{4,12}",83.0,10.791277060520198,106.729365001749,"(106.729365001749,10.7912770605202)",104371036.838101,,48.0,Ads_01_23660576,1578502800,1578736773.0,2020-02-12 08:49:25.145194,2.0,3.6,0101000020E610000018578BEAADAE5A40CC04524422952540,1.0,2020-04-13 06:42:02.456364,1,8.0,False,2.0,919842277.0,4497b8808e43e721b7571025b8298779,1.0,,0.0,0.0,60484e265b19110d9fc67115,0,10.7844364,106.7599329,Quận 2
-4026,60433105886de2363825db46,690519,3,https://batdongsan.com.vn/ban-nha-mat-pho-duong-so-1-phuong-binh-an/chinh-chu-b-tien-52-54-1-tr-nao-qu-2-12x30m-44-ty-hh-1-pr24137180,"Chính chủ bán nhà mặt tiền 52 - 54 đường Số 1 - Trần Não, P. Bình An, Quận 2, 12x30m, 44 tỷ, HH 1%","Tôi chính chủ cần bán trước tết nhà mặt tiền 52 + 54 đường Số 1 - Trần Não, phường Bình An, Quận 2, DT 12 x 30m, CN 325m2, 44 tỷ, HHMG 1%.<br/><br/>- Nhà cấp 4 tiện xây mới, mặt tiền đường Số 1 ngay Trần Não, P. Bình An, Quận 2.<br/><br/>- Diện tích: 12 x 30m, công nhận 325m2.<br/><br/>- Vị trí trung tâm, sầm uất, Thích hợp đầu tư, xây building cao tầng.<br/><br/>- Giá 44 tỷ thương lượng cho khách mua trước tết.<br/><br/>Liên hệ: 0938.527.368 (chính chủ - Chị Dung).",Số 1,bình an,,,sầm uất,,,1.0,14.0,1.0,2.0,44000000000,0,2.0,1.0,1.0,{2},"{12,30}",-2.0,10.7977692913505,106.733847715981,"(106.733847715981,106.733847715981)",135384615.384615,,325.0,bdscomvn_24137180,1588861759,1588838817.0,2020-05-07 15:16:01.517579,0.0,0.0,0101000020E61000009618695CF7AE5A40F234703775982540,0.0,,0,0.0,False,2.0,938527368.0,2d0561c51b6f648e98abe2ea9431ce15,1.0,,0.0,0.0,60484e265b19110d9fc67116,0,10.7974501,106.7345646,Quận 2

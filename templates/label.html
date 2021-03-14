@@ -52,6 +52,8 @@
         var id = GetURLParameter('id');
         var district = GetURLParameter('dataset');
         var map = L.map('mapid').setView([10.762622, 106.660172], 13);
+        var limit = parseInt(GetURLParameter('limit'));
+        var limit_dict = {}
         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18
         }).addTo(map);
@@ -60,7 +62,7 @@
         data.forEach(function(d) {
             if (d.id == id){
                 var marker = new L.Marker(
-                [d.lat_y,d.long_y], 
+                [d.gglat,d.gglong], 
                 {
                 id: d.id,
                 position_street: d.position_street,
@@ -85,9 +87,12 @@
             }
             else{
                 try{
+                if(counterr > limit){return;};
+
                 counterr = counterr + 1;
+                
                 var marker = new L.Marker(
-                [d.lat_y,d.long_y], 
+                [d.gglat,d.gglong], 
                 {
                 id: d.id,
                 position_street: d.position_street,
@@ -144,6 +149,8 @@
             if (d.price_rent != '0'){ret = ret + '<br> Giá cho thuê : ' +d.price_rent}
             ret = ret + '<br> Toạ độ: ' +d.coordinate;
             ret = ret + '<br> Tiêu đề post: ' +d.title;
+            ret = ret + '<br> Nội dung post: ' +d.content;
+            ret = ret + '<br> Trường đối chiếu: ' +d.fieldRegrex;
             ret = ret + '<br> Vị trí: ' +d.district_name;
             ret = ret + '<br> Ngày đăng: ' + new Date(d.post_date * 1000).toISOString().slice(0, 19).replace('T', ' ');
             ret = ret + '<br> <a href="{{ url_for('label') }}?id='+d.id+'&district='+district+'"> Gán nhãn cho BĐS này</a>';
