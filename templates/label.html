@@ -34,7 +34,7 @@
         const myIcon = L.icon({
         iconUrl: 'https://cdn.iconscout.com/icon/free/png-256/house-home-building-infrastructure-real-estate-resident-emoj-symbol-1-30743.png',
         // ...
-        iconSize:     [100, 100]
+        iconSize:     [50, 50]
         });
         function GetURLParameter(sParam)
         {
@@ -70,7 +70,7 @@
                 }
                 )
                 .addTo(map)
-                .bindPopup(popup_string(d)).openPopup()
+                .bindPopup(popup_string(d),{maxHeight: 250,autoPan: true,autoPanPadding: [2, 2]}).openPopup()
                 .on('click', function(e){
                     var form = document.getElementById(d.id);
                     console.log(form);
@@ -100,7 +100,7 @@
                 )
                 .addTo(map)
                 // .bindPopup('Nhà ở '+pos_street(d.position_street)+' đường '+d.address_street+', ID: <a href="{{ url_for('form') }}?id='+d.id+'"> '+d.id+'</a> <br> ').openPopup();;
-                .bindPopup(popup_string(d)).openPopup()
+                .bindPopup(popup_string(d),{maxHeight: 250,autoPan: true,autoPanPadding: [2, 2]})
                 .on('click', function(e){
                     var form = document.getElementById(d.id);
                     console.log(form);
