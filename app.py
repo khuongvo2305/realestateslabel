@@ -3,7 +3,7 @@ import os
 os.system('pip install -r requirements.txt')
 os.system('pip install pymongo[srv]')
 # pymongo[srv]==3.11.3
-
+from gen_dataset import gen_dataset
 # import folium
 import datetime
 import pymongo
@@ -93,6 +93,11 @@ def pick_data():
     col2.insert_one({'id':request.form['id2'],'district':request.form['district']})
     return 'OK'
 
+@app.route('/dataset', methods=["GET"])
+def dataset():
+    limit = request.args.get('limit', type=int)
+    gen_dataset(limit=limit)
+    return 'Dataset with limit = ' + str(limit) ' created!'
 
 if __name__ == "__main__":
   app.run(debug=False) 

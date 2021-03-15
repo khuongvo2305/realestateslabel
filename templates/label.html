@@ -57,7 +57,7 @@
         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18
         }).addTo(map);
-        d3.csv("data_pick_gg/"+district+".csv").then(function(data) {
+        d3.csv("dataset/"+district+".csv").then(function(data) {
         var counterr = 0
         data.forEach(function(d) {
             if (d.id == id){
@@ -143,16 +143,17 @@
             return "Khác"
         }
         function popup_string(d){
-            ret = 'Vị trí nhà ở: '+pos_street(d.position_street)+'<br> Đường: '+d.address_street+'<br> ID: <a href="{{ url_for('form') }}?id='+d.id+'"> '+d.id+'</a>';
+            ret = 'Vị trí nhà ở: '+pos_street(d.position_street)+'<br> ID: <a href="{{ url_for('form') }}?id='+d.id+'"> '+d.id+'</a>';
             
             if (d.price_sell != '0'){ret = ret + '<br> Giá bán: ' +d.price_sell}
-            if (d.price_rent != '0'){ret = ret + '<br> Giá cho thuê : ' +d.price_rent}
-            ret = ret + '<br> Toạ độ: ' +d.coordinate;
-            ret = ret + '<br> Tiêu đề post: ' +d.title;
-            ret = ret + '<br> Nội dung post: ' +d.content;
-            ret = ret + '<br> Trường đối chiếu: ' +d.res_field;
+            // if (d.price_rent != '0'){ret = ret + '<br> Giá cho thuê : ' +d.price_rent}
+            ret = ret + '<br> Đường: '+d.address_street;
             ret = ret + '<br> Bắt Regex: ' +d.regex_street;
             ret = ret + '<br> Google Search: ' +d.gg_addr;
+            ret = ret + '<br> Trường đối chiếu: ' +d.res_field;
+            // ret = ret + '<br> Toạ độ: ' +d.coordinate;
+            ret = ret + '<br> Title: ' +d.title;
+            ret = ret + '<br> Content: ' +d.content;
             ret = ret + '<br> Vị trí: ' +d.district_name;
             ret = ret + '<br> Ngày đăng: ' + new Date(d.post_date * 1000).toISOString().slice(0, 19).replace('T', ' ');
             ret = ret + '<br> <a href="{{ url_for('label') }}?id='+d.id+'&district='+district+'"> Gán nhãn cho BĐS này</a>';
