@@ -52,7 +52,7 @@
         var id = GetURLParameter('id');
         var district = GetURLParameter('dataset');
         var map = L.map('mapid').setView([10.762622, 106.660172], 13);
-        var limit = parseInt(GetURLParameter('limit'));
+        var limit = parseInt(GetURLParameter('limitview'));
         var limit_dict = {}
         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18
