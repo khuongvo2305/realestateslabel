@@ -150,7 +150,9 @@
             ret = ret + '<br> Toạ độ: ' +d.coordinate;
             ret = ret + '<br> Tiêu đề post: ' +d.title;
             ret = ret + '<br> Nội dung post: ' +d.content;
-            ret = ret + '<br> Trường đối chiếu: ' +d.fieldRegrex;
+            ret = ret + '<br> Trường đối chiếu: ' +d.res_field;
+            ret = ret + '<br> Bắt Regex: ' +d.regex_street;
+            ret = ret + '<br> Google Search: ' +d.gg_addr;
             ret = ret + '<br> Vị trí: ' +d.district_name;
             ret = ret + '<br> Ngày đăng: ' + new Date(d.post_date * 1000).toISOString().slice(0, 19).replace('T', ' ');
             ret = ret + '<br> <a href="{{ url_for('label') }}?id='+d.id+'&district='+district+'"> Gán nhãn cho BĐS này</a>';
