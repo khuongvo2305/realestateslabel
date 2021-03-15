@@ -31,5 +31,5 @@ Bước 1: http://127.0.0.1:5000/dataset?limit=150 <br>
 Bước 2: Gán nhãn ở http://127.0.0.1:5000/label?dataset=all150
 <br>
 ## Testing:<br>
-Thêm trường &limitview{numberofpoints} để hiển thị {numberofpoints} điểm<br>
+Thêm trường &limitview={numberofpoints} để hiển thị {numberofpoints} điểm<br>
 Ví dụ: http://127.0.0.1:5000/label?id=533692&dataset=all100&limitview=500
