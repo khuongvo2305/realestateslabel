@@ -97,7 +97,7 @@ def pick_data():
 def dataset():
     limit = request.args.get('limit', type=int)
     gen_dataset(limit=limit)
-    return 'Dataset with limit = ' + str(limit) ' created!'
+    return 'Dataset with limit = ' + str(limit) +' created!'
 
 if __name__ == "__main__":
   app.run(debug=False) 
