@@ -26,7 +26,10 @@ Các dataset được lưu ở folder /dataset<br>
 Ví dụ: /dataset/all100.csv là dataset chứa 100 posts mỗi quận.<br>
 Để generate Dataset mới, gọi http://127.0.0.1:5000/dataset?limit={limit}, backend sẽ kiểm tra, nếu chưa có data set tên all{limit}.csv trong thư mục /dataset thì sẽ tạo ra file all{limit}.csv chứa {limit} post cho môi quận.<br>
 Sau đó, truy cập http://127.0.0.1:5000/label?dataset={all{limit}} để bắt đầu gán nhãn.<br>
+Ví dụ:<br>
+Bước 1: http://127.0.0.1:5000/dataset?limit=150 <br>
+Bước 2: Gán nhãn ở http://127.0.0.1:5000/label?dataset=all150
 <br>
-Testing:
+Testing:<br>
 Thêm trường &limitview{numberofpoints} để hiển thị {numberofpoints} điểm<br>
 Ví dụ: http://127.0.0.1:5000/label?id=533692&dataset=all100&limitview=500
