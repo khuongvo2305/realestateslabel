@@ -156,7 +156,7 @@
             ret = ret + '<br> Content: ' +d.content;
             ret = ret + '<br> Vị trí: ' +d.district_name;
             ret = ret + '<br> Ngày đăng: ' + new Date(d.post_date * 1000).toISOString().slice(0, 19).replace('T', ' ');
-            ret = ret + '<br> <a href="{{ url_for('label') }}?id='+d.id+'&district='+district+'"> Gán nhãn cho BĐS này</a>';
+            ret = ret + '<br> <a href="{{ url_for('label') }}?id='+d.id+'&dataset='+district+'"> Gán nhãn cho BĐS này</a>';
             ret = ret + '<br> <a href="'+d.link+'">Link bài viết</a>';
             ret = ret + '<form id = "'+d.id+'">';
             ret = ret + '<br> <label for="position_street">Xếp hạng mức tương quan</label>\
