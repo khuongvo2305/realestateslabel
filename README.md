@@ -4,6 +4,7 @@
 git clone https://github.com/khuongvo2305/realestateslabel
 cd realestateslabel
 source .venv/bin/activate
+pip install pandas
 pip install pymongo[srv]
 python app.py
 ```
