@@ -7,6 +7,8 @@ from gen_dataset import gen_dataset
 # import folium
 import datetime
 import pymongo
+import pandas as pd
+import random
 # from folium_mapp import folium_mapp
 app = Flask(__name__)
 def root_dir():  # pragma: no cover
@@ -60,8 +62,22 @@ def form():
 some_list = []
 @app.route('/label', methods=["GET", "POST"])
 def label():
-    id = request.args.get('id', type=float)
+    id = request.args.get('id', type=int)
+    extend = request.args.get('extend', type=int)
     print(id)
+    if(extend):
+        lst = []
+        df_post2 = pd.read_csv('dataset/all.csv')
+        id_post = df_post2[df_post2['id']==int(str(id))]
+        id_district = id_post['address_district'].values[0]
+        dis_len = len(df_post2[df_post2['address_district']==id_district])
+        try:
+            ids = random.sample(range(dis_len), extend)
+            lst.append(df_post2[df_post2['address_district']==id_district].iloc[ids])
+        except:
+            lst.append(df_post2[df_post2['address_district']==id_district])
+        df = pd.concat(lst)
+        df.to_csv('dataset/temp/'+str(int(id_district))+str(extend)+'.csv')
     if request.method == 'POST':
         passdata = request.form
         print('post')
@@ -73,7 +89,7 @@ def label():
         # return redirect(url_for('label'),id=id)
     # print(int(id))
     # return folium_mapp(int(id))._repr_html_()
-    return render_template("label.html", id=id)
+    return render_template("label.html", id=float(str(id)),extend=str(extend))
 # os.system('python -m pip install pymongo[srv]')
 # import pymongo
 client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")

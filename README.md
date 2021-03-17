@@ -8,8 +8,9 @@ pip install pandas
 pip install pymongo[srv]
 python app.py
 ```
-Gán nhãn ở: http://127.0.0.1:5000/label?dataset={dataset}&id={id} <br>
-example: http://127.0.0.1:5000/label?id=533692&dataset=all100<br>
+Gán nhãn ở: http://127.0.0.1:5000/label?dataset={dataset}&id={id}&extend={extend} <br>
+example: http://127.0.0.1:5000/label?id=533692&dataset=all100&extend=100<br>
+Trường extend: Số bài post cùng quận với id=533692 muốn hiển thị thêm.
 Các bước label:<br>
 Bước 1: Truy cập vào đường dẫn example, post có id=533692 sẽ được set icon khác các marker còn lại<br>
 Bước 2: Chọn marker khác và chọn lớp tương quan ứng với post có id=533692 và chọn gán nhãn, data có dạng dưới sẽ được lưu vào MongoDB<br>

@@ -31,6 +31,7 @@
                             overflow: auto;"></div>
     <div id="map"></div>
     <script type=text/javascript>
+        var id_district='';
         const myIcon = L.icon({
         iconUrl: 'https://cdn.iconscout.com/icon/free/png-256/house-home-building-infrastructure-real-estate-resident-emoj-symbol-1-30743.png',
         // ...
@@ -53,11 +54,82 @@
         var district = GetURLParameter('dataset');
         var map = L.map('mapid').setView([10.762622, 106.660172], 13);
         var limit = parseInt(GetURLParameter('limitview'));
-        var limit_dict = {}
+        var limit_dict = {};
+        var extend = GetURLParameter('extend');
+        
         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18
         }).addTo(map);
         d3.csv("dataset/"+district+".csv").then(function(data) {
+        var counterr = 0
+        data.forEach(function(d) {
+            if (d.id == id){
+                id_district = parseInt(d.address_district);
+                console.log(id_district)
+                var marker = new L.Marker(
+                [d.gglat,d.gglong], 
+                {
+                id: d.id,
+                position_street: d.position_street,
+                icon: myIcon,
+                }
+                )
+                .addTo(map)
+                .bindPopup(popup_string(d),{maxHeight: 250,autoPan: true,autoPanPadding: [2, 2]}).openPopup()
+                .on('click', function(e){
+                    var form = document.getElementById(d.id);
+                    console.log(form);
+                    $('#'+d.id).submit(function(e) {
+                    $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
+                    $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
+                    // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
+                    e.preventDefault();
+                    });
+                   
+            })
+;;
+            
+            }
+            else{
+                try{
+                if(counterr > limit){return;};
+
+                counterr = counterr + 1;
+                
+                var marker = new L.Marker(
+                [d.gglat,d.gglong], 
+                {
+                id: d.id,
+                position_street: d.position_street,
+                }
+                )
+                .addTo(map)
+                // .bindPopup('Nhà ở '+pos_street(d.position_street)+' đường '+d.address_street+', ID: <a href="{{ url_for('form') }}?id='+d.id+'"> '+d.id+'</a> <br> ').openPopup();;
+                .bindPopup(popup_string(d),{maxHeight: 250,autoPan: true,autoPanPadding: [2, 2]})
+                .on('click', function(e){
+                    var form = document.getElementById(d.id);
+                    console.log(form);
+                    $('#'+d.id).submit(function(e) {
+                    $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
+                    $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
+                    // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
+                    e.preventDefault();
+                    });
+                   
+            });
+                }
+                catch(err){
+                    console.log(d.id);
+                    console.log(err)
+                }
+            }
+            
+        });
+        console.log(counterr)
+        if(extend){
+        console.log(id_district)
+        console.log("dataset/temp/"+id_district+extend+".csv")
+        d3.csv("dataset/temp/"+id_district+extend+".csv").then(function(data) {
         var counterr = 0
         data.forEach(function(d) {
             if (d.id == id){
@@ -122,6 +194,9 @@
         });
         console.log(counterr)
         })
+    }
+        })
+    
 
         function pos_street(position_street) {
             if (position_street==1){return "mặt tiền"};
