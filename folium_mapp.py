@@ -6,8 +6,8 @@ import math
 from colour import Color
 from unidecode import unidecode
 def folium_mapp(idd):
-  data_post = pd.read_csv("post.csv")
-  data_post = data_post[data_post["address_district"] == 11] # Quan 10
+  data_post = pd.read_csv("dataset/all100.csv")
+  # data_post = data_post[data_post["address_district"] == 11] # Quan 10
   data_post = data_post[data_post["address_city"] == 1] # HCM
   # print(idd)
   print(data_post[data_post["id"] == idd])
@@ -26,7 +26,7 @@ def folium_mapp(idd):
   def plot_station_counts(data_post):
       i = j = k = 0
       # generate a new map
-      folium_map = folium.Map(location=[idPost['lat'], idPost['long']],
+      folium_map = folium.Map(location=[idPost['gglat'], idPost['gglong']],
                               zoom_start=13,
                               max_zoom=25,
                               tiles="CartoDB dark_matter",
@@ -58,8 +58,8 @@ def folium_mapp(idd):
                   unidecode(str(row["address_ward"])),
                   unidecode(str(data_district[data_district["id"] == int(row["address_district"])]["name"].values[0])),
                   row["position_street"],
-                  row["lat"],
-                  row["long"],
+                  row["gglat"],
+                  row["gglong"],
                   i)
           
           # # radius of circles
@@ -77,7 +77,7 @@ def folium_mapp(idd):
           
           # add marker to the map
           if color_a_point(row) != "#0375B4":
-            folium.CircleMarker(location=(row["lat"], row["long"]),
+            folium.CircleMarker(location=(row["gglat"], row["gglong"]),
                               radius=3 if color_a_point(row) == "#FFCE00" else 1,
                               color=color_a_point(row),
                               popup=popup_text,
@@ -120,20 +120,21 @@ def folium_mapp(idd):
     return []
 
   def score_pos_street(id_pos_street): # convert id pos_street to score
+    id_pos_street = float(id_pos_street)
     if id_pos_street == 1:
-      return 1
+      return 5.13000151
     if id_pos_street == 2:
-      return 1.2
+      return -4.11031906
     if id_pos_street == 3:
-      return 0.55
+      return -5.37830437
     if id_pos_street == 4:
-      return 0.44
+      return 2.54340878
     if id_pos_street == 5:
-      return 0.66
+      return 1.11500722
     if id_pos_street == 6:
-      return 0.55
-    return 99
-  # closest_node(data_x, t, map, Rows, Cols)
+      return -4.5762099
+    return id_pos_street
+    # closest_node(data_x, t, map, Rows, Cols)
   def closest_node(data, t, map, m_rows, m_cols):
     # (row,col) of map node closest to data[t]
     result = (0,0)
@@ -151,8 +152,9 @@ def folium_mapp(idd):
     distance_latlong = np.linalg.norm(v1[:2] - v2[:2]) # lấy 2 giá trị đầu tính latlong
 
     p1 = (v1[2])
-    p2 = score_pos_street(int(v2[2]))
-    distance = (beta + alpha * math.exp( abs(p1 - p2)  )) * distance_latlong
+    p2 = score_pos_street((v2[2]))
+    delta = np.linalg.norm(p1 - p2) 
+    distance = (beta + alpha * math.exp( gamma * delta  )) * distance_latlong
     return distance
 
   def euc_dist(v1, v2):
@@ -169,20 +171,6 @@ def folium_mapp(idd):
       counts[lst[i]] += 1
     return np.argmax(counts)
 
-  def score_pos_street(id_pos_street): # convert id pos_street to score
-    if id_pos_street == 1:
-      return 1
-    if id_pos_street == 2:
-      return 1.2
-    if id_pos_street == 3:
-      return 0.55
-    if id_pos_street == 4:
-      return 0.44
-    if id_pos_street == 5:
-      return 0.66
-    if id_pos_street == 6:
-      return 0.55
-    return 99
 
   # Initial variables for model
   np.random.seed(1)
@@ -193,15 +181,30 @@ def folium_mapp(idd):
   StepsMax = 12000          # 20000
 
   # Initial variables for logic distance
-  beta = 0
-  alpha = 1
+  beta = -8.30421441
+  alpha = 0.06557144
+  gamma = 0.88806504
 
-  map = np.load('Ver.04/map_Q10.npy', allow_pickle=True)
-  mapping = np.load('Ver.04/mapping_Q10.npy', allow_pickle=True)
-  label_map = np.load('Ver.04/label_map_Q10.npy', allow_pickle=True)
-  label_map_district = np.load('Ver.04/label_map_districtQ10.npy', allow_pickle=True)
+  map = np.load('Ver.04/map_GAKSOM.npy', allow_pickle=True)
+  mapping = np.load('Ver.04/mapping_GAKSOM.npy', allow_pickle=True)
+  label_map = np.load('Ver.04/label_map_new_GAKSOM.npy', allow_pickle=True)
+  # label_map_district = np.empty(shape=(len(label_map), len(label_map)), dtype=object)
+  # m = 0
+  # name = []
+  # for index, row in data_post.iterrows():
+  #   name.append((row.id))
+  # for col in range(0, len(label_map_district)):
+  #   for row in range(0, len(label_map_district)):
+  #     # print(label_map[col][row])
+  #     if label_map[col][row] == -1:
+  #       label_map_district[col][row] = " || "
+  #     else:
+  #       # label_map_district[col][row] = name[label_map[col][row]]
+  #       m += 1
+  label_map_district = np.load('Ver.04/label_map_district_new_GAKSOM.npy', allow_pickle=True)
+  # np.save('Ver.04/label_map_district_GAKSOM.npy',label_map_district)
   arr = []
-  LOL = np.array([      [idPost['lat'], idPost['long'], score_pos_street(idPost['position_street'])]      ])
+  LOL = np.array([      [idPost['gglat'], idPost['gglong'], score_pos_street(idPost['position_street'])]      ])
   predict_idx = closest_node(LOL, 0, map, Rows, Cols)
   print("predict:")
   pred = label_map_district[predict_idx]
@@ -210,10 +213,18 @@ def folium_mapp(idd):
     for index in surroundingMatrixIndex(label_map_district, predict_idx, i):
       pred_idx = label_map_district[index]
       if (pred_idx != " || "):
-        lst += [int(pred_idx.split(" _ ")[0][4:])]
+        # lst += [int(pred_idx.split(" _ ")[0][4:])]
+        lst += [pred_idx]
+
     arr.append(lst)
-  red = Color("#FFFFFF")
-  colors = list(red.range_to(Color("#1B1C0D"), 100))
+  red = Color("#FE0000")
+  green = Color ("#008000")
+  blue = Color("#0000FF")
+  white = Color("#FFFFFF")
+  colors = list(red.range_to(green, 100))
   plot_station_counts(data_post)
   mymapp = plot_station_counts(data_post)
   return mymapp
+
+
+# folium_mapp(539702)

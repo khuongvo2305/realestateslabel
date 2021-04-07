@@ -9,7 +9,7 @@ import datetime
 import pymongo
 import pandas as pd
 import random
-# from folium_mapp import folium_mapp
+from folium_mapp import folium_mapp
 app = Flask(__name__)
 def root_dir():  # pragma: no cover
     return os.path.abspath(os.path.dirname(__file__))
@@ -60,6 +60,11 @@ def form():
     return False
     # return render_template("form.html", longitude=id, latitude=id)
 some_list = []
+@app.route('/labelKsom', methods=["GET", "POST"])
+def labelKsom():
+    id = request.args.get('id', type=int)
+    print(id)
+    return folium_mapp(int(id))._repr_html_()
 @app.route('/label', methods=["GET", "POST"])
 def label():
     id = request.args.get('id', type=int)
@@ -116,4 +121,4 @@ def dataset():
     return 'Dataset with limit = ' + str(limit) +' created!'
 
 if __name__ == "__main__":
-  app.run(debug=False) 
+  app.run(debug=True) 
