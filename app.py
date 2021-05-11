@@ -10,6 +10,7 @@ import pymongo
 import pandas as pd
 import random
 from folium_mapp import folium_mapp
+from folium_map_new import folium_mapp_new
 app = Flask(__name__)
 def root_dir():  # pragma: no cover
     return os.path.abspath(os.path.dirname(__file__))
@@ -60,11 +61,62 @@ def form():
     return False
     # return render_template("form.html", longitude=id, latitude=id)
 some_list = []
+
+@app.route('/labelKsomNew', methods=["GET", "POST"])
+def labelKsomNew():
+    # if request.method == 'POST':
+    #     data = request.form['gglat']
+    #     idPost = data
+    #     print(data)
+    #     return folium_mapp_new(data)._repr_html_()
+    idPost = {}
+    
+    idPost['id']=-1
+    idPost['position_street'] = request.args.get('position_street', type=float)
+    idPost['gglat']=request.args.get('gglat', type=float)
+    idPost['gglong']=request.args.get('gglong', type=float)
+    distance_type = request.args.get('distance_type', type=str)
+    if(distance_type):
+        if not distance_type in ['physical','logical']:
+            distance_type = 'physical'
+    return folium_mapp_new(idPostt=idPost,distance_type=distance_type)._repr_html_()
+    # return folium_mapp_new(idPostt=idPost)._repr_html_()
+
+
 @app.route('/labelKsom', methods=["GET", "POST"])
 def labelKsom():
-    id = request.args.get('id', type=int)
-    print(id)
-    return folium_mapp(int(id))._repr_html_()
+    if request.method == 'POST':
+        data = request.form['gglat']
+        idPost = data
+        print(data)
+        return folium_mapp_new(data)._repr_html_()
+    # idPost = {}
+    # print(idPost)
+    # idPost['id']=-1
+    # idPost['position_street'] = request.args.get('position_street', type=float)
+    # idPost['gglat']=request.args.get('gglat', type=float)
+    # idPost['gglong']=request.args.get('gglong', type=float)
+    # else:
+    else:
+        id = request.args.get('id', type=int)
+        if(not id):
+            id = 539702
+        print(id)
+        return folium_mapp(id)._repr_html_()
+    
+    # if(id and idPost['position_street'] is None):
+    #     return folium_mapp(id)._repr_html_()
+    # elif(idPost['position_street'] is not None):
+    #     return folium_mapp_new(id,idPost)._repr_html_()
+    # else:
+    #     return folium_mapp(id)._repr_html_()
+
+    # if(idPost['position_street']):
+    #     return folium_mapp_new(idPostt=idPost)._repr_html_()
+    # elif(id):
+    #     return folium_mapp(int(id),idPost=idPost)._repr_html_()
+    # else:
+    #     return folium_mapp_new(-1,idPostt=idPost)._repr_html_()
 @app.route('/label', methods=["GET", "POST"])
 def label():
     id = request.args.get('id', type=int)
@@ -95,6 +147,41 @@ def label():
     # print(int(id))
     # return folium_mapp(int(id))._repr_html_()
     return render_template("label.html", id=float(str(id)),extend=str(extend))
+
+@app.route('/pickapoint', methods=["GET", "POST"])
+def pickapoint():
+    id = request.args.get('id', type=int) if request.args.get('id', type=int) else -1
+    extend = request.args.get('extend', type=int) if request.args.get('extend', type=int) else -1
+    print(id)
+    if(extend):
+        lst = []
+        df_post2 = pd.read_csv('dataset/all.csv')
+        if(id != -1):
+            try:
+                id_post = df_post2[df_post2['id']==int(str(id))]
+                id_district = id_post['address_district'].values[0]
+                dis_len = len(df_post2[df_post2['address_district']==id_district])
+                try:
+                    ids = random.sample(range(dis_len), extend)
+                    lst.append(df_post2[df_post2['address_district']==id_district].iloc[ids])
+                except:
+                    lst.append(df_post2[df_post2['address_district']==id_district])
+                df = pd.concat(lst)
+                df.to_csv('dataset/temp/'+str(int(id_district))+str(extend)+'.csv')
+            except:
+                id = -1
+    if request.method == 'POST':
+        passdata = request.form
+        print('post')
+    #     some_list.append(passdata)
+
+    #     print('data submitted successfuly')
+        print(passdata)
+        return redirect(request.url)
+        # return redirect(url_for('label'),id=id)
+    # print(int(id))
+    # return folium_mapp(int(id))._repr_html_()
+    return render_template("pickapoint.html", id=float(str(id)),extend=str(extend))
 # os.system('python -m pip install pymongo[srv]')
 # import pymongo
 client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
