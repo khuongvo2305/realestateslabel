@@ -11,7 +11,7 @@ from scipy.spatial.distance import squareform
 def folium_mapp(idd,idPost=None):
   data_post = pd.read_csv("dataset/all.csv")
   print(len(data_post))
-
+  center_id = idd
   # data_post = data_post[data_post["address_district"] == 11] # Quan 10
   data_post = data_post[data_post["address_city"] == 1] # HCM
   # print(idd)
@@ -20,6 +20,8 @@ def folium_mapp(idd,idPost=None):
   data_district = pd.read_csv("district.csv")
   labeled = [595347,197574,595347,728022,539702,133762,595347,648824,151611,585779,90505,193579,90505,295901,90505,316913,90505,113096,614411,430301,539702,405019,320512,409878,652053,732480,614411,63428,303680,109919,303680,441339,539702,80248,652053,468045,299557,144908,539702,536729,595347,664312,614411,568236,614411,398661,303680,307731,435447,503553,595347,622751,652053,526136,652053,526136,75320,430195,75320,685946,151611,690287,721528,288939,621291,317757,539702,63818,652053,309152,652053,57550,652053,673630,122845,596146,721528,732288,577544,763033,595347,508729,122845,605561,320512,169733,151611,717646,151611,616848,621291,727332,435447,724328,151611,336802,303680,407222,614411,305266,303680,290332,621291,622003,577544,169279,621291,94057,299557,116847,503553,47888,614411,719986,539702,327366,122845,294564,539702,581740,75320,303817,721528,643041,303680,601918,614411,566384,503553,655052,614411,617461,503553,127978,539702,535122,721528,132468,539702,322154,721528,585622,577544,588940,539702,603657,122845,535670,435447,725757,122845,390904,90505,639116,721528,80300,503553,435447,595347,320682,621291,343055,621291,107399,577544,725366,503553,452345,595347,201498,621291,442576,539702,587892,320512,308147,621291,555167,90505,59078,539702,464764,721528,688220,75320,730348,90505,112705,320512,169733,122845,50954,539702,585667,577544,78046,299557,738857,652053,471501,151611,105324,614411,548107,90505,566362,122845,735541,299557,473644,614411,506172,503553,180465,122845,629412,614411,112692,614411,299384,303680,311072,614411,509482,621291,544250,614411,178290,90505,308169,577544,588940,539702,459370,90505,739050,320512,118873,621291,497351,75320,73580,539702,454142,320512,535680]
   def size_a_point(row):
+    if int(row['id']) == center_id:
+      return 20
     if int(row['id']) in labeled:
       if int(row['id']) in arr_dist[0]:
         return 20
@@ -31,6 +33,8 @@ def folium_mapp(idd,idPost=None):
       return 3
   def color_a_point(row):
     color="#0375B4" # blue
+    if int(row['id']) == center_id:
+      return color
     # for i in range(0, len(arr)):
     for i in arr_dist:
       # if int(row['id']) in labeled:
@@ -48,7 +52,8 @@ def folium_mapp(idd,idPost=None):
       folium_map = folium.Map(location=[idPost['gglat'], idPost['gglong']],
                               zoom_start=13,
                               max_zoom=25,
-                              tiles="CartoDB dark_matter",
+                              tiles="CartoDB positron",
+                              # tiles="CartoDB dark_matter",
                               width='50%')
 
       # for each row in the data, add a cicle marker
@@ -122,33 +127,54 @@ def folium_mapp(idd,idPost=None):
           
       print("green: %s, orange: %s, blue: %s" % (i, j, k))
       return folium_map
+  def get_direction(deep):
+    if(deep == 0):
+        return [[0,0]]
+    if(deep > 0):
+        lst = []
+        for x in range(-deep,deep+1):
+            for y in range(-deep,deep+1):
+                if x == deep or y == deep or x == -deep or y == -deep:
+                    lst.append([x,y])
+        return lst
+  def getSurroundings(matrix,x,y,deep):
+    res = []
+    for direction in get_direction(deep):
+      cx = x + direction[0]
+      cy = y + direction[1]
+      if(cy >=0 and cy < len(matrix)):
+        if(cx >=0 and cx < len(matrix[cy])):
+          res.append(matrix[cy][cx])
+    return res
   def surroundingMatrixIndex(arr, idx, deep): # surround an element in array
-    indexSurround = []
-    if len(arr) == 0 or deep > len(arr)/2:
-      return []
-    if deep == 0:
-      return [idx]
-    if deep > 0 and deep <len(arr)/2 +1:
-      indexSurround = []
+    # print(getSurroundings(arr,idx[0],idx[1]))
+    return getSurroundings(arr,idx[0],idx[1])[deep]
+    # indexSurround = []
+    # if len(arr) == 0 or deep > len(arr)/2:
+    #   return []
+    # if deep == 0:
+    #   return [idx]
+    # if deep > 0 and deep <len(arr)/2 +1:
+    #   indexSurround = []
       
-      if (idx[0]-deep > 0):
-        for j in range(idx[1]-deep,idx[1]+deep+1):
-          if (j>=0 and j<len(arr[0])):
-            indexSurround.append((idx[0]-deep,j))
+    #   if (idx[0]-deep > 0):
+    #     for j in range(idx[1]-deep,idx[1]+deep+1):
+    #       if (j>=0 and j<len(arr[0])):
+    #         indexSurround.append((idx[0]-deep,j))
 
-      if (idx[0]+deep < len(arr)):
-        for j in range(idx[1]-deep,idx[1]+deep+1):
-          if (j>=0 and j<len(arr[0])):
-            indexSurround.append((idx[0]+deep,j))
+    #   if (idx[0]+deep < len(arr)):
+    #     for j in range(idx[1]-deep,idx[1]+deep+1):
+    #       if (j>=0 and j<len(arr[0])):
+    #         indexSurround.append((idx[0]+deep,j))
 
-      for i in range(idx[1]-deep+1,idx[1]+deep):
-        if(i>=0 or i<=len(arr[0])):
-          if (idx[1]+deep < len(arr[0])):
-            indexSurround.append((i,idx[1]+deep))
-          if (idx[1]-deep > 0):
-            indexSurround.append((i,idx[1]-deep))
-      return [x for x in set(indexSurround) if len(arr[0])>x[0] >=0 and len(arr[1])>x[1]>=0]
-    return []
+    #   for i in range(idx[1]-deep+1,idx[1]+deep):
+    #     if(i>=0 or i<=len(arr[0])):
+    #       if (idx[1]+deep < len(arr[0])):
+    #         indexSurround.append((i,idx[1]+deep))
+    #       if (idx[1]-deep > 0):
+    #         indexSurround.append((i,idx[1]-deep))
+    #   return [x for x in set(indexSurround) if len(arr[0])>x[0] >=0 and len(arr[1])>x[1]>=0]
+    # return []
 
   def score_pos_street(id_pos_street): # convert id pos_street to score
     id_pos_street = float(id_pos_street)
@@ -248,9 +274,13 @@ def folium_mapp(idd,idPost=None):
     # lst = []
     # lst_distance = []
     
-    for index in surroundingMatrixIndex(label_map_district, predict_idx, i):
-      pred_idx = label_map_district[index]
-      print(i,index,pred_idx)
+    for index in getSurroundings(label_map_district, predict_idx[0],predict_idx[1], i):
+    # for index in surroundingMatrixIndex(label_map_district, predict_idx, i):
+
+      # print(index)
+      # pred_idx = label_map_district[index]
+      pred_idx=index
+      # print(i,index,pred_idx)
       if (pred_idx != " || "):
         # lst += [int(pred_idx.split(" _ ")[0][4:])]
         # lst += pred_idx
@@ -263,7 +293,7 @@ def folium_mapp(idd,idPost=None):
           try:
             pred_idd = np.array([data_post[data_post["id"] == idd].iloc[0]['gglat'],data_post[data_post["id"] == idd].iloc[0]['gglong']])
             # distance_post.append(i*10+(int(euc_dist(pred_idd,idPost_coordinate)*100)%10))
-            print(i*10+(int(euc_dist(pred_idd,idPost_coordinate)*100)%10))
+            # print(i*10+(int(euc_dist(pred_idd,idPost_coordinate)*100)%10))
             try:
               arr_dist[i*10+(int(euc_dist(pred_idd,idPost_coordinate)*100)%10)].append(idd)
             except:
@@ -271,8 +301,8 @@ def folium_mapp(idd,idPost=None):
             count +=1
             
           except Exception as e:
-            print(str(e) + str(idd))
-  print(count)
+            print(str(e) + ' id: ' + str(idd))
+  # print(count)
           # print(i*10+(int(euc_dist(pred_idd,idPost_coordinate)*100)%10),idd)
         # lst_distance.append(distance_post)
 
@@ -291,10 +321,12 @@ def folium_mapp(idd,idPost=None):
     
     # arr.append(lst)
   # print(arr_deep)
-  asda = [len(arr_dist[x]) for x in arr_dist]
-  print([x for x in arr_dist])
-  print(asda)
-  print(sum(asda))
+
+
+  # asda = [len(arr_dist[x]) for x in arr_dist]
+  # print([x for x in arr_dist])
+  # print(asda)
+  # print(sum(asda))
 
 
   red = Color("#FE0000")

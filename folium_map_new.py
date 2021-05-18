@@ -57,26 +57,11 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='physical'):
       max_len = min(max_len,llpt)
       if(max_len == llpt):
           max_idx = row['id']
-      print(max_idx)
+      # print(max_idx)
     idd = max_idx
-    print(idd)
+    # print(idd)
 
     idPost = data_post[data_post["id"] == idd].iloc[0]
-    print(idPost)
-
-
-    #   np.array([data_post[data_post["id"] == idd].iloc[0]['gglat'],data_post[data_post["id"] == idd].iloc[0]['gglong']])
-#   print(idd)
-#   print(max_len)
-#   idPost = data_post[data_post["id"] == idd].iloc[0]
-
-#   idPost = {}
-#   if(idPostt is not None):
-#     idPost['id']=-1
-#     idPost['gglat']=idPostt['gglat']
-#     idPost['gglong']=idPostt['gglong']
-#     idPost['position_street']=idPostt['position_street']
-    
   data_district = pd.read_csv("district.csv")
   labeled = [595347,197574,595347,728022,539702,133762,595347,648824,151611,585779,90505,193579,90505,295901,90505,316913,90505,113096,614411,430301,539702,405019,320512,409878,652053,732480,614411,63428,303680,109919,303680,441339,539702,80248,652053,468045,299557,144908,539702,536729,595347,664312,614411,568236,614411,398661,303680,307731,435447,503553,595347,622751,652053,526136,652053,526136,75320,430195,75320,685946,151611,690287,721528,288939,621291,317757,539702,63818,652053,309152,652053,57550,652053,673630,122845,596146,721528,732288,577544,763033,595347,508729,122845,605561,320512,169733,151611,717646,151611,616848,621291,727332,435447,724328,151611,336802,303680,407222,614411,305266,303680,290332,621291,622003,577544,169279,621291,94057,299557,116847,503553,47888,614411,719986,539702,327366,122845,294564,539702,581740,75320,303817,721528,643041,303680,601918,614411,566384,503553,655052,614411,617461,503553,127978,539702,535122,721528,132468,539702,322154,721528,585622,577544,588940,539702,603657,122845,535670,435447,725757,122845,390904,90505,639116,721528,80300,503553,435447,595347,320682,621291,343055,621291,107399,577544,725366,503553,452345,595347,201498,621291,442576,539702,587892,320512,308147,621291,555167,90505,59078,539702,464764,721528,688220,75320,730348,90505,112705,320512,169733,122845,50954,539702,585667,577544,78046,299557,738857,652053,471501,151611,105324,614411,548107,90505,566362,122845,735541,299557,473644,614411,506172,503553,180465,122845,629412,614411,112692,614411,299384,303680,311072,614411,509482,621291,544250,614411,178290,90505,308169,577544,588940,539702,459370,90505,739050,320512,118873,621291,497351,75320,73580,539702,454142,320512,535680]
   def size_a_point(row,center):
@@ -104,15 +89,38 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='physical'):
         color = "#FFCE00" # orange
     return color
 
+  def get_direction(deep):
+    if(deep == 0):
+        return [[0,0]]
+    if(deep > 0):
+        lst = []
+        for x in range(-deep,deep+1):
+            for y in range(-deep,deep+1):
+                if x == deep or y == deep or x == -deep or y == -deep:
+                    lst.append([x,y])
+        return lst
+  def getSurroundings(matrix,x,y,deep):
+    res = []
+    for direction in get_direction(deep):
+      cx = x + direction[0]
+      cy = y + direction[1]
+      if(cy >=0 and cy < len(matrix)):
+        if(cx >=0 and cx < len(matrix[cy])):
+          res.append(matrix[cy][cx])
+    return res
   def plot_station_counts(data_post):
       i = j = k = 0
       # generate a new map
-      folium_map = folium.Map(location=[idPost['gglat'], idPost['gglong']],
+      folium_map = folium.Map(location=[idPostt['gglat'], idPostt['gglong']],
                               zoom_start=13,
                               max_zoom=25,
                               tiles="CartoDB dark_matter",
                               width='50%')
-
+      folium.CircleMarker(location=(idPostt["gglat"], idPostt["gglong"]),
+                              radius=20,
+                              color="#0375B4",
+                              popup="NEW MARKER, Post street: "+str(idPostt['position_street']),
+                              fill=True).add_to(folium_map)
       # for each row in the data, add a cicle marker
       for index, row in data_post.iterrows():
           # # calculate net departures
@@ -281,10 +289,10 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='physical'):
   label_map_district = np.load('Ver.04/label_map_district_new_GAKSOM2.npy', allow_pickle=True)
   # np.save('Ver.04/label_map_district_GAKSOM2.npy',label_map_district)
   # arr = []
-  try:
-    LOL = np.array([      [idPost['gglat'], idPost['gglong'], score_pos_street(idPost['position_street'])]      ])
-  except:
-    LOL = np.array([      [idPostt['gglat'], idPostt['gglong'], score_pos_street(idPostt['position_street'])]      ])
+  # try:
+  #   LOL = np.array([      [idPost['gglat'], idPost['gglong'], score_pos_street(idPost['position_street'])]      ])
+  # except:
+  LOL = np.array([      [idPostt['gglat'], idPostt['gglong'], score_pos_street(idPostt['position_street'])]      ])
   predict_idx = closest_node(LOL, 0, map, Rows, Cols)
   print("predict:")
   pred = label_map_district[predict_idx]
@@ -297,14 +305,15 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='physical'):
     # lst = []
     # lst_distance = []
     
-    for index in surroundingMatrixIndex(label_map_district, predict_idx, i):
-      pred_idx = label_map_district[index]
+    for index in getSurroundings(label_map_district, predict_idx[0],predict_idx[1], i):
+      # pred_idx = label_map_district[index]
       # print(i,index,pred_idx)
+      pred_idx=index
       if (pred_idx != " || "):
         # lst += [int(pred_idx.split(" _ ")[0][4:])]
         # lst += pred_idx
         # coordinates = []
-        idPost_coordinate = np.array([idPost['gglat'], idPost['gglong']])
+        idPost_coordinate = np.array([idPostt['gglat'], idPostt['gglong']])
         
         # distance_post = []
         

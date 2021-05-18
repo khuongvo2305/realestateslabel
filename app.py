@@ -11,7 +11,22 @@ import pandas as pd
 import random
 from folium_mapp import folium_mapp
 from folium_map_new import folium_mapp_new
+from flask_caching import Cache
+config = {
+    "DEBUG": True,          # some Flask specific configs
+    # "CACHE_TYPE": "SimpleCache",  # Flask-Caching related configs
+    "CACHE_TYPE": "RedisCache",
+    "CACHE_REDIS_HOST": 'localhost',
+    "CACHE_REDIS_PORT": '6379',
+    "CACHE_REDIS_URL": 'redis://localhost:6379',
+    # "CACHE_DEFAULT_TIMEOUT": 300
+}
+
 app = Flask(__name__)
+# tell Flask to use the above defined config
+# app.config.from_mapping(config)
+cache = Cache(app,config=config)
+# cache.set
 def root_dir():  # pragma: no cover
     return os.path.abspath(os.path.dirname(__file__))
 def get_file(filename):  # pragma: no cover
@@ -61,7 +76,7 @@ def form():
     return False
     # return render_template("form.html", longitude=id, latitude=id)
 some_list = []
-
+@cache.cached(timeout=50)
 @app.route('/labelKsomNew', methods=["GET", "POST"])
 def labelKsomNew():
     # if request.method == 'POST':
@@ -82,14 +97,16 @@ def labelKsomNew():
     return folium_mapp_new(idPostt=idPost,distance_type=distance_type)._repr_html_()
     # return folium_mapp_new(idPostt=idPost)._repr_html_()
 
-
+@cache.cached(timeout=50)
 @app.route('/labelKsom', methods=["GET", "POST"])
 def labelKsom():
     if request.method == 'POST':
-        data = request.form['gglat']
-        idPost = data
-        print(data)
-        return folium_mapp_new(data)._repr_html_()
+        pass
+        # data = request.form['gglat']
+        # idPost = data
+        # print(data)
+
+        # return folium_mapp_new(data)._repr_html_()
     # idPost = {}
     # print(idPost)
     # idPost['id']=-1
@@ -102,7 +119,14 @@ def labelKsom():
         if(not id):
             id = 539702
         print(id)
-        return folium_mapp(id)._repr_html_()
+        html = cache.get(str(id))
+        if(cache.get(str(id))):
+            return html
+        else:
+            print('cache not found id:'+str(id))
+            html = folium_mapp(id)._repr_html_()
+            cache.set(str(id),html)
+            return html
     
     # if(id and idPost['position_street'] is None):
     #     return folium_mapp(id)._repr_html_()
@@ -146,8 +170,9 @@ def label():
         # return redirect(url_for('label'),id=id)
     # print(int(id))
     # return folium_mapp(int(id))._repr_html_()
+    
     return render_template("label.html", id=float(str(id)),extend=str(extend))
-
+@cache.cached(timeout=50)
 @app.route('/pickapoint', methods=["GET", "POST"])
 def pickapoint():
     id = request.args.get('id', type=int) if request.args.get('id', type=int) else -1
@@ -181,7 +206,16 @@ def pickapoint():
         # return redirect(url_for('label'),id=id)
     # print(int(id))
     # return folium_mapp(int(id))._repr_html_()
-    return render_template("pickapoint.html", id=float(str(id)),extend=str(extend))
+    html = cache.get('pickapoint')
+    if(cache.get('pickapoint')):
+        return html
+    else:
+        print('cache not found')
+        html = render_template("pickapoint.html", id=float(str(id)),extend=str(extend))
+        cache.set('pickapoint',html)
+        return html
+
+    # return render_template("pickapoint.html", id=float(str(id)),extend=str(extend))
 # os.system('python -m pip install pymongo[srv]')
 # import pymongo
 client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
@@ -208,4 +242,4 @@ def dataset():
     return 'Dataset with limit = ' + str(limit) +' created!'
 
 if __name__ == "__main__":
-  app.run(debug=True) 
+  app.run(debug=False) 

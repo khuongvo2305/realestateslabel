@@ -237,7 +237,7 @@ var form = document.getElementById('-1');
     // $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
     // $.get("/labelKsomNew", {"id":-1,"gglat": $('#gglat').val(),"gglong":$('#gglong').val(),"position_street":$('option:selected').val()})
     // var url = "/labelKsomNew?id[".format("{1}", "{0}")
-    location.href = `/labelKsomNew?id=${-1}&gglat=${$('#gglong').val()}&gglong=${$('#gglat').val()}&position_street=${$('#position_street option:selected').val()}&distance_type=${$('#distance_type option:selected').val()}`;
+    location.href = `/labelKsomNew?id=${-1}&gglat=${$('#gglat').val()}&gglong=${$('#gglong').val()}&position_street=${$('#position_street option:selected').val()}&distance_type=${$('#distance_type option:selected').val()}`;
     // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
     e.preventDefault();
 })
@@ -285,6 +285,7 @@ ret = ret + '<br> Content: ' +d.content;
 ret = ret + '<br> Vị trí: ' +d.district_name;
 ret = ret + '<br> Ngày đăng: ' + new Date(d.post_date * 1000).toISOString().slice(0, 19).replace('T', ' ');
 ret = ret + '<br> <a href="{{ url_for('label') }}?id='+d.id+'&dataset='+district+'"> Gán nhãn cho BĐS này</a>';
+ret = ret + '<br> <a href="{{ url_for('labelKsom') }}?id='+d.id+'"> Hiển thị K-SOM Map</a>';
 ret = ret + '<br> <a href="'+d.link+'">Link bài viết</a>';
 ret = ret + '<form id = "'+d.id+'">';
 ret = ret + '<br> <label for="position_street">Xếp hạng mức tương quan</label>\
