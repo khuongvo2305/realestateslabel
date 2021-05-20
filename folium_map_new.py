@@ -114,7 +114,7 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='physical',limit=0):
       folium_map = folium.Map(location=[idPostt['gglat'], idPostt['gglong']],
                               zoom_start=13,
                               max_zoom=25,
-                              tiles="CartoDB dark_matter",
+                              tiles="CartoDB positron",
                               width='50%')
       folium.CircleMarker(location=(idPostt["gglat"], idPostt["gglong"]),
                               radius=20,
