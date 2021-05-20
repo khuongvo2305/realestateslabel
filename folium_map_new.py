@@ -8,7 +8,7 @@ from unidecode import unidecode
 import numpy
 from scipy.spatial.distance import pdist
 from scipy.spatial.distance import squareform 
-def folium_mapp_new(idd=-1,idPostt=None,distance_type='physical'):
+def folium_mapp_new(idd=-1,idPostt=None,distance_type='physical',limit=0):
   beta = -8.30421441
   alpha = 0.06557144
   gamma = 0.88806504
@@ -122,11 +122,19 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='physical'):
                               popup="NEW MARKER, Post street: "+str(idPostt['position_street']),
                               fill=True).add_to(folium_map)
       # for each row in the data, add a cicle marker
+      if(limit==0):
+        lim = len(data_post)
+      else:
+        lim = limit
       for index, row in data_post.iterrows():
           # # calculate net departures
           # net_departures = (row["Departure Count"]-row["Arrival Count"])
           
           # generate the popup message that is shown on click.
+        # if(index > limit or limit = 0):
+        if(index > lim):
+          break
+        else:
           i = 0
           # for i in range(0, len(arr)):
           #   if int(row['id']) in arr[i]:

@@ -8,7 +8,7 @@ from unidecode import unidecode
 import numpy
 from scipy.spatial.distance import pdist
 from scipy.spatial.distance import squareform 
-def folium_mapp(idd,idPost=None):
+def folium_mapp(idd,idPost=None,limit=0):
   data_post = pd.read_csv("dataset/all.csv")
   print(len(data_post))
   center_id = idd
@@ -57,7 +57,16 @@ def folium_mapp(idd,idPost=None):
                               width='50%')
 
       # for each row in the data, add a cicle marker
+      if(limit==0):
+        lim = len(data_post)
+      else:
+        lim = limit
       for index, row in data_post.iterrows():
+        # if(index > limit or limit = 0):
+        if(index > lim):
+          break
+        else:
+
           # # calculate net departures
           # net_departures = (row["Departure Count"]-row["Arrival Count"])
           

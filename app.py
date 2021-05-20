@@ -90,11 +90,12 @@ def labelKsomNew():
     idPost['position_street'] = request.args.get('position_street', type=float)
     idPost['gglat']=request.args.get('gglat', type=float)
     idPost['gglong']=request.args.get('gglong', type=float)
+    limit = request.args.get('limit', type=int)
     distance_type = request.args.get('distance_type', type=str)
     if(distance_type):
         if not distance_type in ['physical','logical']:
             distance_type = 'physical'
-    return folium_mapp_new(idPostt=idPost,distance_type=distance_type)._repr_html_()
+    return folium_mapp_new(idPostt=idPost,distance_type=distance_type,limit=limit)._repr_html_()
     # return folium_mapp_new(idPostt=idPost)._repr_html_()
 
 @cache.cached(timeout=50)
@@ -116,15 +117,18 @@ def labelKsom():
     # else:
     else:
         id = request.args.get('id', type=int)
+        limit = request.args.get('limit', type=int)
+        if (not limit):
+            limit = 0
         if(not id):
             id = 539702
         print(id)
         html = cache.get(str(id))
-        if(cache.get(str(id))):
+        if(cache.get(str(id)+'_'+str(limit))):
             return html
         else:
-            print('cache not found id:'+str(id))
-            html = folium_mapp(id)._repr_html_()
+            print('cache not found id:'+str(id)+str(limit))
+            html = folium_mapp(id,limit=limit)._repr_html_()
             cache.set(str(id),html)
             return html
     
