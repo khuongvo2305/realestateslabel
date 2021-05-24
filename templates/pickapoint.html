@@ -80,8 +80,9 @@ if (d.id == id){
         var form = document.getElementById(d.id);
         console.log(form);
         $('#'+d.id).submit(function(e) {
-        $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
-        $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
+            location.href = `/labelKsom?id=${d.id}&price=${d.price_m2}&price_new=${$('#price').val()}`;
+        // $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
+        // $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
         // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
         e.preventDefault();
         });
@@ -110,8 +111,9 @@ else{
         var form = document.getElementById(d.id);
         console.log(form);
         $('#'+d.id).submit(function(e) {
-        $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
-        $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
+            location.href = `/labelKsom?id=${d.id}&price=${d.price_m2}&price_new=${$('#price').val()}`;
+        // $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
+        // $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
         // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
         e.preventDefault();
         });
@@ -147,8 +149,9 @@ if (d.id == id){
         var form = document.getElementById(d.id);
         console.log(form);
         $('#'+d.id).submit(function(e) {
-        $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
-        $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
+            location.href = `/labelKsom?id=${d.id}&price=${d.price_m2}&price_new=${$('#price').val()}`;
+        // $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
+        // $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
         // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
         e.preventDefault();
         });
@@ -176,9 +179,12 @@ else{
     .on('click', function(e){
         var form = document.getElementById(d.id);
         console.log(form);
+        
         $('#'+d.id).submit(function(e) {
-        $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
-        $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
+        // $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
+        // $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
+        location.href = `/labelKsom?id=${d.id}&price=${d.price_m2}&price_new=${$('#price').val()}`;
+        // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
         // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
         e.preventDefault();
         });
@@ -237,7 +243,7 @@ var form = document.getElementById('-1');
     // $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
     // $.get("/labelKsomNew", {"id":-1,"gglat": $('#gglat').val(),"gglong":$('#gglong').val(),"position_street":$('option:selected').val()})
     // var url = "/labelKsomNew?id[".format("{1}", "{0}")
-    location.href = `/labelKsomNew?id=${-1}&gglat=${$('#gglat').val()}&gglong=${$('#gglong').val()}&position_street=${$('#position_street option:selected').val()}&distance_type=${$('#distance_type option:selected').val()}`;
+    location.href = `/labelKsomNew?id=${-1}&gglat=${$('#gglat').val()}&gglong=${$('#gglong').val()}&position_street=${$('#position_street option:selected').val()}&distance_type=${$('#distance_type option:selected').val()}&price_new=${$('#price').val()}`;
     // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
     e.preventDefault();
 })
@@ -302,6 +308,8 @@ ret = ret + '<br> <label for="position_street">Xếp hạng mức tương quan</
 <option value="10" >10</option>\
 </select>\
 <br>\
+<label for="price">Price:</label><br>\
+<input type="text" id="price" name="price"><br>\
 <button id="button-submit" type="submit" >Gán nhãn</button>\
 </form>'
 

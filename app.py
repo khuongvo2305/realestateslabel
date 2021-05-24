@@ -90,12 +90,14 @@ def labelKsomNew():
     idPost['position_street'] = request.args.get('position_street', type=float)
     idPost['gglat']=request.args.get('gglat', type=float)
     idPost['gglong']=request.args.get('gglong', type=float)
+    # price_m2 = request.args.get('price_m2', type=float)
+    price_new = request.args.get('price_new', type=float)
     limit = request.args.get('limit', type=int)
     distance_type = request.args.get('distance_type', type=str)
     if(distance_type):
         if not distance_type in ['physical','logical']:
             distance_type = 'physical'
-    return folium_mapp_new(idPostt=idPost,distance_type=distance_type,limit=limit)._repr_html_()
+    return folium_mapp_new(idPostt=idPost,distance_type=distance_type,limit=limit,price_new = price_new)._repr_html_()
     # return folium_mapp_new(idPostt=idPost)._repr_html_()
 
 @cache.cached(timeout=50)
@@ -118,18 +120,23 @@ def labelKsom():
     else:
         id = request.args.get('id', type=int)
         limit = request.args.get('limit', type=int)
+        price_m2 = request.args.get('price', type=float)
+        price_new = request.args.get('price_new', type=float)
+        if(price_m2 == 0.0):
+            price_m2 = price_new
+        price_ratio = float(price_new)/float(price_m2) -1.0
         if (not limit):
             limit = 0
         if(not id):
             id = 539702
         print(id)
-        html = cache.get(str(id))
-        if(cache.get(str(id)+'_'+str(limit))):
+        html = cache.get(str(id)+str(limit)+str(price_ratio))
+        if(cache.get(str(id)+str(limit)+str(price_ratio))):
             return html
         else:
             print('cache not found id:'+str(id)+str(limit))
-            html = folium_mapp(id,limit=limit)._repr_html_()
-            cache.set(str(id),html)
+            html = folium_mapp(id,price_ratio=price_ratio,limit=limit)._repr_html_()
+            cache.set(str(id)+str(limit)+str(price_ratio),html)
             return html
     
     # if(id and idPost['position_street'] is None):
