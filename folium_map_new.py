@@ -110,7 +110,7 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='logical',limit=0,price_ra
       i = j = k = 0
       # generate a new map
       folium_map = folium.Map(location=[idPostt['gglat'], idPostt['gglong']],
-                              zoom_start=13,
+                              zoom_start=20,
                               max_zoom=25,
                               tiles="CartoDB positron",
                               width='50%')
@@ -243,7 +243,7 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='logical',limit=0,price_ra
       if ed < small_dist:
         small_dist = ed
         result = index
-    return index
+    return result
 
   def closest_node_physical_index(data,list_v2):
     # (row,col) of map node closest to data[t]
@@ -256,7 +256,7 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='logical',limit=0,price_ra
       if ed < small_dist:
         small_dist = ed
         result = index
-    return index
+    return result
   def latlong_posstreet(v1, v2):
     distance_latlong = np.linalg.norm(v1[:2] - v2[:2]) * 1000 # lấy 2 giá trị đầu tính latlong
 
