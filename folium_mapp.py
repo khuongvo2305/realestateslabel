@@ -9,8 +9,9 @@ import numpy
 from scipy.spatial.distance import pdist
 from scipy.spatial.distance import squareform 
 import pymongo
+import geopy.distance
 def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
-  def get_df():
+  def get_df(idd = idd,distance_radius=2000):
     client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
     db = client.atomicbds
     collection = db.data_post
@@ -20,35 +21,31 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
     df['gglong'] = df['gglong'].astype(float)
     df['address_city'] = df['address_city'].astype(float).astype(int)
     df['position_street'] = df['position_street'].astype(float).astype(int)
-    return df
-  data_post = get_df()
-  print(len(data_post))
-  center_id = idd
-  data_post = data_post[data_post["address_city"] == 1] # HCM
-  print(len(data_post))
-  idPost = data_post[data_post["id"] == int(idd)].iloc[0]
+    df = df[df["address_city"] == 1] # HCM
+    idPost = df[df["id"] == int(idd)].iloc[0]
+    center_latlong = [idPost.gglat,idPost.gglong]
+    distance_from_center = lambda row: geopy.distance.geodesic(center_latlong,[row['gglat'],row['gglong']]).m
+    df['distance_from_center']=df.apply(distance_from_center,axis=1)
+    return df[df.distance_from_center<float(distance_radius)],idd,idPost
+  
   data_district = pd.read_csv("district.csv")
   labeled = [595347,197574,595347,728022,539702,133762,595347,648824,151611,585779,90505,193579,90505,295901,90505,316913,90505,113096,614411,430301,539702,405019,320512,409878,652053,732480,614411,63428,303680,109919,303680,441339,539702,80248,652053,468045,299557,144908,539702,536729,595347,664312,614411,568236,614411,398661,303680,307731,435447,503553,595347,622751,652053,526136,652053,526136,75320,430195,75320,685946,151611,690287,721528,288939,621291,317757,539702,63818,652053,309152,652053,57550,652053,673630,122845,596146,721528,732288,577544,763033,595347,508729,122845,605561,320512,169733,151611,717646,151611,616848,621291,727332,435447,724328,151611,336802,303680,407222,614411,305266,303680,290332,621291,622003,577544,169279,621291,94057,299557,116847,503553,47888,614411,719986,539702,327366,122845,294564,539702,581740,75320,303817,721528,643041,303680,601918,614411,566384,503553,655052,614411,617461,503553,127978,539702,535122,721528,132468,539702,322154,721528,585622,577544,588940,539702,603657,122845,535670,435447,725757,122845,390904,90505,639116,721528,80300,503553,435447,595347,320682,621291,343055,621291,107399,577544,725366,503553,452345,595347,201498,621291,442576,539702,587892,320512,308147,621291,555167,90505,59078,539702,464764,721528,688220,75320,730348,90505,112705,320512,169733,122845,50954,539702,585667,577544,78046,299557,738857,652053,471501,151611,105324,614411,548107,90505,566362,122845,735541,299557,473644,614411,506172,503553,180465,122845,629412,614411,112692,614411,299384,303680,311072,614411,509482,621291,544250,614411,178290,90505,308169,577544,588940,539702,459370,90505,739050,320512,118873,621291,497351,75320,73580,539702,454142,320512,535680]
-  
-  # 1+ (-0.5)/1.1^10
   construct_price={'Tiết Kiệm':4500000.0,'Cơ Bản':5100000.0,'Trung Bình':5500000.0,'Khá':5850000.0,'Cao Cấp':8300000.0}
-  # row = df.iloc[0]
+  
   def cal_land_price_per_m2(row,construct_type='Cơ Bản'):
     try:
       return (float(row.price_sell) - float(row.floor)*construct_price[construct_type])/float(row.area_cal)
     except:
       return (float(row.price_sell) - float(row.floor)*construct_price[construct_type])/float(1.0)
+
   def cal_house_price(row, land_price_per_m2=0.0,construct_type='Cơ Bản'):
     try:
       return float(row.floor)*construct_price[construct_type] + float(land_price_per_m2)*float(row.area_cal)
     except:
       return float(row.floor)*construct_price[construct_type] + float(land_price_per_m2)*float(1.0)
-  price_m2 = cal_land_price_per_m2(idPost)
-  # def get_price_m2_of_a_point_with_deep(price_m2,deep):
-  #   return price_m2*(1+math.pow(1.1,(int(deep)/100)))
+
   def get_price_ratio_of_a_point_with_deep(price_ratio,deep):
     return 1 + price_ratio/math.pow(1.1,(int(deep)/100))
-  
 
   def size_a_point(row):
     if int(row['id']) == center_id:
@@ -62,6 +59,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
       return 7
     else:
       return 3
+
   def color_a_point(row):
     color="#0375B4" # blue
     # if int(row['id']) == center_id:
@@ -78,7 +76,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
         color = "#FFCE00" # orange
     return color
 
-  def plot_station_counts(data_post):
+  def draw_folium_map(data_post):
       i = j = k = 0
       # generate a new map
       folium_map = folium.Map(location=[idPost['gglat'], idPost['gglong']],
@@ -196,6 +194,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
       df_save.to_csv(str(center_id)+'_'+str(price_ratio)+'.csv')   
       print("green: %s, orange: %s, blue: %s" % (i, j, k))
       return folium_map
+
   def get_direction(deep):
     if(deep == 0):
         return [[0,0]]
@@ -206,6 +205,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
                 if x == deep or y == deep or x == -deep or y == -deep:
                     lst.append([x,y])
         return lst
+
   def getSurroundings(matrix,x,y,deep):
     res = []
     for direction in get_direction(deep):
@@ -215,6 +215,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
         if(cx >=0 and cx < len(matrix[cy])):
           res.append(matrix[cy][cx])
     return res
+
   def closest_node(data, t, map, m_rows, m_cols):
     # (row,col) of map node closest to data[t]
     result = (0,0)
@@ -257,6 +258,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
     if id_pos_street == 6:
       return c[5]
     return id_pos_street
+
   def euc_dist(v1, v2):
     return np.linalg.norm(v1 - v2) 
 
@@ -270,15 +272,17 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
     for i in range(len(lst)):
       counts[lst[i]] += 1
     return np.argmax(counts)
+  # Get datapost
 
+  data_post,center_id,idPost = get_df()
+  print(len(data_post))
+  price_m2 = cal_land_price_per_m2(idPost)
 
   # Initial variables for model
-  
-
   # Initial variables for logic distance
   # Initial data_x, data_y, name
+  
   [alpha, beta, gamma, omega, sigma, c] = [3.12506638, -9.00115707,  4.35316446, -97.95369439, -6.64789365, [-16.16039254, -12.96374504, -21.42898834, -16.06295894, -16.23441444, -18.69862314]]
-
   nrows = len(data_post.index)
   data_x = []
   data_x_dictrict = []
@@ -309,60 +313,27 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
   LearnMax = 0.5            # 0.5
   StepsMax = 15000          # 20000
   
-  map = np.load('Ver.04/map_GAKSOM2.npy', allow_pickle=True)
-  mapping = np.load('Ver.04/mapping_GAKSOM2.npy', allow_pickle=True)
+  # Load K-SOM map
+  map = np.load('Ver.04/map_GAKSOM3.npy', allow_pickle=True)
+  mapping = np.load('Ver.04/mapping_GAKSOM3.npy', allow_pickle=True)
   label_map = np.load('Ver.04/label_map_new_GAKSOM2.npy', allow_pickle=True)
-  # label_map_district = np.empty(shape=(len(label_map), len(label_map)), dtype=object)
-  # m = 0
-  # name = []
-  # for index, row in data_post.iterrows():
-  #   name.append((row.id))
-  # for col in range(0, len(label_map_district)):
-  #   for row in range(0, len(label_map_district)):
-  #     # print(label_map[col][row])
-  #     if label_map[col][row] == -1:
-  #       label_map_district[col][row] = " || "
-  #     else:
-  #       # label_map_district[col][row] = name[label_map[col][row]]
-  #       m += 1
+  label_map_new = np.load('Ver.04/label_map_new_GAKSOM3.npy', allow_pickle=True)
   label_map_district = np.load('Ver.04/label_map_district_new_GAKSOM2.npy', allow_pickle=True)
-  # np.save('Ver.04/label_map_district_GAKSOM2.npy',label_map_district)
-  # arr = []
-  # LOL = np.array([      [idPost['gglat'], idPost['gglong'], score_pos_street(idPost['position_street'])]      ])
+  # Find Closest Node
   v1_x = data_x[data_y.index(idd)]
   LOL = np.array([v1_x])
   predict_idx = closest_node(LOL, 0, map, Rows, Cols)
-  print("predict:")
-  pred = label_map_district[predict_idx]
-  # print(pred)
-  arr = [[] for i in range(1000)]
   arr_dist = {}
-  arr_dist[0]=[]
+  arr_dist[0]=[idd]
   count = 0
   for i in range(0, 100):
-    # lst = []
-    # lst_distance = []
-    
-    for index in getSurroundings(label_map_district, predict_idx[0],predict_idx[1], i):
-    # for index in surroundingMatrixIndex(label_map_district, predict_idx, i):
-
-      # print(index)
-      # pred_idx = label_map_district[index]
+    for index in getSurroundings(label_map_new, predict_idx[1],predict_idx[0], i):
       pred_idx=index
-      # print(i,index,pred_idx)
-      if (pred_idx != " || "):
-        # lst += [int(pred_idx.split(" _ ")[0][4:])]
-        # lst += pred_idx
-        # coordinates = []
+      if (pred_idx != -1):
         idPost_coordinate = np.array([idPost['gglat'], idPost['gglong']])
-        
-        # distance_post = []
-        
         for idd in pred_idx:
           try:
             pred_idd = np.array([data_post[data_post["id"] == idd].iloc[0]['gglat'],data_post[data_post["id"] == idd].iloc[0]['gglong']])
-            # distance_post.append(i*10+(int(euc_dist(pred_idd,idPost_coordinate)*100)%10))
-            # print(i*10+(int(euc_dist(pred_idd,idPost_coordinate)*100)%10))
             try:
               arr_dist[i*10+(int(euc_dist(pred_idd,idPost_coordinate)*100)%10)].append(idd)
             except:
@@ -378,8 +349,8 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
   white = Color("#FFFFFF")
   colors = list(red.range_to(green, 1000))
 
-  # plot_station_counts(data_post)
-  mymapp = plot_station_counts(data_post)
+  # draw_folium_map(data_post)
+  mymapp = draw_folium_map(data_post)
   return mymapp
 
 

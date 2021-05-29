@@ -14,8 +14,8 @@ from folium_map_new import folium_mapp_new
 from flask_caching import Cache
 config = {
     "DEBUG": True,          # some Flask specific configs
-    # "CACHE_TYPE": "SimpleCache",  # Flask-Caching related configs
-    "CACHE_TYPE": "RedisCache",
+    "CACHE_TYPE": "SimpleCache",  # Flask-Caching related configs
+    # "CACHE_TYPE": "RedisCache",
     "CACHE_REDIS_HOST": 'localhost',
     "CACHE_REDIS_PORT": '6379',
     "CACHE_REDIS_URL": 'redis://localhost:6379',
@@ -124,7 +124,10 @@ def labelKsom():
         price_new = request.args.get('price_new', type=float)
         if(price_m2 == 0.0):
             price_m2 = price_new
-        price_ratio = float(price_new)/float(price_m2) -1.0
+        if(price_new and price_m2):
+            price_ratio = float(price_new)/float(price_m2) -1.0
+        else:
+            price_ratio = 0.0
         if (not limit):
             limit = 0
         if(not id):
@@ -253,4 +256,4 @@ def dataset():
     return 'Dataset with limit = ' + str(limit) +' created!'
 
 if __name__ == "__main__":
-  app.run(debug=False) 
+  app.run(debug=True) 
