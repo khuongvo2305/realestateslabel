@@ -226,7 +226,7 @@ ret = ret + '<br> <label for="position_street">Xếp hạng mức tương quan</
 <option value="logical" >Khoảng cách luận lý</option>\
 </select>\
 <br>\
-<label for="price">Price:</label><br>\
+<label for="price">Giá mới/m2:</label><br>\
 <input type="text" id="price" name="price"><br>\
 <button id="button-submit" type="submit" >Cập Nhật</button>\
 </form>';
@@ -280,6 +280,8 @@ function popup_string(d){
 ret = 'Vị trí nhà ở: '+pos_street(d.position_street)+'<br> ID: <a href="{{ url_for('form') }}?id='+d.id+'"> '+d.id+'</a>';
 
 if (d.price_sell != '0'){ret = ret + '<br> Giá bán: ' +d.price_sell}
+if (d.price_m2 != '0.0'){ret = ret + '<br> Giá bán/m2: ' +d.price_m2}
+if (d.area_cal != '0.0'){ret = ret + '<br> Diện tích: ' +d.area_cal +' m2'}
 // if (d.price_rent != '0'){ret = ret + '<br> Giá cho thuê : ' +d.price_rent}
 ret = ret + '<br> Đường: '+d.address_street;
 ret = ret + '<br> Bắt Regex: ' +d.regex_street;
@@ -294,23 +296,10 @@ ret = ret + '<br> <a href="{{ url_for('label') }}?id='+d.id+'&dataset='+district
 ret = ret + '<br> <a href="{{ url_for('labelKsom') }}?id='+d.id+'"> Hiển thị K-SOM Map</a>';
 ret = ret + '<br> <a href="'+d.link+'">Link bài viết</a>';
 ret = ret + '<form id = "'+d.id+'">';
-ret = ret + '<br> <label for="position_street">Xếp hạng mức tương quan</label>\
-<select id="position_street">\
-<option value="1" selected>1</option>\
-<option value="2" >2</option>\
-<option value="3" >3</option>\
-<option value="4" >4</option>\
-<option value="5" >5</option>\
-<option value="6" >6</option>\
-<option value="7" >7</option>\
-<option value="8" >8</option>\
-<option value="9" >9</option>\
-<option value="10" >10</option>\
-</select>\
-<br>\
-<label for="price">Price:</label><br>\
+ret = ret + '<br> \
+<label for="price">Giá mới/m2:</label><br>\
 <input type="text" id="price" name="price"><br>\
-<button id="button-submit" type="submit" >Gán nhãn</button>\
+<button id="button-submit" type="submit" >Cập nhật giá</button>\
 </form>'
 
 return ret;

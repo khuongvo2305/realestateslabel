@@ -9,8 +9,9 @@ import numpy
 from scipy.spatial.distance import pdist
 from scipy.spatial.distance import squareform 
 import pymongo
+import os
 import geopy.distance
-def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
+def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
   def get_df(idd = idd,distance_radius=2000):
     client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
     db = client.atomicbds
@@ -36,9 +37,11 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
     try:
       return (float(row.price_sell) - float(row.floor)*construct_price[construct_type])/float(row.area_cal)
     except:
-      return (float(row.price_sell) - float(row.floor)*construct_price[construct_type])/float(1.0)
+      return 0.0
+      # return (float(row.price_sell) - float(row.floor)*construct_price[construct_type])/float(1.0)
 
   def cal_house_price(row, land_price_per_m2=0.0,construct_type='Cơ Bản'):
+    # print('area_call:{},land_price_per_m2:{}'.format(str(row.area_cal),str(land_price_per_m2)))
     try:
       return float(row.floor)*construct_price[construct_type] + float(land_price_per_m2)*float(row.area_cal)
     except:
@@ -80,7 +83,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
       i = j = k = 0
       # generate a new map
       folium_map = folium.Map(location=[idPost['gglat'], idPost['gglong']],
-                              zoom_start=25,
+                              zoom_start=15,
                               max_zoom=25,
                               tiles="CartoDB positron",
                               # tiles="CartoDB dark_matter",
@@ -94,7 +97,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
         lim = len(data_post)
       else:
         lim = limit
-      ks = ['ID', 'Address Street', 'Address Ward', 'Address District', 'Position Street', 'Latitude', 'Longitude', 'Deep', 'Labeled', 'Old Price', 'Old Price/m2 in DB', 'Old Price/m2 by Formular', 'New Price/m2', 'New Price2', 'Diff', 'Ratio']
+      ks = ['ID', 'Address Street', 'Address Ward', 'Address District', 'Position Street', 'Latitude', 'Longitude', 'Area', 'Deep', 'Labeled', 'Old Price', 'Old Price/m2 in DB', 'Old Price/m2 by Formular', 'New Price/m2', 'New Price2', 'Diff', 'Ratio','label']
 
       pd_data = []
       for index, row in data_post.iterrows():
@@ -125,20 +128,21 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
                 Position Street: {}<br>
                 Latitude: {}<br>
                 Longitude: {}<br>
+                Area: {}<br>
                 Deep: {}<br>
                 Labeled: {}<br>
                 Old Price: {}<br>
                 Old Price/m2 in DB: {}<br>
                 Old Price/m2 by Formular: {}<br>
                 New Price/m2: {}<br>
-                New Price2: {}<br>
-                Diff: {}<br>
+                New Price: {}<br>
+                Diff(New-Old): {}<br>
                 Ratio: {}<br>
                 """
         # new_price_m2 = get_price_m2_of_a_point_with_deep(price_m2,i)
         new_ratio = get_price_ratio_of_a_point_with_deep(price_ratio,i)
-        new_price_m2 = float(row["price_sell"])*float(new_ratio)
-        pd_data.append([row["id"], unidecode(str(row["address_street"])), unidecode(str(row["address_ward"])), unidecode(str(row["district_name"])), row["position_street"], row["gglat"], row["gglong"], i, int(row["id"]) in labeled, row["price_sell"], row["price_m2"], cal_land_price_per_m2(row), new_price_m2, cal_house_price(row,new_price_m2), cal_house_price(row,new_price_m2) - float(row["price_sell"]), new_ratio])
+        new_price_m2 = cal_land_price_per_m2(row)*float(new_ratio)
+        pd_data.append([row["id"], unidecode(str(row["address_street"])), unidecode(str(row["address_ward"])), unidecode(str(row["district_name"])), row["position_street"], row["gglat"], row["gglong"],row["area_cal"], i, int(row["id"]) in labeled, row["price_sell"], row["price_m2"], cal_land_price_per_m2(row), new_price_m2, cal_house_price(row,new_price_m2), cal_house_price(row,new_price_m2) - float(row["price_sell"]), new_ratio,''])
         popup_text = popup_text.format(
                 row["id"],
                 unidecode(str(row["address_street"])),
@@ -147,14 +151,15 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
                 row["position_street"],
                 row["gglat"],
                 row["gglong"],
+                row['area_cal'],
                 i,
                 int(row["id"]) in labeled,
-                row["price_sell"],
-                row["price_m2"],
-                cal_land_price_per_m2(row),
-                new_price_m2,
-                cal_house_price(row,new_price_m2),
-                cal_house_price(row,new_price_m2) - float(row["price_sell"]),
+                '{:,.2f}'.format(float(row["price_sell"])),
+                '{:,.2f}'.format(float( )),
+                '{:,.2f}'.format(cal_land_price_per_m2(row)),
+                '{:,.2f}'.format(new_price_m2),
+                '{:,.2f}'.format(cal_house_price(row,new_price_m2)),
+                '{:,.2f}'.format(cal_house_price(row,new_price_m2) - float(row["price_sell"])),
                 new_ratio
                 )
         # print(popup_text)
@@ -191,7 +196,11 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5):
                             fill=True).add_to(folium_map)
           k += 1
       df_save = pd.DataFrame(pd_data, columns = ks)
-      df_save.to_csv(str(center_id)+'_'+str(price_ratio)+'.csv')   
+      # df_save.to_csv(str(center_id)+'_'+str(price_ratio)+'.csv')
+      
+      if not os.path.exists('Results'):
+        os.makedirs('Results')
+      df_save.to_csv('Results/ID_{}_{}_{}.csv'.format(str(center_id),str(price_ratio),'{:,.2f}'.format(float(idPost["price_sell"])*float(new_ratio))))
       print("green: %s, orange: %s, blue: %s" % (i, j, k))
       return folium_map
 

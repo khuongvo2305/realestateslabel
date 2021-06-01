@@ -85,19 +85,22 @@ def labelKsomNew():
     #     print(data)
     #     return folium_mapp_new(data)._repr_html_()
     idPost = {}
-    
+    radius = request.args.get('radius', type=int)
     idPost['id']=-1
     idPost['position_street'] = request.args.get('position_street', type=float)
     idPost['gglat']=request.args.get('gglat', type=float)
     idPost['gglong']=request.args.get('gglong', type=float)
     # price_m2 = request.args.get('price_m2', type=float)
     price_new = request.args.get('price_new', type=float)
+    print('price_new: {}'.format(str(price_new)))
     limit = request.args.get('limit', type=int)
     distance_type = request.args.get('distance_type', type=str)
+    if(not radius):
+        radius = 2000
     if(distance_type):
         if not distance_type in ['physical','logical']:
             distance_type = 'physical'
-    return folium_mapp_new(idPostt=idPost,distance_type=distance_type,limit=limit,price_new = price_new)._repr_html_()
+    return folium_mapp_new(idPostt=idPost,distance_type=distance_type,limit=limit,price_new = price_new,radius=radius)._repr_html_()
     # return folium_mapp_new(idPostt=idPost)._repr_html_()
 
 @cache.cached(timeout=50)
@@ -120,6 +123,7 @@ def labelKsom():
     else:
         id = request.args.get('id', type=int)
         limit = request.args.get('limit', type=int)
+        radius = request.args.get('radius', type=int)
         price_m2 = request.args.get('price', type=float)
         price_new = request.args.get('price_new', type=float)
         if(price_m2 == 0.0):
@@ -132,14 +136,17 @@ def labelKsom():
             limit = 0
         if(not id):
             id = 539702
+        if(not radius):
+            radius = 2000
         print(id)
-        html = cache.get(str(id)+str(limit)+str(price_ratio))
-        if(cache.get(str(id)+str(limit)+str(price_ratio))):
+        dirr = 'Results_{}_{}_{}_{}'.format(str(id),str(price_ratio),str(price_new),str(radius))
+        html = cache.get(dirr)
+        if(html):
             return html
         else:
-            print('cache not found id:'+str(id)+str(limit))
-            html = folium_mapp(id,price_ratio=price_ratio,limit=limit)._repr_html_()
-            cache.set(str(id)+str(limit)+str(price_ratio),html)
+            print('cache not found id:'+dirr)
+            html = folium_mapp(id,price_ratio=price_ratio,limit=limit,radius=radius)._repr_html_()
+            cache.set(dirr,html)
             return html
     
     # if(id and idPost['position_street'] is None):

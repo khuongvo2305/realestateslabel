@@ -10,7 +10,8 @@ from scipy.spatial.distance import pdist
 from scipy.spatial.distance import squareform 
 import pymongo
 import geopy.distance
-def folium_mapp_new(idd=-1,idPostt=None,distance_type='logical',limit=0,price_ratio=0.5,price_new=100.0):
+import os
+def folium_mapp_new(idd=-1,idPostt=None,distance_type='logical',limit=0,price_ratio=0.5,price_new=100.0,radius=2000):
   def get_df(distance_radius=2000,idPostt=idPostt):
     client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
     db = client.atomicbds
@@ -26,7 +27,7 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='logical',limit=0,price_ra
     center_latlong = [float(idPostt['gglat']), float(idPostt['gglong'])]
     distance_from_center = lambda row: geopy.distance.geodesic(center_latlong,[row['gglat'],row['gglong']]).m
     df['distance_from_center']=df.apply(distance_from_center,axis=1)
-    return df[df.distance_from_center<float(distance_radius)]
+    return df[df.distance_from_center<float(distance_radius)] 
   
   data_post = get_df()
   print(len(data_post))
@@ -36,30 +37,42 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='logical',limit=0,price_ra
   
   def cal_land_price_per_m2(row,construct_type='Cơ Bản'):
     try:
-      return (float(row.price_sell) - float(row.floor)*construct_price[construct_type])/float(row.area_cal)
+      if (row.area_cal != 1.0):
+        # print('area_call:{},row.price_sell:{},res:{}'.format(str(row.area_cal),str(row.price_sell),(float(row.price_sell) - float(row.floor)*construct_price[construct_type])/float(row.area_cal)))
+        return (float(row.price_sell) - float(row.floor)*construct_price[construct_type])/float(row.area_cal)
+      else:
+        return 0.0
     except:
+      return 0.0
       return (float(row.price_sell) - float(row.floor)*construct_price[construct_type])/float(1.0)
   
   def cal_house_price(row, land_price_per_m2=0.0,construct_type='Cơ Bản'):
+    # print('area_call:{},land_price_per_m2:{}'.format(str(row.area_cal),str(land_price_per_m2)))
     try:
       return float(row.floor)*construct_price[construct_type] + float(land_price_per_m2)*float(row.area_cal)
     except:
       return float(row.floor)*construct_price[construct_type] + float(land_price_per_m2)*float(1.0)
-  
+
   def get_price_ratio_of_a_point_with_deep(price_ratio,deep):
+    # print(1 + price_ratio/math.pow(1.1,(int(deep)/100)))
     return 1 + price_ratio/math.pow(1.1,(int(deep)/100))
   
   def size_a_point(row,center):
     if int(row['id']) == center:
+      print('Center: '+str(row['id']))
       return 20
     if int(row['id']) in labeled:
       if int(row['id']) in arr_dist[0]:
+        # print('Deep = 0, labelled: '+str(row['id']))
         return 15
       else:
+        # print('Deep != 0, labelled: '+str(row['id']))
         return 10
     elif int(row['id']) in arr_dist[0]:
+      # print('Deep = 0, not labelled: '+str(row['id']))
       return 7
     else:
+      # print('Deep != 0, not labelled: '+str(row['id']))
       return 4
   
   def color_a_point(row):
@@ -100,7 +113,7 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='logical',limit=0,price_ra
       i = j = k = 0
       # generate a new map
       folium_map = folium.Map(location=[idPostt['gglat'], idPostt['gglong']],
-                              zoom_start=20,
+                              zoom_start=15,
                               max_zoom=25,
                               tiles="CartoDB positron",
                               width='50%')
@@ -115,7 +128,9 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='logical',limit=0,price_ra
       #   lim = len(data_post)
       # else:
       #   lim = limit
+      ks = ['ID', 'Address Street', 'Address Ward', 'Address District', 'Position Street', 'Latitude', 'Longitude', 'Area', 'Deep', 'Labeled', 'Old Price', 'Old Price/m2 in DB', 'Old Price/m2 by Formular', 'New Price/m2', 'New Price2', 'Diff', 'Ratio']
 
+      pd_data = []
       for index, row in data_post.iterrows():
         # if(index > limit or limit = 0):
         # if(index > lim):
@@ -142,6 +157,7 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='logical',limit=0,price_ra
                 Position Street: {}<br>
                 Latitude: {}<br>
                 Longitude: {}<br>
+                Area: {}<br>
                 Deep: {}<br>
                 Labeled: {}<br>
                 Old Price: {}<br>
@@ -149,12 +165,14 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='logical',limit=0,price_ra
                 Old Price/m2 by Formular: {}<br>
                 New Price/m2: {}<br>
                 New Price2: {}<br>
-                Diff: {}<br>
+                Diff(New-Old): {}<br>
                 Ratio: {}<br>
                 """
         # new_price_m2 = get_price_m2_of_a_point_with_deep(price_m2,i)
         new_ratio = get_price_ratio_of_a_point_with_deep(price_ratio,i)
-        new_price_m2 = float(row["price_sell"])*float(new_ratio)
+        new_price_m2 = cal_land_price_per_m2(row)*float(new_ratio)
+        pd_data.append([row["id"], unidecode(str(row["address_street"])), unidecode(str(row["address_ward"])), unidecode(str(row["district_name"])), row["position_street"], row["gglat"], row["gglong"],row["area_cal"], i, int(row["id"]) in labeled, row["price_sell"], row["price_m2"], cal_land_price_per_m2(row), new_price_m2, cal_house_price(row,new_price_m2), cal_house_price(row,new_price_m2) - float(row["price_sell"]), new_ratio])
+        
         popup_text = popup_text.format(
                 row["id"],
                 unidecode(str(row["address_street"])),
@@ -163,14 +181,15 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='logical',limit=0,price_ra
                 row["position_street"],
                 row["gglat"],
                 row["gglong"],
+                row['area_cal'],
                 i,
                 int(row["id"]) in labeled,
-                row["price_sell"],
-                row["price_m2"],
-                cal_land_price_per_m2(row),
-                new_price_m2,
-                cal_house_price(row,new_price_m2),
-                cal_house_price(row,new_price_m2) - float(row["price_sell"]),
+                '{:,.2f}'.format(float(row["price_sell"])),
+                '{:,.2f}'.format(float(row["price_m2"])) if not row["price_m2"] == '' else 0.0,
+                '{:,.2f}'.format(cal_land_price_per_m2(row)),
+                '{:,.2f}'.format(new_price_m2),
+                '{:,.2f}'.format(cal_house_price(row,new_price_m2)),
+                '{:,.2f}'.format(cal_house_price(row,new_price_m2) - float(row["price_sell"])),
                 new_ratio
                 )
         # print(popup_text)
@@ -206,6 +225,11 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='logical',limit=0,price_ra
                             popup=popup_text,
                             fill=True).add_to(folium_map)
           k += 1
+        
+      if not os.path.exists('Results'):
+        os.makedirs('Results')
+      df_save = pd.DataFrame(pd_data, columns = ks)
+      df_save.to_csv('Results/{}_{}_{}_{}.csv'.format('{:,.2f}'.format(idPostt['gglat']), '{:,.2f}'.format(idPostt['gglong']), str(idPostt['position_street']),str(price_new)))
           
       print("green: %s, orange: %s, blue: %s" % (i, j, k))
       return folium_map
@@ -360,6 +384,11 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='logical',limit=0,price_ra
     price_ratio = float(price_new)/float(price_m2) -1.0
   else:
     price_ratio = 0.0
+  print('price_m2:{}'.format(str(price_m2)))
+  print('price_ratio:{}'.format(str(price_ratio)))
+  print('price_new:{}'.format(str(price_new)))
+  
+  
   print("predict:")
   arr_dist = {}
   arr_dist[0]=[]
