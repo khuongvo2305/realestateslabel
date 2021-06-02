@@ -1,4 +1,20 @@
-# realestateslabel
+# K-SOM Visualize
+## Cách dùng:
+```
+git clone https://github.com/khuongvo2305/realestateslabel
+cd realestateslabel
+source .venv/bin/activate
+pip install pandas
+pip install pymongo[srv]
+python app.py
+```
+### Chọn 1 điểm trên bản đồ nhập và update giá dựa vào mạng K-SOM tạihttp://127.0.0.1:5000/pickapoint
+### Chọn 1 điểm trong DB, nhập và update giá dựa vào mạng K-SOM tại http://127.0.0.1:5000/pickapoint?dataset=all
+### Option: 
+- Dataset tại trang /pickapoint mặc định là render tất cả các điểm, muốn render 100 điểm mỗi quận  thì thay đổi param: dataset=all100
+- Mặc định K-SOM map hiển thị những điểm trong bán kính 2000m, thêm params &radius=3000 nếu muôn đổi bán kính thành 3000.
+- File kết quả K-SOM ứng với mỗi lân cập nhật sẽ được lưu vào thư mục Result/ để phục vụ việc Label
+# Label
 ## Cách dùng:
 ```
 git clone https://github.com/khuongvo2305/realestateslabel
