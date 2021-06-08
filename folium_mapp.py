@@ -22,6 +22,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
     df['gglong'] = df['gglong'].astype(float)
     df['address_city'] = df['address_city'].astype(float).astype(int)
     df['position_street'] = df['position_street'].astype(float).astype(int)
+    df = df[df['area_cal'].apply(float)>1.0]
     df = df[df["address_city"] == 1] # HCM
     idPost = df[df["id"] == int(idd)].iloc[0]
     center_latlong = [idPost.gglat,idPost.gglong]
@@ -97,7 +98,6 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
         lim = len(data_post)
       else:
         lim = limit
-      ks = ['ID', 'Address Street', 'Address Ward', 'Address District', 'Position Street', 'Latitude', 'Longitude', 'Area', 'Deep', 'Labeled', 'Old Price', 'Old Price/m2 in DB', 'Old Price/m2 by Formular', 'New Price/m2', 'New Price2', 'Diff', 'Ratio','label']
 
       pd_data = []
       for index, row in data_post.iterrows():
@@ -119,48 +119,47 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
             break
         
         
-        
+        ks = ['ID', 'Address Street', 'Address Ward', 'Address District', 'Position Street', 'Area', 'Deep', 'Labeled',  'Old Price/m2', 'New Price/m2', 'Ratio','label']
         popup_text = """
                 ID: {}<br> 
                 Address Street: {}<br> 
                 Address Ward: {}<br> 
                 Address District: {}<br> 
                 Position Street: {}<br>
-                Latitude: {}<br>
-                Longitude: {}<br>
                 Area: {}<br>
                 Deep: {}<br>
                 Labeled: {}<br>
-                Old Price: {}<br>
-                Old Price/m2 in DB: {}<br>
-                Old Price/m2 by Formular: {}<br>
+                Old Price/m2: {}<br>
                 New Price/m2: {}<br>
-                New Price: {}<br>
-                Diff(New-Old): {}<br>
                 Ratio: {}<br>
                 """
         # new_price_m2 = get_price_m2_of_a_point_with_deep(price_m2,i)
         new_ratio = get_price_ratio_of_a_point_with_deep(price_ratio,i)
         new_price_m2 = cal_land_price_per_m2(row)*float(new_ratio)
-        pd_data.append([row["id"], unidecode(str(row["address_street"])), unidecode(str(row["address_ward"])), unidecode(str(row["district_name"])), row["position_street"], row["gglat"], row["gglong"],row["area_cal"], i, int(row["id"]) in labeled, row["price_sell"], row["price_m2"], cal_land_price_per_m2(row), new_price_m2, cal_house_price(row,new_price_m2), cal_house_price(row,new_price_m2) - float(row["price_sell"]), new_ratio,''])
+        pd_data.append([row["id"],
+                unidecode(str(row["address_street"])),
+                unidecode(str(row["address_ward"])),
+                unidecode(str(row["district_name"])),
+                row["position_street"],
+                row['area_cal'],
+                i,
+                int(row["id"]) in labeled,
+                '{:,.2f}'.format(cal_land_price_per_m2(row)),
+                '{:,.2f}'.format(new_price_m2),
+                new_ratio,
+                ''])
         popup_text = popup_text.format(
                 row["id"],
                 unidecode(str(row["address_street"])),
                 unidecode(str(row["address_ward"])),
                 unidecode(str(row["district_name"])),
                 row["position_street"],
-                row["gglat"],
-                row["gglong"],
                 row['area_cal'],
                 i,
                 int(row["id"]) in labeled,
-                '{:,.2f}'.format(float(row["price_sell"])),
-                '{:,.2f}'.format(float( )),
                 '{:,.2f}'.format(cal_land_price_per_m2(row)),
                 '{:,.2f}'.format(new_price_m2),
-                '{:,.2f}'.format(cal_house_price(row,new_price_m2)),
-                '{:,.2f}'.format(cal_house_price(row,new_price_m2) - float(row["price_sell"])),
-                new_ratio
+                new_ratio,
                 )
         # print(popup_text)
         # # radius of circles
@@ -200,6 +199,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
       
       if not os.path.exists('Results'):
         os.makedirs('Results')
+      df_save = df_save.sort_values(by='Deep',axis=0)
       df_save.to_csv('Results/ID_{}_{}_{}.csv'.format(str(center_id),str(price_ratio),'{:,.2f}'.format(float(idPost["price_sell"])*float(new_ratio))))
       print("green: %s, orange: %s, blue: %s" % (i, j, k))
       return folium_map
