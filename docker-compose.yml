@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  ksom:
+    build: .
+    volumes:
+      - /Results:/meow/Results
+    ports:
+      - 5651:5000
+    stdin_open: true
+    tty: true
