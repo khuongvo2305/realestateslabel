@@ -80,7 +80,7 @@ if (d.id == id){
         var form = document.getElementById(d.id);
         console.log(form);
         $('#'+d.id).submit(function(e) {
-            location.href = `/labelKsom?id=${d.id}&price=${d.price_m2}&price_new=${$('#price').val()}`;
+            location.href = `/labelKsom?id=${d.id}&price=${d.price_m2_old}&price_new=${$('#price').val()}`;
         // $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
         // $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
         // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
@@ -111,7 +111,7 @@ else{
         var form = document.getElementById(d.id);
         console.log(form);
         $('#'+d.id).submit(function(e) {
-            location.href = `/labelKsom?id=${d.id}&price=${d.price_m2}&price_new=${$('#price').val()}`;
+            location.href = `/labelKsom?id=${d.id}&price=${d.price_m2_old}&price_new=${$('#price').val()}`;
         // $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
         // $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
         // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
@@ -149,7 +149,7 @@ if (d.id == id){
         var form = document.getElementById(d.id);
         console.log(form);
         $('#'+d.id).submit(function(e) {
-            location.href = `/labelKsom?id=${d.id}&price=${d.price_m2}&price_new=${$('#price').val()}`;
+            location.href = `/labelKsom?id=${d.id}&price=${d.price_m2_old}&price_new=${$('#price').val()}`;
         // $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
         // $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
         // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
@@ -183,7 +183,7 @@ else{
         $('#'+d.id).submit(function(e) {
         // $.notify("Submited: " + JSON.stringify({"id1": id,"id2":d.id,"class":$('option:selected').val()}), "success");
         // $.post("/receivedata", {"id1": id,"id2":d.id,"class":$('option:selected').val()})
-        location.href = `/labelKsom?id=${d.id}&price=${d.price_m2}&price_new=${$('#price').val()}`;
+        location.href = `/labelKsom?id=${d.id}&price=${d.price_m2_old}&price_new=${$('#price').val()}`;
         // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
         // $.post("/pickdata", {"id1": id,"district":district,"id2":d.id,"class":$('option:selected').val()})
         e.preventDefault();

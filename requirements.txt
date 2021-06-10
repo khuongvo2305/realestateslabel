@@ -23,3 +23,4 @@ Werkzeug==1.0.1
 colour==0.1.5
 geopy==2.1.0
 dnspython==2.1.0
+geopy==2.1.0

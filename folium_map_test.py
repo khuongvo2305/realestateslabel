@@ -198,7 +198,7 @@ def folium_map_test(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
       if not os.path.exists('Results'):
         os.makedirs('Results')
       df_save = df_save.sort_values(by='Deep',axis=0)
-      df_save.to_csv('Results/ID_{}_{}_{}.csv'.format(str(center_id),str(price_ratio),'{:,.2f}'.format(float(idPost["price_sell"])*float(new_ratio))))
+      df_save.to_csv('Results/ID_{}_{}_{}_euclide.csv'.format(str(center_id),str(price_ratio),'{:,.2f}'.format(float(idPost["price_m2_old"])*float(new_ratio))))
       print("green: %s, orange: %s, blue: %s" % (i, j, k))
       return folium_map
 

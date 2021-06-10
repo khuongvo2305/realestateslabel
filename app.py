@@ -166,8 +166,8 @@ def labelKsom():
     # else:
     #     return folium_mapp_new(-1,idPostt=idPost)._repr_html_()
 
-@app.route('/ksomtest', methods=["GET", "POST"])
-def ksomtest():
+@app.route('/distancemap', methods=["GET", "POST"])
+def distancemap():
     if request.method == 'POST':
         pass
         # data = request.form['gglat']

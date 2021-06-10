@@ -1,4 +1,4 @@
-FROM python:3.8-slim
+FROM python:3.8.8-slim
 
 RUN mkdir -p /meow
 RUN adduser --disabled-password --gecos '' code_boy_9x
@@ -16,5 +16,6 @@ USER code_boy_9x
 WORKDIR /meow
 
 COPY . .
+EXPOSE 5000 
 
 ENTRYPOINT [ "venv/bin/python", "-u", "./app.py" ]
