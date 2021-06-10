@@ -14,6 +14,7 @@ from folium_mapp import folium_mapp
 from folium_map_new import folium_mapp_new
 from folium_map_test import folium_map_test
 from flask_caching import Cache
+import re
 config = {
     "DEBUG": True,          # some Flask specific configs
     "CACHE_TYPE": "SimpleCache",  # Flask-Caching related configs
@@ -261,6 +262,12 @@ def label():
 def pickapoint():
     id = request.args.get('id', type=int) if request.args.get('id', type=int) else -1
     extend = request.args.get('extend', type=int) if request.args.get('extend', type=int) else -1
+    dataset = request.args.get('dataset', type=str) if request.args.get('dataset', type=str) else 'all'
+    if(dataset):
+        l = re.findall(r'\d+',dataset)
+        if(l):
+            gen_dataset(limit=int(l[0]))
+        
     print(id)
     if(extend):
         lst = []
