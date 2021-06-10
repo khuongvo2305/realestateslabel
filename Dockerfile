@@ -9,8 +9,8 @@ RUN pip install --upgrade pip
 
 RUN python3 -m venv /meow/venv
 RUN /meow/venv/bin/pip install --upgrade pip
-COPY requirements.txt /opt/keyword/requirements.txt
-RUN /meow/venv/bin/pip install -r /opt/keyword/requirements.txt
+COPY requirements.txt /meow/requirements.txt
+RUN /meow/venv/bin/pip install -r /meow/requirements.txt
 
 USER code_boy_9x
 WORKDIR /meow
