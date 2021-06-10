@@ -1,3 +1,4 @@
+ # -*- coding: utf-8 -*-
 from flask import Flask, render_template, url_for, request, redirect, Response
 import os
 os.system('pip install -r requirements.txt')
@@ -11,6 +12,7 @@ import pandas as pd
 import random
 from folium_mapp import folium_mapp
 from folium_map_new import folium_mapp_new
+from folium_map_test import folium_map_test
 from flask_caching import Cache
 config = {
     "DEBUG": True,          # some Flask specific configs
@@ -162,6 +164,67 @@ def labelKsom():
     #     return folium_mapp(int(id),idPost=idPost)._repr_html_()
     # else:
     #     return folium_mapp_new(-1,idPostt=idPost)._repr_html_()
+
+@app.route('/ksomtest', methods=["GET", "POST"])
+def ksomtest():
+    if request.method == 'POST':
+        pass
+        # data = request.form['gglat']
+        # idPost = data
+        # print(data)
+
+        # return folium_mapp_new(data)._repr_html_()
+    # idPost = {}
+    # print(idPost)
+    # idPost['id']=-1
+    # idPost['position_street'] = request.args.get('position_street', type=float)
+    # idPost['gglat']=request.args.get('gglat', type=float)
+    # idPost['gglong']=request.args.get('gglong', type=float)
+    # else:
+    else:
+        id = request.args.get('id', type=int)
+        limit = request.args.get('limit', type=int)
+        radius = request.args.get('radius', type=int)
+        price_m2 = request.args.get('price', type=float)
+        price_new = request.args.get('price_new', type=float)
+        if(price_m2 == 0.0):
+            price_m2 = price_new
+        if(price_new and price_m2):
+            price_ratio = float(price_new)/float(price_m2) -1.0
+        else:
+            price_ratio = 0.0
+        if (not limit):
+            limit = 0
+        if(not id):
+            id = 539702
+        if(not radius):
+            radius = 2000
+        print(id)
+        dirr = 'Results_test_{}_{}_{}_{}'.format(str(id),str(price_ratio),str(price_new),str(radius))
+        html = cache.get(dirr)
+        if(html):
+            return html
+        else:
+            print('cache not found id:'+dirr)
+            html = folium_map_test(id,price_ratio=price_ratio,limit=limit,radius=radius)._repr_html_()
+            cache.set(dirr,html)
+            return html
+    
+    # if(id and idPost['position_street'] is None):
+    #     return folium_mapp(id)._repr_html_()
+    # elif(idPost['position_street'] is not None):
+    #     return folium_mapp_new(id,idPost)._repr_html_()
+    # else:
+    #     return folium_mapp(id)._repr_html_()
+
+    # if(idPost['position_street']):
+    #     return folium_mapp_new(idPostt=idPost)._repr_html_()
+    # elif(id):
+    #     return folium_mapp(int(id),idPost=idPost)._repr_html_()
+    # else:
+    #     return folium_mapp_new(-1,idPostt=idPost)._repr_html_()
+
+
 @app.route('/label', methods=["GET", "POST"])
 def label():
     id = request.args.get('id', type=int)

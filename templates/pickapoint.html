@@ -278,15 +278,15 @@ return "Khác"
 }
 function popup_string(d){
 ret = 'Vị trí nhà ở: '+pos_street(d.position_street)+'<br> ID: <a href="{{ url_for('form') }}?id='+d.id+'"> '+d.id+'</a>';
-
-if (d.price_sell != '0'){ret = ret + '<br> Giá bán: ' +d.price_sell}
-if (d.price_m2 != '0.0'){ret = ret + '<br> Giá bán/m2: ' +d.price_m2}
+var nf = Intl.NumberFormat();
+if (d.price_sell != '0'){ret = ret + '<br> Giá bán: ' +nf.format(d.price_sell)}
+if (d.price_m2 != '0.0'){ret = ret + '<br> Giá bán/m2: ' +nf.format(d.price_m2_old)}
 if (d.area_cal != '0.0'){ret = ret + '<br> Diện tích: ' +d.area_cal +' m2'}
 // if (d.price_rent != '0'){ret = ret + '<br> Giá cho thuê : ' +d.price_rent}
 ret = ret + '<br> Đường: '+d.address_street;
-ret = ret + '<br> Bắt Regex: ' +d.regex_street;
-ret = ret + '<br> Google Search: ' +d.gg_addr;
-ret = ret + '<br> Trường đối chiếu: ' +d.res_field;
+// ret = ret + '<br> Bắt Regex: ' +d.regex_street;
+// ret = ret + '<br> Google Search: ' +d.gg_addr;
+// ret = ret + '<br> Trường đối chiếu: ' +d.res_field;
 // ret = ret + '<br> Toạ độ: ' +d.coordinate;
 ret = ret + '<br> Title: ' +d.title;
 ret = ret + '<br> Content: ' +d.content;
