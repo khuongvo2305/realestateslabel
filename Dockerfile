@@ -17,4 +17,4 @@ WORKDIR /meow
 
 COPY . .
 
-ENTRYPOINT [ "venv/bin/python", "-u", "./hotkeywords.py" ]
+ENTRYPOINT [ "venv/bin/python", "-u", "./app.py" ]
