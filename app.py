@@ -1,8 +1,8 @@
  # -*- coding: utf-8 -*-
 from flask import Flask, render_template, url_for, request, redirect, Response
 import os
-os.system('pip install -r requirements.txt')
-os.system('pip install pymongo[srv]')
+# os.system('pip install -r requirements.txt')
+# os.system('pip install pymongo[srv]')
 # pymongo[srv]==3.11.3
 from gen_dataset import gen_dataset
 # import folium
@@ -333,4 +333,4 @@ def dataset():
     return 'Dataset with limit = ' + str(limit) +' created!'
 
 if __name__ == "__main__":
-  app.run(debug=True) 
+  app.run(debug=True, port=5000, host='0.0.0.0') 
