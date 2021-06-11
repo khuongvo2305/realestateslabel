@@ -17,7 +17,7 @@ RUN /meow/venv/bin/pip install -r /meow/requirements.txt
 # USER code_boy_9x
 WORKDIR /meow
 
-COPY . .
+ADD . .
 EXPOSE 5000 
 
 ENTRYPOINT [ "venv/bin/python", "-u", "./app.py" ]
