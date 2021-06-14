@@ -16,7 +16,7 @@ def folium_map_test(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
   def get_df(idd = idd,distance_radius=2000):
     client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
     db = client.atomicbds
-    collection = db.data_post
+    collection = db.data_post3
     df = pd.DataFrame(list(collection.find()))
     df['id'] = df['id'].astype(int)
     df['gglat'] = df['gglat'].astype(float)
