@@ -12,8 +12,8 @@ from scipy.spatial.distance import squareform
 import pymongo
 import os
 import geopy.distance
-def folium_map_test(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
-  def get_df(idd = idd,distance_radius=2000):
+def folium_mappd(idd,idPost=None,limit=0,price_ratio=0.5,radius=5000):
+  def get_df(idd = idd,distance_radius=5000):
     client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
     db = client.atomicbds
     collection = db.data_post3
@@ -25,6 +25,7 @@ def folium_map_test(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
     df['position_street'] = df['position_street'].astype(float).astype(int)
     df = df[df['area_cal'].apply(float)>1.0]
     df = df[df["address_city"] == 1] # HCM
+    
     idPost = df[df["id"] == int(idd)].iloc[0]
     center_latlong = [idPost.gglat,idPost.gglong]
     distance_from_center = lambda row: geopy.distance.geodesic(center_latlong,[row['gglat'],row['gglong']]).m
@@ -50,44 +51,23 @@ def folium_map_test(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
       return float(row.floor)*construct_price[construct_type] + float(land_price_per_m2)*float(1.0)
 
   def get_price_ratio_of_a_point_with_deep(price_ratio,deep):
-    # Max deep: 2000 (2000m)
-    # return 1 + price_ratio/math.pow(1.1,(int(deep)/100))
-    if (deep < 500):
-      return 1
-    else:
-      return 1 - 0.0001*(deep-500)
+    return 1 + price_ratio/math.pow(1.1,(int(deep)/100))
 
   def size_a_point(row):
-    if int(row['id']) == center_id:
-      return 30
-    if int(row['id']) in labeled:
-      if int(row['id']) in arr_dist[0]:
-        return 20
-      else:
-        return 15
-    elif int(row['id']) in arr_dist[0]:
-      return 7
-    else:
       return 3
 
   def color_a_point(row):
     color="#0375B4" # blue
     # if int(row['id']) == center_id:
     #   return color
-    
-    # for i in range(0, len(arr)):
-    for i in arr_dist:
-      # if int(row['id']) in labeled:
-      #   color = white
-      # else:
-      if int(row['id']) in arr_dist[i]:
-        color = colors[i].get_hex()
-      if int(row['id']) in arr_dist[0]:
-        color = "#FFCE00" # orange
+    try:
+        color = mapping_color[row['id']]
+    except:
+        pass
     return color
 
   def draw_folium_map(data_post):
-      ii = j = k = 0
+      i = j = k = 0
       # generate a new map
       folium_map = folium.Map(location=[idPost['gglat'], idPost['gglong']],
                               zoom_start=15,
@@ -116,10 +96,13 @@ def folium_map_test(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
         # net_departures = (row["Departure Count"]-row["Arrival Count"])
         
         # generate the popup message that is shown on click.
-        i = int(row['distance_from_center'])
+        i = 0
         # for i in range(0, len(arr)):
         #   if int(row['id']) in arr[i]:
         #     break
+        for i in arr_dist:
+          if int(row['id']) in arr_dist[i]:
+            break
         
         
         ks = ['ID', 'Address Street', 'Address Ward', 'Address District', 'Position Street', 'Area', 'Deep', 'Labeled',  'Old Price/m2', 'New Price/m2', 'Ratio','label']
@@ -187,7 +170,7 @@ def folium_map_test(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
                             fill=True).add_to(folium_map)
         
           if color_a_point(row) == "#007849":
-            ii += 1
+            i += 1
           if color_a_point(row) == "#FFCE00":
             j += 1
         elif color_a_point(row) == "#0375B4":
@@ -203,7 +186,7 @@ def folium_map_test(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
       if not os.path.exists('Results'):
         os.makedirs('Results')
       df_save = df_save.sort_values(by='Deep',axis=0)
-      df_save.to_csv('Results/ID_{}_{}_{}_euclide.csv'.format(str(center_id),str(price_ratio),'{:,.2f}'.format(float(idPost["price_m2_old"])*float(new_ratio))))
+      df_save.to_csv('Results/ID_{}_{}_{}.csv'.format(str(center_id),str(price_ratio),'{:,.2f}'.format(float(idPost["price_m2_old"])*float(new_ratio))))
       print("green: %s, orange: %s, blue: %s" % (i, j, k))
       return folium_map
 
@@ -355,11 +338,16 @@ def folium_map_test(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
           except Exception as e:
             # print(str(e) + ' id: ' + str(idd))
             pass
+  mapping_color = {}
   red = Color("#FE0000")
   green = Color ("#008000")
-  blue = Color("#0000FF")
-  white = Color("#FFFFFF")
-  colors = list(red.range_to(green, 1000))
+  colors = list(red.range_to(green, 10000))
+  for i_x,x in enumerate(label_map_new):
+    for i_y,y in enumerate(x):
+        if isinstance(y,list):
+            # mapping_color[100*i_y+i_x]=y
+            for item in y:
+                mapping_color[item]=colors[100*i_y+i_x].get_hex()
 
   # draw_folium_map(data_post)
   mymapp = draw_folium_map(data_post)
