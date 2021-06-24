@@ -53,9 +53,9 @@ def folium_map_test(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
     # Max deep: 2000 (2000m)
     # return 1 + price_ratio/math.pow(1.1,(int(deep)/100))
     if (deep < 500):
-      return 1
+      return price_ratio
     else:
-      return 1 - 0.0001*(deep-500)
+      return (1 - 0.0001*(deep-500)) * price_ratio
 
   def size_a_point(row):
     if int(row['id']) == center_id:
