@@ -137,7 +137,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000, price_updat
                 Ratio: {}<br>
                 """
         # new_price_m2 = get_price_m2_of_a_point_with_deep(price_m2,i)
-        if(i >= 150):
+        if(i >= 100):
           new_ratio = get_price_ratio_of_a_point_with_deep(price_ratio,i)
           new_price_m2 = cal_land_price_per_m2(row)*float(new_ratio)
         else:
