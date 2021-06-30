@@ -27,6 +27,7 @@ def folium_map_test(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
     df = df[df["address_city"] == 1] # HCM
     df = df[df['price_m2_old']>0.0][df['price_m2_old']<2000000000.0]
     idPost = df[df["id"] == int(idd)].iloc[0]
+    df = df[df['price_m2_old']>0.0][df['price_m2_old']<2000000000.0]
     center_latlong = [idPost.gglat,idPost.gglong]
     distance_from_center = lambda row: geopy.distance.geodesic(center_latlong,[row['gglat'],row['gglong']]).m
     df['distance_from_center']=df.apply(distance_from_center,axis=1)
@@ -139,7 +140,7 @@ def folium_map_test(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
                 """
         # new_price_m2 = get_price_m2_of_a_point_with_deep(price_m2,i)
         new_ratio = get_price_ratio_of_a_point_with_deep(price_ratio,i)
-        new_price_m2 = cal_land_price_per_m2(row)*float(new_ratio)
+        new_price_m2 = cal_land_price_per_m2(idPost)*float(new_ratio)
         pd_data.append([row["id"],
                 unidecode(str(row["address_street"])),
                 unidecode(str(row["address_ward"])),
