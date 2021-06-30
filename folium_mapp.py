@@ -122,7 +122,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000, price_updat
             break
         
         
-        ks = ['ID', 'Address Street', 'Address Ward', 'Address District', 'Position Street', 'Area', 'Deep', 'Labeled',  'Old Price/m2', 'New Price/m2', 'Ratio','label']
+        ks = ['ID', 'Address Street', 'Address Ward', 'Address District', 'Position Street', 'Area', 'Deep', 'Labeled',  'Old Price/m2', 'New Price/m2', 'Ratio','Distance From Center','label']
         popup_text = """
                 ID: {}<br> 
                 Address Street: {}<br> 
@@ -137,7 +137,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000, price_updat
                 Ratio: {}<br>
                 """
         # new_price_m2 = get_price_m2_of_a_point_with_deep(price_m2,i)
-        if(i >= 100):
+        if(i >= 150):
           new_ratio = get_price_ratio_of_a_point_with_deep(price_ratio,i)
           new_price_m2 = cal_land_price_per_m2(row)*float(new_ratio)
         else:
@@ -154,6 +154,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000, price_updat
                 '{:,.2f}'.format(cal_land_price_per_m2(row)),
                 '{:,.2f}'.format(new_price_m2),
                 new_ratio,
+                '{:,.2f}'.format(row["distance_from_center"]),
                 ''])
         popup_text = popup_text.format(
                 row["id"],
