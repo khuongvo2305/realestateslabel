@@ -25,7 +25,6 @@ def folium_map_test(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
     df['position_street'] = df['position_street'].astype(float).astype(int)
     df = df[df['area_cal'].apply(float)>1.0]
     df = df[df["address_city"] == 1] # HCM
-    df = df[df['price_m2_old']>0.0][df['price_m2_old']<2000000000.0]
     idPost = df[df["id"] == int(idd)].iloc[0]
     df = df[df['price_m2_old']>0.0][df['price_m2_old']<2000000000.0]
     center_latlong = [idPost.gglat,idPost.gglong]

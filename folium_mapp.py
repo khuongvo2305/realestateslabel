@@ -12,7 +12,8 @@ from scipy.spatial.distance import squareform
 import pymongo
 import os
 import geopy.distance
-def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
+EXPERT_RATE = 1.0
+def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000, price_update = 0.0):
   def get_df(idd = idd,distance_radius=2000):
     client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
     db = client.atomicbds
@@ -25,6 +26,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
     df['position_street'] = df['position_street'].astype(float).astype(int)
     df = df[df['area_cal'].apply(float)>1.0]
     df = df[df["address_city"] == 1] # HCM
+    df = df[df['price_m2_old']>0.0][df['price_m2_old']<2000000000.0]
     idPost = df[df["id"] == int(idd)].iloc[0]
     center_latlong = [idPost.gglat,idPost.gglong]
     distance_from_center = lambda row: geopy.distance.geodesic(center_latlong,[row['gglat'],row['gglong']]).m
@@ -135,8 +137,12 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000):
                 Ratio: {}<br>
                 """
         # new_price_m2 = get_price_m2_of_a_point_with_deep(price_m2,i)
-        new_ratio = get_price_ratio_of_a_point_with_deep(price_ratio,i)
-        new_price_m2 = cal_land_price_per_m2(row)*float(new_ratio)
+        if(i >= 100):
+          new_ratio = get_price_ratio_of_a_point_with_deep(price_ratio,i)
+          new_price_m2 = cal_land_price_per_m2(row)*float(new_ratio)
+        else:
+          new_price_m2 = price_update * (EXPERT_RATE - float(i)/1000) + cal_land_price_per_m2(row) * (1 - EXPERT_RATE + float(i)/1000)
+          new_ratio = new_price_m2/cal_land_price_per_m2(row)
         pd_data.append([row["id"],
                 unidecode(str(row["address_street"])),
                 unidecode(str(row["address_ward"])),

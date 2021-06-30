@@ -170,7 +170,7 @@ def labelKsom():
             return html
         else:
             print('cache not found id:'+dirr)
-            html = folium_mapp(id,price_ratio=price_ratio,limit=limit,radius=radius)._repr_html_()
+            html = folium_mapp(id,price_ratio=price_ratio,limit=limit,radius=radius,price_update=price_new)._repr_html_()
             cache.set(dirr,html)
             return html
     
