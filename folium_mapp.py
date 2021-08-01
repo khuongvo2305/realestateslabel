@@ -14,7 +14,7 @@ import os
 import geopy.distance
 EXPERT_RATE = 1.0
 def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000, price_update = 0.0):
-  def get_df(idd = idd,distance_radius=2000):
+  def get_df(idd = idd,distance_radius=radius):
     client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
     db = client.atomicbds
     collection = db.data_post3
