@@ -9,3 +9,4 @@ instance/
 Results/
 .venv/
 .DS_Store
+.vscode/

@@ -12,8 +12,12 @@ from scipy.spatial.distance import squareform
 import pymongo
 import os
 import geopy.distance
+import datetime
 EXPERT_RATE = 1.0
 def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000, price_update = 0.0):
+  client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
+  db = client.atomicbds
+  update_price_db = db.update_price
   def get_df(idd = idd,distance_radius=radius):
     client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
     db = client.atomicbds
@@ -103,6 +107,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000, price_updat
         lim = limit
 
       pd_data = []
+      mongo_price = []
       for index, row in data_post.iterrows():
         # if(index > limit or limit = 0):
         # if(index > lim):
@@ -135,14 +140,30 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000, price_updat
                 Old Price/m2: {}<br>
                 New Price/m2: {}<br>
                 Ratio: {}<br>
+                Price History: {}<br>
                 """
         # new_price_m2 = get_price_m2_of_a_point_with_deep(price_m2,i)
-        if(i >= 100):
-          new_ratio = get_price_ratio_of_a_point_with_deep(price_ratio,i)
-          new_price_m2 = cal_land_price_per_m2(row)*float(new_ratio)
-        else:
-          new_price_m2 = price_update * (EXPERT_RATE - float(i)/1000) + cal_land_price_per_m2(row) * (1 - EXPERT_RATE + float(i)/1000)
-          new_ratio = new_price_m2/cal_land_price_per_m2(row)
+        # if(i >= 100):
+        #   new_ratio = get_price_ratio_of_a_point_with_deep(price_ratio,i)
+        #   new_price_m2 = cal_land_price_per_m2(row)*float(new_ratio)
+        # else:
+        #   new_price_m2 = price_update * (EXPERT_RATE - float(i)/1000) + cal_land_price_per_m2(row) * (1 - EXPERT_RATE + float(i)/1000)
+        #   new_ratio = new_price_m2/cal_land_price_per_m2(row)
+        new_ratio = get_price_ratio_of_a_point_with_deep(price_ratio,i)
+        new_price_m2 = cal_land_price_per_m2(row)*float(new_ratio)
+        mongo_price.append({'id':str(row["id"]),\
+          'positionStreet':pos_street_name(str(row["position_street"])),\
+          'District': str(row["district_name"]),\
+          'oldPrice':'{:,.2f}'.format(cal_land_price_per_m2(row)),\
+          'newPrice':str(new_price_m2),\
+          'distanceFromCenter':str(row["distance_from_center"]),\
+          'deep': str(i),\
+          'centerId':str(idPost["id"]),\
+          'centerPrice':str(price_update),\
+          'centerDistrict': str(idPost["district_name"]),\
+          'centerPositionStreet': pos_street_name(str(idPost["position_street"])),\
+          "date": datetime.datetime.utcnow()})
+          
         pd_data.append([row["id"],
                 unidecode(str(row["address_street"])),
                 unidecode(str(row["address_ward"])),
@@ -168,6 +189,7 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000, price_updat
                 '{:,.2f}'.format(cal_land_price_per_m2(row)),
                 '{:,.2f}'.format(new_price_m2),
                 new_ratio,
+                '<a href="http://0.0.0.0:5000/price_history?id={id}">{id}</a>'.format(id=row["id"])
                 )
         # print(popup_text)
         # # radius of circles
@@ -202,7 +224,9 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000, price_updat
                             popup=popup_text,
                             fill=True).add_to(folium_map)
           k += 1
+      update_price_db.insert_many(mongo_price)
       df_save = pd.DataFrame(pd_data, columns = ks)
+      
       # df_save.to_csv(str(center_id)+'_'+str(price_ratio)+'.csv')
       
       if not os.path.exists('Results'):
@@ -275,6 +299,22 @@ def folium_mapp(idd,idPost=None,limit=0,price_ratio=0.5,radius=2000, price_updat
     if id_pos_street == 6:
       return c[5]
     return id_pos_street
+
+  def pos_street_name(id_pos_street): # convert id pos_street to score
+    id_pos_street = int(float(id_pos_street))
+    if id_pos_street == 1:
+      return 'Mặt tiền'
+    if id_pos_street == 2:
+      return 'Góc 2 mặt tiền'
+    if id_pos_street == 3:
+      return 'Hẻm 1 sẹc'
+    if id_pos_street == 4:
+      return 'Hẻm 2 sẹc trở lên'
+    if id_pos_street == 5:
+      return '2 mặt tiền hẻm'
+    if id_pos_street == 6:
+      return 'Hẻm'
+    return 'Mặt tiền'
 
   def euc_dist(v1, v2):
     return np.linalg.norm(v1 - v2) 

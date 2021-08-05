@@ -13,7 +13,7 @@ import pymongo
 import geopy.distance
 import os
 def folium_mapp_new(idd=-1,idPostt=None,distance_type='logical',limit=0,price_ratio=0.5,price_new=100.0,radius=2000):
-  def get_df(distance_radius=2000,idPostt=idPostt):
+  def get_df(distance_radius=radius,idPostt=idPostt):
     client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
     db = client.atomicbds
     collection = db.data_post3
@@ -25,6 +25,7 @@ def folium_mapp_new(idd=-1,idPostt=None,distance_type='logical',limit=0,price_ra
     df['position_street'] = df['position_street'].astype(float).astype(int)
     df = df[df['area_cal'].apply(float)>1.0]
     df = df[df["address_city"] == 1] # HCM
+    df = df[df['price_m2_old']>0.0][df['price_m2_old']<2000000000.0]
     # idPost = data_post[data_post["id"] == int(idd)].iloc[0]
     center_latlong = [float(idPostt['gglat']), float(idPostt['gglong'])]
     distance_from_center = lambda row: geopy.distance.geodesic(center_latlong,[row['gglat'],row['gglong']]).m

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Price History of {{id}}</title>
+</head>
+<body>
+<p>Price History of {{id}}</p>
+{% for table in tables %}
+            {{titles[loop.index]}}
+            {{ table|safe }}
+{% endfor %}
+<br>
+<p>Newest Price: {{new}}</p>
+<p>Mean of Prices: {{mean}}</p>
+<p>Max Price: {{max}}</p>
+<p>Min Price: {{min}}</p>
+<p>Standard Error of Prices: {{err}}</p>
+<br>
+<p>Post Details:</p>
+{% for table in tables2 %}
+            {{titles2[loop.index]}}
+            {{ table|safe }}
+{% endfor %}
+</body>
+</html>

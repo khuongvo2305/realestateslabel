@@ -192,18 +192,6 @@ def labelKsom():
 def distancemap():
     if request.method == 'POST':
         pass
-        # data = request.form['gglat']
-        # idPost = data
-        # print(data)
-
-        # return folium_mapp_new(data)._repr_html_()
-    # idPost = {}
-    # print(idPost)
-    # idPost['id']=-1
-    # idPost['position_street'] = request.args.get('position_street', type=float)
-    # idPost['gglat']=request.args.get('gglat', type=float)
-    # idPost['gglong']=request.args.get('gglong', type=float)
-    # else:
     else:
         id = request.args.get('id', type=int)
         limit = request.args.get('limit', type=int)
@@ -232,20 +220,47 @@ def distancemap():
             html = folium_map_test(id,price_ratio=price_ratio,limit=limit,radius=radius)._repr_html_()
             cache.set(dirr,html)
             return html
-    
-    # if(id and idPost['position_street'] is None):
-    #     return folium_mapp(id)._repr_html_()
-    # elif(idPost['position_street'] is not None):
-    #     return folium_mapp_new(id,idPost)._repr_html_()
-    # else:
-    #     return folium_mapp(id)._repr_html_()
-
-    # if(idPost['position_street']):
-    #     return folium_mapp_new(idPostt=idPost)._repr_html_()
-    # elif(id):
-    #     return folium_mapp(int(id),idPost=idPost)._repr_html_()
-    # else:
-    #     return folium_mapp_new(-1,idPostt=idPost)._repr_html_()
+@app.route('/price_history', methods=["GET", "POST"])
+def price_history():
+    if request.method == 'POST':
+        pass
+    else:
+        id = request.args.get('id', type=int)
+        if(not id):
+            id = 539702
+        client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
+        db = client.atomicbds
+        collection = db.update_price
+        df = pd.DataFrame(list(collection.find({"id":str(id)})))
+        df = df.drop('_id',axis=1).drop_duplicates(['newPrice'])
+        collection2 = client.atomicbds.data_post3
+        idDetail = list(collection2.find({"id":int(id)}))
+        for index,row in df.iterrows():
+            idDetail += list(collection2.find({"id":int(row.centerId)}))
+        df2 = pd.DataFrame(idDetail).drop('_id',axis=1)[['id','link','title','address_street','address_ward','surrounding','surrounding_name','surrounding_characteristics','interior_room']]
+        df2['price_history_link'] = df2['id'].apply(lambda x: "0.0.0.0:5000/price_history?id={}".format(x))
+        df2 = df2.drop_duplicates(['id'])
+        return render_template('price_history.html',  tables=[df.to_html(classes='data')], titles=df.columns.values, id=id,\
+            new= '{:,.2f}'.format(df['newPrice'].apply(float).iloc[-1]), \
+            min = '{:,.2f}'.format(df['newPrice'].apply(float).min()), \
+            max = '{:,.2f}'.format(df['newPrice'].apply(float).max()),
+            mean = '{:,.2f}'.format(df['newPrice'].apply(float).mean()),\
+            err = '{:,.2f}'.format(df['newPrice'].apply(float).sem()),\
+            tables2 = [df2.to_html(classes='data')], titles2=df2.columns.values)
+@app.route('/update_price_mongodb', methods=["GET", "POST"])
+def update_price_mongodb():
+    if request.method == 'POST':
+        pass
+    else:
+        id = request.args.get('id', type=int)
+        price = request.args.get('price', type=float)
+        client = pymongo.MongoClient("mongodb+srv://thuan:thuan@cluster0.4a1w9.mongodb.net/atomic?authSource=admin&replicaSet=atlas-1i0fgy-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true")
+        db = client.atomicbds
+        mycol = db.data_post3
+        myquery = {"id":int(id)}
+        newvalues = { "$set": { "price_m2_old": price } }
+        mycol.update_one(myquery, newvalues)
+        return "updated {} {}".format(str(myquery),str(newvalues))
 
 
 @app.route('/label', methods=["GET", "POST"])
